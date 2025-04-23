@@ -39,22 +39,22 @@ Il vous faudra :
 - **Installer les dépendances utiles :**
 La commande ci-dessous vous permettra d'installer sur votre machines des outils nécessaires pour le bon fonctionnement de LND, vous aurez entre autres une installation de `Git` , un outil versionning et de `make` qui pourra exécuter et construire l'implémentation LND à partir du code source 
 
-```
+```bash
 sudo apt install -y build-essential git make
 ```
 
 - **Installer GoLang sur votre machine Linux**
-```
+```bash
 sudo apt install -y golang-go
 ```
 - **Vérifier l'installation**
-```
+```bash
 go version
 ```
 ## Cloner le dépôt [Github de LND](https://github.com/lightningnetwork/lnd)
 
 Vous allez utiliser git pour avoir une copie du code source de LND en locale sur votre machine 
-```
+```bash
 git clone https://github.com/lightningnetwork/lnd.git
 ```
 
@@ -62,7 +62,7 @@ git clone https://github.com/lightningnetwork/lnd.git
 
 L'outil `make` préalablement installé vous permettra de construire un exécutable à partir du code source LND et pouvoir procéder à votre installation.  
 
-```
+```bash
 # Acceder au repertoire clonné 
 cd lnd 
 
@@ -75,15 +75,23 @@ make install
 
 Pour vous assurez que tout s'est bien déroulé , en exécutant cette commande, vous devriez obtenir la version de LND que vous tournez actuellement. 
 
-```
+```bash
 lnd --version
+```
+
+- **Maintenance et Mise à jour** 
+
+```bash
+cd lnd
+git pull
+make clean && make && make install
 ```
 
 # Configurer Lightning Network Daemon 
 
 La configuration d'un noeud Lightning LND est similaire à  celle de Bitcoin, elle se fait dans un fichier de configuration contenant tout les paramètres de votre noeud. Pour cela , à la racine de votre machine vous pouvez créer un dossier caché `.lnd` puis créer votre fichier de configuration `lnd.conf`.  
 
-```
+```bash
 mkdir -p ~/.lnd
 
 cd ~/.lnd
@@ -138,8 +146,8 @@ respectivement les identifiants ( utilisateur , mot de passe)  pour se connecter
 Vous souhaitez probablement vous assurer que le processus a bien été réussi et que vous vous synchronisez au réseau Lightning pour avoir les informations à jour sur votre noeud.  
 
 Pour demarrer l'implementation LND , rien de plus simple , dans votre terminal, tapez la commande : 
-```
-lnd
+```bash
+lnd getinfo
 ```
 
 # Bonnes pratiques et sécurité de votre noeud LND. 
@@ -150,6 +158,13 @@ La sécurité est primordiale lors de l'utilisation d'un noeud Bitcoin/ Lightnin
 - Faites des sauvegardes régulières du fichier `~/.lnd/channel.backup`
 - Ne desactivez pas `noseedbackup` dans votre fichier de configuration
 - Gardez votre système à jour. 
+
+# Dépannage Courant
+## Problèmes fréquents
+- **Erreur de connexion à bitcoind**: Vérifiez vos identifiants RPC
+- **Synchronisation bloquée**: Vérifiez votre connexion internet
+- **Erreur de permission**: Vérifiez les droits du dossier ~/.lnd
+
 
 Vous êtes donc à la fin de ce tutoriel , n'hesitez pas à poser vos questions et à reporter les problèmes que vous rencontrez tout au long de votre installation dans [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder).
 

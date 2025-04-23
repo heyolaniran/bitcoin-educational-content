@@ -32,9 +32,9 @@ LND étant écrit en Go, vous devez vous assurer d'avoir l'environnement GoLang 
 Pour une expérience fluide et sans accro, votre machine devra avoir la capacité nécessaire pour tourner votre noeud lightning LND.  
 
 Il vous faudra : 
-1. 8 Go de RAM pour une fluidité optimale, 
-2. Un processeur multi-core (quad-core ou plus) pour gérer efficacement les actions de votre noeud, 
-3. Au moins 5 Go d'espace disque pour un mode réduit (pruned node) et 1To pour tourner Bitcoin Core (facultatif si vous utilisez un noeud distant)
+1. **8 Go de RAM** pour une fluidité optimale, 
+2. **Un processeur multi-core (quad-core ou plus)** pour gérer efficacement les actions de votre noeud, 
+3. **Au moins 5 Go d'espace disque** pour un mode réduit (pruned node) et 1To pour tourner Bitcoin Core (facultatif si vous utilisez un noeud distant)
 
 - **Installer les dépendances utiles :**
 La commande ci-dessous vous permettra d'installer sur votre machines des outils nécessaires pour le bon fonctionnement de LND, vous aurez entre autres une installation de `Git` , un outil versionning et de `make` qui pourra exécuter et construire l'implémentation LND à partir du code source 
@@ -143,7 +143,13 @@ lnd
 ```
 
 # Bonnes pratiques et sécurité de votre noeud LND. 
+La sécurité est primordiale lors de l'utilisation d'un noeud Bitcoin/ Lightning. Voici quelques points pour renforcer la sécurité de votre installation : 
 
+- Conservez votre `seed phrase` dans un endroit sécurisé et hors ligne.  
+
+- Faites des sauvegardes régulières du fichier `~/.lnd/channel.backup`
+- Ne desactivez pas `noseedbackup` dans votre fichier de configuration
+- Gardez votre système à jour. 
 
 Vous êtes donc à la fin de ce tutoriel , n'hesitez pas à poser vos questions et à reporter les problèmes que vous rencontrez tout au long de votre installation dans [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder).
 

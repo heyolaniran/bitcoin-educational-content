@@ -5,7 +5,7 @@ description: Installer et tourner Lightning Network Daemon sur Linux
 
 ![cover-lightning-network-daemon](assets/cover.webp)
 
-Le réseau Lightning est la deuxième couche de  l'implémentation Bitcoin qui permet à ce dernier de prendre des dimensions fulugrentes notamment grâce à la rapidité et aux faibles coûts de transactions proposées.
+Le réseau Lightning est la deuxième couche de  l'implémentation Bitcoin qui permet à ce dernier de prendre des dimensions fulgurantes notamment grâce à la rapidité et aux faibles coûts de transactions proposées.
 
 Dans ce tutoriel nous allons installer l'implémentation  Lightning Network Daemon sur notre machine Linux ( Distribution Ubuntu 24.04).  
 
@@ -14,7 +14,7 @@ Dans ce tutoriel nous allons installer l'implémentation  Lightning Network Daem
 Lightning Network Daemon est une implémentation complète en Go du réseau Lightning. Il a été créé par la société Lightning Labs et vous permet de tourner une instance complète d'un noeud Lightning sur votre machine. 
 Autrement dit, avec cette implémentation, vous pouvez : 
 
-- **Interagir avec le réseau Lightning** : Grâce aux lignes de commandes, vous pouvez performer des processus de création d'un portefeuille Lightning , la gestions des canneaux et des routes de paiements, vous avez une multitude de possibilités directement depuis le terminal de votre machine.  
+- **Interagir avec le réseau Lightning** : Grâce aux lignes de commandes, vous pouvez performer des processus de création d'un portefeuille Lightning , la gestion des canaux et des routes de paiements, vous avez une multitude de possibilités directement depuis le terminal de votre machine.  
 - **Relier un noeud Bitcoin distant ou votre propre instance de Bitcoin Core** : LND vous permet de relier une instance de Bitcoin et de vous en servir comme back-end pour votre utilisation, pour tourner donc cette implémentation, vous n'aurez pas besoin de tourner obligatoirement une instance de Bitcoin Core sur votre machine 
 
 
@@ -28,8 +28,16 @@ Nous avons deux possibilités pour tourner une instance de l'implémentation LND
 ## Pré-requis
 LND étant écrit en Go, vous devez vous assurer d'avoir l'environnement GoLang sur notre machine Linux.  
 
+- **Prérequis Matériel :**
+Pour une expérience fluide et sans accro, votre machine devra avoir la capacitié nécessaire pour tourner votre noeud lightning LND.  
+
+Il vous faudra : 
+1. 8 Go de RAM pour une fluidité optimale, 
+2. Un processeur multi-core (quad-core ou plus) pour gérer efficacement les actions de votre noeud, 
+3. Au moins 5 Go d'espace disque pour un mode réduit (pruned node) et 1To pour tourner Bitcoin Core (facultatif si vous utilisez un noeud distant)
+
 - **Installer les dépendances utiles :**
-La commande ci-dessous vous permettra d'installer sur votre machines des outils nécéssaires pour le bon fonctionnnement de LND, vous aurez entre autres une installation de `Git` , un outil versionning et de `make` qui pourra éxecuter et construire l'implémentation LND à partir du code source 
+La commande ci-dessous vous permettra d'installer sur votre machines des outils nécessaires pour le bon fonctionnement de LND, vous aurez entre autres une installation de `Git` , un outil versionning et de `make` qui pourra éxecuter et construire l'implémentation LND à partir du code source 
 
 ```
 sudo apt install -y build-essential git make
@@ -93,11 +101,17 @@ bitcoin.node=bitcoind
 
 [Bitcoind]
 bitcoind.rpcuser=lightning
-bitcoind.rpcuser=lightning
-bitcoind.zmqpubrawblock=
-bitcoind.zmqpubrawtx=
+bitcoind.rpcpassword=lightning
+bitcoind.zmqpubrawblock=tcp://127.0.0.1:28332
+bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 
 ```
+
+- **Comprendre votre configuration**
+
+Il est important pour vous de comprendre la configuration minimale que vous devez avoir pour une installation correcte et complète de votre noeud LND.  
+
+En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`
 
 # Vérifier son installation avec LND 
 
@@ -110,7 +124,8 @@ lnd
 
 
 
-Vous êtes donc à la fin de ce tutoriel , n'hesitez pas à poser vos questions et à reporter les problèmes que vous rencontrez tout au long de votre isntallation dans [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder).
+Vous êtes donc à la fin de ce tutoriel , n'hesitez pas à poser vos questions et à reporter les problèmes que vous rencontrez tout au long de votre installation dans [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder).
+
 
 
 

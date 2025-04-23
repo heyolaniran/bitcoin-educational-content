@@ -95,7 +95,7 @@ touch lnd.conf
 Dans le fichier de configuration vous pouvez parametrer votre noeud LND
 
 ```
-noseedbackup=1
+noseedbackup=0
 debuglevel=debug
 bitcoin.node=bitcoind
 
@@ -111,7 +111,18 @@ bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 
 Il est important pour vous de comprendre la configuration minimale que vous devez avoir pour une installation correcte et complète de votre noeud LND.  
 
-En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`
+En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`, voici le détails des champs: 
+
+1. **noseedbackup** : Permet de choisir si vous souhaitez que LND effectue des sauvegardes automatiques de vos portefeuilles.  
+
+2. **debuglevel** : Permet de définir le niveau de details des erreurs et des journeaux en cas d'erreurs survenues lors d'une action.  
+
+3. **bitcoin.node** : Spécifie à LND de se connecter à un noeud Bitcoin qui tourne avec Bitcoind ( Bitcoin daemon)
+
+4. **bitcoin.rpcuser**  et **bitcoin.rpcpassword**: Représententent  respectivement les identifiants ( utilisateur , mot de passe)  pour se connecter à votre noeud Bitcoin 
+
+5. **bitcoind.zmqpubrawblock** et **bitcoind.zmqpubrawtx**: Définit respectivement les endpoints ZeroMQ pour recevoir les notifications à propos de nouveaux blocs et des nouvelles transactions présentent sur le réseau Bitcoin
+
 
 # Vérifier son installation avec LND 
 

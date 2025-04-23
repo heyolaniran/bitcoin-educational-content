@@ -14,10 +14,11 @@ Dans ce tutoriel nous allons installer l'implémentation  Lightning Network Daem
 Lightning Network Daemon est une implémentation complète en Go du réseau Lightning. Il a été créé par la société Lightning Labs et vous permet de tourner une instance complète d'un noeud Lightning sur votre machine. 
 Autrement dit, avec cette implémentation, vous pouvez : 
 
-- Interagir avec le réseau Lightning : Grâce aux lignes de commandes, vous pouvez performer des processus de création d'un portefeuille Lightning , la gestions des canneaux et des routes de paiements, vous avez une multitude de possibilités directement depuis le terminal de votre machine.  
-- Relier un noeud Bitcoin distant ou votre propre instance de Bitcoin Core : LND vous permet de relier une instance de Bitcoin et de vous en servir comme back-end pour votre utilisation, pour tourner donc cette implémentation, vous n'aurez pas besoin de tourner une instance de Bitcoin Core sur votre machine 
+- **Interagir avec le réseau Lightning** : Grâce aux lignes de commandes, vous pouvez performer des processus de création d'un portefeuille Lightning , la gestions des canneaux et des routes de paiements, vous avez une multitude de possibilités directement depuis le terminal de votre machine.  
+- **Relier un noeud Bitcoin distant ou votre propre instance de Bitcoin Core** : LND vous permet de relier une instance de Bitcoin et de vous en servir comme back-end pour votre utilisation, pour tourner donc cette implémentation, vous n'aurez pas besoin de tourner une instance de Bitcoin Core sur votre machine 
 
-[//]:  # Mettre le lien vers Bitcoin Core Linux.  
+
+https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 
 Nous avons deux possibilités pour tourner une instance de l'implémentation LND sur notre machine. Nous pouvons configurer l'environnement sur notre machine même afin de pouvoir agir en local ou installer LND à partir d'un conteneur Docker.  
@@ -29,8 +30,6 @@ LND étant écrit en Go, vous devez vous assurer d'avoir l'environnement GoLang 
 
 - Installer les dépendances utiles 
     La commande ci-dessous vous permettra d'installer sur votre machines des outils nécéssaires pour le bon fonctionnnement de LND, vous aurez entre autres une installation de `Git` , un outil versionning et de `make` qui pourra éxecuter et construire l'implémentation LND à partir du code source 
-
-    [//] : # Lien vers le tutoriel Git 
 
 ```
     sudo apt install -y build-essential git make
@@ -59,7 +58,9 @@ L'outil `make` préalablement installé vous permettra de construire un exécuta
 # Acceder au repertoire clonné 
 cd lnd 
 
-# construire et installer LND
+# construire LND
+make 
+# installer LND
 make install
 ```
 - Vérifier votre installation 
@@ -109,7 +110,7 @@ lnd
 
 
 
-Vous êtes donc à la fin de ce tutoriel , n'hesitez pas à poser vos questions et à reporter les problèmes que vous rencontrez tout au long de votre isntallation dans notre communauté pour une meilleure assistance et une optimisation de cette ressource.  
+Vous êtes donc à la fin de ce tutoriel , n'hesitez pas à poser vos questions et à reporter les problèmes que vous rencontrez tout au long de votre isntallation dans [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder).
 
 
 

@@ -29,7 +29,7 @@ Nous avons deux possibilités pour tourner une instance de l'implémentation LND
 LND étant écrit en Go, vous devez vous assurer d'avoir l'environnement GoLang sur notre machine Linux.  
 
 - **Prérequis Matériel :**
-Pour une expérience fluide et sans accro, votre machine devra avoir la capacitié nécessaire pour tourner votre noeud lightning LND.  
+Pour une expérience fluide et sans accro, votre machine devra avoir la capacité nécessaire pour tourner votre noeud lightning LND.  
 
 Il vous faudra : 
 1. 8 Go de RAM pour une fluidité optimale, 
@@ -37,7 +37,7 @@ Il vous faudra :
 3. Au moins 5 Go d'espace disque pour un mode réduit (pruned node) et 1To pour tourner Bitcoin Core (facultatif si vous utilisez un noeud distant)
 
 - **Installer les dépendances utiles :**
-La commande ci-dessous vous permettra d'installer sur votre machines des outils nécessaires pour le bon fonctionnement de LND, vous aurez entre autres une installation de `Git` , un outil versionning et de `make` qui pourra éxecuter et construire l'implémentation LND à partir du code source 
+La commande ci-dessous vous permettra d'installer sur votre machines des outils nécessaires pour le bon fonctionnement de LND, vous aurez entre autres une installation de `Git` , un outil versionning et de `make` qui pourra exécuter et construire l'implémentation LND à partir du code source 
 
 ```
 sudo apt install -y build-essential git make
@@ -92,11 +92,15 @@ cd ~/.lnd
 touch lnd.conf
 ```
 
-Dans le fichier de configuration vous pouvez parametrer votre noeud LND
+Dans le fichier de configuration vous pouvez paramétrer votre noeud LND
 
 ```
-noseedbackup=0
+noseedbackup=1
 debuglevel=debug
+
+[Bitcoin]
+bitcoin.active=1
+bitcoin.mainnet=1
 bitcoin.node=bitcoind
 
 [Bitcoind]
@@ -115,13 +119,18 @@ En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`, voici le détails de
 
 1. **noseedbackup** : Permet de choisir si vous souhaitez que LND effectue des sauvegardes automatiques de vos portefeuilles.  
 
-2. **debuglevel** : Permet de définir le niveau de details des erreurs et des journeaux en cas d'erreurs survenues lors d'une action.  
+2. **debuglevel** : Permet de définir le niveau de details des erreurs et des journaux en cas d'erreurs survenues lors d'une action.  
 
-3. **bitcoin.node** : Spécifie à LND de se connecter à un noeud Bitcoin qui tourne avec Bitcoind ( Bitcoin daemon)
+3. **bitcoin.active**: Permet d'indiquer à LND de fonctionner en tant que noeud Bitcoin et d'interagir avec le réseau Bitcoin.
 
-4. **bitcoin.rpcuser**  et **bitcoin.rpcpassword**: Représententent  respectivement les identifiants ( utilisateur , mot de passe)  pour se connecter à votre noeud Bitcoin 
+4. **bitcoin.mainnet**: Spécifie à LND de se connnecter au réseau principal de Bitcoin (mainnet)
 
-5. **bitcoind.zmqpubrawblock** et **bitcoind.zmqpubrawtx**: Définit respectivement les endpoints ZeroMQ pour recevoir les notifications à propos de nouveaux blocs et des nouvelles transactions présentent sur le réseau Bitcoin
+5. **bitcoin.node** : Spécifie à LND le type de noeud Bitcoin auquel il devra se connecter de se connecter
+
+6. **bitcoin.rpcuser**  et **bitcoin.rpcpassword**: Représentent
+respectivement les identifiants ( utilisateur , mot de passe)  pour se connecter à votre noeud Bitcoin 
+
+7. **bitcoind.zmqpubrawblock** et **bitcoind.zmqpubrawtx**: Définit respectivement les endpoints ZeroMQ pour recevoir les notifications à propos de nouveaux blocs et des nouvelles transactions présentes sur le réseau Bitcoin
 
 
 # Vérifier son installation avec LND 
@@ -133,6 +142,7 @@ Pour demarrer l'implementation LND , rien de plus simple , dans votre terminal, 
 lnd
 ```
 
+# Bonnes pratiques et sécurité de votre noeud LND. 
 
 
 Vous êtes donc à la fin de ce tutoriel , n'hesitez pas à poser vos questions et à reporter les problèmes que vous rencontrez tout au long de votre installation dans [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder).

@@ -163,7 +163,7 @@ La sécurité est primordiale lors de l'utilisation d'un noeud Bitcoin/ Lightnin
 ## Problèmes fréquents
 - **Erreur de connexion à bitcoind**: Vérifiez vos identifiants RPC
 - **Synchronisation bloquée**: Vérifiez votre connexion internet
-- **Erreur de permission**: Vérifiez les droits du dossier ~/.lnd
+- **Erreur de permission**: Vérifiez les droits du dossier `~/.lnd`
 
 
 Vous êtes donc à la fin de ce tutoriel , n'hesitez pas à poser vos questions et à reporter les problèmes que vous rencontrez tout au long de votre installation dans [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder).

@@ -129,7 +129,7 @@ make install
 ![make-lnd](assets/fr/06.webp)
 - **Vérifier votre installation**
 
-Pour vous assurer que tout s'est bien déroulé , en exécutant cette commande, vous devriez obtenir la version de LND que vous tournez actuellement. 
+Pour vous assurer que tout s'est bien déroulé, en exécutant cette commande, vous devriez obtenir la version de LND que vous tournez actuellement. 
 
 ```bash
 # Version de LND

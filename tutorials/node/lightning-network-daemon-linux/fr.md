@@ -239,7 +239,7 @@ lncli walletbalance
 ![solde](assets/fr/09.webp)
 ### Informations sur votre nœud  
 
- La commande ci-dessous vous permet de connaître les canaux actifs sur votre nœud
+La commande ci-dessous vous permet de connaître les canaux actifs sur votre nœud.
 
  ```bash
  lncli listchannels

@@ -285,7 +285,7 @@ Assurez-vous de vous connecter à des **nœuds fiables** afin de préserver l'in
 
 - **Frais** : Vérifiez les frais de routage pratiqués.
 ### Ouvrir un canal de paiement 
- Pour ouvrir un canal  de paiement assurez vous de la **connexion avec le nœud** pair puis définir la **capacité** (le montant de satoshis) que vous souhaitez bloquer dans ce canal.  
+Pour ouvrir un canal de paiement assurez vous de la **connexion avec le nœud** pair puis définir la **capacité** (le montant de satoshis) que vous souhaitez bloquer dans ce canal.  
 
 ```bash 
 lncli openchannel --node_key=<ID_PUBKEY> --local_amt=<AMOUNT_SATOSHIS>

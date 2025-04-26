@@ -149,7 +149,7 @@ make clean && make && make install
 ⚠️ **IMPORTANT** : Il se pourrait que les mises à jour de LND requièrent des versions plus récentes de Go, assurez-vous de mettre votre système à jour afin de ne pas rencontrer de problèmes de dépendances lors de votre installation. 
 ### Configurer Lightning Network Daemon 
 
-La configuration d'un nœud Lightning LND est similaire à  celle de Bitcoin, elle se fait dans un fichier de configuration contenant tous les paramètres de votre nœud. Pour cela , à la racine de votre machine vous pouvez créer un dossier caché `.lnd` puis créer votre fichier de configuration `lnd.conf` dans ce dossier.  
+La configuration d'un nœud Lightning LND est similaire à celle de Bitcoin, elle se fait dans un fichier de configuration contenant tous les paramètres de votre nœud. Pour cela, à la racine de votre machine vous pouvez créer un dossier caché `.lnd` puis créer votre fichier de configuration `lnd.conf` dans ce dossier.  
 
 ```bash
 # Création du ficher 

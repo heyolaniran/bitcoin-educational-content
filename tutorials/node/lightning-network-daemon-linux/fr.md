@@ -231,7 +231,7 @@ Sauvegardez également le mot de passe de votre portefeuille afin de pouvoir le 
 ![créer-portefeuille](assets/fr/08.webp)
 ### Vérifier votre solde 
 
-Consultez directement depuis votre terminal , vos comptes :
+Consultez directement depuis votre terminal, vos comptes :
 
 ```bash
 lncli walletbalance

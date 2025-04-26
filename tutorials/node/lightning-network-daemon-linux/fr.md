@@ -198,7 +198,7 @@ En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`, voici le détail des
 
 - **bitcoin.node** : Spécifie à LND le type de nœud Bitcoin auquel il devra se connecter.
 
-6. **bitcoin.rpcuser**  et **bitcoin.rpcpassword** : Représentent
+- **bitcoin.rpcuser**  et **bitcoin.rpcpassword** : Représentent.
 respectivement les identifiants ( utilisateur , mot de passe)  pour se connecter à votre nœud Bitcoin 
 
 7. **bitcoind.zmqpubrawblock** et **bitcoind.zmqpubrawtx** : Définit respectivement les terminaison ZeroMQ pour recevoir les notifications à propos de nouveaux blocs et des nouvelles transactions présentes sur le réseau Bitcoin

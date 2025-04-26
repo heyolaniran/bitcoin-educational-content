@@ -281,7 +281,7 @@ Assurez-vous de vous connecter à des **nœuds fiables** afin de préserver l'in
 
 - **Réputation** : Privilégiez les nœuds avec une bonne disponibilité.
 
-- **Capacité** : Choisissez des nœuds avec une bonne liquidité
+- **Capacité** : Choisissez des nœuds avec une bonne liquidité.
 
 - **Frais** : Vérifiez les frais de routage pratiqués
 ### Ouvrir un canal de paiement 

@@ -330,7 +330,7 @@ Vous pouvez procéder à la restauration de vos fonds avec la commande ci dessou
 ```
 lncli restorechanbackup <CHEMIN_DU_FICHIER>
 ```
-- Assurez vous d'avoir bien sauvegardés les mots de restauration et le mot de passe de votre portefeuille Lightning.
+- Assurez-vous d'avoir bien sauvegardé les mots de restauration et le mot de passe de votre portefeuille Lightning.
 - Gardez votre système à jour. 
 
 ## Dépannage Courant

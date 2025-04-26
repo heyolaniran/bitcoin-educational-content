@@ -310,7 +310,7 @@ lncli payinvoice <FACTURE>
 
 Vous avez deux possibilités pour fermer un canal actif sur votre nœud actuellement.  
 
-- **La fermeture coopérative** : Elle signale le souhait  de votre nœud de se retirer du canal de paiement et permet de s'assurer de la finition des tâches en cours et de procéder à une sauvegarde des données afin d'éviter des pertes de fonds. 
+- **La fermeture coopérative** : Elle signale le souhait de votre nœud de se retirer du canal de paiement et permet de s'assurer de la finition des tâches en cours et de procéder à une sauvegarde des données afin d'éviter des pertes de fonds. 
 ```
 lncli closechannel <ID_CANAL>
 ```

@@ -37,7 +37,7 @@ En ce sens, faire tourner un nœud Lightning augmente la sécurité et l'intégr
 https://planb.network/fr/courses/la-confidentialite-sur-bitcoin-65c138b0-4161-4958-bbe3-c12916bc959c
 
 
-Vous avez deux possibilités pour faire tourner une instance de l'implémentation LND sur notre machine. Nous pouvons configurer l'environnement sur notre machine même afin de pouvoir agir en local ou installer LND à partir d'un conteneur Docker.  
+Vous avez deux possibilités pour faire tourner une instance de l'implémentation LND sur notre machine. Nous pouvons configurer l'environnement sur notre machine même afin de pouvoir agir en local ou installer LND à partir d'un conteneur Docker. Ici, nous allons nous concentrer sur la première option, et nous verrons comment procéder avec Docker dans un prochain tutoriel.
 ## Installer LND à partir du code source
 
 ### Prérequis

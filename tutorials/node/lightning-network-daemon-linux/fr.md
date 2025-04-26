@@ -186,7 +186,7 @@ bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 
 Il est important pour vous de comprendre la configuration minimale que vous devez avoir pour une installation correcte et complète de votre nœud LND.  
 
-En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`, voici le détails des champs: 
+En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`, voici le détail des champs: 
 
 - **noseedbackup** : Permet de choisir si vous souhaitez que LND effectue des sauvegardes automatiques de vos portefeuilles.  Définissez cette propriété à `0` vous permet de sauvegarder manuellement les informations de restauration dans un endroit sécurisé personnellement choisi.
 

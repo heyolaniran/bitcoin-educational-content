@@ -15,7 +15,7 @@ Lightning Network Daemon est une implémentation complète en Go du réseau Ligh
 Autrement dit, avec cette implémentation, vous pouvez : 
 
 - **Interagir avec le réseau Lightning** : Grâce aux lignes de commandes, vous pouvez effectuer des processus de création d'un portefeuille Lightning, la gestion des canaux et des routes de paiements, vous avez une multitude de possibilités directement depuis le terminal de votre machine.  
-- **Relier un nœud Bitcoin distant ou votre propre instance de Bitcoin Core** : LND vous permet de relier une instance de Bitcoin et de vous en servir comme backend pour votre utilisation, pour utiliser cette implémentation, vous n'aurez pas besoin de faire tourner obligatoirement une instance de Bitcoin Core sur votre machine 
+- **Relier un nœud Bitcoin distant ou votre propre instance de Bitcoin Core** : LND vous permet de relier une instance de Bitcoin et de vous en servir comme backend pour votre utilisation, pour utiliser cette implémentation, vous n'aurez pas besoin de faire tourner obligatoirement une instance de Bitcoin Core sur votre machine.
 
 
 https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed

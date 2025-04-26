@@ -277,7 +277,7 @@ Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://ambo
 
 Assurez-vous de vous connecter à des **nœuds fiables** afin de préserver l'intégrité de votre propre système. Voici quelques recommandations pour une bon choix de vos connexions. 
 
-- **Diversification géographique** : Connectez vous à des nœuds dans différentes régions
+- **Diversification géographique** : Connectez-vous à des nœuds dans différentes régions.
 
 - **Réputation** : Privilégiez les nœuds avec une bonne disponibilité
 

@@ -216,7 +216,7 @@ lnd getinfo
 ## Effectuer des actions sur LND
 
 Une fois que votre installation terminée et vérifiée, vous pouvez commencer par l'utiliser. 
-Retrouvez ci  dessous les commandes essentielles  pour débuter.
+Retrouvez ci-dessous les commandes essentielles pour débuter.
 
 ### Créer un portefeuille 
 Votre portefeuille Lightning est la première étape pour toute action pour gérer vos fonds.  

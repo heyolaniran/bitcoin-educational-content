@@ -208,7 +208,7 @@ respectivement les identifiants ( utilisateur , mot de passe)  pour se connecter
 
 Vous souhaitez probablement vous assurer que le processus a bien été réussi et que vous vous synchronisez au réseau Lightning pour avoir les informations à jour sur votre nœud.  
 
-Pour démarrer l'implémentation LND et avoir les informations sur votre nœud , rien de plus simple , dans votre terminal, tapez la commande : 
+Pour démarrer l'implémentation LND et avoir les informations sur votre nœud, rien de plus simple , dans votre terminal, tapez la commande : 
 ```bash
 lnd getinfo
 ```

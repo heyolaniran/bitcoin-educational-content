@@ -20,7 +20,7 @@ Autrement dit, avec cette implémentation, vous pouvez :
 
 https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-## Pourquoi avoir un nœud Lightning ?  
+## Pourquoi avoir son propre nœud Lightning ?  
 Lightning est une couche de Bitcoin qui vient optimiser le processus de transfert et réduire les frais de transaction. 
 
 En tournant votre nœud Lightning , vous gagnez en souveraineté et en autonomie.  Vous êtes maître de vos fonds , gardez à l'esprit : 

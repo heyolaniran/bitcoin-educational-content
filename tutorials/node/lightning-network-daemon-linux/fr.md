@@ -264,7 +264,7 @@ Pour vous connecter à un pair (nœud Lightning), vous aurez besoin de trois inf
 - **IP** : L'IP de la machine sur laquelle le nœud est installé ;
 - **PORT** :  Le port ouvert sur la machine qui permet la communication avec ce nœud. 
 
-Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://amboss.space/) , une plateforme qui recense les  informations sur les nœuds Lightning. 
+Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://amboss.space/), une plateforme qui recense les informations sur les nœuds Lightning.
 
 ```bash 
  # Se connecter à un noeud

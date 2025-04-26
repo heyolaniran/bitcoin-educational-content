@@ -270,7 +270,7 @@ Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://ambo
  # Se connecter à un noeud
  lncli connect <ID_PUBKEY>@<IP>:<PORT>
 
-	 # Un exemple  : Connection au noeud de Wallet of Satoshi 
+	 # Un exemple  : Connexion au noeud de Wallet of Satoshi 
  lncli connect 035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226@170.75.163.209:9735
 ```
 

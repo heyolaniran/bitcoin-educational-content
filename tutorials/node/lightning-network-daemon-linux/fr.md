@@ -279,7 +279,7 @@ Assurez-vous de vous connecter à des **nœuds fiables** afin de préserver l'in
 
 - **Diversification géographique** : Connectez-vous à des nœuds dans différentes régions.
 
-- **Réputation** : Privilégiez les nœuds avec une bonne disponibilité
+- **Réputation** : Privilégiez les nœuds avec une bonne disponibilité.
 
 - **Capacité** : Choisissez des nœuds avec une bonne liquidité
 

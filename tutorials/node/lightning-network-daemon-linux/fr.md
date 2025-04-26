@@ -314,7 +314,7 @@ Vous avez deux possibilités pour fermer un canal actif sur votre nœud actuelle
 ```
 lncli closechannel <ID_CANAL>
 ```
-- **La fermeture forcée** : ⚠️ A éviter si possible , cette action interrompt les processus en cours dans votre canal de paiement et augmente le risque de perte de fonds.  
+- **La fermeture forcée** : ⚠️ À éviter si possible, cette action interrompt les processus en cours dans votre canal de paiement et augmente le risque de perte de fonds.
 ```
 lncli closechannel --force <ID_CANAL>
 ```

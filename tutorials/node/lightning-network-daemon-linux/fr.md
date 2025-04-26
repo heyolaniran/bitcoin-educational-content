@@ -81,7 +81,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 ![go-install](assets/fr/02.webp)
 
 - **Configuration de l'environnement Go** 
-Dans votre fichier `~/.bashrc`  , initialisez les variables d'environnement suivant pour ajouter Go à votre système Linux
+Dans votre fichier `~/.bashrc`, initialisez les variables d'environnement suivantes pour ajouter Go à votre système Linux.
 
 ```bash
 # Configuration de l'environnement Go 

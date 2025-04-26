@@ -163,7 +163,7 @@ touch lnd.conf
 
 
 
-Dans le fichier de configuration vous pouvez paramétrer votre nœud LND
+Dans le fichier de configuration vous pouvez paramétrer votre nœud LND.
 
 ```
 noseedbackup=0

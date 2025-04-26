@@ -245,7 +245,7 @@ La commande ci-dessous vous permet de connaître les canaux actifs sur votre nœ
  lncli listchannels
 ```
 
-Vous pouvez également obtenir la liste des nœuds auquel vous êtes connectés 
+Vous pouvez également obtenir la liste des nœuds auquel vous êtes connectés.
 
 ```bash
 lncli listpeers

@@ -25,7 +25,7 @@ Lightning est une surcouche de Bitcoin qui vient optimiser le processus de trans
 
 En faisant tourner votre nœud Lightning, vous gagnez en souveraineté et en autonomie. Vous êtes maître de vos fonds, gardez à l'esprit : 
 
-> Pas vos clés , pas vos fonds.  
+"*Pas vos clés, pas vos bitcoins.*"
 
 En ce sens, faire tourner un nœud Lightning augmente la sécurité et l'intégrité de vos données sur les points suivants: 
 

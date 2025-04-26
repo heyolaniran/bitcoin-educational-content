@@ -9,7 +9,7 @@ Le réseau Lightning est une deuxième couche de Bitcoin qui permet à ce dernie
 
 Dans ce tutoriel nous allons installer l'implémentation Lightning Network Daemon sur notre machine Linux (Distribution Ubuntu 24.04).  
 
-## Qu'est ce que c'est Lightning Network Daemon ?  
+## Qu'est-ce que c'est Lightning Network Daemon ?  
 
 Lightning Network Daemon est une implémentation complète en Go du réseau Lightning. Il a été créé par la société Lightning Labs et vous permet de faire tourner une instance complète d'un nœud Lightning sur votre machine. 
 Autrement dit, avec cette implémentation, vous pouvez : 

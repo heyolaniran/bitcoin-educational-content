@@ -41,7 +41,7 @@ Vous avez deux possibilités pour faire tourner une instance de l'implémentatio
 ## Installer LND à partir du code source
 
 ### Prérequis
-LND étant écrit en Go, vous devez vous assurer d'avoir l'environnement GoLang et les dépendances nécessaires  sur notre machine Linux.  
+LND étant écrit en Go, vous devez vous assurer d'avoir l'environnement GoLang et les dépendances nécessaires sur votre machine Linux.  
 
 - **Prérequis Matériel :**
 Pour une expérience fluide et sans accro, votre machine devra avoir la capacité nécessaire pour faire tourner votre nœud Lightning LND.  

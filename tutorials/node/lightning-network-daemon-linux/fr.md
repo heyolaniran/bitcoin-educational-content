@@ -194,7 +194,7 @@ En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`, voici le détail des
 
 - **bitcoin.active** : Permet d'indiquer à LND de fonctionner en tant que nœud Bitcoin et d'interagir avec le réseau Bitcoin.
 
-- **bitcoin.mainnet** : Spécifie à LND de se connecter au réseau principal de Bitcoin (mainnet), vous pouvez définir les valeurs `bitcoind.signet` et `bitcoind.regtest` respectivement pour les réseaux Bitcoin Signet  et Bitcoin Regtest
+- **bitcoin.mainnet** : Spécifie à LND de se connecter au réseau principal de Bitcoin (mainnet), vous pouvez définir les valeurs `bitcoind.signet` et `bitcoind.regtest` respectivement pour les réseaux Bitcoin Signet et Bitcoin Regtest
 
 5. **bitcoin.node** : Spécifie à LND le type de nœud Bitcoin auquel il devra se connecter
 

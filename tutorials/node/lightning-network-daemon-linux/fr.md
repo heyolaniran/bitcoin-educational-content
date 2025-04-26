@@ -261,7 +261,7 @@ La connexion à d'autres nœuds Lightning est une action fondamentale si vous vo
 
 Pour vous connecter à un pair (nœud Lightning), vous aurez besoin de trois informations: 
 - **La clé publique du nœud** : Elle représente l'identifiant unique de ce nœud dans le réseau Bitcoin ;
-- **IP** : L'IP de la machine sur laquelle le nœud est installée 
+- **IP** : L'IP de la machine sur laquelle le nœud est installé ;
 - **PORT** :  Le port ouvert sur la machine qui permet la communication avec ce nœud. 
 
 Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://amboss.space/) , une plateforme qui recense les  informations sur les nœuds Lightning. 

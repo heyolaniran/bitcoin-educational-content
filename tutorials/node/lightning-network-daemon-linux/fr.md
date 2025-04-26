@@ -201,7 +201,7 @@ En vous basant sur le contenu du fichier `~/.lnd/lnd.conf`, voici le détail des
 - **bitcoin.rpcuser**  et **bitcoin.rpcpassword** : Représentent.
 respectivement les identifiants ( utilisateur , mot de passe)  pour se connecter à votre nœud Bitcoin 
 
-7. **bitcoind.zmqpubrawblock** et **bitcoind.zmqpubrawtx** : Définit respectivement les terminaison ZeroMQ pour recevoir les notifications à propos de nouveaux blocs et des nouvelles transactions présentes sur le réseau Bitcoin
+- **bitcoind.zmqpubrawblock** et **bitcoind.zmqpubrawtx** : Définit respectivement les terminaisons ZeroMQ pour recevoir les notifications à propos de nouveaux blocs et des nouvelles transactions présentes sur le réseau Bitcoin.
 
 
 ## Vérifier son installation avec LND 

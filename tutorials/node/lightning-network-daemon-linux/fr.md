@@ -340,7 +340,7 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 - **Erreur de permission** : Vérifiez les droits du dossier `~/.lnd`
 
 
-Vous êtes donc à la fin de ce tutoriel , si vous désirez en apprendre plus sur Lightning , nous vous proposons ce cours introductif pour vous permettre de comprendre mieux les concepts et les pratiques sur le réseau Lightning. 
+Vous êtes donc à la fin de ce tutoriel, si vous désirez en apprendre plus sur Lightning, nous vous proposons ce cours introductif pour vous permettre de comprendre mieux les concepts et les pratiques sur le réseau Lightning. 
 
 
 https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -259,7 +259,7 @@ Un canal Lightning vous permet d'avoir une **connexion directe et paire-à-paire
 
 La connexion à d'autres nœuds Lightning est une action fondamentale si vous voulez participer activement et profiter de la puissance de Lightning.  
 
-Pour vous connecter à un pair (nœud Lightning) , vous aurez besoin de trois informations: 
+Pour vous connecter à un pair (nœud Lightning), vous aurez besoin de trois informations: 
 - **La clé publique du nœud** : Elle représente l'identifiant unique de ce nœud dans le réseau Bitcoin 
 - **IP** : L'IP de la machine sur laquelle le nœud est installée 
 - **PORT** :  Le port ouvert sur la machine qui permet la communication avec ce nœud. 

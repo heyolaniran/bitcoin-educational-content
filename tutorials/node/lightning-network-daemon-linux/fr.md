@@ -64,7 +64,7 @@ sudo apt install -y build-essential git make
 
 LND requiert à la date de ce tutoriel la ***version 1.23.6 de Go*** pour son installation. 
 
-Si vous aviez une version antérieure déjà installée , procédez à une suppression de cette version pour la nouvelle installation de Go.
+Si vous aviez une version antérieure déjà installée, procédez à une suppression de cette version pour la nouvelle installation de Go.
 ```bash
 # Suppression d'une ancienne version de Go
 sudo rm -rf /usr/local/go 

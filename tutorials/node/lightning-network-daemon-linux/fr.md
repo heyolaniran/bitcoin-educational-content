@@ -223,7 +223,7 @@ Votre portefeuille Lightning est la première étape pour toute action pour gér
 
 ⚠️ **IMPORTANT** : Notez soigneusement votre **seed phrase** de 24 mots. Elle vous sera nécessaire pour récupérer vos fonds en cas de problèmes. 
 
-Sauvegardez également le mot de passe de votre portefeuille afin de pouvoir le débloquer avec la commande `lncli unlock`   lorsque vous relancerai votre nœud LND   
+Sauvegardez également le mot de passe de votre portefeuille afin de pouvoir le débloquer avec la commande `lncli unlock` lorsque vous relancerez votre nœud LND.
 
 ```bash
 	lncli create

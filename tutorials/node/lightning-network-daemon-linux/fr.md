@@ -62,7 +62,7 @@ sudo apt install -y build-essential git make
 
 - **Installer GoLang sur votre machine Linux**
 
-LND requiert à la date de ce tutoriel la ***version 1.23.6 de Go*** pour son installation . 
+LND requiert à la date de ce tutoriel la ***version 1.23.6 de Go*** pour son installation. 
 
 Si vous aviez une version antérieure déjà installée , procédez à une suppression de cette version pour la nouvelle installation de Go.
 ```bash

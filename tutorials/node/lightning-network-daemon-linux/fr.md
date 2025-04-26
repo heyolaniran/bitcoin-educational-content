@@ -52,7 +52,7 @@ Il vous faudra :
 3. **Au moins 5 Go d'espace disque** pour un mode réduit (pruned node) et 1To pour faire tourner Bitcoin Core (facultatif si vous utilisez un nœud distant)
 
 - **Installer les dépendances utiles :**
-La commande ci-dessous vous permettra d'installer sur votre machines des outils nécessaires pour le bon fonctionnement de LND. Vous aurez entre autre une installation de `Git` , un outil versionning et de `make` qui pourra exécuter et construire l'implémentation LND à partir du code source 
+La commande ci-dessous vous permettra d'installer sur votre machine des outils nécessaires pour le bon fonctionnement de LND. Vous aurez entre autres besoin d'une installation de `Git`, un outil de versionning et de `make` qui pourra exécuter et construire l'implémentation LND à partir du code source.
 
 ```bash
 sudo apt install -y build-essential git make

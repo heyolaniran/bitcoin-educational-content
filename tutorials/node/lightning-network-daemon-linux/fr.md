@@ -23,7 +23,7 @@ https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746
 ## Pourquoi avoir son propre nœud Lightning ?  
 Lightning est une couche de Bitcoin qui vient optimiser le processus de transfert et réduire les frais de transaction. 
 
-En tournant votre nœud Lightning , vous gagnez en souveraineté et en autonomie.  Vous êtes maître de vos fonds , gardez à l'esprit : 
+En faisant  tourner votre nœud Lightning , vous gagnez en souveraineté et en autonomie.  Vous êtes maître de vos fonds , gardez à l'esprit : 
 
 > Pas vos clés , pas vos fonds.  
 
@@ -35,13 +35,13 @@ En ce sens, faire tourner un nœud Lightning augmente la sécurité et l'intégr
 - **Décentralisation** : Participez activement au renforcement et à la décentralisation du réseau Bitcoin / Lightning.  
 
 https://planb.network/fr/courses/la-confidentialite-sur-bitcoin-65c138b0-4161-4958-bbe3-c12916bc959c
-## Installer LND à partir du code source
+
 
 Vous avez deux possibilités pour faire tourner une instance de l'implémentation LND sur notre machine. Nous pouvons configurer l'environnement sur notre machine même afin de pouvoir agir en local ou installer LND à partir d'un conteneur Docker.  
-
+## Installer LND à partir du code source
 
 ### Prérequis
-LND étant écrit en Go, vous devez vous assurer d'avoir l'environnement GoLang sur notre machine Linux.  
+LND étant écrit en Go, vous devez vous assurer d'avoir l'environnement GoLang et les dépendances nécessaires  sur notre machine Linux.  
 
 - **Prérequis Matériel :**
 Pour une expérience fluide et sans accro, votre machine devra avoir la capacité nécessaire pour faire tourner votre nœud Lightning LND.  
@@ -52,7 +52,7 @@ Il vous faudra :
 3. **Au moins 5 Go d'espace disque** pour un mode réduit (pruned node) et 1To pour faire tourner Bitcoin Core (facultatif si vous utilisez un nœud distant)
 
 - **Installer les dépendances utiles :**
-La commande ci-dessous vous permettra d'installer sur votre machines des outils nécessaires pour le bon fonctionnement de LND, vous aurez entre autres une installation de `Git` , un outil versionning et de `make` qui pourra exécuter et construire l'implémentation LND à partir du code source 
+La commande ci-dessous vous permettra d'installer sur votre machines des outils nécessaires pour le bon fonctionnement de LND. Vous aurez entre autre une installation de `Git` , un outil versionning et de `make` qui pourra exécuter et construire l'implémentation LND à partir du code source 
 
 ```bash
 sudo apt install -y build-essential git make
@@ -81,7 +81,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 ![go-install](assets/fr/02.webp)
 
 - **Configuration de l'environnement Go** 
-Dans votre fichier `~/.bashrc`  , ajoutez les variables d'environnement suivant pour ajouter Go à votre système Linux
+Dans votre fichier `~/.bashrc`  , initialisez les variables d'environnement suivant pour ajouter Go à votre système Linux
 
 ```bash
 # Configuration de l'environnement Go 
@@ -146,7 +146,7 @@ cd lnd
 git pull
 make clean && make && make install
 ```
-
+⚠️ **IMPORTANT** : Il se pourrait que les mises à jour  de LND requièrent des versions plus récentes de Go ,  assurez vous de mettre votre système à jour afin de ne pas rencontrer de problèmes de dépendances lors de votre installation 
 ### Configurer Lightning Network Daemon 
 
 La configuration d'un nœud Lightning LND est similaire à  celle de Bitcoin, elle se fait dans un fichier de configuration contenant tous les paramètres de votre nœud. Pour cela , à la racine de votre machine vous pouvez créer un dossier caché `.lnd` puis créer votre fichier de configuration `lnd.conf` dans ce dossier.  
@@ -161,7 +161,7 @@ cd ~/.lnd
 touch lnd.conf
 ```
 
-Il se pourrait que les mises à jour  de LND requièrent des versions plus récentes de Go ,  assurez vous de mettre votre système à jour afin de ne pas rencontrer de problèmes de dépendances lors de votre installation 
+
 
 Dans le fichier de configuration vous pouvez paramétrer votre nœud LND
 
@@ -208,7 +208,7 @@ respectivement les identifiants ( utilisateur , mot de passe)  pour se connecter
 
 Vous souhaitez probablement vous assurer que le processus a bien été réussi et que vous vous synchronisez au réseau Lightning pour avoir les informations à jour sur votre nœud.  
 
-Pour démarrer l'implémentation LND , rien de plus simple , dans votre terminal, tapez la commande : 
+Pour démarrer l'implémentation LND et avoir les informations sur votre nœud , rien de plus simple , dans votre terminal, tapez la commande : 
 ```bash
 lnd getinfo
 ```
@@ -223,7 +223,7 @@ Votre portefeuille Lightning est la première étape pour toute action pour gér
 
 ⚠️ **IMPORTANT** : Notez soigneusement votre **seed phrase** de 24 mots. Elle vous sera nécessaire pour récupérer vos fonds en cas de problèmes. 
 
-Sauvegardez également le mot de passe de votre portefeuille afin de pouvoir le débloquer lorsque vous relancerai votre nœud LND   `lncli unlock`  
+Sauvegardez également le mot de passe de votre portefeuille afin de pouvoir le débloquer avec la commande `lncli unlock`   lorsque vous relancerai votre nœud LND   
 
 ```bash
 	lncli create
@@ -261,7 +261,7 @@ La connexion à d'autres nœuds Lightning est une action fondamentale si vous vo
 
 Pour vous connecter à un pair (nœud Lightning) , vous aurez besoin de trois informations: 
 - **La clé publique du nœud** : Elle représente l'identifiant unique de ce nœud dans le réseau Bitcoin 
-- **IP** : L'IP de la machine sur laquelle le nœud tourne 
+- **IP** : L'IP de la machine sur laquelle le nœud est installée 
 - **PORT** :  Le port ouvert sur la machine qui permet la communication avec ce nœud. 
 
 Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://amboss.space/) , une plateforme qui recense les  informations sur les nœuds Lightning. 
@@ -275,7 +275,7 @@ Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://ambo
 ```
 
 
-Assurez vous de vous connecter à des nœuds fiables afin de préserver l'intégrité de votre propre système.  Voici quelques recommandations pour une bon choix de vos connexions. 
+Assurez vous de vous connecter à des **nœuds fiables** afin de préserver l'intégrité de votre propre système.  Voici quelques recommandations pour une bon choix de vos connexions. 
 
 - **Diversification géographique** : Connectez vous à des nœuds dans différentes régions
 
@@ -293,7 +293,7 @@ lncli openchannel --node_key=<ID_PUBKEY> --local_amt=<AMOUNT_SATOSHIS>
 ### Créer une facture Lightning  
 
 Une facture Lightning représente une chaine de caractères exprimant votre désir de recevoir des satoshis dans votre portefeuille Lightning. 
-Créer des factures Lightning avec votre propre nœud vous permet de protéger vos données ( géographique et personnelles) et vous donne la possibilité d'être 100% autonome sur la gestion de vos fonds. 
+Créer des factures Lightning avec votre propre nœud vous permet de protéger vos données ( géographiques et personnelles) et vous donne la possibilité d'être 100% autonome sur la gestion de vos fonds. 
 
 ```bash 
 # Générer une facture de 1000 sats
@@ -324,11 +324,11 @@ La sécurité est primordiale lors de l'utilisation d'un nœud Bitcoin/ Lightnin
 - Conservez votre `seed phrase` dans un endroit sécurisé et hors ligne.  
 
 - Faites des sauvegardes régulières du fichier `~/.lnd/channel.backup` : Ce fichier sauvegarde les états de vos canaux chaque fois  qu'un nouveau canal est ouvert (ou un ancien canal  est fermé) sur votre nœud. 
-   ⚠️ Il vous permet   restaurer les canaux et de récupérer  les fonds que vous avez bloqués dans les canaux de paiement en cas de perte de données ou de défaillance de votre nœud  
+   ⚠️ Il vous permet restaurer les canaux et de récupérer les fonds que vous avez bloqués dans les canaux de paiement en cas de perte de données ou de défaillance de votre nœud  
    
 Vous pouvez procéder à la restauration de vos fonds avec la commande ci dessous en spécifiant le chemin de sauvegarde de ce fichier :  
 ```
-lncli restorechanbackup 
+lncli restorechanbackup <CHEMIN_DU_FICHIER>
 ```
 - Assurez vous d'avoir bien sauvegardés les mots de restauration et le mot de passe de votre portefeuille Lightning.
 - Gardez votre système à jour. 

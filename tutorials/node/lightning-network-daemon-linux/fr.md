@@ -283,7 +283,7 @@ Assurez-vous de vous connecter à des **nœuds fiables** afin de préserver l'in
 
 - **Capacité** : Choisissez des nœuds avec une bonne liquidité.
 
-- **Frais** : Vérifiez les frais de routage pratiqués
+- **Frais** : Vérifiez les frais de routage pratiqués.
 ### Ouvrir un canal de paiement 
  Pour ouvrir un canal  de paiement assurez vous de la **connexion avec le nœud** pair puis définir la **capacité** (le montant de satoshis) que vous souhaitez bloquer dans ce canal.  
 

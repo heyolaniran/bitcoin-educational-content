@@ -323,7 +323,7 @@ La sécurité est primordiale lors de l'utilisation d'un nœud Bitcoin/ Lightnin
 
 - Conservez votre `seed phrase` dans un endroit sécurisé et hors ligne.  
 
-- Faites des sauvegardes régulières du fichier `~/.lnd/channel.backup` : Ce fichier sauvegarde les états de vos canaux chaque fois  qu'un nouveau canal est ouvert (ou un ancien canal  est fermé) sur votre nœud. 
+- Faites des sauvegardes régulières du fichier `~/.lnd/channel.backup` : Ce fichier sauvegarde les états de vos canaux chaque fois qu'un nouveau canal est ouvert (ou un ancien canal est fermé) sur votre nœud.
    ⚠️ Il vous permet restaurer les canaux et de récupérer les fonds que vous avez bloqués dans les canaux de paiement en cas de perte de données ou de défaillance de votre nœud  
    
 Vous pouvez procéder à la restauration de vos fonds avec la commande ci dessous en spécifiant le chemin de sauvegarde de ce fichier :  

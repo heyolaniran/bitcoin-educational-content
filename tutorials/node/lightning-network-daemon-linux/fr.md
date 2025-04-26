@@ -293,7 +293,7 @@ lncli openchannel --node_key=<ID_PUBKEY> --local_amt=<AMOUNT_SATOSHIS>
 ### Créer une facture Lightning  
 
 Une facture Lightning représente une chaine de caractères exprimant votre désir de recevoir des satoshis dans votre portefeuille Lightning. 
-Créer des factures Lightning avec votre propre nœud vous permet de protéger vos données ( géographiques et personnelles) et vous donne la possibilité d'être 100% autonome sur la gestion de vos fonds. 
+Créer des factures Lightning avec votre propre nœud vous permet de protéger vos données (géographiques et personnelles) et vous donne la possibilité d'être 100% autonome sur la gestion de vos fonds. 
 
 ```bash 
 # Générer une facture de 1000 sats

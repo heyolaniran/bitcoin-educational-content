@@ -14,7 +14,7 @@ Dans ce tutoriel nous allons installer l'implémentation Lightning Network Daemo
 Lightning Network Daemon est une implémentation complète en Go du réseau Lightning. Il a été créé par la société Lightning Labs et vous permet de faire tourner une instance complète d'un nœud Lightning sur votre machine. 
 Autrement dit, avec cette implémentation, vous pouvez : 
 
-- **Interagir avec le réseau Lightning** : Grâce aux lignes de commandes, vous pouvez effectuer des processus de création d'un portefeuille Lightning , la gestion des canaux et des routes de paiements, vous avez une multitude de possibilités directement depuis le terminal de votre machine.  
+- **Interagir avec le réseau Lightning** : Grâce aux lignes de commandes, vous pouvez effectuer des processus de création d'un portefeuille Lightning, la gestion des canaux et des routes de paiements, vous avez une multitude de possibilités directement depuis le terminal de votre machine.  
 - **Relier un nœud Bitcoin distant ou votre propre instance de Bitcoin Core** : LND vous permet de relier une instance de Bitcoin et de vous en servir comme backend pour votre utilisation, pour utiliser cette implémentation, vous n'aurez pas besoin de faire tourner obligatoirement une instance de Bitcoin Core sur votre machine 
 
 

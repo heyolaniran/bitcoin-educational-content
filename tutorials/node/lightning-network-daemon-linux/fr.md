@@ -100,7 +100,7 @@ go version
 ```
 
 ![go-version](assets/fr/03.webp)
-### Cloner le dépôt [GitHub de LND](https://github.com/lightningnetwork/lnd)
+### Cloner le dépôt GitHub de LND
 
 Vous allez utiliser git pour avoir une copie du code source de LND en locale sur votre machine 
 ```bash

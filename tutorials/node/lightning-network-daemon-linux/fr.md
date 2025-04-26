@@ -215,7 +215,7 @@ lnd getinfo
 ![lnd-getinfo](assets/fr/07.webp)
 ## Effectuer des actions sur LND
 
-Une fois  que votre installation terminée et vérifiée , vous pouvez commencer par l'utiliser . 
+Une fois que votre installation terminée et vérifiée, vous pouvez commencer par l'utiliser. 
 Retrouvez ci  dessous les commandes essentielles  pour débuter.
 
 ### Créer un portefeuille 

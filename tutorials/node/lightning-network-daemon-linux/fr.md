@@ -253,7 +253,7 @@ lncli listpeers
 
 ### Gestion des canaux 
 
-Un canal Lightning vous permet d'avoir une **connexion directe et paire-à-paire avec un autre nœud sur le réseau Lightning**. Dans ce canal , vous pouvez librement échanger des Satoshi à la hauteur de la capacité de ce canal. 
+Un canal Lightning vous permet d'avoir une **connexion directe et paire-à-paire avec un autre nœud sur le réseau Lightning**. Dans ce canal, vous pouvez librement échanger des Satoshi à la hauteur de la capacité de ce canal. 
 
 ### Se connecter à un nœud 
 

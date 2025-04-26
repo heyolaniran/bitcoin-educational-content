@@ -5,7 +5,7 @@ description: Installer et faire tourner Lightning Network Daemon sur Linux
 
 ![cover-lightning-network-daemon](assets/cover.webp)
 
-Le réseau Lightning est la deuxième couche de  l'implémentation Bitcoin qui permet à ce dernier de prendre des dimensions fulgurantes notamment grâce à la rapidité et aux faibles coûts de transactions proposées.
+Le réseau Lightning est une deuxième couche de Bitcoin qui permet à ce dernier de prendre des dimensions fulgurantes notamment grâce à la rapidité et aux faibles coûts de transactions proposées.
 
 Dans ce tutoriel nous allons installer l'implémentation  Lightning Network Daemon sur notre machine Linux ( Distribution Ubuntu 24.04).  
 

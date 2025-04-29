@@ -102,6 +102,4 @@ Breez fait de votre autonomie, sa force. L'infrastructure de Breez, vous mets à
 Pour les plus expérimentés, vous pouvez interagir avec le nœud à partir du menu **Préférences>Développeurs**.
 Vous y retrouverez les lignes de commande Lightning que vous pourrez exécuter en rajoutant les arguments requis.
 ![dev-mode](assets/fr/20.webp)
-
-
-
+Félicitations, vous avez désormais une bonne prise en main du portefeuille Breez. Si vous trouvez que cet article vous a été utile, merci de nous laisser un pouce vert. Cela nous fera amplement plaisir. Merci !

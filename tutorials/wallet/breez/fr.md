@@ -1,5 +1,5 @@
 ---
-name: Breez Wallet
+name: Breez
 description: Le portefeuille Lightning qui vous donne le contrôle sur tout.
 ---
 

@@ -50,7 +50,9 @@ Breez vous offre trois options :
 - **Recevoir par facture Lightning ou ID** : Générez une facture et faites vous payer.
 - **Recevoir via une adresse Bitcoin** : Recevez des bitcoins avec des transactions sur le réseau principal de Bitcoin.
 - **Acheter du Bitcoin** : Breez incorpore un moyen de se procurer du bitcoin directement depuis des monnaies fiduciaires.
+
 ![receive-bitcoin](assets/fr/07.webp)
+
 Renseignez une description pour votre facture, puis insérez le montant que vous souhaitez recevoir.
 
 ⚠️ Pour une première transaction sur Breez, vous aurez à payer des frais d'ouverture et de maintient de canal s'élevant à **2500 satoshis**. Contrairement à la plupart des portefeuilles Lightning, Breez vous mets à disposition, toute une infrastructure de nœud Lightning qui vous offre une liberté sur la gestion de vos bitcoins. Vous aurez à ouvrir, vous même, vos canaux de paiement et la liberté de communiquer directement avec le nœud Lightning depuis l'application.

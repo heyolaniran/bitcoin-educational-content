@@ -1,6 +1,6 @@
 ---
 name: Breez Wallet
-description: Le portefeuille qui vous donne le contrôle sur tout.
+description: Le portefeuille Lightning qui vous donne le contrôle sur tout.
 ---
 
 ![breez-cover](assets/cover.webp)

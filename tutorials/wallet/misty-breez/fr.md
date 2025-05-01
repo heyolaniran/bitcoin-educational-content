@@ -52,7 +52,7 @@ Retrouvez votre devise locale dans la multitude de devises acceptées par Misty 
 ![devises](assets/fr/04.webp)
 
 ### Effectuer ses premières transactions
-Si vous êtes déjà habitué au portefeuille Breez, vous ne serez pas du tout déphasé par l'interface intuitif de Misty Breez.
+Si vous êtes déjà habitué au portefeuille Breez, vous ne serez pas du tout déphasé par l'interface intuitive de Misty Breez.
 
 Sur l'interface du menu **Solde**, cliquez sur l'option **Recevoir** afin de créer des factures pour recevoir vos bitcoins sur votre portefeuille.
 

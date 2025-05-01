@@ -100,4 +100,8 @@ Vous avez également la possibilité d'effectuer certaines actions telles que la
 ![dev-mode](assets/fr/09.webp)
 Félicitations ! Vous avez désormais une bonne compréhension du portefeuille Misty Breez et de son apport dans les transactions inter réseaux Bitcoin. Si vous avez trouvé ce tutoriel utile, nous vous prions de nous laisser nous un pouce vert. Cela nous fera amplement plaisir.
 
+Pour aller plus loin, je vous recommande également de découvrir notre tutoriel sur le portefeuille Aqua, qui fonctionne de manière similaire à Misty Breez :
+
+https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
 

@@ -85,7 +85,7 @@ Derrière la scène, vous permettez au portefeuille Liquid associé à votre por
 
 ![send-bitcoin-bts](assets/fr/08.webp)
 
->Cette particularité dans l'infrastructure de Misty Breez permet aux utilisateurs d'effectuer leurs transactions même quand Misty Breez est hors ligne.
+Cette particularité dans l'infrastructure de Misty Breez permet aux utilisateurs d'effectuer leurs transactions même quand Misty Breez est hors ligne.
 
 Pour les plus expérimentés, vous avez également un menu **Préférences > Développeurs** qui vous permet d'avoir un peu plus de détails sur :
 - La version du Kit de Développement Logiciel de Breez.

@@ -5,9 +5,9 @@ description: Acheter des bitcoins à partir de 100 Francs CFA grâce à la puiss
 
 ![cover](assets/cover.webp)
 
-Rendre accessible l'adoption du Bitcoin dans les pays du "Tiers monde" est devenu un secteur dans lequel la jeunesse et les cadors innovent beaucoup. Cela se ressent beaucoup plus sur le continent Africain avec l'émergence des communautés circulaires, vivants avec parfois très peu de ressources et qui voient en Bitcoin un moyen de redorer leur souveraineté face à un système financier jugé défaillant.
+Rendre accessible l'adoption du Bitcoin dans les pays en développement est devenu un secteur dans lequel la jeunesse et les cadors innovent beaucoup. Cela se ressent beaucoup plus sur le continent Africain avec l'émergence des communautés circulaires, vivants avec parfois très peu de ressources et qui voient en Bitcoin un moyen de redorer leur souveraineté face à un système financier jugé défaillant.
 
-Dans cette optique, une plateforme s'est donnée pour objectif de permettre à la communauté de sa sous-région, d'acquérir des bitcoins à partir d'un montant dérisoire, 100 XOF équivalant à 15 centimes, brisant ainsi les préjugés que beaucoup se faisaient sur la cherté du bitcoin.
+Dans cette optique, une plateforme s'est donnée pour objectif de permettre à la communauté de sa sous-région, d'acquérir des bitcoins à partir d'un montant dérisoire, 100 XOF équivalant à 15 centimes d'euro, brisant ainsi les préjugés que beaucoup se faisaient sur la cherté du bitcoin.
 
 Dans ce tutoriel, nous découvrirons Flash, une solution béninoise qui vous permet d'acquérir des bitcoins à partir de 100 Francs CFA.
 
@@ -22,11 +22,9 @@ Nous distinguerons notamment deux services offerts par la plateforme :
 - **FlashX** : Echangez des bitcoins avec du Mobile Money.
 - **FlashPayment** : Utilisez bitcoin dans les services du quotidien.
 
-A partir de ces deux services, Flash vise à démocratiser de l'utilisation du bitcoin, à changer la vision de ceux qui trouvent en bitcoin seulement une valeur refuge et à démontrer que bitcoin est un moyen d'échanges compatible avec les réalités africaines.
+A partir de ces deux services, Flash vise à démocratiser l'utilisation du bitcoin, à changer la vision de ceux qui trouvent en bitcoin seulement une valeur refuge et à démontrer que bitcoin est un moyen d'échanges compatible avec les réalités africaines.
 
-```
-Bitcoin élimine les disparités raciales, économiques, géographique tout autour du globle grâce à sa capacité de résolution des problèmes existants.
-```
+Bitcoin contribue à réduire certaines inégalités économiques et géographiques en offrant un accès ouvert à un système financier mondial, indépendamment de l’origine ou de la localisation des individus.
 
 Partons à l'aventure et découvrons chaque service proposé par la plateforme.
 
@@ -56,7 +54,7 @@ Procédez au paiement puis renseignez votre adresse Lightning pour valider votre
 
 ⚠️ **IMPORTANT** : Flash fonctionne avec des adresses Lightning, assurez-vous de posséder un portefeuille qui supporte les adresses Lightning.
 
-https://planb.network/fr/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Faire une transaction sur Flash vous prendra en moyenne 5 à 10 minutes pour recevoir vos bitcoins sur votre portefeuille Lightning.
 ![achat](assets/fr/05.webp)
@@ -102,4 +100,4 @@ Dans la section d'accès aux services quotidien, sélectionnez l'option **Autres
 
 Si ce tutoriel vous a été utile pour la prise en main de Flash, veuillez nous laisser un pouce vert, nous apprécierons beaucoup. Nous vous proposons de découvrir notre tutoriel sur Bitrefill, une plateforme qui vous donne accès à une multitude de services numériques qui acceptent bitcoin comme moyen de paiement.
 
-https://planb.network/fr/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

@@ -55,7 +55,7 @@ Procédez au paiement puis renseignez votre adresse Lightning pour valider votre
 
 ⚠️ **IMPORTANT** : Flash fonctionne avec des adresses Lightning, assurez-vous de posséder un portefeuille qui supporte les adresses Lightning.
 
-https://planb.network/fr/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Faire une transaction sur Flash vous prendra en moyenne 5 à 10 minutes pour recevoir vos bitcoins sur votre portefeuille Lightning.
 ![achat](assets/fr/05.webp)

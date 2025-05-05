@@ -7,7 +7,7 @@ description: Acheter des bitcoins à partir de 100 Francs CFA grâce à la puiss
 
 Rendre accessible l'adoption du Bitcoin dans les pays en développement est devenu un secteur dans lequel la jeunesse et les cadors innovent beaucoup. Cela se ressent beaucoup plus sur le continent Africain avec l'émergence des communautés circulaires, vivants avec parfois très peu de ressources et qui voient en Bitcoin un moyen de redorer leur souveraineté face à un système financier jugé défaillant.
 
-Dans cette optique, une plateforme s'est donnée pour objectif de permettre à la communauté de sa sous-région, d'acquérir des bitcoins à partir d'un montant dérisoire, 100 XOF équivalant à 15 centimes, brisant ainsi les préjugés que beaucoup se faisaient sur la cherté du bitcoin.
+Dans cette optique, une plateforme s'est donnée pour objectif de permettre à la communauté de sa sous-région, d'acquérir des bitcoins à partir d'un montant dérisoire, 100 XOF équivalant à 15 centimes d'euro, brisant ainsi les préjugés que beaucoup se faisaient sur la cherté du bitcoin.
 
 Dans ce tutoriel, nous découvrirons Flash, une solution béninoise qui vous permet d'acquérir des bitcoins à partir de 100 Francs CFA.
 

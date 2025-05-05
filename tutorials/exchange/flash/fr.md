@@ -22,7 +22,7 @@ Nous distinguerons notamment deux services offerts par la plateforme :
 - **FlashX** : Echangez des bitcoins avec du Mobile Money.
 - **FlashPayment** : Utilisez bitcoin dans les services du quotidien.
 
-A partir de ces deux services, Flash vise à démocratiser de l'utilisation du bitcoin, à changer la vision de ceux qui trouvent en bitcoin seulement une valeur refuge et à démontrer que bitcoin est un moyen d'échanges compatible avec les réalités africaines.
+A partir de ces deux services, Flash vise à démocratiser l'utilisation du bitcoin, à changer la vision de ceux qui trouvent en bitcoin seulement une valeur refuge et à démontrer que bitcoin est un moyen d'échanges compatible avec les réalités africaines.
 
 Bitcoin contribue à réduire certaines inégalités économiques et géographiques en offrant un accès ouvert à un système financier mondial, indépendamment de l’origine ou de la localisation des individus.
 ```

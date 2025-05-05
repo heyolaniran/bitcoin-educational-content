@@ -5,7 +5,7 @@ description: Acheter des bitcoins à partir de 100 Francs CFA grâce à la puiss
 
 ![cover](assets/cover.webp)
 
-Rendre accessible l'adoption du Bitcoin dans les pays du "Tiers monde" est devenu un secteur dans lequel la jeunesse et les cadors innovent beaucoup. Cela se ressent beaucoup plus sur le continent Africain avec l'émergence des communautés circulaires, vivants avec parfois très peu de ressources et qui voient en Bitcoin un moyen de redorer leur souveraineté face à un système financier jugé défaillant.
+Rendre accessible l'adoption du Bitcoin dans les pays en développement est devenu un secteur dans lequel la jeunesse et les cadors innovent beaucoup. Cela se ressent beaucoup plus sur le continent Africain avec l'émergence des communautés circulaires, vivants avec parfois très peu de ressources et qui voient en Bitcoin un moyen de redorer leur souveraineté face à un système financier jugé défaillant.
 
 Dans cette optique, une plateforme s'est donnée pour objectif de permettre à la communauté de sa sous-région, d'acquérir des bitcoins à partir d'un montant dérisoire, 100 XOF équivalant à 15 centimes, brisant ainsi les préjugés que beaucoup se faisaient sur la cherté du bitcoin.
 

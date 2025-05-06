@@ -71,9 +71,9 @@ Sur la page de détails des transactions, vous retrouverez les informations gén
 
 ![general-txinfo](assets/fr/07.webp)
 
-La section **Flow** vous présente un graphique des composants de votre transactions.
+La section **Flow** vous présente un graphique des composantes de votre transactions.
 
-Les entrées (UTXO précédents), utilisés pour votre transactions et les sorties donnant droits, aux destinataires, d'utiliser les bitcoins de chaque sortie en présentant la signature requise pour leur dépense.
+Les entrées (UTXO précédents), utilisées pour votre transaction et les sorties donnant droits, aux destinataires, d'utiliser les bitcoin de chaque sortie en présentant la signature requise pour leur dépense.
 
 ![flow](assets/fr/08.webp)
 
@@ -87,7 +87,7 @@ https://planb.network/courses/la-confidentialite-sur-bitcoin-65c138b0-4161-4958-
 
 ## Accélérer vos transactions
 
-Outre la visualisation de vos transactions, Mempool vous fournit un outil graphique pour vous permettre d'accroitre les frais d'une transaction que vous avez fait (RBF - Remplacement de frais) ou une transaction que vous souhaitez recevoir (CPFP- L'enfant paie pour le parent). En augmentant les frais de vos transactions vous accélérez la confirmation de cette transaction.
+Outre la visualisation de vos transactions, Mempool.space vous fournit un outil graphique pour vous permettre d'accroitre les frais d'une transaction que vous avez fait (RBF - Remplacement de frais) ou une transaction que vous souhaitez recevoir (CPFP- L'enfant paie pour le parent). En augmentant les frais de vos transactions vous accélérez la confirmation de cette transaction.
 
 Lorsque votre transaction est en statut non confirmé, cliquez sur le buton **Accélérer** pour ouvrir la section d'accélération.
 

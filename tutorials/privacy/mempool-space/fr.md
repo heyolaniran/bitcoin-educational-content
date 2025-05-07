@@ -106,7 +106,6 @@ Procédez ensuite au payement de la facture pour augmenter les frais de votre tr
 ## Les mineurs
 
 Un mineur fait référence à une personne qui gère une mine, c'est-à-dire un ordinateur engagé dans le processus de minage, qui consiste à participer à la Proof-of-Work. Le mineur regroupe les transactions en attente dans sa mempool pour former un bloc candidat. Ensuite, il recherche un hachage valide, inférieur ou égal à la cible, pour l’entête de ce bloc en modifiant les différents nonces. S’il trouve un hachage valide, il diffuse son bloc au réseau Bitcoin et empoche la récompense pécuniaire associée, composée de la subvention de bloc (création de nouveaux bitcoins ex-nihilo), et des frais de transaction.
-- Plus le mineur a de chance de résoudre le problème mathématique complexe permettant d'ajouter son bloc candidat.
 
 https://planb.network/courses/introduction-to-bitcoin-mining-ce272232-0d97-4482-884a-0f77a2ebc036
 

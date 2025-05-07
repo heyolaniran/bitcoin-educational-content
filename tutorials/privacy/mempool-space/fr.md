@@ -138,7 +138,9 @@ Cette interface vous renseigne sur :
 ![distribution](assets/fr/15.webp)
 
 Vous trouverez également un classement de ces nœuds en fonction ou non de la capacité de leurs canaux de paiement.
+
 ![ranking](assets/fr/16.webp)
+
 ## Plus de graphiques. 
 
 Mempool.space est la plateforme idéale pour apprécier l'interaction avec les réseaux du protocole Bitcoin.

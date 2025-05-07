@@ -94,11 +94,23 @@ https://planb.network/courses/la-confidentialite-sur-bitcoin-65c138b0-4161-4958-
 
 ## Accélérer vos transactions
 
-Outre la visualisation de vos transactions, Mempool.space vous fournit un outil graphique pour vous permettre d'accroitre les frais d'une transaction que vous avez effectué (**RBF** - Remplacement de frais) ou d'une transaction que vous souhaitez recevoir (**CPFP** - L'enfant paie pour le parent). En augmentant les frais de vos transactions vous accélérez la confirmation de cette transaction.
+Dans l'écosystème Bitcoin, l'aspect de la validation d'une transaction par les mineurs est intrinsèquement lié au frais de transactions associées à cette transaction. Les mineurs priorisent les transactions ayant un ratio de frais (satoshis/vBytes) plus élevés, ce qui pourrait affecter la validité de votre transaction si vous ne payez pas des frais raisonnables acceptés par les mineurs. Votre transaction se retrouverait bloqué dans le mempool en attendant un bloc acceptant son ratio de frais.
 
-Lorsque votre transaction est en statut non confirmé, cliquez sur le buton **Accélérer** pour ouvrir la section d'accélération.
+Heureusement, il existe, sur le réseau Bitcoin, deux méthodes pouvant vous permettre d'accélérer la confirmation de votre transaction.
 
-Procédez ensuite au payement de la facture pour augmenter les frais de votre transaction.
+- **RBF** - Replacement By Fee : Une méthode qui vous permet de dépenser les mêmes entrées que votre transaction ayant un faible ratio de frais mais cette fois-ci en augmentant les frais de transaction pour accélérer la validation. Votre nouvelle transaction sera plus rapidement validé et inclus dans un bloc ce qui entrainera l'invalidation de la transaction ayant un faible frais.
+
+Vous pourrez effectuer une action de remplacement de frais avec des portefeuilles acceptant ce mécanisme. Retrouvez par exemple notre article sur le portefeuille Blue Wallet
+
+https://planb.network/fr/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+- **CPFP** - Child Pay For Parent : Une approche inspirée du RBF mais du coté du destinataire. Lorsque la transaction dans laquelle vous êtes destinataire est bloquée dans un mempool, vous avez la possibilité de dépenser les sorties (UTXOs) de cette transaction, malgré qu'elle ne soit pas encore confirmée, en allouant plus de frais à cette nouvelle transaction afin que la moyenne des frais - de la transaction dont vous êtes destinataire et de la transaction initiée- incite les mineurs à inclure toutes les deux transactions dans un bloc.
+
+⚠️ La première transaction doit impérativement être minée pour permettre à la seconde transaction d'être confirmée.
+
+Outre ces méthodes, Mempool.space, grâce à ses connexions avec plus de 80% des mineurs, vous permet également d'accélérer n'importe laquelle de vos transactions **non confirmée**, même celles n'activant pas le RBF, en payant une contrepartie aux mineurs en échange de l'insertion de votre transaction à faible frais dans le prochain bloc prêt à être miné.
+
+Sur la page de détail de votre transaction, cliquez sur le buton **Accelerate** puis procédez au paiement de votre contrepartie aux mineurs.
 
 ![accelerate-section](assets/fr/11.webp)
 
@@ -109,9 +121,21 @@ Un mineur fait référence à une personne qui gère une mine, c'est-à-dire un 
 
 https://planb.network/courses/introduction-to-bitcoin-mining-ce272232-0d97-4482-884a-0f77a2ebc036
 
-Sur Mempool.space, vous retrouverez les informations sur les différents mineurs dans le menu **Mining**, vous présentant actuellement la répartition des mineurs en fonctions des blocs déjà minés et de la puissance de calcul.
+La difficulté de cette preuve de travail est monitorée, vous permettant de visualiser l'évolution de la puissance de calcul requise pour les mineurs. Vous retrouverez dans les sections ci dessous. 
 
-![mining](assets/fr/12.webp)
+- Une estimation des récompenses totales engrangées par les mineurs (subvention de bloc + frais de transaction) au cours de dernier ajustement de la difficulté ainsi que les estimations sur la prochaine division de la subvention de bloc intervenant toutes les 210000 blocs (04 années environ).
+
+![rewards](assets/fr/12.webp)
+
+Cette difficulté est ajustée toutes 144 blocs (deux semaines environ). Elle est proportionnellement inverse à la moyenne du temps pris par les mineurs pour miner les 144 blocs. Lorsque le temps moyen pris par les mineurs est inférieur à 10 minutes, la difficulté s'accroît. Inversement, lorsque le temps moyen est supérieur ou égale à 10 minutes, la difficulté décroît.
+
+![mining-pool](assets/fr/13.webp)
+
+- Les groupes de mineurs: Au vue de la difficulté, un ensemble de mineurs collaborent pour participer à la recherche de la preuve de travail sur Bitcoin, c'est ce que nous appellerons un **pool**. Lorsqu'un bloc est miné par le groupe, la récompense est distribuée en fonction du pourcentage de réussite dans la recherche de solution partielle de chaque mineur ou en fonction de la méthode de rémunération choisie.
+
+
+
+![mining](assets/fr/14.webp)
 
 ## L'infrastructure du réseau Lightning
 
@@ -119,13 +143,13 @@ Mempool ne se limite pas qu'à vous fournir informations sur les infrastructures
 
 Dans la section **Eclair**, vous pouvez visualiser l'ensemble des connexions existantes entre les nœuds Lightning.
 
-![network-stats](assets/fr/13.webp)
+![network-stats](assets/fr/15.webp)
 
 Cette interface vous renseigne sur :
 
 - Les statistiques du réseau Lightning.
 
-![distribution](assets/fr/14.webp)
+![distribution](assets/fr/16.webp)
 
 
 ⚠️ **IMPORTANT** : La capacité d'un canal de paiement désigne le montant maximum qu'un nœud peut envoyer à un autre nœud lors d'une transaction Lightning.
@@ -133,19 +157,25 @@ Cette interface vous renseigne sur :
 - La répartition des nœuds Lightning en fonction du fournisseur de service Internet (service d'hébergement) et optionnellement en fonction de la capacité des canaux de paiement.
 - L'historique de la capacité générale du réseau Lightning.
 
-![distribution](assets/fr/15.webp)
+![distribution](assets/fr/17.webp)
 
 Vous trouverez également un classement de ces nœuds en fonction ou non de la capacité de leurs canaux de paiement.
 
-![ranking](assets/fr/16.webp)
+![ranking](assets/fr/18.webp)
 
 ## Plus de graphiques. 
 
-Mempool.space est la plateforme idéale pour apprécier l'interaction avec les réseaux du protocole Bitcoin.
+Mempool.space est la plateforme idéale pour apprécier l'interaction avec les réseaux du protocole Bitcoin. Les graphiques fournissent des données visuelles qui vous aide à décider quand effectuer des transactions, en tenant compte des frais et de la congestion du réseau.
 
-Dans cette section graphique, Mempool.space vous permet de visualiser et de filtrer en fonction de vos recherches.
+Dans la section **Graphique**, vous pouvez visualiser des données essentielles concernant le réseau Bitcoin :
+- L'évolution de la taille du mempool : Vous pouvez observer comment la taille du mempool fluctue, ce qui peut vous indiquer des périodes de forte activité ou de calme sur le réseau.
 
-![graphs](assets/fr/17.webp)
+![graphs](assets/fr/19.webp)
+
+
+- L'évolution des transactions et frais de transaction sur le réseau choisie :  En suivant les variations des transactions par seconde, vous pouvez anticiper les périodes de congestion ou de faible activité afin d'optimiser les frais de vos transactions. Ce graphique vous offre une perspective sur la capacité du réseau à gérer le volume de transactions.
+
+![graphs](assets/fr/20.webp)
 
 Vous voilà à la fin de votre parcours sur Mempool.space, devenez dès maintenant votre propre explorateur et traquez vos transactions en temps réel. Nous vous proposons de retrouver, ci-dessous, notre article sur l'explorateur Bitcoin **Public Pool**.
 

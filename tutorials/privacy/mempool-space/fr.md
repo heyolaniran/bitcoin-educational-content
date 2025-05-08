@@ -5,7 +5,7 @@ description: Explorez l'ensemble de protocole Bitcoin.
 
 ![cover](assets/cover.webp)
 
-Le protocole Bitcoin est un réseau pseudonyme, décentralisé et ouvert à la consultation. Les membres, c'est-à-dire les ordinateurs ayant une instance du logiciel Bitcoin (nœuds) peuvent avoir, sans restriction, à l'ensemble des données publiées sur Bitcoin. Toutes fois, dans les premières années de Bitcoin, le protocole n'était pas accessible à tous comme nous pouvions le voir de nos jours.
+Le protocole Bitcoin est un réseau pseudonyme, décentralisé et ouvert à la consultation. Les membres (nœuds), c'est-à-dire les ordinateurs ayant une instance du logiciel Bitcoin peuvent avoir, sans restriction, à l'ensemble des données publiées sur Bitcoin. Toutes fois, dans les premières années de Bitcoin, le protocole n'était pas accessible à tous comme nous pouvions le voir de nos jours.
 Aux premières heures de Bitcoin, il fallait faire tourner un nœud Bitcoin afin d'accéder aux outils appropriés (bitcoin-cli) pour interroger le réseau à partir des lignes de commandes.
 
 https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed

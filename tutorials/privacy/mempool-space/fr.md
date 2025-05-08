@@ -131,7 +131,7 @@ La difficulté de cette preuve de travail est monitorée, vous permettant ainsi 
 
 ![rewards](assets/fr/12.webp)
 
-Cette difficulté est ajustée toutes les 144 blocs (deux semaines environ). Elle est proportionnellement inverse à la moyenne du temps pris par les mineurs pour miner les 144 blocs.
+Cette difficulté est ajustée toutes les 2016 blocs (deux semaines environ). Elle est proportionnellement inverse à la moyenne du temps pris par les mineurs pour miner les 2016 blocs.
 Lorsque le temps moyen pris par les mineurs est inférieur à 10 minutes, la difficulté s'accroît prouvant qu'il était plus facile aux mineurs de valider des miner des blocs. Inversement, lorsque le temps moyen est supérieur à 10 minutes, la difficulté décroît.
 
 ![mining-pool](assets/fr/13.webp)

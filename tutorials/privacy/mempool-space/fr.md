@@ -1,6 +1,6 @@
 ---
 name: Mempool Space
-description: Explorez l'ensemble de protocole Bitcoin.
+description: Explorez l'ensemble de l'écosystème Bitcoin.
 ---
 
 ![cover](assets/cover.webp)

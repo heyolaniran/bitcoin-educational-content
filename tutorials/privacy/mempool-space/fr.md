@@ -57,7 +57,7 @@ Vous pouvez retrouver une visualisation de l'espace occupé par une transaction 
 
 ![mempool](assets/fr/04.webp)
 
-Un bloc est miné environ toutes les dix minutes à cause de la difficulté de la preuve de travail que les mineurs doivent fournir pour ajouter leur bloc candidat à la chaine des blocs minés. Cette difficulté varie toutes les **144 blocs** équivalant à environ **2 semaines**. Vous pouvez donc visualiser l'évolution de cette difficulté.
+Un bloc est miné environ toutes les dix minutes à cause de la difficulté de la preuve de travail que les mineurs doivent fournir pour ajouter leur bloc candidat à la chaine des blocs minés. Cette difficulté varie tous les **2016 blocs** équivalant à environ **2 semaines**. Vous pouvez donc visualiser l'évolution de cette difficulté.
 
 ![difficulty](assets/fr/05.webp)
 

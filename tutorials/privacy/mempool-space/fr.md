@@ -61,7 +61,7 @@ Un bloc est miné environ toutes les dix minutes à cause de la difficulté de l
 
 ![difficulty](assets/fr/05.webp)
 
-L'ajout d'un nouveau bloc à la chaine principale donne droit, au mineur du bloc validé, à une récompense variable toutes les **210 000 blocs** équivalant à environ **04 années**.
+L'ajout d'un nouveau bloc à la chaine principale donne droit, au mineur du bloc validé, à une récompense composée d'une partie fixe (divisée par deux tous les **210 000 blocs** équivalant à environ **4 années** lors des halvings) et des frais de transaction.
 
 ![halving](assets/fr/06.webp)
 

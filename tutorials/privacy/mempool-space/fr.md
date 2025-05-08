@@ -41,7 +41,7 @@ Dans la barre de menu, vous retrouverez les réseaux suivants :
 
 ![reseaux](assets/fr/01.webp)
 
-Sur la page d'accueil, vous retrouverez à gauche en vert, les possibles futures blocs (groupe de transactions) prêts à être validés et intégrés (minés) au réseau Bitcoin. Un bloc est miné en moyenne toutes les dix minutes : gardez cette information, elle vous sera utile plus bas dans notre développement.
+Sur la page d'accueil, vous retrouverez à gauche en vert, les possibles futurs blocs (groupe de transactions) prêts à être validés et intégrés (minés) au réseau Bitcoin. Un bloc est miné en moyenne toutes les dix minutes : gardez cette information, elle vous sera utile plus bas dans notre développement.
 En violacée, du côté droit, vous retrouverez les récents blocs minés sur Bitcoin, le numéro du dernier bloc miné constitue la taille actuelle du réseau.
 
 ![blocs](assets/fr/02.webp)

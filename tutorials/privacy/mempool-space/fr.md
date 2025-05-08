@@ -53,7 +53,7 @@ Les frais de transactions représentent le coût que vous prendra un mineur pour
 
 ![fees-visualizer](assets/fr/03.webp)
 
-Vous pouvez retrouver une visualisation de l'espace occupée par une transaction grâce à la section **Mempool Goggles**.
+Vous pouvez retrouver une visualisation de l'espace occupé par une transaction grâce à la section **Mempool Goggles**.
 
 ![mempool](assets/fr/04.webp)
 

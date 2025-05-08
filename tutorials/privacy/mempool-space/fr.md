@@ -8,9 +8,9 @@ description: Explorez l'ensemble de protocole Bitcoin.
 Le protocole Bitcoin est un réseau pseudonyme, décentralisé et ouvert à la consultation. Les membres (nœuds), c'est-à-dire les ordinateurs ayant une instance du logiciel Bitcoin peuvent avoir, sans restriction, à l'ensemble des données publiées sur Bitcoin. Toutes fois, dans les premières années de Bitcoin, le protocole n'était pas accessible à tous comme nous pouvions le voir de nos jours.
 Aux premières heures de Bitcoin, il fallait faire tourner un nœud Bitcoin afin d'accéder aux outils appropriés (bitcoin-cli) pour interroger le réseau à partir des lignes de commandes.
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Des projets se sont donc initiés, pour élargir la communauté autour de Bitcoin, le rendant plus accessible à toute personne n'ayant pas de nœud et/ou n'ayant pas des compétences techniques requises.
 
@@ -142,7 +142,7 @@ Lorsque le temps moyen pris par les mineurs est inférieur à 10 minutes, la dif
 
 ![mining](assets/fr/14.webp)
 
-## L'infrastructure du réseau Lightning
+## L'infrastructure du Lightning Network
 
 Mempool ne se limite pas qu'à vous fournir des informations sur les infrastructures des réseaux de Bitcoin (chaine principale). Il intègre également des outils de visualisation et d'exploration de la surcouche Lightning de Bitcoin.
 
@@ -168,7 +168,7 @@ Vous trouverez également un classement de ces nœuds en fonction ou non de la c
 
 ![ranking](assets/fr/18.webp)
 
-## Plus de graphiques. 
+## Plus de graphiques
 
 Mempool.space est la plateforme idéale pour apprécier l'interaction avec les réseaux du protocole Bitcoin. Les graphiques fournissent non seulement des données visuelles qui vous aide à décider quand effectuer des transactions, mais également des paramètres précis vous permettant de visualiser, en temps réel la solidité, la santé du réseau Bitcoin et des infrastructures Lightning associées.
 

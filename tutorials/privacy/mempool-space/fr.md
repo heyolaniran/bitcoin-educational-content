@@ -1,5 +1,5 @@
 ---
-name: Mempool Space
+name: Mempool
 description: Explorez l'ensemble de l'écosystème Bitcoin.
 ---
 

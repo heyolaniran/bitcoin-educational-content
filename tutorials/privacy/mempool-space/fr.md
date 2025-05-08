@@ -5,7 +5,7 @@ description: Explorez l'ensemble de protocole Bitcoin.
 
 ![cover](assets/cover.webp)
 
-Le protocole Bitcoin est un réseau pseudonyme, décentralisé et ouvert à la consultation. Les membres (nœuds) du réseau peuvent avoir, sans restriction, à l'ensemble des données publiées sur Bitcoin. Toutes fois, dans les premières années de Bitcoin, le protocole n'était pas accessible à tous comme nous pouvions le voir de nos jours.
+Le protocole Bitcoin est un réseau pseudonyme, décentralisé et ouvert à la consultation. Les membres, c'est-à-dire les ordinateurs ayant une instance du logiciel Bitcoin (nœuds) peuvent avoir, sans restriction, à l'ensemble des données publiées sur Bitcoin. Toutes fois, dans les premières années de Bitcoin, le protocole n'était pas accessible à tous comme nous pouvions le voir de nos jours.
 Aux premières heures de Bitcoin, il fallait faire tourner un nœud Bitcoin afin d'accéder aux outils appropriés (bitcoin-cli) pour interroger le réseau à partir des lignes de commandes.
 
 https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
@@ -20,7 +20,7 @@ Dans ce tutoriel, nous découvrirons le projet **Mempool.space**, ses fonctionna
 
 **Mempool.space** est un explorateur open source qui fournit des informations utiles sur les transactions, les frais de transactions, les blocs et les mineurs sur les différents réseaux du protocole Bitcoin. Lancé en 2020, il apporte une amélioration significative de l'expérience utilisateur au travers de graphiques représentatifs, des animations fluides et des interfaces épurées.
 
-Pour comprendre le projet, un Mempool (Memory pool - zone de mémoire), est un espace virtuel dans lequel se trouve toutes les transactions en attente de confirmation sur le réseau Bitcoin. Chaque mineur sur le réseau Bitcoin ayant un Mempool, nous nous retrouvons avec des zones de mémoire différents sur l'ensemble du réseau.
+Pour comprendre le projet, un Mempool (Memory pool - zone de mémoire), est un espace virtuel dans lequel se trouve toutes les transactions en attente de confirmation sur le réseau Bitcoin. Un Mempool est comme une "salle d'attente" où les transactions Bitcoin patientent avant d'être confirmées. Chaque ordinateur du réseau (nœud) a sa propre salle d'attente, ce qui explique pourquoi toutes les transactions ne sont pas visibles au même moment par tout le monde.
 
 Le principal impact de la plateforme dans l'écosystème Bitcoin est qu'elle vous permet d'accéder aux informations variées des zones de mémoire de la plupart des nœuds présents sur Bitcoin sans avoir besoin d'en faire tourner un. Mempool.space constitue un référentiel pour la visualisation et la recherche sur les réseaux du protocole Bitcoin.
 
@@ -94,44 +94,49 @@ https://planb.network/courses/la-confidentialite-sur-bitcoin-65c138b0-4161-4958-
 
 ## Accélérer vos transactions
 
-Dans l'écosystème Bitcoin, l'aspect de la validation d'une transaction par les mineurs est intrinsèquement lié au frais de transactions associées à cette transaction. Les mineurs priorisent les transactions ayant un ratio de frais (satoshis/vBytes) plus élevés, ce qui pourrait affecter la validité de votre transaction si vous ne payez pas des frais raisonnables acceptés par les mineurs. Votre transaction se retrouverait bloqué dans le mempool en attendant un bloc acceptant son ratio de frais.
+Dans l'écosystème Bitcoin, l'aspect de la validation d'une transaction par les mineurs est intrinsèquement lié au frais de transactions associées à cette transaction. Les mineurs priorisent les transactions ayant un ratio de frais (satoshis/vBytes) plus élevés, ce qui pourrait affecter la validité de votre transaction si vous ne payez pas des frais raisonnables acceptés par les mineurs. Votre transaction se retrouverait bloquée dans le mempool en attendant un bloc acceptant son ratio de frais.
 
 Heureusement, il existe, sur le réseau Bitcoin, deux méthodes pouvant vous permettre d'accélérer la confirmation de votre transaction.
 
-- **RBF** - Replacement By Fee : Une méthode qui vous permet de dépenser les mêmes entrées que votre transaction ayant un faible ratio de frais mais cette fois-ci en augmentant les frais de transaction pour accélérer la validation. Votre nouvelle transaction sera plus rapidement validé et inclus dans un bloc ce qui entrainera l'invalidation de la transaction ayant un faible frais.
+- **RBF** - Replacement By Fee : Une méthode qui vous permet de dépenser les mêmes entrées que votre transaction ayant un faible ratio de frais, mais cette fois-ci en augmentant les frais de transaction pour accélérer la validation. Votre nouvelle transaction sera plus rapidement validée et inclus dans un bloc ce qui entraînera l'invalidation de la transaction ayant un faible frais.
 
-Vous pourrez effectuer une action de remplacement de frais avec des portefeuilles acceptant ce mécanisme. Retrouvez par exemple notre article sur le portefeuille Blue Wallet
+Vous pourrez effectuer une action de remplacement de frais avec des portefeuilles acceptant ce mécanisme. Retrouvez par exemple notre article sur le portefeuille Blue Wallet.
 
 https://planb.network/fr/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-- **CPFP** - Child Pay For Parent : Une approche inspirée du RBF mais du coté du destinataire. Lorsque la transaction dans laquelle vous êtes destinataire est bloquée dans un mempool, vous avez la possibilité de dépenser les sorties (UTXOs) de cette transaction, malgré qu'elle ne soit pas encore confirmée, en allouant plus de frais à cette nouvelle transaction afin que la moyenne des frais - de la transaction dont vous êtes destinataire et de la transaction initiée- incite les mineurs à inclure toutes les deux transactions dans un bloc.
+- **CPFP** - Child Pay For Parent : Une approche inspirée du RBF mais du coté du destinataire. Lorsque la transaction dans laquelle vous êtes destinataire est bloquée dans un mempool, vous avez la possibilité de dépenser les sorties (UTXOs) de cette transaction, malgré qu'elle ne soit pas encore confirmée, en allouant plus de frais à cette nouvelle transaction afin que la moyenne des frais - de la transaction dont vous êtes destinataire et de la transaction initiée - incite les mineurs à inclure toutes les deux transactions dans un bloc.
 
-⚠️ La première transaction doit impérativement être minée pour permettre à la seconde transaction d'être confirmée.
+⚠️ La première transaction doit impérativement être incluse dans un bloc pour permettre à la seconde transaction d'être confirmée.
 
-Outre ces méthodes, Mempool.space, grâce à ses connexions avec plus de 80% des mineurs, vous permet également d'accélérer n'importe laquelle de vos transactions **non confirmée**, même celles n'activant pas le RBF, en payant une contrepartie aux mineurs en échange de l'insertion de votre transaction à faible frais dans le prochain bloc prêt à être miné.
+Si tout ces termes vous semblent un peu trop technique, nous vous recommandons de consulter le Dictionnaire Bitcoin - écrit par [Loïc Morel](https://x.com/Loic_Pandul) - que vous retrouverez ci-dessous.
+
+https://planb.network/fr/resources/glossary
+
+Outre ces méthodes, Mempool.space, grâce à ses connexions avec plus de 80% des mineurs présents sur le réseau Bitcoin, vous permet également d'accélérer n'importe laquelle de vos transactions **non confirmée**, même celles n'activant pas le RBF, en payant une contrepartie aux mineurs en échange de l'insertion de votre transaction à faible frais dans le prochain bloc prêt à être miné.
 
 Sur la page de détail de votre transaction, cliquez sur le buton **Accelerate** puis procédez au paiement de votre contrepartie aux mineurs.
 
 ![accelerate-section](assets/fr/11.webp)
-
-⚠️ Seules les transactions non confirmées, et activant les flags **RBF** et **CPFP** sont éligibles à l'accélération.
 ## Les mineurs
 
 Un mineur fait référence à une personne qui gère une mine, c'est-à-dire un ordinateur engagé dans le processus de minage, qui consiste à participer à la Proof-of-Work. Le mineur regroupe les transactions en attente dans sa mempool pour former un bloc candidat. Ensuite, il recherche un hachage valide, inférieur ou égal à la cible, pour l’entête de ce bloc en modifiant les différents nonces. S’il trouve un hachage valide, il diffuse son bloc au réseau Bitcoin et empoche la récompense pécuniaire associée, composée de la subvention de bloc (création de nouveaux bitcoins ex-nihilo), et des frais de transaction.
 
 https://planb.network/courses/introduction-to-bitcoin-mining-ce272232-0d97-4482-884a-0f77a2ebc036
 
-La difficulté de cette preuve de travail est monitorée, vous permettant de visualiser l'évolution de la puissance de calcul requise pour les mineurs. Vous retrouverez dans les sections ci dessous. 
+❗Les mineurs sont comme des "validateurs" qui vérifient et regroupent les transactions dans des blocs. Pour ajouter un nouveau bloc au réseau Bitcoin, ils doivent résoudre un puzzle mathématique complexe (la Proof-of-Work). Le premier mineur qui résout le puzzle gagne une récompense en bitcoin (subvention de bloc + frais des transactions incluses dans le bloc).
 
-- Une estimation des récompenses totales engrangées par les mineurs (subvention de bloc + frais de transaction) au cours de dernier ajustement de la difficulté ainsi que les estimations sur la prochaine division de la subvention de bloc intervenant toutes les 210000 blocs (04 années environ).
+La difficulté de cette preuve de travail est monitorée, vous permettant ainsi de visualiser l'évolution de la puissance de calcul requise pour les mineurs. Vous retrouverez dans les sections ci dessous :
+
+- Une estimation des récompenses totales engrangées par les mineurs au cours de dernier ajustement de la difficulté ainsi que les estimations sur la prochaine division de moitié de la subvention de bloc intervenant toutes les 210000 blocs (04 années environ).
 
 ![rewards](assets/fr/12.webp)
 
-Cette difficulté est ajustée toutes 144 blocs (deux semaines environ). Elle est proportionnellement inverse à la moyenne du temps pris par les mineurs pour miner les 144 blocs. Lorsque le temps moyen pris par les mineurs est inférieur à 10 minutes, la difficulté s'accroît. Inversement, lorsque le temps moyen est supérieur ou égale à 10 minutes, la difficulté décroît.
+Cette difficulté est ajustée toutes les 144 blocs (deux semaines environ). Elle est proportionnellement inverse à la moyenne du temps pris par les mineurs pour miner les 144 blocs.
+Lorsque le temps moyen pris par les mineurs est inférieur à 10 minutes, la difficulté s'accroît prouvant qu'il était plus facile aux mineurs de valider des miner des blocs. Inversement, lorsque le temps moyen est supérieur à 10 minutes, la difficulté décroît.
 
 ![mining-pool](assets/fr/13.webp)
 
-- Les groupes de mineurs: Au vue de la difficulté, un ensemble de mineurs collaborent pour participer à la recherche de la preuve de travail sur Bitcoin, c'est ce que nous appellerons un **pool**. Lorsqu'un bloc est miné par le groupe, la récompense est distribuée en fonction du pourcentage de réussite dans la recherche de solution partielle de chaque mineur ou en fonction de la méthode de rémunération choisie.
+- Les groupes de mineurs : Au vue de la difficulté, un ensemble de mineurs collaborent pour participer à la recherche de la preuve de travail sur Bitcoin, c'est ce que nous appellerons un **pool**. Lorsqu'un bloc est miné par le groupe, la récompense obtenue est distribuée en fonction du pourcentage de réussite dans la recherche de solution partielle de chaque mineur, c'est-à-dire l'apport en puissance de calcul dans la recherche de la Proof-of-Work, ou en fonction de la méthode de rémunération convenue par la coopération.
 
 
 
@@ -139,7 +144,7 @@ Cette difficulté est ajustée toutes 144 blocs (deux semaines environ). Elle es
 
 ## L'infrastructure du réseau Lightning
 
-Mempool ne se limite pas qu'à vous fournir informations sur les infrastructures des réseaux de Bitcoin (chaine principale). Il intègre également des outils de visualisation et d'exploration de la surcouche Lightning de Bitcoin.
+Mempool ne se limite pas qu'à vous fournir des informations sur les infrastructures des réseaux de Bitcoin (chaine principale). Il intègre également des outils de visualisation et d'exploration de la surcouche Lightning de Bitcoin.
 
 Dans la section **Eclair**, vous pouvez visualiser l'ensemble des connexions existantes entre les nœuds Lightning.
 
@@ -155,17 +160,17 @@ Cette interface vous renseigne sur :
 ⚠️ **IMPORTANT** : La capacité d'un canal de paiement désigne le montant maximum qu'un nœud peut envoyer à un autre nœud lors d'une transaction Lightning.
 
 - La répartition des nœuds Lightning en fonction du fournisseur de service Internet (service d'hébergement) et optionnellement en fonction de la capacité des canaux de paiement.
-- L'historique de la capacité générale du réseau Lightning.
 
 ![distribution](assets/fr/17.webp)
 
+- L'historique de la capacité générale du réseau Lightning.
 Vous trouverez également un classement de ces nœuds en fonction ou non de la capacité de leurs canaux de paiement.
 
 ![ranking](assets/fr/18.webp)
 
 ## Plus de graphiques. 
 
-Mempool.space est la plateforme idéale pour apprécier l'interaction avec les réseaux du protocole Bitcoin. Les graphiques fournissent des données visuelles qui vous aide à décider quand effectuer des transactions, en tenant compte des frais et de la congestion du réseau.
+Mempool.space est la plateforme idéale pour apprécier l'interaction avec les réseaux du protocole Bitcoin. Les graphiques fournissent non seulement des données visuelles qui vous aide à décider quand effectuer des transactions, mais également des paramètres précis vous permettant de visualiser, en temps réel la solidité, la santé du réseau Bitcoin et des infrastructures Lightning associées.
 
 Dans la section **Graphique**, vous pouvez visualiser des données essentielles concernant le réseau Bitcoin :
 - L'évolution de la taille du mempool : Vous pouvez observer comment la taille du mempool fluctue, ce qui peut vous indiquer des périodes de forte activité ou de calme sur le réseau.

@@ -90,7 +90,7 @@ Vous obtenez plus de détails sur les adresses utilisées dans la section **Inpu
 
 Découvrez les différents schémas de transactions Bitcoin pour accroître votre confidentialité.
 
-https://planb.network/courses/la-confidentialite-sur-bitcoin-65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Accélérer vos transactions
 
@@ -102,15 +102,13 @@ Heureusement, il existe, sur le réseau Bitcoin, deux méthodes pouvant vous per
 
 Vous pourrez effectuer une action de remplacement de frais avec des portefeuilles acceptant ce mécanisme. Retrouvez par exemple notre article sur le portefeuille Blue Wallet.
 
-https://planb.network/fr/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 - **CPFP** - Child Pay For Parent : Une approche inspirée du RBF mais du coté du destinataire. Lorsque la transaction dans laquelle vous êtes destinataire est bloquée dans un mempool, vous avez la possibilité de dépenser les sorties (UTXOs) de cette transaction, malgré qu'elle ne soit pas encore confirmée, en allouant plus de frais à cette nouvelle transaction afin que la moyenne des frais - de la transaction dont vous êtes destinataire et de la transaction initiée - incite les mineurs à inclure toutes les deux transactions dans un bloc.
 
 ⚠️ La première transaction doit impérativement être incluse dans un bloc pour permettre à la seconde transaction d'être confirmée.
 
-Si tout ces termes vous semblent un peu trop technique, nous vous recommandons de consulter le Dictionnaire Bitcoin - écrit par [Loïc Morel](https://x.com/Loic_Pandul) - que vous retrouverez ci-dessous.
-
-https://planb.network/fr/resources/glossary
+Si tous ces termes vous semblent un peu trop techniques, je vous recommande de [consulter notre glossaire](https://planb.network/resources/glossary), qui regroupe les définitions de tous les termes techniques en lien avec Bitcoin et son écosystème.
 
 Outre ces méthodes, Mempool.space, grâce à ses connexions avec plus de 80% des mineurs présents sur le réseau Bitcoin, vous permet également d'accélérer n'importe laquelle de vos transactions **non confirmée**, même celles n'activant pas le RBF, en payant une contrepartie aux mineurs en échange de l'insertion de votre transaction à faible frais dans le prochain bloc prêt à être miné.
 
@@ -121,7 +119,7 @@ Sur la page de détail de votre transaction, cliquez sur le buton **Accelerate**
 
 Un mineur fait référence à une personne qui gère une mine, c'est-à-dire un ordinateur engagé dans le processus de minage, qui consiste à participer à la Proof-of-Work. Le mineur regroupe les transactions en attente dans sa mempool pour former un bloc candidat. Ensuite, il recherche un hachage valide, inférieur ou égal à la cible, pour l’entête de ce bloc en modifiant les différents nonces. S’il trouve un hachage valide, il diffuse son bloc au réseau Bitcoin et empoche la récompense pécuniaire associée, composée de la subvention de bloc (création de nouveaux bitcoins ex-nihilo), et des frais de transaction.
 
-https://planb.network/courses/introduction-to-bitcoin-mining-ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Les mineurs sont comme des "validateurs" qui vérifient et regroupent les transactions dans des blocs. Pour ajouter un nouveau bloc au réseau Bitcoin, ils doivent résoudre un puzzle mathématique complexe (la Proof-of-Work). Le premier mineur qui résout le puzzle gagne une récompense en bitcoin (subvention de bloc + frais des transactions incluses dans le bloc).
 

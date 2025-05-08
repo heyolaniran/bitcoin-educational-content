@@ -1,6 +1,6 @@
 ---
-name: Mempool Space
-description: Explorez l'ensemble de protocole Bitcoin.
+name: Mempool
+description: Explorez l'ensemble de l'écosystème Bitcoin.
 ---
 
 ![cover](assets/cover.webp)
@@ -41,27 +41,27 @@ Dans la barre de menu, vous retrouverez les réseaux suivants :
 
 ![reseaux](assets/fr/01.webp)
 
-Sur la page d'accueil, vous retrouverez à gauche en vert, les possibles futures blocs (groupe de transactions) prêts à être validés et intégrés (minés) au réseau Bitcoin. Un bloc est miné en moyenne toutes les dix minutes : gardez cette information, elle vous sera utile plus bas dans notre développement.
-En violacée, du côté droit, vous retrouverez les récents blocs minés sur Bitcoin, le numéro du dernier bloc miné constitue la taille actuelle du réseau.
+Sur la page d'accueil, vous retrouverez à gauche en vert, les possibles futurs blocs (groupe de transactions) prêts à être validés et intégrés (minés) au réseau Bitcoin. Un bloc est miné en moyenne toutes les dix minutes : gardez cette information, elle vous sera utile plus bas dans notre développement.
+En violacé, du côté droit, vous retrouverez les récents blocs minés sur Bitcoin, le numéro du dernier bloc miné constitue la hauteur actuelle du réseau.
 
 ![blocs](assets/fr/02.webp)
 
-La section **Transaction Fees**, constitue un estimateur de frais de transactions, plus les frais de transactions sont élevés, plus votre transaction est susceptible d'être ajouté rapidement dans le prochain bloc prêt à être miné.
-Les frais de transactions représentent le coût que vous prendra un mineur pour insérer votre transaction dans un bloc candidat au minage. Il est défini par un ratio de satoshi/vBytes (satoshi/Virtual Bytes) représentant le nombre de satoshi que vous payez pour l'espace que votre transaction occupera dans le bloc candidat.
+La section **Transaction Fees**, constitue un estimateur de frais de transactions, plus les frais alloués à votre transaction sont élevés, plus votre transaction est susceptible d'être ajoutée rapidement dans le prochain bloc prêt à être miné.
+Les frais de transactions représentent le coût que vous prendra un mineur pour insérer votre transaction dans un bloc candidat au minage. Il est défini par un ratio de sat/vB (satoshi/Virtual Bytes) représentant le nombre de satoshis que vous payez pour l'espace que votre transaction occupera dans le bloc candidat.
 
-⚠️ **IMPORTANT** : Dans des cas de trop plein de leur Mempool, les mineurs peuvent rejeter des transactions ayant un trop faible ratio satoshi/vBytes. Plus votre transaction nécessite de l'espace, plus vous devriez payer de satoshis.
+⚠️ IMPORTANT : En cas de saturation de leur Mempool, les mineurs priorisent les transactions offrant le meilleur ratio satoshi/vByte. Plus votre transaction est lourde (volumineuse), plus elle devra proposer de satoshis pour être incluse rapidement.
 
 ![fees-visualizer](assets/fr/03.webp)
 
-Vous pouvez retrouver une visualisation de l'espace occupée par une transaction grâce à la section **Mempool Goggles**.
+Vous pouvez retrouver une visualisation de l'espace occupé par une transaction grâce à la section **Mempool Goggles**.
 
 ![mempool](assets/fr/04.webp)
 
-Un bloc est miné environ toutes les dix minutes à cause de la difficulté de la preuve de travail que les mineurs doivent fournir pour ajouter leur bloc candidat à la chaine des blocs minés. Cette difficulté varie toutes les **144 blocs** équivalant à environ **2 semaines**. Vous pouvez donc visualiser l'évolution de cette difficulté.
+Un bloc est miné environ toutes les dix minutes à cause de la difficulté de la preuve de travail que les mineurs doivent fournir pour ajouter leur bloc candidat à la chaine des blocs minés. Cette difficulté varie tous les **2016 blocs** équivalant à environ **2 semaines**. Vous pouvez donc visualiser l'évolution de cette difficulté.
 
 ![difficulty](assets/fr/05.webp)
 
-L'ajout d'un nouveau bloc à la chaine principale donne droit, au mineur du bloc validé, à une récompense variable toutes les **210 000 blocs** équivalant à environ **04 années**.
+L'ajout d'un nouveau bloc à la chaine principale donne droit, au mineur du bloc validé, à une récompense composée d'une partie fixe (divisée par deux tous les **210 000 blocs** équivalant à environ **4 années** lors des halvings) et des frais de transaction.
 
 ![halving](assets/fr/06.webp)
 

@@ -49,7 +49,7 @@ En violacé, du côté droit, vous retrouverez les récents blocs minés sur Bit
 La section **Transaction Fees**, constitue un estimateur de frais de transactions, plus les frais alloués à votre transaction sont élevés, plus votre transaction est susceptible d'être ajoutée rapidement dans le prochain bloc prêt à être miné.
 Les frais de transactions représentent le coût que vous prendra un mineur pour insérer votre transaction dans un bloc candidat au minage. Il est défini par un ratio de sat/vB (satoshi/Virtual Bytes) représentant le nombre de satoshis que vous payez pour l'espace que votre transaction occupera dans le bloc candidat.
 
-⚠️ **IMPORTANT** : Dans des cas de trop plein de leur Mempool, les mineurs peuvent rejeter des transactions ayant un trop faible ratio satoshi/vBytes. Plus votre transaction nécessite de l'espace, plus vous devriez payer de satoshis.
+⚠️ IMPORTANT : En cas de saturation de leur Mempool, les mineurs priorisent les transactions offrant le meilleur ratio satoshi/vByte. Plus votre transaction est lourde (volumineuse), plus elle devra proposer de satoshis pour être incluse rapidement.
 
 ![fees-visualizer](assets/fr/03.webp)
 

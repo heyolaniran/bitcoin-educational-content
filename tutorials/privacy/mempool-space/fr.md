@@ -10,7 +10,7 @@ Aux premières heures de Bitcoin, il fallait faire tourner un nœud Bitcoin afin
 
 https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Des projets se sont donc initiés, pour élargir la communauté autour de Bitcoin, le rendant plus accessible à toute personne n'ayant pas de nœud et/ou n'ayant pas des compétences techniques requises.
 

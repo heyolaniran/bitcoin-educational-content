@@ -1,6 +1,6 @@
 ---
 name: Speed Wallet
-description: Un puissant lightning wallet intégrant USDT et Bitrefill
+description: Payez et échangez en bitcoins et en USDT instantanément
 ---
 ![cover](assets/cover.webp)
 

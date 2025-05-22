@@ -66,9 +66,9 @@ Sur la page d'accueil au menu **Wallet**, vous retrouverez :
 
 ⚠️ **NOTE** : Une adresse Lightning est un alias sous forme d'email unique qui vous permet de simplifier la lecture de votre URL Lightning. Assurez-vous de fournir l'adresse Lightning correcte lorsque vous souhaitez recevoir des paiements Lightning.
 
-* **Recevoir des paiements sur Speed Wallet :
+* **Recevoir des paiements sur Speed Wallet :**
 
-Cliquez sur le buton **Recevoir** puis sélectionnez la couche sur laquelle vous souhaitez recevoir puis le montant de la transaction pour partager votre facture à votre expéditeur.
+Cliquez sur le bouton **Recevoir** puis sélectionnez la couche sur laquelle vous souhaitez recevoir puis le montant de la transaction pour partager votre facture à votre expéditeur.
 
 Vous pouvez également utiliser simplement votre adresse Lightning lorsque vous souhaitez donner à votre expéditeur la flexibilité de définir le montant de la transaction.
 
@@ -76,7 +76,7 @@ Vous pouvez également utiliser simplement votre adresse Lightning lorsque vous 
 
 - **Envoyer des bitcoins avec Speed Wallet** :
 
-A partir du buton **Envoyer**, vous pouvez envoyer des bitcoins en utilisant l'adresse Lightning, la facture Lightning ou l'adresse Bitcoin (mainnet) de votre destinataire.
+A partir du bouton **Envoyer**, vous pouvez envoyer des bitcoins en utilisant l'adresse Lightning, la facture Lightning ou l'adresse Bitcoin (mainnet) de votre destinataire.
 
 Speed Wallet détectera, en fonction du format de votre adresse, le réseau sur lequel il devra opérer ce qui vous donne une expérience plus fluide.
 
@@ -84,9 +84,9 @@ Speed Wallet détectera, en fonction du format de votre adresse, le réseau sur 
 
 ### Explorez plus Speed Wallet
 
-L'une des premières particularités de Speed Wallet est qu'il vous permet d'acheter, d'échanger des devises sans sortir de l'application. Ainsi, vous pouvez obtenir des bitcoins à partir du solde d'une autre devise de votre portefeuille. Par exemple vous pouvez acheter du bitcoin avec les USDT que vous possédez déjà dans le portefeuille, et cela, avec de moindres frais d'échanges.
+L'une des premières particularités de Speed Wallet est qu'il vous permet d'acheter et d'échanger des devises sans sortir de l'application. Ainsi, vous pouvez obtenir des bitcoins à partir du solde d'une autre devise de votre portefeuille. Par exemple vous pouvez acheter du bitcoin avec les USDT que vous possédez déjà dans le portefeuille, et cela, avec de moindres frais d'échanges.
 
-Les options **Buy** et **Swap**, vous permet d'échanger des bitcoins pour les autres devises disponibles dans Speed Satoshi.
+Les options **Buy** et **Swap**, vous permet d'échanger des bitcoins pour les autres devises disponibles dans Speed.
 
 - **Acheter du Bitcoin avec sa carte de crédit** : Speed Wallet facilite l'acquisition de bitcoin à partir des monnaies fiduciaires que vous utilisez quotidiennement. Il intègre un agrégateur de paiement qui vous permet de payer des bitcoins avec votre carte de crédit.
 

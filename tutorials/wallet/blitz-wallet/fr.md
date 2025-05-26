@@ -74,7 +74,7 @@ Vous pourrez ainsi envoyer des satoshis à ces adresses facilement en outrepassa
 
 ### Envoyez des bitcoins
 
-Outres les méthodes classiques d'envoi de bitcoin (Code QR, saisie manuelle), en utilisant les contacts pré-enregistrés dans votre portefeuille, vous pourrez envoyer en trois clics, des satoshi à votre destinataire.
+Outres les méthodes classiques d'envoi de bitcoin (Code QR, saisie manuelle), en utilisant les contacts pré-enregistrés dans votre portefeuille, vous pourrez envoyer en trois clics, des sats à votre destinataire.
 
 Dans le menu **Wallet**, cliquez sur le bouton "Flèche Haut", choisissez la méthode pour envoyer des bitcoins puis insérez le montant à envoyer et procédez à la confirmation.
 

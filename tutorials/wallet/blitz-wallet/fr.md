@@ -76,7 +76,7 @@ Vous pourrez ainsi envoyer des satoshis à ces adresses facilement en outrepassa
 
 Outres les méthodes classiques d'envoi de bitcoin (Code QR, saisie manuelle), en utilisant les contacts pré-enregistrés dans votre portefeuille, vous pourrez envoyer en trois clics, des satoshi à votre destinataire.
 
-Dans le menu **Wallet**, cliquez sur le buton "Flèche Haut", choisissez la méthode pour envoyer des bitcoins puis insérez le montant à envoyer et procédez à la confirmation.
+Dans le menu **Wallet**, cliquez sur le bouton "Flèche Haut", choisissez la méthode pour envoyer des bitcoins puis insérez le montant à envoyer et procédez à la confirmation.
 
 Le montant minimal pour effectuer un envoi de bitcoin dans Blitz Wallet est actuellement de 1000 satoshis.
 

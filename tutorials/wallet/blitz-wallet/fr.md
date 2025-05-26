@@ -46,7 +46,7 @@ Dans le menu Wallet, vous avez une interface minimaliste et centrée uniquement 
 
 Pour recevoir des bitcoins sur votre portefeuille Blitz, cliquez sur l'icône "Flèche bas", insérez le montant de satoshis que vous souhaitez recevoir puis le portefeuille vous créera une facture que vous partagerez à votre expéditeur.
 
- ⚠️ **NOTES** : satoshi représente la plus petite unité de bitcoin : 1 bitcoin = 100.000.000 satoshis
+ ⚠️ **NOTES** : le satoshi (ou "sat") représente la plus petite unité de bitcoin : 1 bitcoin = 100.000.000 satoshis
 
 L'une des particularités de Blitz Wallet est qu'il supporte différents réseaux et chaines de l'écosystème Bitcoin :
 

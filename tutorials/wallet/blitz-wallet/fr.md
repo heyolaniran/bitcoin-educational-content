@@ -26,11 +26,8 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ❗**IMPORTANT** : Ces 12 / 24 mots de récupération sont primordiaux pour l'accès à vos bitcoins. Les perdre reviendrai à ne plus avoir l'autorisation de dépenser vos bitcoins.
 
-```
+Pas vos clés, pas vos bitcoins.
 
-            Pas vos clés, pas vos bitcoins.
-
-```
 
 Créez ensuite une code PIN pour authentifier l'accès à votre portefeuille.
 

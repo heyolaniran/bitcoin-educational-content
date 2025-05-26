@@ -20,7 +20,7 @@ Dans ce tutoriel, nous nous baserons sur la version Android de Blitz Wallet mais
 
 Blitz Wallet étant un portefeuille d'auto détention de bitcoin, vous pouvez choisir de créer un nouveau portefeuille ou, importer les 12/24 mots de récupération d'un portefeuille que vous avez déjà.
 
-Ici, nous partions sur la création d'un nouveau portefeuille. Retrouvez ci-dessous nos recommandations sur la sauvegarde de vos backup phrases.
+Ici, nous partons sur la création d'un nouveau portefeuille. Retrouvez ci-dessous nos recommandations sur la sauvegarde de vos backup phrases.
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 

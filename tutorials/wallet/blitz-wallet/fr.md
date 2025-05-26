@@ -130,7 +130,7 @@ En activant le mode Lightning, une fois la condition principale remplie (solde d
 
 L'intégration des paiements bitcoin dans les commerces est encore à la phase expérimentale avec Blitz Wallet. Nous vous recommandons de l'utiliser avec modération.
 
-Dans le menu **Paramètres>Point-of-sale**, vous pouvez paramétrer l'identifiant unique associée à votre magasin, la devise fiduciaire locale dans laquelle vous souhaitez recevoir les paiements.
+Dans le menu **Paramètres>Point-of-sale**, vous pouvez paramétrer l'identifiant unique associé à votre magasin et la devise fiduciaire locale dans laquelle vous souhaitez recevoir les paiements.
 
 ![pos](assets/fr/11.webp)
 

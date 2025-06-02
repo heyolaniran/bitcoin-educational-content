@@ -44,7 +44,7 @@ Lorsque vous désactivez le mode test, vous devez configurer votre portefeuille 
 
 ![configure-wallet](assets/fr/04.webp)
 
-Si vous ne possédez pas encore un portefeuille Bitcoin et/ou Lightning, nous vous recommandons de découvrir nos tutoriels sur les [portefeuilles mobiles](https://planb.network/tutorials/wallet)
+Si vous ne possédez pas encore un portefeuille Bitcoin et/ou Lightning, nous vous recommandons de découvrir nos tutoriels sur les [portefeuilles mobiles](https://planb.network/tutorials/wallet).
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 

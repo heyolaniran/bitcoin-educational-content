@@ -6,6 +6,8 @@ description: Intégrez sans accros les paiements Bitcoin dans votre commerce
 
 L'adoption du Bitcoin sur l'ensemble du globe passe par des cas d'utilisations palpable dans la vie quotidienne. L'utilisation de Bitcoin dans les transactions commerciales instantanées partout dans le monde renforce cette adoption aussi bien au niveau des grandes institutions qu'au niveau de petits commerces. Dans ce tutoriel, nous découvrirons Speed Business, une plateforme de paiement unifiés qui permet à votre commerce d'accepter des paiements par Bitcoin via Lightning.
 
+![btc-session](https://www.youtube.com/watch?v=ywUNZ_sxr0Q)
+
 ## Premiers pas avec Speed Business
 
 [Speed Business](https://www.tryspeed.com/) est une plateforme développée par [Speed Wallet](https://www.speed.app/) qui permet à tout marchant d'intégrer des paiements instantanés et à faible coût par Bitcoin et stablecoins.

@@ -3,19 +3,17 @@ name: Blue Wallet
 
 description: Portefeuille Bitcoin Radicalement Simple et Puissant
 ---
-
 ![cover](assets/cover.webp)
 
-Débuter avec Bitcoin semble être un grand défi pour des personnes septiques sur la simplicité de son utilisation. Trouver les bons outils pour assurer cette simplicité devient donc d'une importance capitale pour une meilleur adoption de bitcoin comme un moyen d'échange et pas seulement comme une réserve de valeur.
+Débuter avec Bitcoin semble être un grand défi pour des personnes septiques sur la simplicité de son utilisation. Trouver les bons outils pour assurer cette simplicité devient donc d'une importance capitale pour une meilleure adoption de bitcoin comme un moyen d'échange et pas seulement comme une réserve de valeur.
 
-Dans ce tutoriel nous allons à la découverte de Blue Wallet, un portefeuille Bitcoin simple mais tellement efficace qui vous permet de gérer vos bitcoins personnellement mais aussi de créer des coopératives de gestion basés sur le [multisig](https://planb.network/resources/glossary/multisig) (pas d'inquiétudes, nous y reviendrons). Découvrez une introduction de Rogzy (Découvre Bitcoin) au portefeuille Blue Wallet.
+Dans ce tutoriel nous allons à la découverte de Blue Wallet, un portefeuille Bitcoin simple mais tellement efficace qui vous permet de gérer vos bitcoins personnellement mais aussi de créer des coopératives de gestion basées sur le [multisig](https://planb.network/resources/glossary/multisig) (pas d'inquiétudes, nous y reviendrons). Découvrez une introduction de Rogzy (Découvre Bitcoin) au portefeuille Blue Wallet.
 
 ![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
-
 ## Débuter avec Blue Wallet
 
-Blue Wallet est un portefeuille Bitcoin open Source et d'auto détention qui vous permet de prendre le contrôle de vos bitcoins. Il est disponible, en application mobile, sur les plateformes Android et iOS. Dans ce tutoriel nous nous baserons sur la version Android, toutefois, tous les processus qui seront développés sont également valables sur iOS.
+Blue Wallet est un portefeuille Bitcoin open Source et d'auto détention qui vous permet de prendre le contrôle de vos bitcoins. Il est disponible en application mobile sur les plateformes Android et iOS. Dans ce tutoriel nous nous baserons sur la version Android, toutefois, tous les processus qui seront développés sont également valables sur iOS.
 
 ![download](assets/fr/01.webp)
 
@@ -32,23 +30,27 @@ Avec Blue Wallet vous avez la possibilité de créer des portefeuilles bitcoin d
 ## Types de portefeuille
 
 Dans Blue Wallet, vous retrouverez nativement deux types de portefeuille Bitcoin.
+
 ### Portefeuille Bitcoin
 
-Si vous êtes habitués à d'autres portefeuilles Bitcoin comme Phoenix ou Aqua, vous ne serez absolument pas déphasés sur l'interface du portefeuille Bitcoin de Blue Wallet
+Si vous êtes habitués à d'autres portefeuilles Bitcoin comme Phoenix ou Aqua, vous ne serez absolument pas déphasés sur l'interface du portefeuille Bitcoin de Blue Wallet.
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-Le portefeuille Bitcoin de Blue Wallet représente le portefeuille standard dans l'écosystème Bitcoin. Vous pouvez dépenser des bitcoins du moment où vous êtes en possession des mots de récupération qui pourront fournir une signature valide sur le réseau pour authentifier que vous êtes propriétaires des Bitcoin.
+Le portefeuille Bitcoin de Blue Wallet représente le portefeuille standard dans l'écosystème Bitcoin. Vous pouvez dépenser des bitcoins du moment où vous êtes en possession des mots de récupération qui pourront fournir une signature valide sur le réseau pour authentifier que vous êtes propriétaires des bitcoins.
 
-Pour créer un portefeuille Bitcoin, cliquez sur le bouton **Add now**, insérez le nom de votre portefeuille puis choisissez le Type Bitcoin.
+Pour créer un portefeuille Bitcoin, cliquez sur le bouton **Add now**, insérez le nom de votre portefeuille puis choisissez le type Bitcoin.
 
 ![bitcoin-wallet](assets/fr/03.webp)
 
 Lorsque vous cliquez sur la prévisualisation de votre portefeuille Bitcoin, vous pourrez retrouver l'historique de vos transactions et envoyer et recevoir des bitcoins.
 
+⚠️ Toutes les transactions effectuées dans votre portefeuille Bitcoin sont sur la chaîne principale du protocole Bitcoin (mainnet).
+
 - Recevoir des bitcoins avec le portefeuille Bitcoin Blue Wallet est intuitif. En bas de votre écran, cliquez sur le bouton **Receive**. Partagez le code QR ou votre adresse Bitcoin à votre expéditeur afin qu'il puisse vous envoyer les bitcoins.
+
 Vous avez également la possibilité de configurer un montant prédéfini afin de spécifier le montant de bitcoin que vous souhaitez recevoir.
 
 ![receive-bitcoin](assets/fr/04.webp)
@@ -66,21 +68,22 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 ![feerate](assets/fr/06.webp)
 
 - Dans le cadre des paiements groupés, Blue Wallet vous permet, à partir d'un seul envoi, d'ajouter plusieurs receveurs.
-Lorsque vous ajouter l'adresse bitcoin de votre premier receveur, dans les options, cliquez sur **Add Recipient**, puis définissez le montant à envoyer à ce receveur ainsi de suite. Blue Wallet se chargera de dispatcher les bitcoins pour effectuer plusieurs envois à partir de votre seule action.
+
+Lorsque vous ajoutez l'adresse bitcoin de votre premier receveur, dans les options, cliquez sur **Add Recipient**, ajoutez l'adresse bitcoin puis définissez le montant à envoyer à ce receveur ainsi de suite. Blue Wallet se chargera de dispatcher les bitcoins pour effectuer plusieurs envois à partir de votre seule action.
 
 ![add-recipients](assets/fr/07.webp)
 
-Vous pouvez retirer un ou tout les receveurs en cliquant respectivement sur **Remove Recipient** et **Remove All Recipents**.
+Vous pouvez retirer un ou tous les receveurs en cliquant respectivement sur **Remove Recipient** et **Remove All Recipents**.
 
 ![remove-recipient](assets/fr/08.webp)
 
-- Gonflez les frais : Avez-vous fait une transaction qui prend du temps à être confirmée? En activant le gonflement des frais vous pourrez ajouter des frais de transactions supplémentaire à votre transaction en attente pour accélérer sa confirmation.
+- **Gonflez les frais** : Avez-vous fait une transaction qui prend du temps à être confirmée ? En activant le gonflement des frais vous pourrez ajouter des frais de transaction supplémentaires à votre transaction en attente pour accélérer sa confirmation.
 
 ![bumping](assets/fr/09.webp)
 
 ### Portefeuille MultiSig
 
-Le portefeuille Multisig (multi signatures), représente un portefeuille créé à partir du regroupement d'un certain nombre (minimum 02) de portefeuilles Bitcoin. Dans ce type de portefeuille, selon la configuration et la méthode choisie, dépenser des bitcoins devient une action collective et coopératrice.
+Le portefeuille Multisig (multi signatures), représente un portefeuille créé à partir du regroupement d'un certain nombre (minimum 02) de portefeuilles Bitcoin. Dans ce type de portefeuille, selon la configuration et la méthode choisie, dépenser des bitcoins devient une action collective et coopérative.
 
 Dans Blue Wallet, vous pouvez créer des portefeuilles multi signatures pour votre association, votre famille, votre entreprise. Tout au long de cette section, nous tâcherons de découvrir et de décortiquer chaque aspect de ce type particulier de portefeuille.
 
@@ -90,20 +93,21 @@ Ajoutez un nouveau portefeuille et selectionnez le type **Multisig Vault** pour 
 
 Définissez la configuration n-de-m dans votre organisation multi signatures en cliquant sur **Vault Settings**.
 
-⚠️ Dans une configuration n-de-m, **n** représente le nombre de signature minimale requise pour approuver une transaction et **m**, le nombre de portefeuilles de votre organisation.
+⚠️ Dans une configuration n-de-m, **n** représente le nombre de signature minimale requise pour approuver une transaction et **m** le nombre de portefeuilles de votre organisation.
 
-Veuillez à définir un nombre de signature minimal (n) majoritaire dans votre organisation. Par exemple une configuration 2-de-3 multi signatures nécessite que deux portefeuilles de votre organisation valident la transaction pour qu'elle puisse être effectuée.
+Veuillez à définir un nombre de signature minimal (n) majoritaire dans votre organisation. Par exemple une configuration 2-de-3 multi signatures nécessite que deux portefeuilles de votre organisation signent la transaction pour qu'elle puisse être effectuée.
 
 ❗Définir une configuration n-de-m où n est égale à m constitue un grand risque. Lorsqu'un membre perd l'accès à son portefeuille vous perdez implicitement l'autorisation de dépenser les bitcoins dans le portefeuille.
 
-Quelques exemples de configurations optimales pour assurer la sécurité et votre accessibilité aux bitcoins.
+Quelques exemples de configurations optimales pour assurer la sécurité et votre accessibilité aux bitcoins :
 
 - 2-de-3 multi signatures.
+
 - 5-de-7 multi signatures.
 
 ![vault-settings](assets/fr/11.webp)
 
-Gardez les meilleurs pratiques en sélectionnant le format P2WSH. 
+Gardez les meilleurs pratiques en sélectionnant le format P2WSH.
 
 ❗ **P2WSH ou Pay to Witness Script Hash** est une méthode de verrouillage qui bloque les bitcoins sortants de votre transaction (Outputs) au hash d'un script personnalisé que Blue wallet met en place. Le principale avantage avec ce type de verrouillage est qu'il réduit la taille de données des transactions et implicitement vous permet de payer moins de frais de transactions.
 
@@ -113,11 +117,60 @@ Créez ou importez chacun des **m** portefeuilles de votre configuration. Dans n
 
 ![vault-keys](assets/fr/12.webp)
 
+- **Recevoir des bitcoins**
 
+Sur la page de votre portefeuille Multisig, vous retrouverez l'historique de vos transactions et les boutons Recevoir et Envoyer.
 
+Recevoir des bitcoins dans un portefeuille multi signatures est le même processus que lorsque vous êtes dans un portefeuille Bitcoin standard.
 
+- **Envoyer des bitcoins** :
 
+En étant gestionnaire d'un portefeuille multi signatures, dépenser des bitcoins devient une action composée que ce soit avec d'autres personnes ou un second portefeuille qui vous appartient. La signature unique de votre portefeuille n'est plus suffisante. Cela rajoute une couche de sécurité à vos bitcoins parce qu'un individu malicieux ne pourra non plus dépenser ces bitcoins lorsqu'il entre en possession d'une seule de vos clés privées.
 
+Tout comme le portefeuille Bitcoin standard de Blue Wallet, vous pouvez définir plusieurs receveurs dans l'option **Add recipients**.
 
+Lors de la validation de votre transaction, vous aurez besoin d'une seconde signature pour approuver la dépense des bitcoins, rappelez vous nous sommes dans une configuration 2-de-3 multi signatures.
 
+Le second portefeuille signataire s'il utilise également a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la transaction partiellement signée que vous venez de créer.
 
+![mutisig-send](assets/fr/13.webp)
+
+https://planb.network/resources/glossary/psbt
+
+- **Aller plus loin avec le portefeuille Multi signature**:
+
+Vous vous poserez probablement la question si une configuration n-de-m est elle définitive ? Comment révoquer l'accès à la signature lorsque vous avez un remaniement organisationnel ? ou que lorsqu'un de vos signataires n'est plus membre de votre organisation ?
+
+Sur l'interface de votre portefeuille multi signature, cliquez sur le bouton **Manage keys**.
+
+Vous pourrez donc révoquer les clés de récupération d'un portefeuille et utiliser la clé publique de ce portefeuille à la place.
+
+![revoke-key](assets/fr/14.webp)
+
+En effectuant cette action, vous retirez le droit de signature à ce portefeuille. Il ne pourra donc plus effectuer de transaction mais juste consulter le portefeuille en mode **Voir uniquement**.
+
+⚠️ Révoquer une clé entraîne implicitement un changement de configuration. Dans notre configuration, nous serons toujours 3 clés mais seulement deux actifs : cela revient à une configuration 2-de-2 multi signatures qui comporte un grand risque. Il est préférable de faire une révocation que si vous êtes dans une configuration 5-de-7 multi signatures.
+
+## Plus d'options avec Blue Wallet
+
+### Améliorer la sécurité de l'accès au portefeuille
+
+Dans les paramètres, l'option **Sécurité** vous permet de définir l'utilisation de l'empreinte digitale pour effectuer une transaction, exporter ou supprimer votre portefeuille. Cela permet d'authentifier la personne utilisant votre smartphone.
+
+![biometry](assets/fr/15.webp)
+
+## Activer Lightning Network
+
+Le Lightning Network n'est plus supporté nativement dans l'application Blue Wallet.
+
+Dans les paramètres > **Lightning Settings**, vous pouvez manuellement associer votre portefeuille Lightning lorsque vous faites tourner un nœud Lightning Network Daemon (LND). Installez le Hub LND puis associez votre portefeuille en entrant le lien généré par le Hub.
+
+![ln](assets/fr/16.webp)
+
+https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+
+https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+
+Vous avez désormais fait le tour de Blue Wallet, prêt à utiliser bitcoin dans toute sa simplicité et avec toute sa puissance. Nous vous recommandons de passer le cap, découvrez comment accepter des paiements en bitcoins et stablecoins dans vos commerce.
+
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

@@ -6,19 +6,21 @@ description: Intégrez sans accros les paiements Bitcoin dans votre commerce
 
 L'adoption du Bitcoin sur l'ensemble du globe passe par des cas d'utilisations palpable dans la vie quotidienne. L'utilisation de Bitcoin dans les transactions commerciales instantanées partout dans le monde renforce cette adoption aussi bien au niveau des grandes institutions qu'au niveau de petits commerces. Dans ce tutoriel, nous découvrirons Speed Business, une plateforme de paiement unifiés qui permet à votre commerce d'accepter des paiements par Bitcoin via Lightning.
 
+![btc-session](https://www.youtube.com/watch?v=ywUNZ_sxr0Q)
 ## Premiers pas avec Speed Business
 
 [Speed Business](https://www.tryspeed.com/) est une plateforme développée par [Speed Wallet](https://www.speed.app/) qui permet à tout marchant d'intégrer des paiements instantanés et à faible coût par Bitcoin et stablecoins.
 
 Speed possède un grand éventail de fonctionnalités pour couvrir les aspects financiers de votre commerce. Vous retrouverez : 
 
-- **La configuration des paiements en ligne** : Recevez des paiements de vos clients peut importe leur localisation grâce à votre site internet.
+- **La configuration des paiements en ligne** : Recevez des paiements de vos clients peu importe leur localisation grâce à votre site internet.
 
 - **Les paiements sur site** : Idéal pour les magasins et les commerces qui encaissent en boutique.
 
 - **Les reversements** : Effectuez les retraits de vos avoirs sans accros et utiliser vos bitcoins pour rembourser vos clients ainsi que payez vos salaires.
 
-- **La connexion avec d'autres plateformes** : Utilisez-vous des outils externes pour gérer vos paiements ? Speed vous offre la possibilité de les connecter à sa plateforme pour avoir un écosystème tout en un à l'image de votre commerce.
+- **La connexion avec d'autres plateformes** : Utilisez-vous des outils externes pour gérer vos paiements ? Speed vous offre la possibilité de les connecter à sa plateforme pour avoir un écosystème tout-en-un à l'image de votre commerce.
+
 
 Créez votre compte sur [Speed](https://app.tryspeed.com/register/) puis nous débuterons la configuration des paiements pour votre commerce.
 
@@ -32,7 +34,8 @@ Speed dispose d'un kit de développement logiciel qui vous permet de personnalis
 
 Nous partirons, dans le cadre de ce tutoriel, sur une intégration standard en utilisant l'extension fournie par Speed.
 
-Pour faciliter votre expérience, Speed vous propose un mode de test qui vous permet de tester les différentes fonctionnalités sans à vous inquiéter de leur répercutions sur la gestion de votre boutique. 
+Pour faciliter votre expérience, Speed vous propose un mode de test qui vous permet de tester les différentes fonctionnalités sans avoir à vous inquiéter de leurs répercussions sur la gestion de votre boutique. 
+
 
 ![test-data](assets/fr/03.webp)
 
@@ -42,17 +45,17 @@ Lorsque vous désactivez le mode test, vous devez configurer votre portefeuille 
 
 ![configure-wallet](assets/fr/04.webp)
 
-Si vous ne possédez pas encore un portefeuille Bitcoin et/ou Lightning, nous vous recommandons de découvrir nos tutoriels sur les [portefeuilles mobiles](https://planbtest.network/tutorials/wallet)
+Si vous ne possédez pas encore un portefeuille Bitcoin et/ou Lightning, nous vous recommandons de découvrir nos tutoriels sur les [portefeuilles mobiles](https://planb.network/tutorials/wallet).
 
-https://planbtest.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planbtest.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-⚠️ **IMPORTANT** : Dans la configuration de votre portefeuille, choisissez le type **BTC (On-Chain)** lorsque vous recevez des montants conséquents, de l'ordre de milliers d'euros pour assurer la fiabilité de confirmation sur Bitcoin et le type **LN address**, lorsque vous souhaitez recevoir des micro-paiements instantanées dans votre commerce.
+⚠️ **IMPORTANT** : Dans la configuration de votre portefeuille, choisissez le type **BTC (On-Chain)** lorsque vous recevez des montants importants, de l'ordre de milliers d'euros pour assurer la fiabilité de confirmation sur Bitcoin et le type **LN address**, lorsque vous souhaitez recevoir des micro-paiements instantanés dans votre commerce.
 
 ![setup-wallet](assets/fr/05.webp)
 
-Confirmez ensuite votre l'ajout de votre portefeuille à partir du mail de vérification envoyé par Speed.
+Confirmez ensuite l'ajout de votre portefeuille à partir du mail de vérification envoyé par Speed.
 
 ![verfication](assets/fr/06.webp)
 
@@ -66,7 +69,7 @@ Dans la section **Produits**, ajoutez votre catalogue de produits que vous vende
 
 ![product-creation](assets/fr/08.webp)
 
-Appuyez sur **Next** pour continuer définir votre produits et ses caractéristiques.
+Appuyez sur **Next** pour continuer à définir votre produit et ses caractéristiques.
 
 ![product-details](assets/fr/09.webp)
 
@@ -80,11 +83,11 @@ Ces produits vous permettent de pouvoir générer des liens de paiements afin de
 
 Speed Wallet vous offre la possibilité d'utiliser plusieurs méthodes pour recevoir des paiements en ligne ou sur site dans votre commerce. 
 
- Dans le menu **Receive Paiement > Payments** , vous retrouverez l'historique des paiements reçus et leur statut (payé, expiré, non payé , annulé).
+Dans le menu **Receive Payments > Payments** , vous retrouverez l'historique des paiements reçus et leur statut (payé, expiré, non payé, annulé).
 
 ![payments](assets/fr/11.webp)
 
-- Les liens de paiement se situent dans l'option **Checkout Links** et vous permettent de configurer des pages de paiements pour uniques pour vos produits.
+- Les liens de paiement se situent dans l'option **Checkout Links** et vous permettent de configurer des pages de paiements uniques pour vos produits.
 
 ![checkout-link](assets/fr/12.webp)
 
@@ -94,7 +97,7 @@ Vous pouvez, selon vos besoins, configurer et personnaliser la page de paiement 
 
 ![finalize-checkout](assets/fr/14.webp)
 
-Vous pourrez retrouver la liste des liens de paiement que vous avez configuré sur votre compte dans le menu **Payment Links**.
+Vous pourrez retrouver la liste des liens de paiement que vous avez configurés sur votre compte dans le menu **Payment Links**.
 
 - Les factures : Speed vous permet d'initier des devis et des factures à l'endroit de vos clients.
 
@@ -108,13 +111,12 @@ Vous pouvez envoyer cette facture sous format PDF, par mail ou générer un lien
 
 ![configure-invoice](assets/fr/17.webp)
 
-![invoice-details](assets/fr/18.webp)
 
 - Le menu **Payment Addresses** vous permet de configurer une adresse Lightning sur laquelle vous pouvez recevoir des paiements multiples et de montants variés.
 
 ![addresses](assets/fr/19.webp)
 
-⚠️ Vous avez la possibilité d'ajouter et d'utiliser des noms de domaine autres que celui de Speed, toute fois, pour une première expérience, nous vous recommandons d'utiliser la configuration standard afin de bénéficier de toute l'expertise du support technique de Speed business.
+⚠️ Vous avez la possibilité d'ajouter et d'utiliser des noms de domaine autres que celui de Speed, toutefois, pour une première expérience, nous vous recommandons d'utiliser la configuration standard afin de bénéficier de toute l'expertise du support technique de Speed business.
 
 - Le **One QR**: Idéal pour les paiements sur site, créez un code QR associé à votre commerce pour permettre à vos clients de payer vos produits.
 
@@ -130,7 +132,7 @@ Dans le menu **Send Payments**, vous retrouverez toutes les possibilités de spe
 
 - **Générez des liens de retrait** pour permettre à vos partenaires et fournisseurs d'accéder à leur paiement ultérieurement sans nécessiter votre présence en ligne.
 
-Dans l'option **Withdrawal Links**, créez un nouveau lien de retrait puis configurez le en définissant la devise, le montant et un mot de passe pour sécuriser l'opération de votre destinataire.
+Dans l'option **Withdrawal Links**, créez un nouveau lien de retrait puis configurez-le en définissant la devise, le montant et un mot de passe pour sécuriser l'opération de votre destinataire.
 
 ![withdrawal-links](assets/fr/21.webp)
 
@@ -146,7 +148,7 @@ Dans l'option **Withdrawal Links**, créez un nouveau lien de retrait puis confi
 
 ## Explorer Speed Business
 
-Speed Business est une plateforme multi devises qui vous permet de tenir sur un seul système, des portefeuilles séparés.
+Speed Business est une plateforme multidevises qui vous permet de tenir sur un seul système, des portefeuilles séparés.
 
 Dans l'option **Balances** retrouvez le solde de vos portefeuilles Bitcoin, USDT et USDC.
 
@@ -156,7 +158,7 @@ A l'instar de Speed Wallet, dans le menu **Swap**, Speed Business vous permet de
 
 ![swap](assets/fr/25.webp)
 
-Dans le menu **Transfer**, communiquez avec d'autres marchants et transférez les des bitcoins facilement en utilisant leur identifiant Speed.
+Dans le menu **Transfer**, communiquez avec d'autres marchants et transférez des bitcoins facilement en utilisant leur identifiant Speed.
 
 ![transferts](assets/fr/26.webp)
 
@@ -166,7 +168,7 @@ Dans le menu **Customers**, vous pourrez enregistrer et consulter la liste de vo
 
 Gagnez des récompenses en participant au programme d'affiliation initié par Speed.
 
-Dans le menu **Partners**, invitez des marchants à configurer leur commerce sur Speed business et faites vous du revenu passif.
+Dans le menu **Partners**, invitez des marchants à configurer leur commerce sur Speed business et faites-vous du revenu passif.
 
 ![partners](assets/fr/28.webp)
 
@@ -182,7 +184,7 @@ Retrouvez la [documentation](https://apidocs.tryspeed.com/reference/introduction
 
 ## Personnaliser son commerce
 
-Dans le menu **Settings**, vous pouvez configurer votre profile marchant et les informations relatives à votre commerce.
+Dans le menu **Settings**, vous pouvez configurer votre profil marchant et les informations relatives à votre commerce.
 
 Dans la section **Business Settings** :
 
@@ -190,9 +192,9 @@ Dans la section **Business Settings** :
 
 - Vérifiez les permissions activées (réception de paiement, envoi de bitcoin, échange, transfert, retrait) sur votre compte dans le menu **Account Status**.
 
-- Définissez vos portefeuilles de retrait dans le menu **Payout Wallets** et configurez les dans le menu **Payout Scheduling**.
+- Définissez vos portefeuilles de retrait dans le menu **Payout Wallets** et configurez-les dans le menu **Payout Scheduling**.
 
-- Définissez le charge graphique correspondante à votre commerce et personnalisez les pages de paiement, les emails, les code QR et les facture à votre convenance dans le menu **Branding**.
+- Définissez la charte graphique correspondante à votre commerce et personnalisez les pages de paiement, les emails, les codes QR et les factures à votre convenance dans le menu **Branding**.
 
 - Configurez les méthodes de paiement dans les devises acceptées dans le menu **Payment Method**.
 
@@ -204,4 +206,4 @@ Dans la section **Business Settings** :
 
 Vous avez une bonne prise en main de Speed, intégrez Bitcoin dans votre commerce et développez votre économie locale circulaire basée sur Bitcoin. Si ce tutoriel vous a été utile, nous sommes convaincues que vous apprécierez tout autant notre tutoriel sur Swiss Bitcoin Pay.
 
-https://planbtest.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

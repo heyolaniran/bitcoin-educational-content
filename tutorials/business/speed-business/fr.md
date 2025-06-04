@@ -4,7 +4,7 @@ description: Intégrez facilement les paiements en bitcoins et en stablecoins da
 ---
 ![cover](assets/cover.webp)
 
-L'adoption du Bitcoin sur l'ensemble du globe passe par des cas d'utilisations palpable dans la vie quotidienne. L'utilisation de Bitcoin dans les transactions commerciales instantanées partout dans le monde renforce cette adoption aussi bien au niveau des grandes institutions qu'au niveau de petits commerces. Dans ce tutoriel, nous découvrirons Speed Business, une plateforme de paiement unifiés qui permet à votre commerce d'accepter des paiements par Bitcoin via Lightning.
+L'adoption du Bitcoin sur l'ensemble du globe passe par des cas d'utilisations palpables dans la vie quotidienne. L'utilisation de Bitcoin dans les transactions commerciales instantanées partout dans le monde renforce cette adoption aussi bien au niveau des grandes institutions qu'au niveau de petits commerces. Dans ce tutoriel, nous découvrirons Speed Business, une plateforme de paiement unifiés qui permet à votre commerce d'accepter des paiements par Bitcoin via Lightning.
 
 ![btc-session](https://www.youtube.com/watch?v=ywUNZ_sxr0Q)
 

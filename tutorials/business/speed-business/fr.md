@@ -34,7 +34,7 @@ Speed dispose d'un kit de développement logiciel qui vous permet de personnalis
 
 Nous partirons, dans le cadre de ce tutoriel, sur une intégration standard en utilisant l'extension fournie par Speed.
 
-Pour faciliter votre expérience, Speed vous propose un mode de test qui vous permet de tester les différentes fonctionnalités sans avoir à vous inquiéter de leurs répercussions sur la gestion de votre boutique.
+Pour faciliter votre expérience, Speed vous propose un mode de test qui vous permet de tester les différentes fonctionnalités sans avoir à vous inquiéter de leurs répercussions sur la gestion de votre boutique. 
 
 ![test-data](assets/fr/03.webp)
 

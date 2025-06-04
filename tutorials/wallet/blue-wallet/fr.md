@@ -91,13 +91,13 @@ Ajoutez un nouveau portefeuille et selectionnez le type **Multisig Vault** pour 
 
 ![multisig-vault](assets/fr/10.webp)
 
-Définissez la configuration n-de-m dans votre organisation multi signatures en cliquant sur **Vault Settings**.
+Définissez la configuration m-de-n dans votre organisation multi signatures en cliquant sur **Vault Settings**.
 
-⚠️ Dans une configuration n-de-m, **n** représente le nombre de signature minimale requise pour approuver une transaction et **m** le nombre de portefeuilles de votre organisation.
+⚠️ Dans une configuration m-de-n, **m** représente le nombre de signature minimale requise pour approuver une transaction et **n** le nombre de portefeuilles de votre organisation.
 
-Veuillez à définir un nombre de signature minimal (n) majoritaire dans votre organisation. Par exemple une configuration 2-de-3 multi signatures nécessite que deux portefeuilles de votre organisation signent la transaction pour qu'elle puisse être effectuée.
+Veuillez à définir un nombre de signature minimal (m) majoritaire dans votre organisation. Par exemple une configuration 2-de-3 multi signatures nécessite que deux portefeuilles de votre organisation signent la transaction pour qu'elle puisse être effectuée.
 
-❗Définir une configuration n-de-m où n est égale à m constitue un grand risque. Lorsqu'un membre perd l'accès à son portefeuille vous perdez implicitement l'autorisation de dépenser les bitcoins dans le portefeuille.
+❗Définir une configuration m-de-n où n est égale à m constitue un grand risque. Lorsqu'un membre perd l'accès à son portefeuille vous perdez implicitement l'autorisation de dépenser les bitcoins dans le portefeuille.
 
 Quelques exemples de configurations optimales pour assurer la sécurité et votre accessibilité aux bitcoins :
 
@@ -113,7 +113,7 @@ Gardez les meilleurs pratiques en sélectionnant le format P2WSH.
 
 https://planb.network/resources/glossary/p2wsh
 
-Créez ou importez chacun des **m** portefeuilles de votre configuration. Dans notre tutoriel, nous utiliserons une configuration 2-de-3 multi signatures. Veuillez à sauvegarder individuellement les mots de récupération de chacun des portefeuilles.
+Créez ou importez chacun des **n** portefeuilles de votre configuration. Dans notre tutoriel, nous utiliserons une configuration 2-de-3 multi signatures. Veuillez à sauvegarder individuellement les mots de récupération de chacun des portefeuilles.
 
 ![vault-keys](assets/fr/12.webp)
 
@@ -139,7 +139,7 @@ https://planb.network/resources/glossary/psbt
 
 - **Aller plus loin avec le portefeuille Multi signature**:
 
-Vous vous poserez probablement la question si une configuration n-de-m est elle définitive ? Comment révoquer l'accès à la signature lorsque vous avez un remaniement organisationnel ? ou que lorsqu'un de vos signataires n'est plus membre de votre organisation ?
+Vous vous poserez probablement la question si une configuration m-de-n est elle définitive ? Comment révoquer l'accès à la signature lorsque vous avez un remaniement organisationnel ? ou que lorsqu'un de vos signataires n'est plus membre de votre organisation ?
 
 Sur l'interface de votre portefeuille multi signature, cliquez sur le bouton **Manage keys**.
 
@@ -171,6 +171,6 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
-Vous avez désormais fait le tour de Blue Wallet, prêt à utiliser bitcoin dans toute sa simplicité et avec toute sa puissance. Nous vous recommandons de passer le cap, découvrez comment accepter des paiements en bitcoins et stablecoins dans vos commerce.
+Vous avez désormais fait le tour de Blue Wallet, prêt à utiliser bitcoin dans toute sa simplicité et avec toute sa puissance. Nous vous recommandons de passer le cap, découvrez comment accepter des paiements en bitcoins dans vos commerces grâce à la puissance de Lightning.
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

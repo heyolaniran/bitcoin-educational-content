@@ -1,12 +1,13 @@
 ---
-name: Speed Wallet - Point de vente
-description: Intégrez sans accros les paiements Bitcoin dans votre commerce
+name: Speed Wallet - PoS
+description: Intégrez facilement les paiements en bitcoins et en stablecoins dans votre commerce
 ---
 ![cover](assets/cover.webp)
 
 L'adoption du Bitcoin sur l'ensemble du globe passe par des cas d'utilisations palpable dans la vie quotidienne. L'utilisation de Bitcoin dans les transactions commerciales instantanées partout dans le monde renforce cette adoption aussi bien au niveau des grandes institutions qu'au niveau de petits commerces. Dans ce tutoriel, nous découvrirons Speed Business, une plateforme de paiement unifiés qui permet à votre commerce d'accepter des paiements par Bitcoin via Lightning.
 
 ![btc-session](https://www.youtube.com/watch?v=ywUNZ_sxr0Q)
+
 ## Premiers pas avec Speed Business
 
 [Speed Business](https://www.tryspeed.com/) est une plateforme développée par [Speed Wallet](https://www.speed.app/) qui permet à tout marchant d'intégrer des paiements instantanés et à faible coût par Bitcoin et stablecoins.
@@ -21,7 +22,6 @@ Speed possède un grand éventail de fonctionnalités pour couvrir les aspects f
 
 - **La connexion avec d'autres plateformes** : Utilisez-vous des outils externes pour gérer vos paiements ? Speed vous offre la possibilité de les connecter à sa plateforme pour avoir un écosystème tout-en-un à l'image de votre commerce.
 
-
 Créez votre compte sur [Speed](https://app.tryspeed.com/register/) puis nous débuterons la configuration des paiements pour votre commerce.
 
 ![account-creation](assets/fr/01.webp)
@@ -34,8 +34,7 @@ Speed dispose d'un kit de développement logiciel qui vous permet de personnalis
 
 Nous partirons, dans le cadre de ce tutoriel, sur une intégration standard en utilisant l'extension fournie par Speed.
 
-Pour faciliter votre expérience, Speed vous propose un mode de test qui vous permet de tester les différentes fonctionnalités sans avoir à vous inquiéter de leurs répercussions sur la gestion de votre boutique. 
-
+Pour faciliter votre expérience, Speed vous propose un mode de test qui vous permet de tester les différentes fonctionnalités sans avoir à vous inquiéter de leurs répercussions sur la gestion de votre boutique.
 
 ![test-data](assets/fr/03.webp)
 

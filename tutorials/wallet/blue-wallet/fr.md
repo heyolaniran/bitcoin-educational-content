@@ -21,7 +21,7 @@ Blue Wallet est un portefeuille Bitcoin open Source et d'auto détention qui vou
 
 Une fois l'installation achevée, vous avez la possibilité de créer un nouveau portefeuille puis de sauvegarder les 12 mots de récupération ou d'importer un portefeuille Bitcoin déjà existant. Découvrez les astuces pour faire une sauvegarde efficiente de vos mots clés afin de ne pas perdre accès à vos bitcoins.
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Avec Blue Wallet vous avez la possibilité de créer des portefeuilles bitcoin dédiés et distincts. Par exemple, vous pouvez avoir un portefeuille pour vos épargnes et un autre pour vos dépenses quotidiennes toujours dans la même application.
 
@@ -109,9 +109,7 @@ Quelques exemples de configurations optimales pour assurer la sécurité et votr
 
 Gardez les meilleurs pratiques en sélectionnant le format P2WSH.
 
-❗ **P2WSH ou Pay to Witness Script Hash** est une méthode de verrouillage qui bloque les bitcoins sortants de votre transaction (Outputs) au hash d'un script personnalisé que Blue wallet met en place. Le principale avantage avec ce type de verrouillage est qu'il réduit la taille de données des transactions et implicitement vous permet de payer moins de frais de transactions.
-
-https://planb.network/resources/glossary/p2wsh
+❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) ou Pay to Witness Script Hash** est une méthode de verrouillage qui bloque les bitcoins sortants de votre transaction (Outputs) au hash d'un script personnalisé que Blue wallet met en place. Le principale avantage avec ce type de verrouillage est qu'il réduit la taille de données des transactions et implicitement vous permet de payer moins de frais de transactions.
 
 Créez ou importez chacun des **n** portefeuilles de votre configuration. Dans notre tutoriel, nous utiliserons une configuration 2-de-3 multi signatures. Veuillez à sauvegarder individuellement les mots de récupération de chacun des portefeuilles.
 
@@ -131,11 +129,9 @@ Tout comme le portefeuille Bitcoin standard de Blue Wallet, vous pouvez définir
 
 Lors de la validation de votre transaction, vous aurez besoin d'une seconde signature pour approuver la dépense des bitcoins, rappelez vous nous sommes dans une configuration 2-de-3 multi signatures.
 
-Le second portefeuille signataire s'il utilise également a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la transaction partiellement signée que vous venez de créer.
+Le second portefeuille signataire s'il utilise également a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la [transaction partiellement signée](https://planb.network/resources/glossary/psbt) que vous venez de créer.
 
 ![mutisig-send](assets/fr/13.webp)
-
-https://planb.network/resources/glossary/psbt
 
 - **Aller plus loin avec le portefeuille Multi signature**:
 

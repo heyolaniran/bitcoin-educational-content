@@ -135,17 +135,15 @@ Le second portefeuille signataire s'il utilise également a la possibilité de s
 
 - **Aller plus loin avec le portefeuille Multi signature**:
 
-Vous vous poserez probablement la question si une configuration m-de-n est elle définitive ? Comment révoquer l'accès à la signature lorsque vous avez un remaniement organisationnel ? ou que lorsqu'un de vos signataires n'est plus membre de votre organisation ?
-
 Sur l'interface de votre portefeuille multi signature, cliquez sur le bouton **Manage keys**.
 
-Vous pourrez donc révoquer les clés de récupération d'un portefeuille et utiliser la clé publique de ce portefeuille à la place.
+En oubliant un des mots de récupération d'un des portefeuilles signataires (**Forget this seed...**), vous notifiez à Blue Wallet de supprimer la sauvegarde de ces mots de sa mémoire. Vous aurez donc préalablement fait une sauvegarde externe.
 
 ![revoke-key](assets/fr/14.webp)
 
-En effectuant cette action, vous retirez le droit de signature à ce portefeuille. Il ne pourra donc plus effectuer de transaction mais juste consulter le portefeuille en mode **Voir uniquement**.
+En effectuant cette action, vous gardez seulement la clé publique associée à ces mots de récupération.
 
-⚠️ Révoquer une clé entraîne implicitement un changement de configuration. Dans notre configuration, nous serons toujours 3 clés mais seulement deux actifs : cela revient à une configuration 2-de-2 multi signatures qui comporte un grand risque. Il est préférable de faire une révocation que si vous êtes dans une configuration 5-de-7 multi signatures.
+⚠️ Garder uniquement les clés publiques (XPUB) vous permet d'ajouter un niveau de sécurité en plus dans votre configuration 2-de-3 multi signatures. En effet, il pourrait être préjudiciable de garder tous les mots de récupération en un seul endroit lorsque votre téléphone est sujet à une attaque. Les attaquants n'ayant accès qu'à un seul **VAULT** (mots clés) que vous utilisez pour signer vos transactions, ne pourront pas voler vos bitcoins (minimum de 02 signatures requises) car les clés publiques ne permettent pas de signer des transactions.
 
 ## Plus d'options avec Blue Wallet
 

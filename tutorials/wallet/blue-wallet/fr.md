@@ -37,6 +37,7 @@ Si vous êtes habitués à d'autres portefeuilles Bitcoin comme Phoenix ou Aqua,
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
+
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Le portefeuille Bitcoin de Blue Wallet représente le portefeuille standard dans l'écosystème Bitcoin. Vous pouvez dépenser des bitcoins du moment où vous êtes en possession des mots de récupération qui pourront fournir une signature valide sur le réseau pour authentifier que vous êtes propriétaires des bitcoins.
@@ -59,7 +60,7 @@ Vous avez également la possibilité de configurer un montant prédéfini afin d
 
 ![send-bitcoin](assets/fr/05.webp)
 
-La particularité de Blue Wallet vous permet de configurer à votre convenance les paramètres de votre envoi de bitcoin.
+Blue Wallet vous permet de configurer à votre convenance les paramètres de votre envoi de bitcoin.
 
 Vous pouvez donc sélectionner le ratio de frais de transaction qui vous correspond si vous voulez voir la transaction rapidement validée dans un mempool et incluse dans un bloc par les mineurs. Selon le ratio choisi, les mineurs prioriseront plus ou moins votre transaction. Apprenez en plus dans notre tutoriel sur le mempool Space.
 
@@ -83,7 +84,7 @@ Vous pouvez retirer un ou tous les receveurs en cliquant respectivement sur **Re
 
 ### Portefeuille MultiSig
 
-Le portefeuille Multisig (multi signatures), représente un portefeuille créé à partir du regroupement d'un certain nombre (minimum 02) de portefeuilles Bitcoin. Dans ce type de portefeuille, selon la configuration et la méthode choisie, dépenser des bitcoins devient une action collective et coopérative.
+Le portefeuille Multisig (multi signatures), représente un portefeuille créé à partir du regroupement d'un certain nombre (minimum 2) de portefeuilles Bitcoin. Dans ce type de portefeuille, selon la configuration et la méthode choisie, dépenser des bitcoins devient une action collective et coopérative.
 
 Dans Blue Wallet, vous pouvez créer des portefeuilles multi signatures pour votre association, votre famille, votre entreprise. Tout au long de cette section, nous tâcherons de découvrir et de décortiquer chaque aspect de ce type particulier de portefeuille.
 
@@ -95,9 +96,9 @@ Définissez la configuration m-de-n dans votre organisation multi signatures en 
 
 ⚠️ Dans une configuration m-de-n, **m** représente le nombre de signature minimale requise pour approuver une transaction et **n** le nombre de portefeuilles de votre organisation.
 
-Veuillez à définir un nombre de signature minimal (m) majoritaire dans votre organisation. Par exemple une configuration 2-de-3 multi signatures nécessite que deux portefeuilles de votre organisation signent la transaction pour qu'elle puisse être effectuée.
+Veillez à définir un nombre de signature minimal (m) majoritaire dans votre organisation. Par exemple une configuration 2-de-3 multi signatures nécessite que deux portefeuilles de votre organisation signent la transaction pour qu'elle puisse être effectuée.
 
-❗Définir une configuration m-de-n où n est égale à m constitue un grand risque. Lorsqu'un membre perd l'accès à son portefeuille vous perdez implicitement l'autorisation de dépenser les bitcoins dans le portefeuille.
+❗Définir une configuration m-de-n où n est égale à m constitue un grand risque. Lorsqu'un membre perd l'accès à son portefeuille vous perdez l'autorisation de dépenser les bitcoins dans le portefeuille.
 
 Quelques exemples de configurations optimales pour assurer la sécurité et votre accessibilité aux bitcoins :
 
@@ -111,7 +112,7 @@ Gardez les meilleurs pratiques en sélectionnant le format P2WSH.
 
 ❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) ou Pay to Witness Script Hash** est une méthode de verrouillage qui bloque les bitcoins sortants de votre transaction (Outputs) au hash d'un script personnalisé que Blue wallet met en place. Le principale avantage avec ce type de verrouillage est qu'il réduit la taille de données des transactions et implicitement vous permet de payer moins de frais de transactions.
 
-Créez ou importez chacun des **n** portefeuilles de votre configuration. Dans notre tutoriel, nous utiliserons une configuration 2-de-3 multi signatures. Veuillez à sauvegarder individuellement les mots de récupération de chacun des portefeuilles.
+Créez ou importez chacun des **n** portefeuilles de votre configuration. Dans notre tutoriel, nous utiliserons une configuration 2-de-3 multi signatures. Veillez à sauvegarder individuellement les mots de récupération de chacun des portefeuilles.
 
 ![vault-keys](assets/fr/12.webp)
 

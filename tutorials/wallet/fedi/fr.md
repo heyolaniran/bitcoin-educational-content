@@ -1,5 +1,5 @@
 ---
-name: Fedi Wallet
+name: Fedi
 description: Votre super portefeuille Bitcoin alimenté par les communautés
 ---
 

@@ -1,8 +1,9 @@
 ---
-name : Fedi Wallet
-description: Votre super portefeuille Bitcoin alimenté par la communauté.
+name: Fedi Wallet
+description: Votre super portefeuille Bitcoin alimenté par les communautés
 ---
- **![cover](assets/cover.webp)
+
+ ![cover](assets/cover.webp)
 
 Partout dans le monde, des initiatives, des communautés et économies circulaires naissent autour de Bitcoin pour résoudre des problèmes spécifiques auxquels les populations sont confrontées. Dans ce tutoriel, nous découvrirons une des initiatives, Fedi Wallet, qui met à disposition, pas qu'un simple portefeuille mais tout un écosystème personnalisable pour votre communauté.
 

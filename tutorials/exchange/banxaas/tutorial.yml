@@ -9,18 +9,17 @@ level: beginner
 category: centralized
 
 tags: 
-  - adpotion
+  - adoption
   - lightning
   - user-friendly
 
 #proofreading metadata
 
 original_language: fr
-
-proofreading :
-  - language : fr
+proofreading:
+  - language: fr
     last_contribution_date: 2025-06-19
     urgency: 1
-    contributors_names:
+    contributor_names:
       - heyolaniran
     reward: 0

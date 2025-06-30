@@ -10,14 +10,14 @@ Aujourd'hui l'accessibilité au Bitcoin est un challenge innovant dans les pays 
 Dans ce tutoriel, nous partons à la découverte de **Banxaas**, une plateforme de troc qui rapproche les sénégalais des échanges avec Bitcoin.
 ## Débuter avec Banxaas
 
-Banxaas vient du dialecte sénégalais (Wolof) qui signifie une branche. Idéologiquement, nous pouvons voir Banxaas comme une branche qui relie les sénégalais à l'utilisation de Bitcoin. Une branche sur laquelle vous pouvez vous reposer pour protéger vos épargnes de l'inflation, de la censure. Développé par une startup sénégalaise (Yité Technologies), [Banxaas](https://banxaas.com) propose un service de troc instantané entre bitcoin et le Franc CFA (XOF) vice-versa grâce à la puissance de Lightning Network. Banxaas vient avec une approche peu commune des plateformes d'échanges de la sous région ouest Africaine.
+Banxaas vient du dialecte sénégalais (Wolof) qui signifie une branche. Idéologiquement, nous pouvons voir Banxaas comme une branche qui relie les sénégalais à l'utilisation de Bitcoin. Une branche sur laquelle vous pouvez vous reposer pour protéger vos épargnes de l'inflation, de la censure. Développé par une startup sénégalaise (Yité Technologies), [Banxaas](https://banxaas.com) propose un service d'échange instantané entre bitcoin et le Franc CFA (XOF) vice-versa grâce à la puissance de Lightning Network. Banxaas vient avec une approche peu commune des plateformes d'échanges de la sous région ouest Africaine.
 - Banxaas est une plateforme non-custodial : Vous n'avez pas besoin de créer un compte ni de posséder un portefeuille sur la plateforme. Vous restez maître de votre argent et renforcez votre anonymat.
 
 https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 - Une comptabilité transparente : Banxaas prône la transparence tout en renforçant l'anonymat des transactions financières.
 
-https://planb.network/fr/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Faire ses premiers échanges avec Banxaas
 
@@ -55,9 +55,12 @@ Confirmez votre opération en cliquant sur le bouton **Troc** pour acheter des b
 ![confirm1](assets/fr/04.webp)
 
 - **Des Satoshis vers du Franc CFA**
+
 Banxaas vous permet de convertir vos bitcoins en Franc CFA et de les recevoir sur deux opérateurs disponibles au Sénégal.
+
 - Orange Money Sénégal
 - Wave Sénégal
+
 Cliquez sur le bouton **Troc** pour payer la facture Lightning qui sera générée afin de recevoir le montant équivalent sur votre Mobile Money.
 
 ![pay2](assets/fr/05.webp)
@@ -76,7 +79,7 @@ Cela ne s'arrête pas là. Vous pouvez également consulter, dans le menu **Tré
 
 ![tresorerie](assets/fr/08.webp)
 
-L'équipe de Banxaas se met à leur disposition pour les éclairer et les aider dans les problèmes qu'ils rencontrent. Vous pouvez contacter le support client via leurs réseaux sociaux :
+L'équipe de Banxaas se met à votre disposition pour vous éclairer et vous aider dans les problèmes que vous rencontrez. Vous pouvez contacter le support client via leurs réseaux sociaux :
 - [X](https://x.com/banxaas_sn)
 - [Telegram](https://t.me/banxaas_app)
 - [Whatsapp](https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
@@ -84,6 +87,7 @@ L'équipe de Banxaas se met à leur disposition pour les éclairer et les aider 
 
 ![support](assets/fr/09.webp)
 Vous avez désormais la prise en main de la plateforme Banxaas pour échanger vos bitcoins et potentiellement envoyer de l'argent au Sénégal en utilisant vos satoshis.
-Découvrez notre tutoriel sur Peach, une plateforme d'échanges pair-à-pair qui vous permet aussi d'acheter et de vendre des bitcoins sans compromettre votre confidentialité.
+
+Découvrez également notre tutoriel sur Peach, une plateforme d'échanges pair-à-pair qui vous permet aussi d'acheter et de vendre des bitcoins sans compromettre votre confidentialité.
 
 https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

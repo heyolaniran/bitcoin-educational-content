@@ -4,11 +4,33 @@ description: Conversez sans intermédiaires sur le protocol decentralisé Tox
 ---
 ![cover](assets/cover.webp)
 
-L'encodage de bout en bout est un service offert par de nombreuses applications de messagerie telles que WhatsApp et Telegram. L'encodage, ici, signifie qu'avant que le message ne soit envoyé par l'expéditeur, il est sécurisé par un verrou cryptographique dont seul le destinataire à la clé. Aujourd'hui nous partons à la recherche d'une application de messagerie totalement décentralisée et encryptée de bout en bout, se reposant sur les principes similaires de la blockchain, pour proposer une communication sécurisée, encryptée de bout en bout sans intermédiaire : Tox Chat.
+Le chiffrement de bout en bout est un service offert par de nombreuses applications de messagerie telles que WhatsApp et Telegram. Le chiffrement, ici, signifie qu'avant que le message ne soit envoyé par l'expéditeur, il est sécurisé par un verrou cryptographique dont seul le destinataire à la clé. Aujourd'hui nous partons à la découverte d'une application de messagerie totalement décentralisée et chiffrée de bout en bout, reposant sur des principes similaires à la blockchain, pour proposer une communication sécurisée, chiffrée de bout en bout sans intermédiaire : Tox Chat.
+
+| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
+| **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+*E2EE = Chiffrement de bout en bout.*
 
 ## Qu'est-ce que Tox ?
 
-Tox est un protocole de communication libre (open source) et décentralisé qui utilise la technologie Networking and Cryptography Library (NaCl) en plus des combinaisons d'algorithmes d'encryptage pour assurer la sécurité et la confidentialité de ses utilisateurs. Tox vous permet d'échanger des messages textuels, d'effectuer les appels audios et vidéos, de partager des fichiers et de partager votre écran avec vos amis de façon sécurisée, décentralisée et sans intermédiaire.
+Tox est un protocole de communication libre (open source) et décentralisé qui utilise la technologie *Networking and Cryptography Library* (NaCl) en plus des combinaisons d'algorithmes de chiffrement pour assurer la sécurité et la confidentialité de ses utilisateurs. Tox vous permet d'échanger des messages textuels, d'effectuer les appels audios et vidéos, de partager des fichiers et de partager votre écran avec vos amis de façon sécurisée, décentralisée et sans intermédiaire.
 
 La technologie que le protocole Tox utilise est similaire aux réseau pair-à-pair comme les blockchains ce qui favorise la décentralisation de l'infrastructure du protocole. Contrairement aux réseaux sociaux et applications de messagerie cryptée de bout en bout, l'application Tox Chat est construite sur un protocole décentralisé qui n'a pas de serveur central. Tous les utilisateurs communiquent dans un réseau pair-à-pair sans intermédiaire et résistant à la censure. Pour communiquer, chaque utilisateur est identifié par un unique ID (ToxID) qui est dérivé de sa clé publique qui est stockée dans une table de Hash distribuée.
 
@@ -72,7 +94,7 @@ Vous retrouvez sur votre client Tox toutes les options que vous proposent les ap
 
 ![chat](assets/fr/10.webp)
 
-### Des groupes paire à paire
+### Des groupes pair à pair
 
 Vos clients Tox vous permettent également de communiquer avec un groupe de personnes tout en étant totalement décentralisée : il s'agit des conférences. Dans le menu **Groupes**, créez une nouvelle conférence ou consultez la liste des invitations à rejoindre des conférences que vous avez reçu.
 
@@ -124,7 +146,7 @@ Dans le menu **Paramètres**, vous pouvez personnaliser les configurations de vo
 
 Le protocole Tox utilise la table de Hash Distribuée (Distributed Hash Table) pour créer un réseau de nœuds décentralisés. Chaque client Tox fait partie du réseau DHT et stocke les informations sur d'autres nœuds. Dans le cas de Tox, la DHT stocke les adresses IP comme valeurs associées aux clés publiques Tox (Tox ID). Cela permet de facilement rechercher un appareil Tox Client sans avoir à requérir à un serveur central.
 
-Imaginez vous écrire à notre utilisateur `EBC5604D9386E594CCC32943A03F96A96687FBD46788F1CD4F3337EB703C3C16BE3DC2CA6D9F` que nous nommerons **user B**. Votre client Tox se chargera de localiser cet identifiant dans la table de Hash Distribuée et de récupérer l'adresse IP associée. Une fois l'adresse IP trouvée, votre client Tox créera un canal de communication directe et encryptée avec la machine de notre **user B** ou utilisera d'autres nœuds comme relais pour atteindre **User B**. Les algorithmes d'encryptage assurent indépendamment du canal de communication que seul le destinataire **User B** sera en mesure de lire le contenu de votre message.
+Imaginez vous écrire à notre utilisateur `EBC5604D9386E594CCC32943A03F96A96687FBD46788F1CD4F3337EB703C3C16BE3DC2CA6D9F` que nous nommerons **user B**. Votre client Tox se chargera de localiser cet identifiant dans la table de Hash Distribuée et de récupérer l'adresse IP associée. Une fois l'adresse IP trouvée, votre client Tox créera un canal de communication directe et chiffrée avec la machine de notre **user B** ou utilisera d'autres nœuds comme relais pour atteindre **User B**. Les algorithmes de chiffrement assurent indépendamment du canal de communication que seul le destinataire **User B** sera en mesure de lire le contenu de votre message.
 
 Si vous avez aimé découvrir Tox et que vous avez pu comprendre en quoi il est utile pour renforcer votre confidentialité, n'hésitez pas à laisser un pouce à ce tutoriel. Nous vous recommandons notre tutoriel sur Simple Login, un outil qui vous permet de recevoir et d'envoyer des emails de façon anonyme.
 

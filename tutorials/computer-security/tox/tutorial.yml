@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-id:
-
-project_id: 
-
-category: computer-security
-professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
-level : beginner
-tag: 
- - consensus
- - privacy
- - innovation
-
-# proofreading metadata
-original_language: fr 
-proofreading: 
- - language: fr 
-   last_contribution_date: 2025-06-29
-   urgency: 1
-   contributors_name:
-    - heyolaniran
-   reward: 0
-=======
 id: 027bc897-8c98-4265-b85b-e78b7ab607f3
 project_id: f77762d1-831a-4a95-8808-1143102fc6c3
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
@@ -40,4 +17,3 @@ proofreading:
     contributor_names:
       - heyolaniran
     reward: 0
->>>>>>> ee73d8304488dc512f43664acda5389bc3ebe8a7

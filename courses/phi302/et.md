@@ -34,7 +34,7 @@ Bitcoin-ga on seotud palju inimesi; kuna mõnel neist on vastandlikud arvamused,
 
 See kursus on kohandatud samanimelise raamatu põhjal, mille peamine autor on Kalle Rosenbaum ja kaasautor Linnéa Rosenbaum.
 
-Raamatu tellis ja rahastas [Chaincode Labs] (https://learning.chaincode.com/), arenduskeskus, mis korraldab haridusprogramme arendajatele, kes soovivad õppida Bitcoin arendamist.
+Raamatu tellis ja rahastas [Chaincode Labs](https://learning.chaincode.com/), arenduskeskus, mis korraldab haridusprogramme arendajatele, kes soovivad õppida Bitcoin arendamist.
 
 
 +++
@@ -125,7 +125,7 @@ Enne Bitcoin oli tehtud katseid luua digitaalseid valuutasid, kuid enamik neist 
 Miner detsentraliseerimine Bitcoin-s tähendab, et *tehingute tellimist* ei vii läbi ükski üksus või üksuste fikseeritud kogum. Seda teostavad kollektiivselt kõik osalejad, kes soovivad selles osaleda; see kaevurite kollektiiv on dünaamiline kasutajate kogum. Igaüks võib soovi korral liituda või lahkuda. See omadus muudab Bitcoin tsensuurikindlaks.
 
 
-Kui Bitcoin oleks tsentraliseeritud, oleks see haavatav nende suhtes, kes soovivad seda tsenseerida, näiteks valitsused. Seda tabaks sama saatus nagu varasemaid katseid luua digitaalset raha. [artikli] (https://www.blockstream.com/sidechains.pdf) pealkirjaga "Enabling Blockchain Innovations with Pegged Sidechains" sissejuhatuses selgitavad autorid, kuidas digitaalraha varajased versioonid ei olnud vastandlikuks keskkonnaks varustatud (vt ka peatükki "Vastandlik mõtlemine" järgmises osas).
+Kui Bitcoin oleks tsentraliseeritud, oleks see haavatav nende suhtes, kes soovivad seda tsenseerida, näiteks valitsused. Seda tabaks sama saatus nagu varasemaid katseid luua digitaalset raha. [artikli](https://www.blockstream.com/sidechains.pdf) pealkirjaga "Enabling Blockchain Innovations with Pegged Sidechains" sissejuhatuses selgitavad autorid, kuidas digitaalraha varajased versioonid ei olnud vastandlikuks keskkonnaks varustatud (vt ka peatükki "Vastandlik mõtlemine" järgmises osas).
 
 
 David Chaum tutvustas 1983. aastal digitaalset sularaha kui uurimisteemat, mille puhul kasutatakse keskserverit, mida usaldatakse Double-spending vältimiseks. Selleks et vähendada üksikisikute privaatsusriski, mis tuleneb sellest kesksest usaldusväärsest osapoolest, ja tagada asendatavus, võttis Chaum kasutusele pime allkirja, mida ta kasutas krüptograafilise vahendina, et vältida keskserveri allkirjade (mis esindavad münte) ühendamist, võimaldades samas keskserveril vältida topeltkulutusi.
@@ -154,7 +154,7 @@ Kui see õnnestub, tulevad samad probleemid tõenäoliselt mingil hetkel tulevik
 Ükski neist võimalustest ei ole kasutajale kasulik.
 
 
-Tsensuurikindlus detsentraliseerimise kaudu on see, mis eristab Bitcoin teistest rahasüsteemidest, kuid *Double-spending probleemi* tõttu ei ole seda lihtne saavutada. See on probleem, mis seisneb selles, et keegi ei saa sama münti kaks korda kulutada, probleem, mida paljud inimesed arvasid, et detsentraliseeritult on võimatu lahendada. Satoshi Nakamoto kirjutab oma [Bitcoin whitepaperis](https://planb.network/Bitcoin.pdf) sellest, kuidas lahendada Double-spending probleem:
+Tsensuurikindlus detsentraliseerimise kaudu on see, mis eristab Bitcoin teistest rahasüsteemidest, kuid *Double-spending probleemi* tõttu ei ole seda lihtne saavutada. See on probleem, mis seisneb selles, et keegi ei saa sama münti kaks korda kulutada, probleem, mida paljud inimesed arvasid, et detsentraliseeritult on võimatu lahendada. Satoshi Nakamoto kirjutab oma [Bitcoin whitepaperis](https://planb.network/bitcoin.pdf) sellest, kuidas lahendada Double-spending probleem:
 
 
 > Käesolevas dokumendis pakume välja lahenduse Double-spending probleemile, kasutades võrdõiguslikust jaotatud Timestamp serveriga generate tehingute kronoloogilise järjestuse arvutuslikku tõestamist.
@@ -197,7 +197,7 @@ Kasutaja läheb võrgu konsensusreeglite otsesest jõustamisest üle usaldusele,
 
 In [a
 
-Bitcoin Magazine'i artiklis] (https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446) intervjueerib Aaron van Wirdum Bitcoin arendajaid nende seisukohtadest detsentraliseerimise ja Bitcoin maksimaalse plokimahu suurendamisega seotud riskide kohta. See arutelu oli Hot teema 2014-2017 ajastul, kui paljud inimesed vaidlesid plokimahu piirangu suurendamise üle, et võimaldada suuremat tehingu läbilaskevõimet.
+Bitcoin Magazine'i artiklis](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446) intervjueerib Aaron van Wirdum Bitcoin arendajaid nende seisukohtadest detsentraliseerimise ja Bitcoin maksimaalse plokimahu suurendamisega seotud riskide kohta. See arutelu oli Hot teema 2014-2017 ajastul, kui paljud inimesed vaidlesid plokimahu piirangu suurendamise üle, et võimaldada suuremat tehingu läbilaskevõimet.
 
 
 Võimas argument plokisuuruse suurendamise vastu on see, et see suurendab verifitseerimiskulusid. Kui verifitseerimiskulud tõusevad, sunnib see mõningaid kasutajaid oma täisnoodide käivitamisest loobuma. See omakorda viib selleni, et rohkem inimesi ei saa süsteemi kasutada Trustless viisil.
@@ -323,7 +323,7 @@ Mida nad Trustless all silmas peavad? Pieter Wuille selgitab seda laialdaselt ka
 Lühidalt öeldes viitab sõna *Trustless* Bitcoin protokolli omadusele, mille kohaselt võib see loogiliselt toimida ilma "usaldusväärsete osapoolteta". See erineb usaldusest, mida te paratamatult peate rakendatavale tarkvarale või riistvarale avaldama. Seda viimatinimetatud usalduse aspekti käsitletakse käesolevas peatükis lähemalt.
 
 
-Tsentraliseeritud süsteemides toetume kesksete osalejate mainele, et tagada, et nad hoolitsevad turvalisuse eest või võtavad probleemide korral tagasi, ning õigussüsteemile, et sanktsioneerida rikkumisi. Need usaldusnõuded on pseudonüümsetes detsentraliseeritud süsteemides problemaatilised - puudub võimalus pöörduda, seega ei saa tegelikult mingit usaldust olla. Satoshi Nakamoto kirjeldab seda probleemi [valge raamatu Bitcoin] (https://Bitcoin.org/Bitcoin.pdf) sissejuhatuses:
+Tsentraliseeritud süsteemides toetume kesksete osalejate mainele, et tagada, et nad hoolitsevad turvalisuse eest või võtavad probleemide korral tagasi, ning õigussüsteemile, et sanktsioneerida rikkumisi. Need usaldusnõuded on pseudonüümsetes detsentraliseeritud süsteemides problemaatilised - puudub võimalus pöörduda, seega ei saa tegelikult mingit usaldust olla. Satoshi Nakamoto kirjeldab seda probleemi [valge raamatu Bitcoin](https://Bitcoin.org/Bitcoin.pdf) sissejuhatuses:
 
 
 > Interneti-kaubandus tugineb peaaegu eranditult finantsasutustele, kes on usaldusväärsed kolmandad osapooled elektrooniliste maksete töötlemisel.
@@ -478,7 +478,7 @@ On palju viise, kuidas te võite oma privaatseid andmeid teistele lekitada, kas 
 ### Miks on privaatsus oluline?
 
 
-Võib tunduda ilmselge, miks privaatsus on Bitcoin puhul oluline, kuid on mõned aspektid, millele ei pruugi kohe mõelda. [Bitcoin Talk foorumis] (https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908) tutvustab Gregory Maxwell meile palju häid põhjusi, miks tema arvates on privaatsus oluline. Nende hulgas on vaba turg, turvalisus ja inimväärikus:
+Võib tunduda ilmselge, miks privaatsus on Bitcoin puhul oluline, kuid on mõned aspektid, millele ei pruugi kohe mõelda. [Bitcoin Talk foorumis](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908) tutvustab Gregory Maxwell meile palju häid põhjusi, miks tema arvates on privaatsus oluline. Nende hulgas on vaba turg, turvalisus ja inimväärikus:
 
 
 > Finantsprivaatsus on vaba turu tõhusa toimimise oluline kriteerium: kui te juhite ettevõtet, ei saa te tõhusalt hindu määrata, kui teie tarnijad ja kliendid näevad kõiki teie tehinguid teie tahte vastaselt.
@@ -545,7 +545,7 @@ Chris Belcher [kirjutas väga üksikasjalikult](https://en.Bitcoin.it/Privacy#Bl
 Tulemuseks on see, et Bitcoin privaatsus ei ole täiuslik. See nõuab märkimisväärset tööd, et teha eraviisilisi tehinguid. Enamik inimesi ei ole valmis privaatsuse nimel nii kaugele minema. Tundub, et privaatsuse ja kasutatavuse vahel on selge kompromiss.
 
 
-Teine oluline eraelu puutumatuse aspekt on see, et meetmed, mida võtate oma eraelu puutumatuse kaitsmiseks, mõjutavad ka teisi kasutajaid. Kui te olete oma privaatsusega hooletu, võivad ka teised inimesed kogeda eraelu puutumatuse vähenemist. Gregory Maxwell selgitab seda väga selgelt samas Bitcoin Talki arutelus [mille me eespool linkisime] (https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252) ja lõpetab selle ühe näitega:
+Teine oluline eraelu puutumatuse aspekt on see, et meetmed, mida võtate oma eraelu puutumatuse kaitsmiseks, mõjutavad ka teisi kasutajaid. Kui te olete oma privaatsusega hooletu, võivad ka teised inimesed kogeda eraelu puutumatuse vähenemist. Gregory Maxwell selgitab seda väga selgelt samas Bitcoin Talki arutelus [mille me eespool linkisime](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252) ja lõpetab selle ühe näitega:
 
 
 > See toimib tegelikult ka praktikas... Üks kena whitehat häkker IRC-is mängis brainwalleti kräkkimisega ja tabas fraasi, kus oli ~250 BTC sees.  Me suutsime omaniku tuvastada ainuüksi Address järgi, sest neile oli maksnud Bitcoin teenus, mis taaskasutas aadresse ja ta suutis neid veenda andma kasutajate kontaktandmeid. Ta sai kasutaja tegelikult telefoni teel kätte, nad olid šokeeritud ja segaduses, kuid tänulikud, et ei ole oma mündi eest väljas.  Õnnelik lõpp. (See ei ole kaugeltki ainus näide ... kuid see on üks lõbusamaid).
@@ -556,7 +556,7 @@ Antud juhul läks kõik hästi tänu heategevuslikult mõtlevale häkkerile, kui
 ### Mitte-Blockchain privaatsus
 
 
-Kuigi Blockchain osutub kurikuulsaks eraelu puutumatuse lekete allikaks, on palju muid lekkeid, mis ei kasuta Blockchain, mõned neist on salakavalamad kui teised. Need ulatuvad võtmelogijatest võrguliikluse analüüsini. Mõne sellise meetodi kohta lugege uuesti [Chris Belcheri teosest] (https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), eriti lõigust "Non-Blockchain rünnakud privaatsusele".
+Kuigi Blockchain osutub kurikuulsaks eraelu puutumatuse lekete allikaks, on palju muid lekkeid, mis ei kasuta Blockchain, mõned neist on salakavalamad kui teised. Need ulatuvad võtmelogijatest võrguliikluse analüüsini. Mõne sellise meetodi kohta lugege uuesti [Chris Belcheri teosest](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), eriti lõigust "Non-Blockchain rünnakud privaatsusele".
 
 
 Belcher mainib paljude rünnakute hulgas võimalust, et keegi, näiteks teie Interneti-ühendus, nuhkib teie Interneti-ühenduse üle, näiteks teie Interneti-teenuse pakkuja:
@@ -593,7 +593,7 @@ Artiklis, mida seal käsitleti, Gregory Maxwell [märkis](https://bitcointalk.or
 Siinkohal räägib ta ohust, mis tuleneb asendatavuse puudumisest. Oletame, et teil on UTXO. Selle UTXO ajalugu saab tavaliselt jälgida mitu hopsu tagasi, laiutades hulgaliselt eelnevaid väljundeid. Kui mõni neist väljunditest oli seotud ebaseadusliku, soovimatu või kahtlase tegevusega, siis võivad mõned teie mündi potentsiaalsed vastuvõtjad selle tagasi lükata. Kui arvate, et teie makse saajad kontrollivad teie münte mõne tsentraliseeritud valge või musta nimekirja teenuse alusel, võiksite kindluse mõttes hakata ka teie saadud münte kontrollima. Tulemuseks on see, et halb asendatavus toetab veelgi halvemat asendatavust.
 
 
-Adam Back ja Matt Corallo [pidasid 2016. aastal Milanos toimunud Scaling Bitcoin konverentsil ettekande asendatavusest] (https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/). Nad mõtlesid samadel põhimõtetel:
+Adam Back ja Matt Corallo [pidasid 2016. aastal Milanos toimunud Scaling Bitcoin konverentsil ettekande asendatavusest](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/). Nad mõtlesid samadel põhimõtetel:
 
 
 > Bitcoin toimimiseks on vaja asendatavust. Kui sa saad münte ja ei saa neid kulutada, siis hakkad kahtlema, kas sa saad neid kulutada. Kui on kahtlusi saadud müntide suhtes, siis lähevad inimesed taintiteenistuste juurde ja kontrollivad, kas "kas need mündid on õnnistatud" ja siis keelduvad inimesed kauplemast. See muudab Bitcoin detsentraliseeritud lubadeta süsteemist tsentraliseeritud lubadega süsteemiks, kus sul on "IOU" musta nimekirja pakkujatelt.
@@ -644,7 +644,7 @@ Eelmises lõputöös märkisime, et usalduse vajadus võib ainult suureneda, kui
 Ülaltoodud on mõnevõrra tehnilised viisid teie privaatsuse parandamiseks. Kuid on ka teisi võimalusi. Selle peatüki alguses ütlesime, et Bitcoin on pseudonüümne süsteem. See tähendab, et Bitcoin kasutajaid ei teata nende tegelike nimede ega muude isikuandmete, vaid nende avalike võtmete järgi. Avalik võti on kasutaja pseudonüüm ja kasutajal võib olla mitu pseudonüümi. Ideaalis on teie isiklik identiteet lahutatud teie Bitcoin pseudonüümidest. Kahjuks väheneb see lahtisidumine käesolevas peatükis kirjeldatud privaatsusprobleemide tõttu tavaliselt aja jooksul.
 
 
-Isikuandmete avalikustamise riski vähendamiseks ei tohi neid üldse välja anda ega anda neid tsentraliseeritud teenustele, mis loovad suuri andmebaase, mis võivad lekkida. Bitcoin Q+A artiklis [selgitab KYC] (https://bitcoiner.guide/nokyconly/) ja sellest tulenevaid ohte. Samuti pakutakse välja mõned sammud, mida saate teha oma olukorra parandamiseks:
+Isikuandmete avalikustamise riski vähendamiseks ei tohi neid üldse välja anda ega anda neid tsentraliseeritud teenustele, mis loovad suuri andmebaase, mis võivad lekkida. Bitcoin Q+A artiklis [selgitab KYC](https://bitcoiner.guide/nokyconly/) ja sellest tulenevaid ohte. Samuti pakutakse välja mõned sammud, mida saate teha oma olukorra parandamiseks:
 
 
 > Õnneks on olemas mõned võimalused Bitcoin ostmiseks ilma KYC-i allikateta. Need on kõik P2P (peer to peer) vahetused, kus te kauplete otse teise üksikisikuga, mitte tsentraliseeritud kolmanda osapoolega. Kahjuks müüvad mõned ka muid münte kui Bitcoin, seega soovitame teil olla ettevaatlik.
@@ -809,13 +809,13 @@ Selles peatükis käsitletakse, kuidas Bitcoin saab ajakohastada ilma ebakõla t
 
 
 
-Vikipeedia kohaselt viitab [forward compatibility] (https://en.wikipedia.org/wiki/Forward_compatibility) tingimusele, mille puhul vana tarkvara suudab töödelda uuemate tarkvarade poolt loodud andmeid, ignoreerides neid osi, millest ta ei saa aru:
+Vikipeedia kohaselt viitab [forward compatibility](https://en.wikipedia.org/wiki/Forward_compatibility) tingimusele, mille puhul vana tarkvara suudab töödelda uuemate tarkvarade poolt loodud andmeid, ignoreerides neid osi, millest ta ei saa aru:
 
 
 Standard toetab edasiühilduvust, kui varasematele versioonidele vastav toode suudab "graatsiliselt" töödelda standardi hilisematele versioonidele mõeldud sisendit, ignoreerides uusi osi, millest ta ei saa aru.
 
 
-Vastupidi, [tagasiühilduvus] (https://en.wikipedia.org/wiki/Backward_compatibility) tähendab, et vana tarkvara andmed on kasutatavad uuemates tarkvarades. Muudatus on täielikult ühilduv, kui see on nii edasi- kui ka tagasiühilduv.
+Vastupidi, [tagasiühilduvus](https://en.wikipedia.org/wiki/Backward_compatibility) tähendab, et vana tarkvara andmed on kasutatavad uuemates tarkvarades. Muudatus on täielikult ühilduv, kui see on nii edasi- kui ka tagasiühilduv.
 
 
 Bitcoin konsensusreeglitesse tehtud muudatust nimetatakse *Soft Fork*, kui see on täielikult ühilduv. See on kõige tavalisem viis Bitcoin uuendamiseks mitmel põhjusel, mida me käesolevas peatükis veel arutame. Kui Bitcoin konsensusreeglite muudatus on tagasiühilduv, kuid mitte edasiühilduv, nimetatakse seda *Hard Fork*.
@@ -828,7 +828,7 @@ Tehnilise ülevaate Soft ja Hard hargnemiste kohta leiate [Grokking Bitcoin 11. 
 
 
 
-Bitcoin ei ole täna sama, mis oli Genesis ploki loomise ajal. Aastate jooksul on tehtud mitmeid uuendusi. Eric Lombrozo [rääkis 2018. aastal konverentsil "Breaking Bitcoin"] (https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) Bitcoin erinevatest uuendamismehhanismidest, tuues välja, kui palju need on aja jooksul arenenud. Ta isegi selgitas, kuidas Satoshi Nakamoto kunagi Bitcoin Hard Fork kaudu uuendas:
+Bitcoin ei ole täna sama, mis oli Genesis ploki loomise ajal. Aastate jooksul on tehtud mitmeid uuendusi. Eric Lombrozo [rääkis 2018. aastal konverentsil "Breaking Bitcoin"](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) Bitcoin erinevatest uuendamismehhanismidest, tuues välja, kui palju need on aja jooksul arenenud. Ta isegi selgitas, kuidas Satoshi Nakamoto kunagi Bitcoin Hard Fork kaudu uuendas:
 
 
 > Tegelikult oli Hard-Fork Bitcoin, mida Satoshi tegi, et me ei teeks seda kunagi nii - see on päris halb viis seda teha. Kui te vaatate git commit kirjeldust siin [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], ütleb ta midagi reverted makefile.unix wx-config versiooni 0.3.6 kohta. Õige. See on kõik, mis seal kirjas on. Selles ei ole mingit märki, et see on üldse murranguline muudatus. Ta põhimõtteliselt peitis selle sinna sisse. Ta postitas ka [bitcointalki](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) ja ütles, et palun uuenda võimalikult kiiresti 0.3.6-le. Me parandasime rakendusviga, mille puhul on võimalik, et võltsitud tehinguid võidakse kuvada aktsepteerituna. Ärge võtke Bitcoin makseid vastu, kuni te ei ole uuendanud versiooni 0.3.6. Kui te ei saa kohe uuendada, siis oleks parim, kui te oma Bitcoin sõlme enne seda sulgeksite. Ja siis peale selle, ma ei tea, miks ta otsustas ka seda teha, otsustas ta lisada mõned optimeerimised samas koodis. Fikseerib vea ja lisab mõned optimeerimised.
@@ -850,7 +850,7 @@ Lombrozo annab ka ülevaate sellest, kuidas uuendamismehhanismid on aastate jook
 Kui kõik SegWit-le eelnenud uuendused olid olnud enam-vähem valutult, siis see oli teistsugune. Kui SegWit aktiveerimiskood avaldati 2016. aasta oktoobris, tundus, et Bitcoin kasutajate seas oli selle jaoks ülekaalukas toetus, kuid mingil põhjusel ei andnud kaevurid selle uuenduse toetusest märku, mis pidurdas aktiveerimist ilma lahendust nägemata.
 
 
-Aaron van Wirdum kirjeldab seda käänulist teed oma Bitcoin Magazine'i artiklis [The Long Road To SegWit] (https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Ta selgitab kõigepealt, mis on SegWit ja kuidas see haakub plokimõõtude aruteluga. Seejärel kirjeldab van Wirdum sündmuste käiku, mis viisid selle lõpliku aktiveerimiseni. Selle protsessi keskmes oli uuendamismehhanism nimega *kasutaja aktiveeritud Soft Fork* ehk lühendatult UASF, mille pakkus välja kasutaja Shaolinfry:
+Aaron van Wirdum kirjeldab seda käänulist teed oma Bitcoin Magazine'i artiklis [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Ta selgitab kõigepealt, mis on SegWit ja kuidas see haakub plokimõõtude aruteluga. Seejärel kirjeldab van Wirdum sündmuste käiku, mis viisid selle lõpliku aktiveerimiseni. Selle protsessi keskmes oli uuendamismehhanism nimega *kasutaja aktiveeritud Soft Fork* ehk lühendatult UASF, mille pakkus välja kasutaja Shaolinfry:
 
 
 > Shaolinfry pakkus välja alternatiivi: kasutaja aktiveeritud Soft Fork (UASF). Hash võimsuse aktiveerimise asemel oleks kasutaja aktiveeritud Soft Fork puhul ""lipupäeva aktiveerimine", kus sõlmede jõustamine algab eelnevalt kindlaks määratud ajal tulevikus" Niikaua kui selline UASF jõustatakse majandusliku enamuse poolt, peaks see sundima enamikku kaevandajatest järgima (või aktiveerima) Soft Fork.
@@ -924,7 +924,7 @@ Paljud ettepanekud aktiveerimismehhanismide kohta hakkasid ringi hõljuma ja Dav
 [kokkuvõte neist Bitcoin Wikis](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Oma artiklis selgitas ta mõningaid BIP8 omadusi, mille paindlikumaks muutmiseks tehti sel ajal mõned hiljutised muudatused.
 
 
-> Käesoleva dokumendi koostamise ajal on [BIP8] (https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) koostatud 2017. aastal saadud õppetundide põhjal. Üks märkimisväärne muudatus pärast BIP 9+148 on see, et sunniviisiline aktiveerimine põhineb nüüd ploki kõrgusel, mitte möödunud aja mediaanil; teine märkimisväärne muudatus on see, et sunniviisiline aktiveerimine on boolean-parameeter, mis valitakse Soft Fork aktiveerimisparameetrite seadmisel kas esmaseks kasutuselevõtuks või hilisemas kasutuselevõtus ajakohastamiseks.
+> Käesoleva dokumendi koostamise ajal on [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) koostatud 2017. aastal saadud õppetundide põhjal. Üks märkimisväärne muudatus pärast BIP 9+148 on see, et sunniviisiline aktiveerimine põhineb nüüd ploki kõrgusel, mitte möödunud aja mediaanil; teine märkimisväärne muudatus on see, et sunniviisiline aktiveerimine on boolean-parameeter, mis valitakse Soft Fork aktiveerimisparameetrite seadmisel kas esmaseks kasutuselevõtuks või hilisemas kasutuselevõtus ajakohastamiseks.
 
 BIP8 ilma sunniviisilise aktiveerimiseta on väga sarnane [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) versiooni bittidega koos ajaülevaate ja viivitusega, kusjuures ainus oluline erinevus on BIP8 kasutamine plokkide kõrguste puhul võrreldes BIP9 kasutamisega mediaanajalise mineviku puhul. See seade võimaldab katse ebaõnnestuda (kuid seda saab hiljem uuesti proovida).
 
@@ -1233,7 +1233,7 @@ Tõenäoliselt on sama oluline, et kasutajad võivad Bitcoin peal vabalt arendad
 
 
 
-- Lightning Network: Maksevõrk, mis võimaldab väga väikeste summade kiiret maksmist. See nõuab väga vähe On-Chain Bitcoin tehinguid. On olemas mitmesuguseid koostalitlusvõimelisi rakendusi, näiteks [Core Lightning] (https://github.com/ElementsProject/lightning), [LND] (https://github.com/lightningnetwork/LND), [Eclair] (https://github.com/ACINQ/eclair) ja [Lightning Dev Kit] (https://github.com/lightningdevkit).
+- Lightning Network: Maksevõrk, mis võimaldab väga väikeste summade kiiret maksmist. See nõuab väga vähe On-Chain Bitcoin tehinguid. On olemas mitmesuguseid koostalitlusvõimelisi rakendusi, näiteks [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) ja [Lightning Dev Kit](https://github.com/lightningdevkit).
 - CoinJoin: Mitu osapoolt teevad koostööd, et ühendada oma maksed üheks tehinguks, et Address klastrite moodustamine oleks raskem. On olemas erinevaid rakendusi.
 - Külgahelad: See süsteem võib lukustada mündi Bitcoin Blockchain-s, et avada see mõnes teises Blockchain-s. See võimaldab bitimünte viia mõnele teisele Blockchain-le, nimelt Sidechain-le, et kasutada selle Sidechain funktsioone. Näiteks [Blockstream'i Elements](https://github.com/ElementsProject/Elements).
 - OpenTimestamps: See võimaldab teil [Timestamp dokumenti](https://opentimestamps.org/) Bitcoin Blockchain privaatselt kasutada. Seejärel saate selle Timestamp abil tõestada, et dokument peab olema eksisteerinud enne teatavat aega.
@@ -1407,7 +1407,7 @@ Keegi, kes ei ole harjunud Bitcoin arendusprotsessiga, arvab ilmselt, et need tu
 Enamik Bitcoin arendajaid väidavad, et selline avatus loob hea ja tervisliku keskkonna ning et see on isegi vajalik parima tulemuse saavutamiseks.
 
 
-Nagu peatükis Threat vihjati, võib teine ülaltoodud punkt olla väga kasulik, kuid sellega kaasneb ka negatiivne külg. Ründaja võib kasutada viivitustaktikat, nagu on kirjeldatud [Simple Sabotage Field Manual] (https://www.gutenberg.org/ebooks/26184), et moonutada otsustus- ja arendusprotsessi.
+Nagu peatükis Threat vihjati, võib teine ülaltoodud punkt olla väga kasulik, kuid sellega kaasneb ka negatiivne külg. Ründaja võib kasutada viivitustaktikat, nagu on kirjeldatud [Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184), et moonutada otsustus- ja arendusprotsessi.
 
 
 Veel üks asi, mida tasub mainida, on see, et kuna Bitcoin on raha ja Bitcoin Core kindlustab mõõtmatuid rahasummasid, ei võeta turvalisust selles kontekstis kergekäeliselt. Seepärast on kogenud Bitcoin Core
@@ -1484,7 +1484,7 @@ Vestlus iseenesest ei pruugi olla väga huvitav ega täpne, kuid see näitab, et
 Diskussioonid skaalumise üle saavutasid oma kõrgpunkti umbes aastatel 2015-2017, kui ringlesid mitmed erinevad ideed selle kohta, kas ja kuidas suurendada maksimaalset plokimahu piirangut. See oli üsna ebahuvitav arutelu ühe parameetri muutmise üle lähtekoodis, muudatus, mis ei lahendanud põhimõtteliselt midagi, kuid lükkas skaalumise probleemi veelgi kaugemale tulevikku, tekitades tehnilist võlga.
 
 
-2015. aastal toimus Montrealis konverents [Scaling Bitcoin] (https://scalingbitcoin.org/), mille järelkonverents toimus kuus kuud hiljem Hongkongis ja seejärel mitmes teises kohas üle maailma. Keskenduti just sellele, kuidas Address skaleerida. Paljud Bitcoin arendajad ja teised entusiastid kogunesid nendele konverentsidele, et arutada erinevaid skaleerimisküsimusi ja -ettepanekuid. Enamik neist aruteludest ei keerelnud mitte plokkide suuruse suurendamise, vaid pikemaajaliste lahenduste ümber.
+2015. aastal toimus Montrealis konverents [Scaling Bitcoin](https://scalingbitcoin.org/), mille järelkonverents toimus kuus kuud hiljem Hongkongis ja seejärel mitmes teises kohas üle maailma. Keskenduti just sellele, kuidas Address skaleerida. Paljud Bitcoin arendajad ja teised entusiastid kogunesid nendele konverentsidele, et arutada erinevaid skaleerimisküsimusi ja -ettepanekuid. Enamik neist aruteludest ei keerelnud mitte plokkide suuruse suurendamise, vaid pikemaajaliste lahenduste ümber.
 
 
 Pärast Hongkongi konverentsi 2015. aasta detsembris võttis Gregory Maxwell [oma seisukoha](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) kokku paljude arutlusel olnud küsimuste kohta, alustades mõnest üldisest skaalamisfilosoofiast:
@@ -1984,7 +1984,7 @@ Väga huvitav ja hariduslikult väärtuslik küsimus kerkis esile 2013. aasta m�
 Mining basseinide BTCGuild ja Slush kiire tegutsemine oli selles hädaolukorras hädavajalik. Nad suutsid suurema osa Hash võimust üle viia jagunemise 0,8-eelsele harule ja seega aidata taastada konsensust. See andis arendajatele aega jätkusuutliku lahenduse leidmiseks.
 
 
-Väga huvitav on ka see, et versioon 0.7.2 ei ühildunud iseendaga, nagu see oli ka eelmiste versioonide puhul. Seda on selgitatud [BIP50] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause) jaotises "Põhjus":
+Väga huvitav on ka see, et versioon 0.7.2 ei ühildunud iseendaga, nagu see oli ka eelmiste versioonide puhul. Seda on selgitatud [BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause) jaotises "Põhjus":
 
 
 > Ebapiisavalt kõrge BDB-luku konfiguratsiooniga oli kaudselt muutunud võrgu konsensusreegliks, mis määras ploki kehtivuse (kuigi

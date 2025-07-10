@@ -34,7 +34,7 @@ Bitcoin:n parissa työskentelee paljon ihmisiä; koska joillakin heistä on vast
 
 Tämä kurssi on mukautettu samannimisestä kirjasta, jonka pääkirjoittaja on Kalle Rosenbaum, ja Linnéa Rosenbaum osallistui siihen toisena kirjoittajana.
 
-Kirjan tilasi ja rahoitti [Chaincode Labs] (https://learning.chaincode.com/), kehityskeskus, joka järjestää koulutusohjelmia Bitcoin-kehityksestä kiinnostuneille kehittäjille.
+Kirjan tilasi ja rahoitti [Chaincode Labs](https://learning.chaincode.com/), kehityskeskus, joka järjestää koulutusohjelmia Bitcoin-kehityksestä kiinnostuneille kehittäjille.
 
 
 +++
@@ -75,7 +75,7 @@ Bitcoin:n monimutkaisessa hallintomaailmassa liikkuminen vaatii muutakin kuin te
 Oletko valmis ottamaan seuraavan askeleen Bitcoin-matkallasi? Aloitetaan!
 
 
-***N.B.**: Jos törmäät kurssin aikana Bitcoin:een liittyviin tuntemattomiin termeihin, katso määritelmiä [sanastosta] (https://planb.network/resources/glossary).*
+***N.B.**: Jos törmäät kurssin aikana Bitcoin:een liittyviin tuntemattomiin termeihin, katso määritelmiä [sanastosta](https://planb.network/resources/glossary).*
 
 
 
@@ -125,7 +125,7 @@ Digitaalisia valuuttoja oli yritetty luoda jo ennen Bitcoin:ää, mutta useimmat
 Miner:n hajauttaminen Bitcoin:ssä tarkoittaa sitä, että *tapahtumien tilaamista* ei suorita mikään yksittäinen taho tai kiinteä joukko tahoja. Sen suorittavat kollektiivisesti kaikki toimijat, jotka haluavat osallistua siihen; tämä louhijoiden kollektiivi on dynaaminen joukko käyttäjiä. Kuka tahansa voi liittyä tai poistua halutessaan. Tämä ominaisuus tekee Bitcoin:stä sensuurille vastustuskykyisen.
 
 
-Jos Bitcoin olisi keskitetty, se olisi altis niille, jotka haluaisivat sensuroida sitä, kuten hallituksille. Se kokisi saman kohtalon kuin aiemmat yritykset luoda digitaalista rahaa. [Paperin] (https://www.blockstream.com/sidechains.pdf) "Enabling Blockchain Innovations with Pegged Sidechains" johdannossa kirjoittajat selittävät, miten digitaalisen rahan varhaisversiot eivät olleet varustettuja vastakkainasetteluympäristöön (ks. myös seuraavassa osassa oleva luku Adversarial Thinking).
+Jos Bitcoin olisi keskitetty, se olisi altis niille, jotka haluaisivat sensuroida sitä, kuten hallituksille. Se kokisi saman kohtalon kuin aiemmat yritykset luoda digitaalista rahaa. [Paperin](https://www.blockstream.com/sidechains.pdf) "Enabling Blockchain Innovations with Pegged Sidechains" johdannossa kirjoittajat selittävät, miten digitaalisen rahan varhaisversiot eivät olleet varustettuja vastakkainasetteluympäristöön (ks. myös seuraavassa osassa oleva luku Adversarial Thinking).
 
 
 David Chaum esitteli digitaalisen käteisrahan tutkimuskohteena vuonna 1983 tilanteessa, jossa on keskuspalvelin, johon luotetaan Double-spending:n estämiseksi. Vähentääkseen yksilöiden yksityisyysriskiä, joka aiheutuu tästä luotetusta keskushallinnosta, ja varmistaakseen vaihdettavuuden Chaum otti käyttöön sokean allekirjoituksen, jonka avulla hän tarjosi kryptografisen keinon estää keskuspalvelimen allekirjoitusten (jotka edustavat kolikoita) yhdistäminen ja sallii keskuspalvelimen silti estää kaksinkertaisen rahan käytön.
@@ -154,7 +154,7 @@ Jos he onnistuvat, samat ongelmat tulevat todennäköisesti esiin uudelleen joss
 Mikään näistä vaihtoehdoista ei hyödytä käyttäjää.
 
 
-Sensuurin vastustaminen hajauttamisen avulla erottaa Bitcoin:n muista rahajärjestelmistä, mutta se ei ole helppoa toteuttaa *Double-spending-ongelman* vuoksi. Tämä on ongelma, joka liittyy sen varmistamiseen, ettei kukaan voi käyttää samaa kolikkoa kahteen kertaan, ongelma, jota monet pitivät mahdottomana ratkaista hajautetusti. Satoshi Nakamoto kirjoittaa [Bitcoin whitepaperissaan] (https://planb.network/Bitcoin.pdf) siitä, miten Double-spending-ongelma ratkaistaan:
+Sensuurin vastustaminen hajauttamisen avulla erottaa Bitcoin:n muista rahajärjestelmistä, mutta se ei ole helppoa toteuttaa *Double-spending-ongelman* vuoksi. Tämä on ongelma, joka liittyy sen varmistamiseen, ettei kukaan voi käyttää samaa kolikkoa kahteen kertaan, ongelma, jota monet pitivät mahdottomana ratkaista hajautetusti. Satoshi Nakamoto kirjoittaa [Bitcoin whitepaperissaan](https://planb.network/bitcoin.pdf) siitä, miten Double-spending-ongelma ratkaistaan:
 
 
 > Tässä asiakirjassa ehdotamme ratkaisua Double-spending-ongelmaan käyttämällä Timestamp-palvelinta, joka on hajautettu vertaisverkkopalvelin generate-laskentatodisteena tapahtumien kronologisesta järjestyksestä.
@@ -258,7 +258,7 @@ Hän selittää, että lupavapauden saavuttamiseksi järjestelmä tarvitsee tode
 
 
 
-Bitcoin:n kiehtova piirre on se, miten Hard:n on ymmärrettävä, ettei kukaan hallitse sitä. Bitcoin:ssä ei ole komiteoita tai johtajia. Gregory Maxwell, jälleen [Bitcoin:n subredditissä] (https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), vertaa tätä englannin kieleen kiehtovalla tavalla:
+Bitcoin:n kiehtova piirre on se, miten Hard:n on ymmärrettävä, ettei kukaan hallitse sitä. Bitcoin:ssä ei ole komiteoita tai johtajia. Gregory Maxwell, jälleen [Bitcoin:n subredditissä](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), vertaa tätä englannin kieleen kiehtovalla tavalla:
 
 
 > Monilla ihmisillä on Hard aikaa ymmärtää itsenäisiä järjestelmiä, heidän elämässään on monia asioita, kuten englannin kieli, mutta ihmiset pitävät niitä itsestäänselvyyksinä eivätkä edes ajattele niitä järjestelminä. He ovat juuttuneet keskitettyyn ajattelutapaan, jossa kaikella, mitä he ajattelevat "asiaksi", on auktoriteetti, joka hallitsee sitä.
@@ -267,7 +267,7 @@ Bitcoin:n kiehtova piirre on se, miten Hard:n on ymmärrettävä, ettei kukaan h
 > Bitcoin ei keskity mihinkään. Useat Bitcoin:n käyttöön ottaneet ihmiset ovat omasta vapaasta tahdostaan päättäneet edistää sitä, ja se, miten he sen tekevät, on heidän oma asiansa. Auktoriteettikiinnittyneet ihmiset saattavat nähdä nämä toimet ja uskoa, että ne ovat Bitcoin:n auktoriteetin toimintaa, mutta sellaista auktoriteettia ei ole olemassa.
 
 
-Bitcoin:n tapa toimia hajautetusti muistuttaa poikkeuksellista kollektiivista älykkyyttä, jota esiintyy monien luonnon lajien keskuudessa. Tietojenkäsittelytieteilijä Radhika Nagpal puhuu [Ted-puheessa] (https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) kalaparvien kollektiivisesta käyttäytymisestä ja siitä, miten tutkijat yrittävät jäljitellä sitä robottien avulla.
+Bitcoin:n tapa toimia hajautetusti muistuttaa poikkeuksellista kollektiivista älykkyyttä, jota esiintyy monien luonnon lajien keskuudessa. Tietojenkäsittelytieteilijä Radhika Nagpal puhuu [Ted-puheessa](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) kalaparvien kollektiivisesta käyttäytymisestä ja siitä, miten tutkijat yrittävät jäljitellä sitä robottien avulla.
 
 
 > Toiseksi, ja se, mikä on minusta edelleen kaikkein ihmeellisintä, on se, että tiedämme, ettei tätä kalaparvea valvo mikään johtaja. Sen sijaan tämä uskomaton kollektiivinen käyttäytyminen syntyy puhtaasti kalojen keskinäisestä vuorovaikutuksesta.
@@ -323,7 +323,7 @@ Mitä he tarkoittavat Trustless:llä? Pieter Wuille selittää tämän yleisesti
 Lyhyesti sanalla *Trustless* viitataan Bitcoin-protokollan ominaisuuteen, jonka mukaan se voi loogisesti toimia ilman "luotettavia osapuolia". Tämä on eri asia kuin luottamus, joka sinun on väistämättä luotettava käyttämääsi ohjelmistoon tai laitteistoon. Luottamuksen jälkimmäisestä näkökohdasta puhutaan lisää myöhemmin tässä luvussa.
 
 
-Keskitetyissä järjestelmissä luotamme keskitetyn toimijan maineeseen varmistaaksemme, että se huolehtii turvallisuudesta tai vetäytyy takaisin ongelmien ilmetessä, sekä oikeusjärjestelmään, joka rankaisee mahdollisista rikkomuksista. Nämä luottamusvaatimukset ovat ongelmallisia pseudonyymisissä hajautetuissa järjestelmissä - ei ole mitään mahdollisuutta turvautua oikeussuojakeinoihin, joten luottamusta ei todellakaan voi olla. Satoshi Nakamoto kuvaa tätä ongelmaa [Bitcoin whitepaperin] (https://Bitcoin.org/Bitcoin.pdf) johdannossa:
+Keskitetyissä järjestelmissä luotamme keskitetyn toimijan maineeseen varmistaaksemme, että se huolehtii turvallisuudesta tai vetäytyy takaisin ongelmien ilmetessä, sekä oikeusjärjestelmään, joka rankaisee mahdollisista rikkomuksista. Nämä luottamusvaatimukset ovat ongelmallisia pseudonyymisissä hajautetuissa järjestelmissä - ei ole mitään mahdollisuutta turvautua oikeussuojakeinoihin, joten luottamusta ei todellakaan voi olla. Satoshi Nakamoto kuvaa tätä ongelmaa [Bitcoin whitepaperin](https://Bitcoin.org/Bitcoin.pdf) johdannossa:
 
 
 > Internetissä tapahtuva kaupankäynti on lähes yksinomaan riippuvainen rahoituslaitoksista, jotka toimivat luotettavina kolmansina osapuolina sähköisten maksujen käsittelyssä.
@@ -478,7 +478,7 @@ Voit vuotaa yksityisiä tietojasi muille monin tavoin, joko tietämättäsi tai 
 ### Miksi yksityisyys on tärkeää?
 
 
-Saattaa tuntua itsestään selvältä, miksi yksityisyys on tärkeää Bitcoin:ssa, mutta siihen liittyy joitakin näkökohtia, joita ei ehkä heti tule ajatelleeksi. [Bitcoin Talk -foorumilla] (https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908) Gregory Maxwell esittelee meille monia hyviä syitä, miksi yksityisyys on hänen mielestään tärkeää. Niitä ovat muun muassa vapaat markkinat, turvallisuus ja ihmisarvo:
+Saattaa tuntua itsestään selvältä, miksi yksityisyys on tärkeää Bitcoin:ssa, mutta siihen liittyy joitakin näkökohtia, joita ei ehkä heti tule ajatelleeksi. [Bitcoin Talk -foorumilla](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908) Gregory Maxwell esittelee meille monia hyviä syitä, miksi yksityisyys on hänen mielestään tärkeää. Niitä ovat muun muassa vapaat markkinat, turvallisuus ja ihmisarvo:
 
 
 > Taloudellinen yksityisyys on olennainen edellytys vapaiden markkinoiden tehokkaalle toiminnalle: jos johdat yritystä, et voi asettaa hintoja tehokkaasti, jos toimittajasi ja asiakkaasi näkevät kaikki liiketoimesi vastoin tahtoasi.
@@ -525,7 +525,7 @@ Käyttämällä osoitteita tai julkisia avaimia saavutamme tärkeitä tavoitteit
 Blockchain:n yksityisyys tarkoittaa tietoja, jotka paljastat tehdessäsi liiketoimia Blockchain:ssä. Se koskee kaikkia tapahtumia, sekä lähettämiäsi että vastaanottamiasi.
 
 
-Satoshi Nakamoto pohtii On-Chain:n yksityisyyttä [Bitcoin whitepaperin] (https://Bitcoin.org/Bitcoin.pdf) kohdassa 7:
+Satoshi Nakamoto pohtii On-Chain:n yksityisyyttä [Bitcoin whitepaperin](https://Bitcoin.org/Bitcoin.pdf) kohdassa 7:
 
 
 > Lisäpalomuurina jokaiselle tapahtumalle olisi käytettävä uutta avainparia, jotta niitä ei voida yhdistää yhteiseen omistajaan. Joitakin linkityksiä ei silti voida välttää usean syötteen tapahtumissa, jotka välttämättä paljastavat, että niiden syötteet olivat saman omistajan omistuksessa. Riskinä on, että jos avaimen omistaja paljastuu, linkittäminen voi paljastaa muita samalle omistajalle kuuluvia tapahtumia.
@@ -545,7 +545,7 @@ Chris Belcher [kirjoitti hyvin yksityiskohtaisesti](https://en.Bitcoin.it/Privac
 Lopputulos on, että Bitcoin:n yksityisyys ei ole täydellinen. Yksityinen kaupankäynti vaatii huomattavan paljon työtä. Useimmat ihmiset eivät ole valmiita menemään niin pitkälle yksityisyyden vuoksi. Yksityisyyden ja käytettävyyden välillä näyttää olevan selkeä kompromissi.
 
 
-Toinen tärkeä yksityisyyden suojaan liittyvä näkökohta on se, että toimenpiteet, joihin ryhdyt oman yksityisyytesi suojaamiseksi, vaikuttavat myös muihin käyttäjiin. Jos olet huolimaton oman yksityisyytesi suhteen, muutkin ihmiset saattavat kokea yksityisyyden suojan heikentyneen. Gregory Maxwell selittää tämän hyvin selkeästi samassa Bitcoin Talk -keskustelussa [johon linkitimme edellä] (https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252) ja esittää lopuksi esimerkin:
+Toinen tärkeä yksityisyyden suojaan liittyvä näkökohta on se, että toimenpiteet, joihin ryhdyt oman yksityisyytesi suojaamiseksi, vaikuttavat myös muihin käyttäjiin. Jos olet huolimaton oman yksityisyytesi suhteen, muutkin ihmiset saattavat kokea yksityisyyden suojan heikentyneen. Gregory Maxwell selittää tämän hyvin selkeästi samassa Bitcoin Talk -keskustelussa [johon linkitimme edellä](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252) ja esittää lopuksi esimerkin:
 
 
 > Tämä toimii myös käytännössä... Eräs mukava whitehat-hakkeri IRC:ssä leikki brainwalletin murtamista ja löysi lauseen, jossa oli ~250 BTC.  Pystyimme tunnistamaan omistajan pelkän Address:n perusteella, koska hänelle oli maksanut Bitcoin-palvelu, joka käytti osoitteita uudelleen, ja hän pystyi puhumaan hänet luovuttamaan käyttäjien yhteystiedot. Hän sai käyttäjän itse asiassa puhelimeen, ja hän oli järkyttynyt ja hämmentynyt, mutta kiitollinen siitä, ettei hän menettänyt kolikkoaan.  Siinä oli onnellinen loppu. (Tämä ei ole läheskään ainoa esimerkki siitä, mutta se on yksi hauskimmista).
@@ -556,7 +556,7 @@ Tässä tapauksessa kaikki sujui hyvin hyväntekeväisyysmielisen hakkerin ansio
 ### Muu kuin Blockchain-yksityisyys
 
 
-Vaikka Blockchain osoittautuukin pahamaineiseksi yksityisyysvuotojen lähteeksi, on paljon muitakin vuotoja, joissa ei käytetä Blockchain:ää, jotkut niistä ovat salakavalampia kuin toiset. Ne vaihtelevat näppäinlokituksista verkkoliikenteen analysointiin. Jos haluat tutustua joihinkin näistä menetelmistä, lue uudelleen [Chris Belcherin artikkeli] (https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), erityisesti kohta "Non-Blockchain attacks on privacy".
+Vaikka Blockchain osoittautuukin pahamaineiseksi yksityisyysvuotojen lähteeksi, on paljon muitakin vuotoja, joissa ei käytetä Blockchain:ää, jotkut niistä ovat salakavalampia kuin toiset. Ne vaihtelevat näppäinlokituksista verkkoliikenteen analysointiin. Jos haluat tutustua joihinkin näistä menetelmistä, lue uudelleen [Chris Belcherin artikkeli](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), erityisesti kohta "Non-Blockchain attacks on privacy".
 
 
 Belcher mainitsee lukuisten hyökkäysten joukossa mahdollisuuden, että joku, esimerkiksi Internet-palveluntarjoajasi, voi urkkia internet-yhteyttäsi:
@@ -593,7 +593,7 @@ Kyseisessä artikkelissa Gregory Maxwell [totesi](https://bitcointalk.org/index.
 Tässä hän puhuu vaaroista, jotka johtuvat vaihdettavuuden puutteesta. Oletetaan, että sinulla on UTXO. Tuon UTXO:n historia voidaan yleensä jäljittää useiden hyppyjen päähän, ja se ulottuu moniin aiempiin tuotoksiin. Jos jokin näistä ulostuloista on ollut osallisena laittomassa, ei-toivotussa tai epäilyttävässä toiminnassa, jotkut kolikkosi mahdolliset vastaanottajat saattavat hylätä sen. Jos uskot, että maksunsaajat tarkistavat kolikkosi jonkin keskitetyn valkoisen tai mustan listan palvelun avulla, voit varmuuden vuoksi alkaa tarkistaa myös vastaanottamasi kolikot. Tuloksena on, että huono fungibiliteetti vahvistaa vielä huonompaa fungibiliteettiä.
 
 
-Adam Back ja Matt Corallo [pitivät esityksen siedettävyydestä] (https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) Scaling Bitcoin -tapahtumassa Milanossa vuonna 2016. He ajattelivat samoilla linjoilla:
+Adam Back ja Matt Corallo [pitivät esityksen siedettävyydestä](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) Scaling Bitcoin -tapahtumassa Milanossa vuonna 2016. He ajattelivat samoilla linjoilla:
 
 
 > Bitcoin:n toiminnan edellytyksenä on, että se on vaihdettavissa. Jos saat kolikoita etkä voi käyttää niitä, alat epäillä, voitko käyttää niitä. Jos saatte kolikoista epäilyksiä, ihmiset menevät taint-palveluihin ja tarkistavat, ovatko nämä kolikot siunattuja, ja sitten ihmiset kieltäytyvät kaupankäynnistä. Tämä tarkoittaa, että Bitcoin siirtyy hajautetusta luvattomasta järjestelmästä keskitettyyn luvalliseen järjestelmään, jossa sinulla on "velkakirja" mustan listan tarjoajilta.
@@ -644,7 +644,7 @@ Edellisessä lehdessä todettiin, että luottamuksen tarve voi kasvaa vain kerro
 Edellä mainitut ovat jokseenkin teknisiä tapoja parantaa yksityisyyttäsi. Mutta on muitakin tapoja. Tämän luvun alussa sanoimme, että Bitcoin on pseudonyymijärjestelmä. Tämä tarkoittaa sitä, että Bitcoin:n käyttäjiä ei tunneta oikeilla nimillään tai muilla henkilötiedoillaan, vaan heidän julkisilla avaimillaan. Julkinen avain on käyttäjän salanimi, ja käyttäjällä voi olla useita salanimiä. Ihanteellisessa maailmassa henkilökohtainen henkilöllisyytesi on erotettu Bitcoin-pseudonyymeistäsi. Valitettavasti tässä luvussa kuvattujen yksityisyyden suojaan liittyvien ongelmien vuoksi tämä erottaminen heikkenee yleensä ajan myötä.
 
 
-Henkilötietojesi paljastumisen riskejä voi vähentää antamalla niitä alun perin luovuttamatta tai antamalla niitä keskitetyille palveluille, jotka rakentavat suuria tietokantoja, jotka voivat vuotaa. Bitcoin Q+A:n artikkelissa [selitetään KYC] (https://bitcoiner.guide/nokyconly/) ja siitä johtuvat vaarat. Siinä ehdotetaan myös joitakin toimia, joilla voit parantaa tilannetta:
+Henkilötietojesi paljastumisen riskejä voi vähentää antamalla niitä alun perin luovuttamatta tai antamalla niitä keskitetyille palveluille, jotka rakentavat suuria tietokantoja, jotka voivat vuotaa. Bitcoin Q+A:n artikkelissa [selitetään KYC](https://bitcoiner.guide/nokyconly/) ja siitä johtuvat vaarat. Siinä ehdotetaan myös joitakin toimia, joilla voit parantaa tilannetta:
 
 
 > Onneksi on olemassa joitakin vaihtoehtoja ostaa Bitcoin ilman KYC-lähteitä. Nämä ovat kaikki P2P (peer to peer) -vaihtoja, joissa käydään kauppaa suoraan toisen henkilön kanssa eikä keskitetyn kolmannen osapuolen kanssa. Valitettavasti jotkut myyvät Bitcoin:n lisäksi myös muita kolikoita, joten kehotamme sinua olemaan varovainen.
@@ -700,7 +700,7 @@ Jäljelle jäävät: ??? BTC.
 
 Voimme siis olla varmoja, että Bitcoin Supply on enintään 20999817.31308491 BTC. Kaikki kadonneet tai todistamattomasti poltetut kolikot pienentävät tätä lukua, mutta emme tiedä kuinka paljon. Mielenkiintoista on se, että sillä ei ole oikeastaan mitään väliä, tai paremminkin sillä on merkitystä positiivisella tavalla Bitcoin:n haltijoille,
 
-[kuten Satoshi Nakamoto selitti] (https://bitcointalk.org/index.php?topic=198.msg1647#msg1647):
+[kuten Satoshi Nakamoto selitti](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647):
 
 
 > Kadonneet kolikot tekevät muiden kolikoista vain hieman arvokkaampia.  Ajattele sitä lahjoituksena kaikille.
@@ -759,7 +759,7 @@ Sitä on mahdotonta sanoa, mutta tiedämme muutamia asioita:
 - Kun korttelituki on nolla ja Mempool on tyhjä tai lähes tyhjä, tilanne voi muuttua epävakaaksi maksullisuuden vuoksi.
 
 
-Koska siirtyminen vain maksulliseen Block reward:ään on niin kaukana tulevaisuudessa, voisi olla viisasta olla tekemättä hätiköityjä johtopäätöksiä ja yrittää korjata mahdolliset ongelmat, kun vielä voimme. Esimerkiksi Peter Todd uskoo, että on olemassa todellinen riski, että Bitcoin:n turvabudjetti ei riitä tulevaisuudessa, ja näin ollen hän kannattaa pientä jatkuvaa inflaatiota Bitcoin:ssä. Hän on kuitenkin myös sitä mieltä, ettei ole hyvä idea keskustella tällaisesta asiasta tällä hetkellä, kuten [hän sanoi What Bitcoin Did -podcastissa] (https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Koska siirtyminen vain maksulliseen Block reward:ään on niin kaukana tulevaisuudessa, voisi olla viisasta olla tekemättä hätiköityjä johtopäätöksiä ja yrittää korjata mahdolliset ongelmat, kun vielä voimme. Esimerkiksi Peter Todd uskoo, että on olemassa todellinen riski, että Bitcoin:n turvabudjetti ei riitä tulevaisuudessa, ja näin ollen hän kannattaa pientä jatkuvaa inflaatiota Bitcoin:ssä. Hän on kuitenkin myös sitä mieltä, ettei ole hyvä idea keskustella tällaisesta asiasta tällä hetkellä, kuten [hän sanoi What Bitcoin Did -podcastissa](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
 
 
 > Mutta se on riski, joka on 10-20 vuoden päässä tulevaisuudessa. Se on hyvin pitkä aika. Ja kuka helvetti tietää, mitä riskejä siihen mennessä on olemassa?
@@ -791,7 +791,7 @@ Sitä, kasvaako Bitcoin Supply yli 21 miljoonan, emme voi sanoa tänään, eikä
 Bitcoin:n päivittäminen turvallisella tavalla voi olla erittäin vaikeaa. Joidenkin muutosten käyttöönotto kestää useita vuosia. Tässä luvussa tutustumme Bitcoin:n päivittämiseen liittyvään yleiseen sanastoon ja tutkimme joitakin esimerkkejä sen protokollan historiallisista päivityksistä sekä niistä saatuja oivalluksia. Lopuksi puhumme ketjujen jakamisesta ja niihin liittyvistä riskeistä ja kustannuksista.
 
 
-Jotta pääsisit virittäytymään tähän lukuun, sinun kannattaa lukea [David Hardingin kappale harmoniasta ja epäsointuisuudesta] (https://bitcointalk.org/dec/p1.html):
+Jotta pääsisit virittäytymään tähän lukuun, sinun kannattaa lukea [David Hardingin kappale harmoniasta ja epäsointuisuudesta](https://bitcointalk.org/dec/p1.html):
 
 
 > Bitcoin Asiantuntijat puhuvat usein konsensuksesta, jonka merkitys on abstrakti ja Hard vaikeasti määriteltävissä. Mutta sana konsensus on kehittynyt latinan sanasta concentus, "yhdessä laulava harmonia", joten ei puhuta Bitcoin konsensuksesta vaan Bitcoin harmoniasta.
@@ -809,13 +809,13 @@ Tässä luvussa käsitellään sitä, miten Bitcoin:ää voidaan päivittää ai
 
 
 
-Wikipedian mukaan [eteenpäin yhteensopivuus] (https://en.wikipedia.org/wiki/Forward_compatibility) tarkoittaa tilaa, jossa vanha ohjelmisto voi käsitellä uudempien ohjelmistojen luomia tietoja ja jättää huomiotta ne osat, joita se ei ymmärrä:
+Wikipedian mukaan [eteenpäin yhteensopivuus](https://en.wikipedia.org/wiki/Forward_compatibility) tarkoittaa tilaa, jossa vanha ohjelmisto voi käsitellä uudempien ohjelmistojen luomia tietoja ja jättää huomiotta ne osat, joita se ei ymmärrä:
 
 
 Standardi tukee yhteensopivuutta eteenpäin, jos aiempien versioiden mukainen tuote voi käsitellä standardin myöhempiä versioita varten suunniteltuja syötteitä ja jättää huomiotta uudet osat, joita se ei ymmärrä.
 
 
-Päinvastoin, [taaksepäin yhteensopivuus] (https://en.wikipedia.org/wiki/Backward_compatibility) tarkoittaa sitä, että vanhan ohjelmiston tietoja voidaan käyttää uudemmissa ohjelmistoissa. Muutoksen sanotaan olevan täysin yhteensopiva, jos se on sekä eteenpäin että taaksepäin yhteensopiva.
+Päinvastoin, [taaksepäin yhteensopivuus](https://en.wikipedia.org/wiki/Backward_compatibility) tarkoittaa sitä, että vanhan ohjelmiston tietoja voidaan käyttää uudemmissa ohjelmistoissa. Muutoksen sanotaan olevan täysin yhteensopiva, jos se on sekä eteenpäin että taaksepäin yhteensopiva.
 
 
 Bitcoin-konsensussääntöjen muutoksen sanotaan olevan *Soft Fork*, jos se on täysin yhteensopiva. Tämä on yleisin tapa päivittää Bitcoin useista syistä, joita käsittelemme myöhemmin tässä luvussa. Jos Bitcoin-konsensussääntöjen muutos on taaksepäin yhteensopiva mutta ei eteenpäin yhteensopiva, sitä kutsutaan *Hard Fork*:ksi.
@@ -850,7 +850,7 @@ Lombrozo antaa myös yleiskatsauksen siitä, miten päivitysmekanismit ovat kehi
 Kaikki SegWit:a edeltäneet päivitykset olivat olleet enemmän tai vähemmän kivuttomia, mutta tämä oli erilainen. Kun SegWit:n aktivointikoodi julkaistiin lokakuussa 2016, Bitcoin-käyttäjät näyttivät saavan sille valtaisan tuen, mutta jostain syystä kaivostyöntekijät eivät ilmoittaneet tukevansa tätä päivitystä, mikä pysäytti aktivoinnin, eikä ratkaisua ollut näkyvissä.
 
 
-Aaron van Wirdum kuvaa tätä mutkaista tietä Bitcoin Magazine -lehden artikkelissaan [The Long Road To SegWit] (https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Hän aloittaa selittämällä, mikä SegWit on ja miten se liittyy lohkokokokeskusteluun. Sitten van Wirdum kuvaa tapahtumien kulkua, joka johti sen lopulliseen aktivointiin. Prosessin keskiössä oli päivitysmekanismi nimeltä *käyttäjän aktivoima Soft Fork*, tai lyhyesti UASF, jota ehdotti käyttäjä Shaolinfry:
+Aaron van Wirdum kuvaa tätä mutkaista tietä Bitcoin Magazine -lehden artikkelissaan [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Hän aloittaa selittämällä, mikä SegWit on ja miten se liittyy lohkokokokeskusteluun. Sitten van Wirdum kuvaa tapahtumien kulkua, joka johti sen lopulliseen aktivointiin. Prosessin keskiössä oli päivitysmekanismi nimeltä *käyttäjän aktivoima Soft Fork*, tai lyhyesti UASF, jota ehdotti käyttäjä Shaolinfry:
 
 
 > Shaolinfry ehdotti vaihtoehtoa: käyttäjän aktivoima Soft Fork (UASF). Hash-virran aktivoinnin sijaan käyttäjän aktivoimassa Soft Fork:ssa olisi "'lippupäivän aktivointi', jossa solmut aloittavat täytäntöönpanon ennalta määritettynä ajankohtana tulevaisuudessa" Niin kauan kuin tällainen UASF pannaan täytäntöön taloudellisen enemmistön toimesta, tämän pitäisi pakottaa enemmistö kaivostyöläisistä noudattamaan (tai aktivoimaan) Soft Fork.
@@ -883,7 +883,7 @@ Tässä rajatarkastusasemassa oli otettava huomioon joitakin monimutkaisempia te
 #### SegWit:n jälkeinen keskustelu
 
 
-SegWit:n käyttöönoton jälkeen syntyi keskustelu käyttöönottomekanismeista. Kuten Eric Lombrozo [Breaking Bitcoin -konferenssissa pitämässään puheessa] (https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) ja Shaolinfry totesivat, Miner:n aktivoima Soft Fork ei ole ihanteellinen päivitysmekanismi:
+SegWit:n käyttöönoton jälkeen syntyi keskustelu käyttöönottomekanismeista. Kuten Eric Lombrozo [Breaking Bitcoin -konferenssissa pitämässään puheessa](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) ja Shaolinfry totesivat, Miner:n aktivoima Soft Fork ei ole ihanteellinen päivitysmekanismi:
 
 
 > Jossain vaiheessa haluamme todennäköisesti lisätä Bitcoin-protokollaan lisää ominaisuuksia. Tämä on suuri filosofinen kysymys, jonka kysymme itseltämme. Teemmekö UASF:n seuraavaa versiota varten? Entäpä hybridi lähestymistapa? Miner:n aktivointi yksinään on suljettu pois. bip9:ää emme aio käyttää enää.
@@ -924,7 +924,7 @@ Monet ehdotukset aktivointimekanismeiksi alkoivat liikkua, ja David Harding
 [tiivistelmä Bitcoin Wikissä](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Artikkelissaan hän selitti joitakin BIP8:n ominaisuuksia, ja siihen oli tuolloin tehty joitakin muutoksia sen joustavuuden lisäämiseksi.
 
 
-> Tätä asiakirjaa kirjoitettaessa [BIP8] (https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) on laadittu vuonna 2017 saatujen kokemusten perusteella. Yksi merkittävä muutos BIP:ien 9+148 jälkeen on se, että pakotettu aktivointi perustuu nyt lohkon korkeuteen eikä menneen ajan mediaaniin; toinen merkittävä muutos on se, että pakotettu aktivointi on boolean-parametri, joka valitaan, kun Soft Fork:n aktivointiparametrit asetetaan joko ensimmäistä käyttöönottoa varten tai päivitetään myöhemmässä käyttöönotossa.
+> Tätä asiakirjaa kirjoitettaessa [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) on laadittu vuonna 2017 saatujen kokemusten perusteella. Yksi merkittävä muutos BIP:ien 9+148 jälkeen on se, että pakotettu aktivointi perustuu nyt lohkon korkeuteen eikä menneen ajan mediaaniin; toinen merkittävä muutos on se, että pakotettu aktivointi on boolean-parametri, joka valitaan, kun Soft Fork:n aktivointiparametrit asetetaan joko ensimmäistä käyttöönottoa varten tai päivitetään myöhemmässä käyttöönotossa.
 
 BIP8 ilman pakotettua aktivointia on hyvin samankaltainen kuin [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) versio bittien kanssa, jossa on aikakatkaisu ja viive, ainoana merkittävänä erona on BIP8:n käyttämä lohkon korkeus verrattuna BIP9:n käyttämään mediaaniajan menneisyyteen. Tämä asetus sallii yrityksen epäonnistumisen (mutta sitä voidaan yrittää myöhemmin uudelleen).
 
@@ -1080,7 +1080,7 @@ Hän kutsuu näitä yksinkertaistettuja kertomuksia monomanioiksi. Tämän mää
 
 
 
-Bitcoin:ssä on paljon tunnettuja heikkouksia, ja monia niistä käytetään aktiivisesti hyväksi. Jos haluat saada siitä käsityksen, katso [Heikkoudet-sivua] (https://en.Bitcoin.it/wiki/Weaknesses) Bitcoin-wikissä. Siellä mainitaan monenlaisia ongelmia, kuten seuraavat
+Bitcoin:ssä on paljon tunnettuja heikkouksia, ja monia niistä käytetään aktiivisesti hyväksi. Jos haluat saada siitä käsityksen, katso [Heikkoudet-sivua](https://en.Bitcoin.it/wiki/Weaknesses) Bitcoin-wikissä. Siellä mainitaan monenlaisia ongelmia, kuten seuraavat
 
 Wallet varkaus ja palvelunestohyökkäykset:
 
@@ -1105,7 +1105,7 @@ Edellä mainitut ovat esimerkkejä todellisista uhkista, joista on huolehdittava
 Ote Yksinkertaisen sabotaasin kenttäoppaasta
 
 
-Vastustajan mielen ymmärtämiseksi paremmin voisi olla hyödyllistä saada käsitys siitä, miten hän toimii. Toisen maailmansodan aikana toiminut Yhdysvaltain hallituksen elin nimeltä Office of Strategic Services, jonka tehtäviin kuului muun muassa vakoilu, sabotaasi ja propagandan levittäminen, laati henkilöstölleen [käsikirjan] (https://www.gutenberg.org/ebooks/26184) siitä, miten vihollisen sabotointia harjoitetaan asianmukaisesti. Sen nimi oli "Simple Sabotage Field Manual" (Yksinkertainen sabotaasikäsikirja), ja se sisälsi konkreettisia vinkkejä vihollisen soluttautumiseen, jotta sen elämästä tulisi Hard. Vinkit vaihtelivat varastojen polttamisesta harjoitusten kulumisen aiheuttamiseen vihollisen vähentämiseksi
+Vastustajan mielen ymmärtämiseksi paremmin voisi olla hyödyllistä saada käsitys siitä, miten hän toimii. Toisen maailmansodan aikana toiminut Yhdysvaltain hallituksen elin nimeltä Office of Strategic Services, jonka tehtäviin kuului muun muassa vakoilu, sabotaasi ja propagandan levittäminen, laati henkilöstölleen [käsikirjan](https://www.gutenberg.org/ebooks/26184) siitä, miten vihollisen sabotointia harjoitetaan asianmukaisesti. Sen nimi oli "Simple Sabotage Field Manual" (Yksinkertainen sabotaasikäsikirja), ja se sisälsi konkreettisia vinkkejä vihollisen soluttautumiseen, jotta sen elämästä tulisi Hard. Vinkit vaihtelivat varastojen polttamisesta harjoitusten kulumisen aiheuttamiseen vihollisen vähentämiseksi
 
 tehokkuus.
 
@@ -1167,7 +1167,7 @@ Useimmat Bitcoin-ohjelmistot, erityisesti Bitcoin Core, ovat avoimen lähdekoodi
 
 > Johdetut teokset: Lisenssin on sallittava muutokset ja johdetut teokset, ja niitä on voitava levittää samoin ehdoin kuin alkuperäisen ohjelmiston lisenssiä.
 
-Bitcoin Core noudattaa tätä määritelmää jakelemalla sitä [MIT-lisenssin] (https://github.com/Bitcoin/Bitcoin/blob/master/COPYING) mukaisesti:
+Bitcoin Core noudattaa tätä määritelmää jakelemalla sitä [MIT-lisenssin](https://github.com/Bitcoin/Bitcoin/blob/master/COPYING) mukaisesti:
 
 
 ```
@@ -1265,7 +1265,7 @@ Monet kehittäjät valitsevat tämän vaihtoehdon toimimalla salanimellä ja yri
 artikkelit ja työni Bitcoin:n ja Lightning Network:n parissa.
 
 
-Hänen tapauksessaan salanimen käytön syytä on arvioitava hänen ansioidensa perusteella eikä sen perusteella, kuka tai ketkä ovat salanimen takana. Mielenkiintoista on, että hän paljasti [CoinDeskin artikkelissa] (https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/), että salanimi luotiin eri syystä.
+Hänen tapauksessaan salanimen käytön syytä on arvioitava hänen ansioidensa perusteella eikä sen perusteella, kuka tai ketkä ovat salanimen takana. Mielenkiintoista on, että hän paljasti [CoinDeskin artikkelissa](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/), että salanimi luotiin eri syystä.
 
 
 > Alkuperäinen syyni [salanimen käyttöön] oli yksinkertaisesti se, että olin huolissani [siitä], että tekisin suuren virheen; siksi ZmnSCPxj oli alun perin tarkoitettu kertakäyttöiseksi salanimeksi, josta voitaisiin luopua tällaisessa tapauksessa. Se näyttää kuitenkin saaneen enimmäkseen myönteistä mainetta, joten olen säilyttänyt sen
@@ -1290,7 +1290,7 @@ Huomaa, että nämä seikat eivät koske vain Satoshi Nakamotoa, vaan kaikkia, j
 Avoimen lähdekoodin kehittäjät käyttävät usein muiden kehittämiä avoimen lähdekoodin kirjastoja. Tämä on luonnollinen ja mahtava osa mitä tahansa tervettä ekosysteemiä. Bitcoin-ohjelmistoissa on kuitenkin kyse oikeasta rahasta, ja tämän vuoksi kehittäjien on oltava erityisen varovaisia valitessaan, mistä kolmansien osapuolten kirjastoista ne ovat riippuvaisia.
 
 
-Filosofisessa [kryptografiaa käsittelevässä puheessa] (https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/) Gregory Maxwell haluaa määritellä uudelleen termin "kryptografia", joka on hänen mielestään liian suppea. Hän selittää, että pohjimmiltaan *tieto haluaa olla vapaata*, ja määrittelee kryptografian määritelmän sen perusteella:
+Filosofisessa [kryptografiaa käsittelevässä puheessa](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/) Gregory Maxwell haluaa määritellä uudelleen termin "kryptografia", joka on hänen mielestään liian suppea. Hän selittää, että pohjimmiltaan *tieto haluaa olla vapaata*, ja määrittelee kryptografian määritelmän sen perusteella:
 
 
 > Kryptografia on taidetta ja tiedettä, jota käytämme taistellaksemme tiedon perusluonnetta vastaan, taivuttaaksemme sitä poliittisen ja moraalisen tahtomme mukaan ja ohjataksemme sitä inhimillisiin päämääriin vastoin kaikkia mahdollisuuksia ja pyrkimyksiä vastustaa sitä.
@@ -1314,7 +1314,7 @@ Konkreettisten esimerkkien avulla hän osoittaa, miten valintakryptografia voi h
 Vaikka tämä ei olekaan lopullinen opas menestykseen, voi olla erittäin hyödyllistä käydä nämä kohdat läpi, kun teet valintasalausta.
 
 
-Maxwellin edellä mainitsemien ongelmien vuoksi Bitcoin Core pyrkii todella Hard [minimoimaan altistumisensa kolmansien osapuolten kirjastoille] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Kaikkia ulkoisia riippuvuuksia ei tietenkään voi poistaa, koska muuten kaikki olisi kirjoitettava itse, fonttien renderöinnistä järjestelmäkutsujen toteutukseen.
+Maxwellin edellä mainitsemien ongelmien vuoksi Bitcoin Core pyrkii todella Hard [minimoimaan altistumisensa kolmansien osapuolten kirjastoille](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Kaikkia ulkoisia riippuvuuksia ei tietenkään voi poistaa, koska muuten kaikki olisi kirjoitettava itse, fonttien renderöinnistä järjestelmäkutsujen toteutukseen.
 
 
 ### Arvostelu
@@ -1356,7 +1356,7 @@ Hän korostaa, että tarkastelu on todella rajoittava tekijä Bitcoin Core -ohje
 Postauksen toinen puoli koostuu hyödyllisistä käytännön teknisistä ohjeista, jotka koskevat tarkistuksen tekemistä, ja sisältää linkkejä tärkeisiin dokumentteihin, joista voit lukea lisää.
 
 
-Bitcoin Core -kehittäjä ja koodin tarkastaja Gloria Zhao on kirjoittanut [artikkelin] (https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md), joka sisältää kysymyksiä, joita hän yleensä esittää itselleen tarkistuksen aikana. Hän kertoo myös, mitä hän pitää hyvänä arvosteluna:
+Bitcoin Core -kehittäjä ja koodin tarkastaja Gloria Zhao on kirjoittanut [artikkelin](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md), joka sisältää kysymyksiä, joita hän yleensä esittää itselleen tarkistuksen aikana. Hän kertoo myös, mitä hän pitää hyvänä arvosteluna:
 
 
 > Minusta hyvä arvostelu on sellainen, jossa olen esittänyt itselleni paljon kärkeviä kysymyksiä PR:stä ja ollut tyytyväinen vastauksiin
@@ -1407,14 +1407,14 @@ Joku, joka ei ole tottunut Bitcoin:n kehitysprosessiin, luultavasti ajattelisi, 
 Useimmat Bitcoin-kehittäjät väittävät, että tämä avoimuus luo hyvän ja terveen ympäristön ja että se on jopa välttämätöntä parhaan lopputuloksen saavuttamiseksi.
 
 
-Kuten luvussa Uhka vihjattiin, toinen edellä oleva kohta voi olla erittäin hyödyllinen, mutta sillä on myös haittapuolensa. Hyökkääjä voi käyttää viivytystaktiikoita, kuten [Simple Sabotage Field Manual] (https://www.gutenberg.org/ebooks/26184) -julkaisussa esitettyjä, vääristääkseen päätöksenteko- ja kehitysprosessia.
+Kuten luvussa Uhka vihjattiin, toinen edellä oleva kohta voi olla erittäin hyödyllinen, mutta sillä on myös haittapuolensa. Hyökkääjä voi käyttää viivytystaktiikoita, kuten [Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184) -julkaisussa esitettyjä, vääristääkseen päätöksenteko- ja kehitysprosessia.
 
 
 Toinen mainitsemisen arvoinen asia on se, että koska Bitcoin on rahaa ja Bitcoin Core turvaa käsittämättömiä rahamääriä, turvallisuuteen ei tässä yhteydessä suhtauduta kevyesti. Siksi kokenut Bitcoin Core
 
 kehittäjät saattavat vaikuttaa hyvin Hard-päiseviltä, mikä asenne on yleensä perusteltu. Ominaisuutta, jolla on heikko perustelu, ei hyväksytä. Sama tapahtuisi, jos se rikkoisi
 
-jäljitettävissä olevia rakennuksia, lisätty uusia riippuvuuksia tai jos koodi ei noudattanut Bitcoin:n [parhaita käytäntöjä] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
+jäljitettävissä olevia rakennuksia, lisätty uusia riippuvuuksia tai jos koodi ei noudattanut Bitcoin:n [parhaita käytäntöjä](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
 Tämä voi turhauttaa uusia (ja vanhoja) kehittäjiä. Mutta kuten avoimen lähdekoodin ohjelmistoissa on tapana, voit aina käyttää Fork-tietovarastoa, yhdistää haluamasi omaan Fork:ään ja rakentaa ja ajaa oman binäärisi.
@@ -1484,7 +1484,7 @@ Keskustelu sinänsä ei ehkä ole kovin mielenkiintoinen eikä tarkka, mutta se 
 Skaalauskeskustelut saavuttivat suurimman kiinnostuksensa vuosien 2015-2017 tienoilla, jolloin oli liikkeellä monia erilaisia ideoita siitä, pitäisikö lohkokoon enimmäisrajaa kasvattaa ja miten. Kyseessä oli melko epäkiinnostava keskustelu lähdekoodin parametrin muuttamisesta, muutos, joka ei pohjimmiltaan ratkaissut mitään, mutta siirsi skaalautumisongelmaa pidemmälle tulevaisuuteen ja kasvatti teknistä velkaa.
 
 
-Vuonna 2015 Montrealissa järjestettiin konferenssi nimeltä [Scaling Bitcoin] (https://scalingbitcoin.org/), jonka seurantakonferenssi pidettiin kuusi kuukautta myöhemmin Hongkongissa ja sen jälkeen useissa muissa paikoissa ympäri maailmaa. Konferenssissa keskityttiin nimenomaan Address:n skaalaamiseen. Monet Bitcoin:n kehittäjät ja muut harrastajat kokoontuivat näihin konferensseihin keskustelemaan erilaisista skaalauskysymyksistä ja -ehdotuksista. Useimmat näistä keskusteluista eivät pyörineet lohkokoon kasvattamisen ympärillä vaan pitkän aikavälin ratkaisujen ympärillä.
+Vuonna 2015 Montrealissa järjestettiin konferenssi nimeltä [Scaling Bitcoin](https://scalingbitcoin.org/), jonka seurantakonferenssi pidettiin kuusi kuukautta myöhemmin Hongkongissa ja sen jälkeen useissa muissa paikoissa ympäri maailmaa. Konferenssissa keskityttiin nimenomaan Address:n skaalaamiseen. Monet Bitcoin:n kehittäjät ja muut harrastajat kokoontuivat näihin konferensseihin keskustelemaan erilaisista skaalauskysymyksistä ja -ehdotuksista. Useimmat näistä keskusteluista eivät pyörineet lohkokoon kasvattamisen ympärillä vaan pitkän aikavälin ratkaisujen ympärillä.
 
 
 Hongkongin konferenssin jälkeen joulukuussa 2015 Gregory Maxwell [tiivisti näkemyksensä](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) monista keskustelunaiheista ja aloitti yleisestä skaalausfilosofiasta:
@@ -1556,7 +1556,7 @@ Toisella luetelmakohdalla on kielteinen vaikutus Miner:n hajauttamiseen, sillä 
 Horisontaalisella skaalauksella tarkoitetaan tekniikoita, joilla työmäärä jaetaan useille koneille. Vaikka tämä on yleinen skaalausmenetelmä suosituilla verkkosivustoilla ja tietokannoissa, sitä ei ole helppo toteuttaa Bitcoin:ssä.
 
 
-Monet kutsuvat tätä Bitcoin-skaalausmenetelmää *shardingiksi*. Periaatteessa siinä annetaan kunkin Full node:n tarkistaa vain osa Blockchain:sta. Peter Todd on miettinyt paljon sharding-käsitettä. Hän kirjoitti [blogikirjoituksen] (https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard), jossa hän selittää shardausta yleisesti ja esittelee myös oman ideansa nimeltä *treechains*. Artikkeli on vaikealukuinen, mutta Todd esittää joitakin kohtia, jotka ovat varsin sulavia:
+Monet kutsuvat tätä Bitcoin-skaalausmenetelmää *shardingiksi*. Periaatteessa siinä annetaan kunkin Full node:n tarkistaa vain osa Blockchain:sta. Peter Todd on miettinyt paljon sharding-käsitettä. Hän kirjoitti [blogikirjoituksen](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard), jossa hän selittää shardausta yleisesti ja esittelee myös oman ideansa nimeltä *treechains*. Artikkeli on vaikealukuinen, mutta Todd esittää joitakin kohtia, jotka ovat varsin sulavia:
 
 
 > Varjostetuissa järjestelmissä "Full node-puolustus" ei toimi, ainakaan suoraan. Kyse on siitä, että kaikilla ei ole kaikkia tietoja, joten on päätettävä, mitä tapahtuu, kun niitä ei ole saatavilla.
@@ -1949,7 +1949,7 @@ Hän halusi, että ihmiset voisivat ladata lohkotietoja tietystä käyttäjäst�
 Tähän liittyi suuri varoitus: käyttäjät latasivat tietoja knightmb:stä [Bitcoin-ohjelmisto ei vahvistanut niitä](https://Bitcoin.stackexchange.com/a/113682/69518) käynnistyksen yhteydessä. Tiedosto blkindex.dat sisälsi UTXO:n joukon, ja ohjelmisto hyväksyisi kaikki siinä olevat tiedot ikään kuin se olisi jo tarkistanut ne. knightmb olisi voinut manipuloida tietoja antaakseen itselleen tai kenelle tahansa muulle bitcoineja.
 
 
-Jälleen kerran ihmiset näyttivät olevan samaa mieltä, ja invalidilohkon ja sen seuraajien kumoaminen onnistui. Louhijat alkoivat työstää lohkon [74637] (https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) uutta seuraajaa, ja lohkon Timestamp:n mukaan lohkon seuraaja ilmestyi kello 23:53 UTC eli noin kuusi tuntia ongelman havaitsemisen jälkeen. Seuraavana päivänä, 16. elokuuta, klo 08:10 lohkon 74689 ympärillä uusi ketju oli ohittanut vanhan ketjun, joten kaikki päivittämättömät solmut liittyivät uudelleen seuraamaan uutta ketjua. Tämä on syvin reorg - 52 lohkoa - Bitcoin:n historiassa.
+Jälleen kerran ihmiset näyttivät olevan samaa mieltä, ja invalidilohkon ja sen seuraajien kumoaminen onnistui. Louhijat alkoivat työstää lohkon [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) uutta seuraajaa, ja lohkon Timestamp:n mukaan lohkon seuraaja ilmestyi kello 23:53 UTC eli noin kuusi tuntia ongelman havaitsemisen jälkeen. Seuraavana päivänä, 16. elokuuta, klo 08:10 lohkon 74689 ympärillä uusi ketju oli ohittanut vanhan ketjun, joten kaikki päivittämättömät solmut liittyivät uudelleen seuraamaan uutta ketjua. Tämä on syvin reorg - 52 lohkoa - Bitcoin:n historiassa.
 
 
 OP_RETURN-ongelmaan verrattuna tämä ongelma käsiteltiin hieman siistimmin:
@@ -1973,7 +1973,7 @@ Tämä tapaus eroaa merkittävästi aiemmasta OP_RETURN-tapauksesta: tätä onge
 
 
 
-Maaliskuussa 2013 nousi esiin erittäin mielenkiintoinen ja kasvatuksellisesti arvokas asia. Näytti siltä, että Blockchain oli jakautunut (vaikka alla olevassa lainauksessa käytetäänkin sanaa "Fork") lohkon 225429 jälkeen. Tapahtuman yksityiskohdat ilmoitettiin [BIP50:ssä] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Yhteenvedossa sanotaan:
+Maaliskuussa 2013 nousi esiin erittäin mielenkiintoinen ja kasvatuksellisesti arvokas asia. Näytti siltä, että Blockchain oli jakautunut (vaikka alla olevassa lainauksessa käytetäänkin sanaa "Fork") lohkon 225429 jälkeen. Tapahtuman yksityiskohdat ilmoitettiin [BIP50:ssä](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Yhteenvedossa sanotaan:
 
 
 > Lohko, jossa oli enemmän transaktiosyöttöjä kuin aiemmin oli nähty, louhittiin ja lähetettiin. Bitcoin 0.8:n solmut pystyivät käsittelemään tämän, mutta jotkut ennen 0.8:aa olevat Bitcoin:n solmut hylkäsivät sen, mikä aiheutti odottamattoman Fork:n Blockchain:n. Ennen 0.8-ketjua yhteensopivalla ketjulla (tästä eteenpäin 0.8-ketju) oli tuossa vaiheessa noin 60 % Mining Hash -tehosta, mikä varmisti, ettei jako purkautunut automaattisesti (kuten olisi tapahtunut, jos ennen 0.8-ketjua oleva ketju olisi ylittänyt 0.8-ketjun kokonaistyömäärän, mikä olisi pakottanut 0.8-ketjun solmuja järjestäytymään uudelleen ennen 0.8-ketjua olevaan ketjuun).
@@ -1984,7 +1984,7 @@ Maaliskuussa 2013 nousi esiin erittäin mielenkiintoinen ja kasvatuksellisesti a
 Mining-altaiden, BTCGuildin ja Slushin nopea toiminta oli välttämätöntä tässä hätätilanteessa. Ne pystyivät siirtämään suurimman osan Hash:n vallasta ennen 0,8:aa olleeseen jakohaaraan ja siten auttamaan konsensuksen palauttamisessa. Tämä antoi kehittäjille aikaa keksiä kestävä korjaus.
 
 
-Erittäin mielenkiintoista on myös se, että versio 0.7.2 oli yhteensopimaton itsensä kanssa, kuten aiemmatkin versiot. Tämä on selitetty [BIP50:n juurisyytä koskevassa osassa] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
+Erittäin mielenkiintoista on myös se, että versio 0.7.2 oli yhteensopimaton itsensä kanssa, kuten aiemmatkin versiot. Tämä on selitetty [BIP50:n juurisyytä koskevassa osassa](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
 
 
 > Koska BDB-lukitus oli liian suuri, siitä oli epäsuorasti tullut lohkon kelpoisuutta määrittävä verkkokonsensussääntö (vaikkakin se on
@@ -2149,7 +2149,7 @@ Olemme tarkastelleet joitakin vuosien varrella esiin tulleita vakavampia ongelmi
 Nämä keskustelukysymykset eivät ole vain yhteenveto "Bitcoin-kehitysfilosofian" sisällöstä, vaan niiden tarkoituksena on kannustaa sinua tutkimaan lisää, joten varmista, että lähdet tutkimaan asiaa.
 
 
-Voit testata ymmärryksesi syvyyttä kirjoittamalla 100-300 sanan [mini-esseen] (https://www.youtube.com/watch?v=N4YjXJVzoZY) valitsemalla aiheen tästä kysymyssarjasta. Jos haluat palautetta työstäsi, voit lähettää sen osoitteeseen mini-essay@planb.network, tarkistamme sen mielellämme.
+Voit testata ymmärryksesi syvyyttä kirjoittamalla 100-300 sanan [mini-esseen](https://www.youtube.com/watch?v=N4YjXJVzoZY) valitsemalla aiheen tästä kysymyssarjasta. Jos haluat palautetta työstäsi, voit lähettää sen osoitteeseen mini-essay@planb.network, tarkistamme sen mielellämme.
 
 
 #### Hajauttaminen

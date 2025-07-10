@@ -154,7 +154,7 @@ Bitcoin 中的 Miner 去中心化意味着*交易排序*不是由任何单一实
 这些选项都不利于用户。
 
 
-通过去中心化抵制审查是 Bitcoin 与其他货币系统的不同之处，但由于 Double-spending 的*问题*，要做到这一点并不容易。这个问题就是确保没有人能把同一个硬币花两次，很多人都认为这个问题不可能用去中心化的方式来解决。Satoshi 中本聪在其 [Bitcoin 白皮书](https://planb.network/Bitcoin.pdf) 中写道，如何解决 Double-spending 问题：
+通过去中心化抵制审查是 Bitcoin 与其他货币系统的不同之处，但由于 Double-spending 的*问题*，要做到这一点并不容易。这个问题就是确保没有人能把同一个硬币花两次，很多人都认为这个问题不可能用去中心化的方式来解决。Satoshi 中本聪在其 [Bitcoin 白皮书](https://planb.network/bitcoin.pdf) 中写道，如何解决 Double-spending 问题：
 
 
 > 在本文中，我们针对 Double-spending 问题提出了一种解决方案，即使用点对点分布式 Timestamp 服务器对交易的时间顺序进行 generate 计算证明。

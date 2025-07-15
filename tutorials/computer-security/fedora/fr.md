@@ -1,6 +1,6 @@
 ---
 name: Fedora
-description: La distribution Linux qui vous fournit un espace de travail libre complet et sécurisé.
+description: La distribution Linux qui vous fournit un espace de travail libre, complet et sécurisé.
 ---
 
 

@@ -2,23 +2,20 @@
 name: Mozilla VPN
 description: Protégez vos appareils et vos données de navigation Internet.
 ---
- **![cover](assets/cover.webp)
+ ![cover](assets/cover.webp)
 
-A l'ère du numérique et de la collecte de grosses données, la protection de la vie privée en ligne est devenue un enjeu majeur pour nous, internautes. Entre le suivi publicitaire, les risques liés aux piratages via les réseaux publics et les restrictions géographiques, de plus en plus d'utilisateurs se tournent vers les VPN (Réseaux Privés virtuels) pour sécuriser leur navigation. Parmi la panoplie d'options que se présentent à eux, un service de la fondation Mozilla, connue pour son engagement en faveur d'un Internet libre et éthique, se démarque largement. Dans ce tutoriel, nous partons à la découverte de Mozilla VPN pour prendre en main votre confidentialité sur Internet.
+A l'ère du numérique et de la collecte de données, la protection de la vie privée en ligne est devenue un enjeu majeur pour nous, internautes. Entre le suivi publicitaire, les risques liés aux piratages via les réseaux publics et les restrictions géographiques, de plus en plus d'utilisateurs se tournent vers les VPN (*Réseaux Privés Virtuels*) pour sécuriser leur navigation. Parmi la panoplie d'options qui se présentent à eux, un service de la fondation Mozilla, connue pour son engagement en faveur d'un Internet libre et éthique, se démarque largement. Dans ce tutoriel, nous partons à la découverte de Mozilla VPN pour prendre en main votre confidentialité sur Internet.
 
 ## Qu'est-ce que Mozilla VPN ?
 
-Un **Virtual Private Network** (VPN) et **Réseau Privé Virtuel** est un système permettant de créer un lien direct entre des ordinateurs distants connectés à des réseaux locaux différents. Autrement dit, il s'agit d'un système qui isole et qui chiffre vos échanges du reste du trafic sur Internet. Basé sur ce principe, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) est un service open source de réseau privé virtuel développé en 2020 par la fondation Mozilla. Il est disponible sur les systèmes d'exploitation :
+Un ***Virtual Private Network*** (VPN) est un système permettant de créer un lien direct entre des ordinateurs distants connectés à des réseaux locaux différents. Autrement dit, il s'agit d'un système qui isole et qui chiffre vos échanges du reste du trafic sur Internet. Basé sur ce principe, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) est un service open source de VPN développé en 2020 par la fondation Mozilla. Il est disponible sur les systèmes d'exploitation :
 
-- Android
-
-- iOS
-
-- Mac
-
-- Linux
-
-- Windows, et également en extension sur le navigateur Firefox de Mozilla.
+- Android,
+- iOS,
+- Mac,
+- Linux,
+- Windows,
+- et également en extension sur le navigateur Firefox de Mozilla.
 
 ![download](assets/fr/01.webp)
 

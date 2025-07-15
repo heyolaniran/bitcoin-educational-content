@@ -1,4 +1,9 @@
- 
+---
+name: Boltz
+description: Réalisez des swaps entre les différentes couches de Bitcoin tout en gardant le contrôle.
+---
+
+
 ![cover](assets/cover.webp)
  
 Depuis son déploiement en 2009, le système de cash électronique pair à pair de Bitcoin a connu une croissance exponentielle donnant vie à des solutions qui lui permettent aujourd'hui d'être un système que nous pouvons utiliser instantanément dans nos actions quotidiennes notamment au travers du Lightning Network.

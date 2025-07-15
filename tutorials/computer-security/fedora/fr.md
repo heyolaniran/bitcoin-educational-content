@@ -8,23 +8,28 @@ description: La distribution Linux qui vous fournit un espace de travail libre, 
 
   
 
-Fedora est un système d’exploitation libre et gratuit basé sur Linux initié en 2003, développé par la communauté **Fedora Project** et soutenu par **Red Hat Linux**. Il est reconnu pour sa stabilité, ses bonnes performances et sa facilité de prise en main, ce qui en fait un excellent choix, aussi bien pour les débutants que pour les utilisateurs plus avancés. Ce système fonctionne sur la plupart des architectures de processeurs modernes, ce qui permet de l’installer facilement sur quasiment tous les ordinateurs. Fedora est aussi disponible en plusieurs éditions préconfigurées, appelées Fedora Spins ou Fedora Editions, conçues pour des besoins spécifiques (Jeux vidéos, Astronomies, Développement).
+Fedora est un système d’exploitation libre et gratuit basé sur Linux initié en 2003, développé par la communauté **Fedora Project** et soutenu par **Red Hat Linux**. Il est reconnu pour sa stabilité, ses bonnes performances et sa facilité de prise en main, ce qui en fait un excellent choix, aussi bien pour les débutants que pour les utilisateurs plus avancés. Ce système fonctionne sur la plupart des architectures de processeurs modernes, ce qui permet de l’installer facilement sur quasiment tous les ordinateurs. Fedora est aussi disponible en plusieurs éditions préconfigurées, appelées "Fedora Spins" ou "Fedora Editions", conçues pour des besoins spécifiques (Jeux vidéos, Astronomies, Développement...).
+
 ## L'architecture de Fedora Linux
 
-Comme vous l'avez lu plus haut, Fedora est un système d'exploitation libre qui se base sur le noyau Linux. Le noyau Linux est la partie du système d'exploitation qui communique avec le matériel de l'ordinateur et qui gère les ressources du système telles que la mémoire, la puissance de traitement. Fedora Linux comprend une variété d'outils logiciels et d'applications qui sont nécessaires pour faire fonctionner le système d'exploitation au-dessus du noyau Linux. Par dessous tout, Fedora possède une architecture modulaire qui lui permet d'être principalement constitué d'une collection de composantes individuelles qui peuvent être facilement ajoutées, supprimées ou remplacées au besoin. Cela vous permet de façonner le système d'exploitation en utilisant que les ressources dont vous avez besoin.
+Comme vous l'avez lu plus haut, Fedora est un système d'exploitation libre qui se base sur le noyau Linux. Le noyau Linux est la partie du système d'exploitation qui communique avec le matériel de l'ordinateur et qui gère les ressources du système telles que la mémoire et la puissance de traitement.
 
-Fedora Linux comprend également un environnement de bureau, qui est l'interface par laquelle les utilisateurs effectuent des tâches et accèdent à des applications. L'environnement de bureau par défaut de Fedora est GNOME, un environnement de bureau convivial, facile à utiliser et hautement personnalisable.
+Fedora Linux comprend une variété d'outils logiciels et d'applications qui sont nécessaires pour faire fonctionner le système d'exploitation au-dessus du noyau Linux. Fedora possède une architecture modulaire qui lui permet d'être principalement constitué d'une collection de composantes individuelles qui peuvent être facilement ajoutées, supprimées ou remplacées au besoin. Cela vous permet de façonner le système d'exploitation en utilisant que les ressources dont vous avez besoin.
+
+Fedora comprend également un environnement de bureau, qui est l'interface par laquelle les utilisateurs effectuent des tâches et accèdent à des applications. L'environnement de bureau par défaut de Fedora est GNOME, un environnement de bureau convivial, facile à utiliser et hautement personnalisable.
+
 ## Pourquoi choisir Fedora ?
 
 Parmi la multitude de distribution Linux disponible, Fedora se démarque notamment par :
 
-- **Sa modularité** : Compatible avec différentes architectures de processeur, Fedora peut s’installer sur la majorité des ordinateurs, même peu puissants ,s'adaptant parfaitement à vos besoins.
+- **Sa modularité** : Compatible avec différentes architectures de processeur, Fedora peut s’installer sur la majorité des ordinateurs, même peu puissants, s'adaptant parfaitement à vos besoins.
 
-- **Une interface simple et intuitive** : Fedora combine une interface graphique moderne avec une ligne de commande puissante, rendant son utilisation agréable pour tous les profils.
+- **Une interface simple et intuitive** : Fedora combine une interface graphique moderne avec une interface en ligne de commande puissante, rendant son utilisation agréable pour tous les profils.
 
 - **Stabilité du noyau** : Basé sur Red Hat, Fedora est réputée pour la fiabilité de ses mises à jour, notamment celles du noyau, qui se déroulent sans bugs majeurs grâce aux contributions libres d'une large communauté.
 
 - **Installation rapide et facile** : avec une image d’environ 3 Go, l’installation est rapide et accessible, même sur des machines avec des ressources limitées.
+
 ## Les éditions de Fedora
 
 Selon votre profil et votre utilisation, Fedora vous propose des éditions qui correspondent à vos besoins. Vous retrouverez principalement :
@@ -36,12 +41,14 @@ Selon votre profil et votre utilisation, Fedora vous propose des éditions qui c
 - **Fedora CoreOS** : Vous souhaitez facilement faire tourner et déployer des applications cloud ? Fedora CoreOS est l'édition qui vous met à disposition des outils pour créer et gérer des images avec Docker et Kubernets par exemple.
 
 Dans ce tutoriel, nous nous chargerons de prendre en main l'édition Fedora Workstation. Toutefois, les processus détaillés ci-dessous restent similairement les mêmes pour les autres éditions.
+
 ## Installer et Configurer Fedora Workstation
 
 Installer Fedora Workstation vous demandera la configuration matérielle suivante :
 - Une clé USB d’au moins **8 Go** pour booter le système d'exploitation.
 - Au minimum **40 Go d’espace libre** sur le disque dur de votre ordinateur.
 - **4 Go de RAM** pour une expérience fluide.
+
 ### Télécharger Fedora Workstation
 
 Vous pouvez télécharger l'édition [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) sur le site officiel du projet Fedora. Sélectionnez ensuite la version correspondante à l'architecture de votre processeur (32 bits - 64 bits) puis cliquez sur l'icône **Télécharger**.
@@ -57,7 +64,7 @@ Pour installer Fedora, il est nécessaire de créer une clé USB bootable à l�
 
 ![flash](assets/fr/04.webp)
 
-Une fois l'installation de Balena Etcher finie, ouvrez l'application puis sélectionnez l'image ISO de Fedora Workspace télécharger. Sélectionnez votre clé USB comme support de destination et cliquez sur le bouton **Flasher** pour lancer la création de la clé bootable.
+Une fois l'installation de Balena Etcher finie, ouvrez l'application puis sélectionnez l'image ISO de Fedora Workspace téléchargée. Sélectionnez votre clé USB comme support de destination et cliquez sur le bouton **Flash** pour lancer la création de la clé bootable.
 
 ![boot](assets/fr/05.webp)
 ### Faire une installation de Fedora
@@ -65,7 +72,7 @@ Une fois l'installation de Balena Etcher finie, ouvrez l'application puis sélec
 A la fin de l'opération de boot de votre clé USB, éteignez votre ordinateur.
 Allumez votre ordinateur puis accédez au BIOS lors du démarrage en cliquant sur la touche `F2`,  `F12` ou `ESC` selon votre ordinateur.
 
-Dans les options de démarrage, sélectionnez votre clé USB comme périphérique de démarrage principale. En validant ce choix, votre ordinateur redémarrera et lancera automatiquement **l’installateur Fedora** présent sur la clé USB.
+Dans les options de démarrage, sélectionnez votre clé USB comme périphérique de démarrage principal. En validant ce choix, votre ordinateur redémarrera et lancera automatiquement **l’installateur Fedora** présent sur la clé USB.
 
 Une fois votre ordinateur démarré sur la clé USB, l’**écran de GRUB** s’affiche.  
 
@@ -87,12 +94,15 @@ La première étape consiste à sélectionner la **langue d’installation** de 
 ![language](assets/fr/10.webp)
 
 - Sélection du disque d’installation :
+
 Choisissez le disque dur sur lequel vous souhaitez installer Fedora.  
+
 Si le disque est vide, Fedora utilisera automatiquement tout l’espace disponible. Autrement, vous pourrez personnaliser la répartition (partitionnement manuel ou automatique).
 
 ![disk](assets/fr/11.webp)
 
 - Le chiffrement :
+
 À cette étape, Fedora propose de chiffrer votre disque afin d’ajouter une couche de sécurité supplémentaire. Cela garantit que vos données ne seront lisibles que par votre système Fedora.
 
 ![chiffrement](assets/fr/12.webp)
@@ -131,7 +141,7 @@ Pendant l’installation, Fedora copie les fichiers et configure le système. Un
 
 ![name](assets/fr/20.webp)
 
-- Créez un mot de passe sécurisé : au moins 8 caractères, avec des majuscules et des caractères spéciaux pour plus de sécurité.
+- Créez un mot de passe sécurisé pour votre session : le plus long possible (minimum 20 caractères), le plus aléatoire possible et avec une diversité de caractères (minuscules, majuscules, chiffres et symboles). Pensez à faire une sauvegarde de votre mot de passe.
 
 ![mdp](assets/fr/21.webp)
 
@@ -168,12 +178,20 @@ Après l’installation, il est important de mettre à jour Fedora pour bénéfi
 - Ouvrez les **paramètres** de Fedora, puis allez dans la section **Système**.
 - Cliquez sur **Mise à jour logicielle**.
 - Lancez le téléchargement des mises à jour et patientez jusqu’à la fin du processus.
+
 Un **redémarrage** peut être nécessaire une fois les mises à jour installées.
 ### Option 2 : Via le terminal
 - Ouvrez un terminal et commencez par mettre à jour les **dépôts** pour vous assurer de disposer des dernières versions des paquets :
-`sudo dnf check-update`
+
+```shell
+sudo dnf check-update
+```
+
 - Ensuite, lancez la mise à jour de tous les logiciels installés avec la commande suivante :
-`sudo dnf upgrade`
+
+```shell
+sudo dnf upgrade
+```
 
 Voilà, votre système Fedora est à jour et prêt à être utilisé pour toutes vos tâches du quotidien. Découvrez notre tutoriel sur Linux Mint, une autre distribution Linux et comment mettre en place un environnement sain et sécurisé pour effectuer vos transactions Bitcoin.
 

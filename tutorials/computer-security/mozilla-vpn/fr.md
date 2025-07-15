@@ -8,7 +8,11 @@ A l'ère du numérique et de la collecte de données, la protection de la vie pr
 
 ## Qu'est-ce que Mozilla VPN ?
 
-Un ***Virtual Private Network*** (VPN) est un système permettant de créer un lien direct entre des ordinateurs distants connectés à des réseaux locaux différents. Autrement dit, il s'agit d'un système qui isole et qui chiffre vos échanges du reste du trafic sur Internet. Basé sur ce principe, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) est un service open source de VPN développé en 2020 par la fondation Mozilla. Il est disponible sur les systèmes d'exploitation :
+Un ***Virtual Private Network*** (VPN) est un système permettant de créer un lien direct entre des ordinateurs distants connectés à des réseaux locaux différents. Autrement dit, il s'agit d'un système qui isole et qui chiffre vos échanges du reste du trafic sur Internet. Pour approfondir vos connaissances sur les VPN, leurs usages et l’intérêt qu’il peut y avoir à en utiliser un, je vous invite à consulter le cours SCU 101 :
+
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+
+Basé sur ce principe, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) est un service open source de VPN développé en 2020 par la fondation Mozilla. Il est disponible sur les systèmes d'exploitation :
 
 - Android,
 - iOS,
@@ -85,8 +89,8 @@ Le tunneling fractionné est une fonction pratique qui vous permet d'acheminer u
 
 ⚠️Mozilla VPN propose le tunneling fractionné sur tous les produits, à l'exception de MacOs et iOS. Désolé pour les utilisateurs d'Apple, vous ne pourrez pas utiliser cette fonctionnalité. Il est probable qu'ils le fassent, car ils n'autorisaient cette fonctionnalité qu'à travers leur application Android et maintenant elle s'étend à d'autres systèmes d'exploitation.
 
-Toujours dans l'optique de garantir une confidentialité renforcée à ses utilisateurs, Mozilla VPN dispose d'un système de **Kill Switch** qui lui permet de mettre fin à votre connexion internet s'il faiblit pour une raison ou une autre. Cela permet de protéger votre adresse IP et d'autres informations personnelles.
+Toujours dans l'optique de garantir une confidentialité renforcée à ses utilisateurs, Mozilla VPN dispose d'un système de **Kill Switch** qui lui permet de mettre fin à votre connexion internet si le VPN se coupe pour une raison ou une autre. Cela permet de protéger votre adresse IP et d'autres informations personnelles.
 
-Vous êtes désormais parés pour naviguer en toute confidentialité et en toute sécurité sur Internet. Si vous avez apprécié ce tutoriel, n'hésitez pas à mettre un pouce vert. Nous sommes également convaincus que vous apprécierez notre tutoriel sur MULLVAD VPN qui vous ne requiert aucune donnée personnelle de ses utilisateurs et qui vous permet de payer des abonnements en bitcoins.
+Vous êtes désormais parés pour naviguer en toute confidentialité et en toute sécurité sur Internet. Si vous avez apprécié ce tutoriel, n'hésitez pas à mettre un pouce vert. Nous sommes également convaincus que vous apprécierez notre tutoriel sur MULLVAD VPN, une autre solution de VPN qui ne requiert aucune donnée personnelle de ses utilisateurs et qui vous permet de payer votre abonnement en bitcoins (une option plus confidentielle que la carte bancaire) :
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

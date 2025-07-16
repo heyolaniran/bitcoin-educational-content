@@ -1,6 +1,6 @@
 ---
-name : Debian
-description : Découvrez Debian, une distribution Linux réputée pour sa stabilité, sa robustesse et sa grande compatibilité.
+name: Debian
+description: Découvrez Debian, une distribution Linux réputée pour sa stabilité, sa robustesse et sa grande compatibilité.
 ---
  
 ![cover](assets/cover.webp)

@@ -1,6 +1,6 @@
 ---
 name: Debian
-description: Découvrez Debian, une distribution Linux réputée pour sa stabilité, sa robustesse et sa grande compatibilité.
+description: Une distribution Linux réputée pour sa stabilité, sa robustesse et sa grande compatibilité.
 ---
  
 ![cover](assets/cover.webp)
@@ -34,7 +34,7 @@ Debian propose plusieurs environnements de bureau selon vos besoins :
 Avant de lancer l’installation, veillez à disposer du matériel suivant :
  
 - **Clé USB** : 8 Go minimum pour y placer l’image ISO bootable.
-- **Mémoire vive (RAM)** : 4 Go pour garantir une installation et un fonctionnement fluides.
+- **Mémoire vive (RAM)** : 4 Go pour garantir une installation et un fonctionnement fluide.
 - **Espace disque** : au moins 15 Go d’espace libre pour accueillir le système et les mises à jour.
  
 ### Téléchargement
@@ -55,24 +55,26 @@ Une fois l’image ISO adéquate téléchargée, procédez à la création de vo
 ![etcher](assets/fr/02.webp)
  
 - **Lancez Etcher** : ouvrez le logiciel et sélectionnez l’image ISO de Debian précédemment téléchargée.
-- **Choisissez la clé USB** : indiquez votre clé (8 Go+) comme cible (target).
+- **Choisissez la clé USB** : indiquez votre clé (8 Go+) comme cible.
 - **Démarrez le flash** : cliquez sur **Flash!** et patientez jusqu’à la fin du processus.
  
 ![flash](assets/fr/03.webp)
  
 Votre clé USB est maintenant prête à démarrer l’installation de Debian.
  
-## Installation sécuriser de Debian sur votre système
+## Installation de Debian sur votre système
 
 ### Démarrage sur la clé USB
+
 Pour lancer l’installation depuis votre clé USB :
 - **Éteignez** complètement l’ordinateur.
 - **Redémarrez** puis accédez au BIOS/UEFI en appuyant immédiatement sur `ESC`, `F2`, `F11` (ou la touche dédiée selon votre marque).
 - Dans le menu de démarrage, **sélectionnez votre clé USB** comme périphérique d’amorçage.
-- **Validez** avec Entrée pour démarrer sur l’image Debian : vous arriverez alors sur l’écran d’accueil de l’installateur.
+- **Validez** avec la touche Entrée pour démarrer sur l’image Debian : vous arriverez alors sur l’écran d’accueil de l’installateur.
  
 ### Lancement de l'installation
-Ecran de démarrage
+
+Ecran de démarrage :
  
 ![starting](assets/fr/04.webp)
  
@@ -80,21 +82,25 @@ Au démarrage depuis la clé USB, l’écran d’accueil de Debian propose plusi
 - **Live System** : lance Debian sans l’installer, idéal pour tester l’environnement.
 - **Start Installer** : démarre directement l’installation sur le disque dur.
 - **Advanced Install Options** : vous donne accès à des modes d’installation personnalisés.
+
 Pour explorer Debian en mode live, choisissez **Live System** et validez avec **Entrée**. Vous pouvez ensuite lancer l’installation en cliquant sur **Install Debian** dans l’environnement live.
- 
+
 ![system](assets/fr/05.webp)
  
 - **Sélection de la langue**
+
 Sélectionnez la langue principale de votre système Debian dans la liste proposée, puis validez.
  
 ![language](assets/fr/06.webp)
  
 - **Fuseau horaire**
+
 Choisissez votre zone géographique pour configurer automatiquement la date et l’heure.
  
 ![timezone](assets/fr/07.webp)
  
 - **Disposition du clavier**
+
 Sélectionnez la langue de votre clavier et la disposition correspondante. Utilisez le champ de test intégré pour vérifier que chaque touche produit le caractère attendu.
  
 ![keyboard](assets/fr/08.webp)
@@ -107,21 +113,25 @@ Sélectionnez la langue de votre clavier et la disposition correspondante. Utili
 ![disk](assets/fr/09.webp)
  
 - **Création du compte utilisateur**
-Indiquez votre nom complet, le nom de votre compte et un mot de passe sécurisé pour garantir la protection de votre session.
+
+Indiquez votre nom complet, le nom de votre compte et un mot de passe fort pour garantir la protection de votre session.
  
 ![user](assets/fr/10.webp)
  
 - **Résumé des paramètres**
+
 Un récapitulatif de vos choix s’affiche : vérifiez chaque élément et revenez en arrière pour modifier si nécessaire.
  
 ![settings](assets/fr/11.webp)
  
 - **Lancement de l’installation**
+
 Cliquez sur **Installer** pour démarrer la copie des fichiers et la configuration du système puis patientez jusqu’à la fin du processus.
  
 ![install](assets/fr/12.webp)
  
 - **Redémarrage**
+
 Une fois l’installation terminée, redémarrez l’ordinateur pour appliquer toutes les configurations et accéder à votre nouveau système Debian.
  
 ![restart](assets/fr/13.webp)
@@ -136,30 +146,31 @@ Avant de commencer à utiliser votre système, il est essentiel de le mettre à 
  
 ### Option 1 : Mise à jour via l’interface graphique (GNOME)
  
-Si vous avez installé Debian avec l’environnement de bureau GNOME, vous pouvez effectuer les mises à jour graphiquement.  
-Pour cela, ouvrez l’application **Logiciels**, puis allez dans l’onglet **Mises à jour**. Cliquez ensuite sur **Redémarrage et mise à jour** pour lancer le processus.
+Si vous avez installé Debian avec l’environnement de bureau GNOME, vous pouvez effectuer les mises à jour graphiquement. Pour cela, ouvrez l’application **Logiciels**, puis allez dans l’onglet **Mises à jour**. Cliquez ensuite sur **Redémarrage et mise à jour** pour lancer le processus.
  
 ### Option 2 : Mise à jour via le terminal (recommandée)
  
 Cette méthode offre un contrôle plus complet. Elle permet de mettre à jour les dépôts, les paquets logiciels, ainsi que le noyau si nécessaire.
-- Ouvrez le terminal à l’aide du raccourci **Ctrl + Alt + T**.
+- Ouvrez le terminal à l’aide du raccourci `Ctrl + Alt + T`.
 - Mettez à jour la liste des paquets disponibles avec la commande suivante :
-   
+
 ```shell
 sudo apt update
 ```
+  
   Entrez votre mot de passe lorsque demandé (notez qu’aucun caractère ne s'affichera lors de la saisie, c’est normal).
+  
 - Pour installer les mises à jour disponibles :
  
 ```shell    
-sudo apt install upgrade -y
+sudo apt full-upgrade
 ```
 
 ## Découvrez les tâches de base
  
 ### Naviguer sur Internet
  
-Le navigateur web par défaut sur Debian est **Firefox**. Si vous préférez un autre navigateur, vous pouvez en installer un autre, à condition qu’il soit disponible dans les dépôts Debian (comme Chromium, Brave, etc.).
+Le navigateur web par défaut sur Debian est **Firefox**. Si vous préférez un autre navigateur, vous pouvez en installer un autre, à condition qu’il soit disponible dans les dépôts Debian (comme Chromium, Brave...).
 
 ### Faire du traitement de texte
  
@@ -176,13 +187,19 @@ Il existe deux méthodes pour installer des applications sur Debian :
 ### Méthode graphique :
  
 Vous pouvez utiliser le **gestionnaire de logiciels** (accessible via l’interface graphique) pour rechercher et installer facilement des applications.
- 
+
 ### Méthode en ligne de commande :
  
 Si l'application que vous cherchez n'apparaît pas dans l'interface graphique, ou si vous préférez le terminal, utilisez la commande suivante :
  
 ```shell
-sudo apt install nom-du-paquet
+sudo apt install <name>
+```
+
+Remplacez `<name>` par le nom du paquet. Par exemple, pour installer `curl` :
+
+```shell
+sudo apt install curl
 ```
 
 ### Installer un paquet téléchargé manuellement :
@@ -190,7 +207,7 @@ sudo apt install nom-du-paquet
 Si vous avez téléchargé un fichier `.deb` (paquet Debian), vous pouvez l’installer avec la commande suivante :
  
 ```shell
-sudo dpkg -i nom-du-fichier.deb
+sudo apt install ./name.deb
 ```
  
 https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
@@ -200,6 +217,8 @@ Grâce à l’environnement de bureau **GNOME**, vous avez accès à de nombreus
  
 Sachez également qu’il est possible de changer d’environnement de bureau (par exemple passer à XFCE, KDE, etc.) sans avoir à réinstaller Debian. Pour cela, il suffit d’utiliser le terminal et d’installer le nouvel environnement de votre choix.
  
-Si vous êtes à l'aise avec votre système Debian, vous adorerez notre tutoriel sur GrapheneOS, un système d'exploitation mobile axé sur la confidentialité et la sécurité de vos données.
+Pour approfondir vos connaissances sur Debian, et plus largement sur les distributions GNU/Linux, je vous recommande de consulter ce cours :
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+
+

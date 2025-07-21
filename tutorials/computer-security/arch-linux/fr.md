@@ -9,9 +9,9 @@ Arch Linux est une distribution reconnue pour sa robustesse, ses performances et
 
 ## Pourquoi choisir Arch Linux ?
 
-- **Coût nul** : comme la plupart des distributions Linux, Arch Linux est totalement gratuite. Aucun frais de licence à prévoir, ce qui en fait un excellent choix pour les étudiants, les indépendants ou les passionnés.
-- **Philosophie KISS - ** : Arch est conçue pour rester simple, légère et efficace. Elle fournit uniquement l’essentiel, ce qui vous permet de construire votre environnement à la carte.
-- **Gestionnaire de paquets Pacman** : Pacman est un gestionnaire de paquets rapide, fiable et très bien conçu. Il permet une installation et une mise à jour efficaces des logiciels, et gère les dépendances avec précision.
+- **Libre et gratuit** : Comme la plupart des distributions Linux, Arch Linux est totalement gratuite. Aucun frais de licence à prévoir, ce qui en fait un excellent choix pour les étudiants, les indépendants ou les passionnés.
+- **Philosophie KISS** : Arch est conçue pour rester simple, légère et efficace. Elle fournit uniquement l’essentiel, ce qui vous permet de construire votre environnement à la carte.
+- **Gestionnaire de paquets Pacman** : Pacman est un gestionnaire de paquets rapide, fiable et très bien conçu. Il permet une installation et une mise à jour efficace des logiciels, et gère les dépendances avec précision.
 - **Documentation complète et communauté active** : l’[Arch Wiki](https://wiki.archlinux.org) est probablement l’une des meilleures documentations techniques de l’univers Linux. Il s'agit d'une mine d’or pour comprendre ce que vous faites. La communauté, composée en majorité de profils expérimentés, est très active et peut vous aider en cas de blocage, à condition que vous ayez cherché un minimum au préalable.
 
 ## Installation et configuration
@@ -343,7 +343,7 @@ Le système se relance automatiquement et vous avez l'interface de connexion gra
 
 ## Création d’un utilisateur
 
-Une fois dans l'**interface GNOME**, vous devez créer un nouvel utilisateur pour plus de sécurité une utilisation plus sûre sans risque. Entrez dans les application et choisissez console pour lancer le terminal. 
+Une fois dans l'**interface GNOME**, vous devez créer un nouvel utilisateur pour plus de sécurité ainsi qu’une utilisation plus sûre et sans risque. Entrez dans les applications et choisissez l’option “console” pour lancer le terminal. 
 
 - Ajoutez un utilisateur :
 

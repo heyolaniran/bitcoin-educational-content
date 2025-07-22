@@ -6,6 +6,7 @@ description: Le moyen le plus rapide pour convertir du bitcoin en Mobile Money.
 ![cover](assets/cover.webp)
 
 Les transferts transfrontaliers en Afrique représentent un véritable casse-tête pour le libre échange des biens et services. Face à ce problème, bitcoin est une innovation qui, si on sait bien le contextualiser, peut résoudre de nombreux problèmes que les sociétés africaines rencontrent, de la souveraineté financière au libre échange de valeurs. Aujourd'hui, nous partons à la découverte de BitSpenda, une initiative de Bitcoin Dua, une communauté ghanéenne grandissante qui vise à démocratiser l'utilisation quotidienne du bitcoin au Ghana et à faciliter les opérations transfrontaliers.
+
 ## La genèse
 
 *Depuis plus de deux semaines, nous nous efforçons d'envoyer des devises au Ghana pour le @freeAfricaRouthing Ghana Lightning Développement.* - Un internaute X (anciennement Twitter).
@@ -28,6 +29,7 @@ Actuellement, BitSpenda couvre trois pays :
 ![countries](assets/fr/02.webp)
 
 A partir de ces options, il est plus simple pour vous d'utiliser bitcoin via Lightning Network pour envoyer de l'argent dans ces pays et faire des achats quotidiens sans avoir de la monnaie locale.
+
 ### Les banques au Nigéria
 
 Les opérations interbancaires en Afrique créent assez de frictions et ont généralement un délai de traitement considérable. A partir de BitSpenda, vous pouvez échanger, envoyer de l’argent n'importe où, faire un virement bancaire au Nigéria sans frais et instantanément. BitSpenda couvre plus de 50 banques et néo-banques au Nigéria.
@@ -76,7 +78,14 @@ Payez la facture Lightning pour valider votre échange et effectuer l'échange.
 Vous pouvez utiliser BitSpenda au Ghana via le MTN Mobile Money de la même manière que vous utiliserai du M-Pesa au Kenya.
 Sélectionnez le Ghana comme pays.
 Entrez ensuite le numéro Mobile Money du destinataire de votre échange.
+
+![gh](assets/fr/14.webp)
+
 Vérifiez puis confirmez le numéro et le montant de votre échange puis payez la facture Lightning associée à votre échange.
+
+![confirm-cedi](assets/fr/15.webp)
+
+![process](assets/fr/16.webp)
 
 ## Vulgariser Bitcoin en Afrique
 

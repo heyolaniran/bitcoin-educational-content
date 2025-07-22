@@ -5,7 +5,7 @@ description: Une distribution minimaliste et performante, conçue selon la philo
 
 ![cover](assets/cover.webp)
 
-Arch Linux est une distribution reconnue pour sa robustesse, ses performances et son adaptabilité, notamment pour des objectifs de développement. Elle offre une excellente stabilité et un environnement propice à la personnalisation, le tout porté par un gestionnaire de paquets extrêmement rapide et fiable. Sa philosophie repose sur le principe du **KISS** (Keep It Simple, Stupid) : proposer une distribution légère, simple, rapide et épurée, tout en laissant une grande liberté à l’utilisateur.
+Arch Linux est une distribution reconnue pour sa robustesse, ses performances et son adaptabilité, notamment pour des objectifs de développement. Elle offre une excellente stabilité et un environnement propice à la personnalisation, le tout porté par un gestionnaire de paquets extrêmement rapide et fiable. Sa philosophie repose sur le principe du **KISS** (*Keep It Simple, Stupid*) : proposer une distribution légère, simple, rapide et épurée, tout en laissant une grande liberté à l’utilisateur.
 
 ## Pourquoi choisir Arch Linux ?
 
@@ -54,8 +54,7 @@ Pour créer une clé USB bootable, vous pouvez utiliser un outil comme **Balena 
 
 ## Lancement de l’installation
 
-Ecran de démarrage 
-Choisissez la première option pour lancer l'installation. Notez que Arch linux ne propose pas d’installateur graphique. Une fois lancé, vous arriverez sur un terminal en mode root.
+Sur l'écran de démarrage, choisissez la première option pour lancer l'installation. Notez que Arch linux ne propose pas d’installateur graphique. Une fois lancé, vous arriverez sur un terminal en mode root.
 
 ![0_3](assets/fr/03.webp)
 

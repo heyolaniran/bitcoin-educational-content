@@ -5,7 +5,7 @@ description: Le moyen le plus rapide pour convertir du bitcoin en Mobile Money.
 
 ![cover](assets/cover.webp)
 
-Les transferts transfrontaliers en Afrique représentent un véritable casse-tête pour le libre échange des biens et services. Face à ce problème, bitcoin est une innovation qui, si on sait bien le contextualiser, peut résoudre de nombreux problèmes que les sociétés africaines rencontrent, de la souveraineté financière au libre échange de valeurs. Aujourd'hui, nous partons à la découverte de BitSpenda, une initiative de Bitcoin Dua, une communauté ghanéenne grandissante qui vise à démocratiser l'utilisation quotidienne du bitcoin au Ghana et à faciliter les opérations transfrontaliers.
+Les transferts transfrontaliers en Afrique représentent un véritable casse-tête pour le libre échange des biens et services. Face à ce problème, bitcoin est une innovation qui, si on sait bien le contextualiser, peut résoudre de nombreux problèmes que les sociétés africaines rencontrent, de la souveraineté financière au libre échange de valeurs. Aujourd'hui, nous partons à la découverte de BitSpenda, une initiative de Bitcoin Dua, une communauté ghanéenne grandissante qui vise à démocratiser l'utilisation quotidienne du bitcoin au Ghana et à faciliter les opérations transfrontalières.
 
 ## La genèse
 
@@ -46,7 +46,7 @@ Vérifiez ensuite les informations que vous avez remplies pour confirmer votre �
 
 ![confirm](assets/fr/09.webp)
 
-Une fois votre transaction confirmée, effectuer le paiement de la facture Lightning associée. Le virement bancaire est fait automatiquement dès que votre paiement est fait.
+Une fois votre transaction confirmée, effectuez le paiement de la facture Lightning associée. Le virement bancaire est fait automatiquement dès que votre paiement est fait.
 
 ![payment](assets/fr/10.webp)
 
@@ -56,7 +56,7 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 ### Le M-Pesa au Kenya
 
-BitSpenda repose sur deux innovations financières et technologiques que sont le Bitcoin et le Mobile Money. Le premier permet de regagner sa souveraineté financière en faisant des transactions pseudonyme et l'intermédiaire d'une institution centrale et ceci, partout dans le monde et instantanément via la couche Lightning Network. Le second quant à lui, vient pour régler le problème de bancarisation très faible des sociétés africaines.
+BitSpenda repose sur deux innovations financières et technologiques que sont le Bitcoin et le Mobile Money. Le premier permet de regagner sa souveraineté financière en faisant des transactions pseudonyme sans l'intermédiaire d'une institution centrale et ceci, partout dans le monde et instantanément via la couche Lightning Network. Le second quant à lui, vient pour régler le problème de bancarisation très faible des sociétés africaines.
 
 BitSpenda dessert le Kenya à travers le M-Pesa, un Mobile Money très populaire dans le pays.
 A partir des initiatives comme BitSpenda, aujourd'hui vous êtes en mesure d'utiliser bitcoin pour payer dans un magasin, manger au restaurant, payer votre loyer et vos factures.
@@ -65,7 +65,7 @@ Sélectionnez le Kenya comme pays de destination puis remplissez le numéro M-pe
 
 ![mpesa](assets/fr/11.webp)
 
-Passez la confirmation en vérifiant les informations que vous avez inséré.
+Passez la confirmation en vérifiant les informations que vous avez insérées.
 
 ![confirmation](assets/fr/12.webp)
 
@@ -75,8 +75,10 @@ Payez la facture Lightning pour valider votre échange et effectuer l'échange.
 
 ### Le Mobile Money au Ghana
 
-Vous pouvez utiliser BitSpenda au Ghana via le MTN Mobile Money de la même manière que vous utiliserai du M-Pesa au Kenya.
+Vous pouvez utiliser BitSpenda au Ghana via le MTN Mobile Money de la même manière que vous utiliseriez du M-Pesa au Kenya.
+
 Sélectionnez le Ghana comme pays.
+
 Entrez ensuite le numéro Mobile Money du destinataire de votre échange.
 
 ![gh](assets/fr/14.webp)
@@ -89,11 +91,11 @@ Vérifiez puis confirmez le numéro et le montant de votre échange puis payez l
 
 ## Vulgariser Bitcoin en Afrique
 
-A  travers BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) vise à mettre en place un cadre idéal pour l'adoption du bitcoin en Afrique. BitSpenda se démarque principalement par :
+A travers BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) vise à mettre en place un cadre idéal pour l'adoption du bitcoin en Afrique. BitSpenda se démarque principalement par :
 - **La confidentialité** : Vous n'avez pas besoin de créer un compte sur la plateforme, pas de vérification d'identité, pas d'information personnelle à donner.
 - **La liberté** : Vous pouvez utiliser BitSpenda depuis tous les pays pour faire des transactions vers le Ghana, le Nigéria et le Kenya.
 - **La rapidité**: Se baser sur les paiements Lightning a permis à BitSpenda de réduire les temps de traitement et de faire des opérations instantanées.
-- **La transparence** : Toutes les transactions que vous avez effectué sur BitSpenda sont associées à des identifiants uniques qui vous permettent de retrouver et de suivre l'évolution de ces transactions. Vous pourrez également utiliser ces identifiants pour contacter [le support de l'application sur X](https://x.com/bitspenda).
+- **La transparence** : Toutes les transactions que vous avez effectuées sur BitSpenda sont associées à des identifiants uniques qui vous permettent de retrouver et de suivre l'évolution de ces transactions. Vous pourrez également utiliser ces identifiants pour contacter [le support de l'application sur X](https://x.com/bitspenda).
 
 Vous êtes désormais apte à utiliser bitcoin quotidiennement dans les pays desservis par BitSpenda.
 

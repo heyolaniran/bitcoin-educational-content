@@ -1,24 +1,28 @@
 ---
 name: Elementary OS
-description: 
+description: Le remplaçant idéale pour Windows et MacOs
 ---
 
 ![cover](assets/cover.webp)
 
-Elementary OS est un système d’exploitation basé sur Ubuntu, conçu pour être simple, rapide et stable dans de nombreux usages quotidiens. Il représente une alternative équilibrée entre macOS et Windows. Son interface graphique fluide, intuitive et épurée rend la prise en main facile, même pour les débutants. Il met également l’accent sur l’ergonomie, la sécurité et la performance.
+Elementary OS est un système d’exploitation basé sur Ubuntu, conçu pour être simple, rapide et stable dans de nombreux usages quotidiens. Il représente une alternative équilibrée entre MacOs. Son interface graphique fluide, intuitive et épurée rend la prise en main facile, même pour les débutants. Il met également l’accent sur l’ergonomie, la sécurité et la performance.
+
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Pourquoi choisir Elementary OS
 
-- **Simplicité et facilité d’utilisation** : L’interface graphique d’Elementary OS est à mi-chemin entre celles de macOS et Windows. Cette familiarité facilite son adoption, même par des utilisateurs peu expérimentés.
-- **Sécurité** : Comme la majorité des distributions Linux, Elementary OS bénéficie d’un haut niveau de sécurité. Les mises à jour régulières, la gestion des droits et l’absence de virus courants en font un système fiable. 
-- **Rapidité** : Elementary OS est une distribution légère. Elle nécéssite peu de ressources, ce qui la rend rapide et adaptée aux ordinateurs avec des configurations modestes.
-- **Gratuité** : Le système est entièrement gratuit. Cependant, lors du téléchargement, vous pouvez faire un don pour soutenir les développeurs. 
+- **Simplicité et facilité d’utilisation** : L’interface graphique d’Elementary OS est à mi-chemin entre celles de MacOs et Windows. Cette familiarité facilite son adoption, même par des utilisateurs peu expérimentés.
+
+- **Sécurité** : Comme la majorité des distributions Linux, Elementary OS bénéficie d’un haut niveau de sécurité. Les mises à jour régulières, la gestion des droits et l’absence de virus courants en font un système fiable.
+
+- **Rapidité** : Elementary OS est une distribution légère. Elle nécessite peu de ressources, ce qui la rend rapide et adaptée aux ordinateurs avec des configurations modestes.
+
+- **Gratuité** : Le système est entièrement gratuit. Cependant, lors du téléchargement, vous pouvez faire un don pour soutenir les développeurs.
+
 - **Communauté active** : La communauté autour d’Elementary OS est diversifiée et réactive. En cas de difficulté, vous pouvez facilement trouver de l’aide sur les forums ou réseaux sociaux.
 
 ## Installation et Configuration 
-### Prérequis 
-
-**Matériel nécessaire** 
+### Prérequis Matériels
 
 Avant de commencer l’installation, assurez-vous de disposer du matériel suivant :
 
@@ -45,11 +49,8 @@ Cliquez sur le bouton **flash** pour lancer le processus et patientez jusqu’à
 
 ## Démarrage sur la clé et accès au BIOS
 
-- Éteignez l’ordinateur sur lequel vous souhaitez installer Elementary OS.
-- Branchez la clé USB.
-- Allumez l’ordinateur et appuyez immédiatement sur la touche d’accès au BIOS ou au menu de démarrage (Échap, F9 ou F11 selon les marques).
-- Sélectionnez la clé USB comme périphérique de démarrage.
-- Appuyez sur Entrée pour lancer l’amorçage.
+Éteignez l’ordinateur sur lequel vous souhaitez installer Elementary OS puis branchez la clé USB.
+Au démarrage de votre ordinateur accédez au BIOS (`ESC`, `F9` ou `F11` selon les marques) et sélectionnez ensuite la clé USB comme périphérique de démarrage puis appuyez sur la touche `Entrée` pour lancer l’amorçage.
 
 ## Installation de Elementary OS
 
@@ -65,7 +66,7 @@ Sélectionnez la langue dans laquelle vous souhaitez installer le système. Vous
 
 ### Disposition du clavier
 
-Choisissez la disposition correspondant à votre clavier. Un champ est prévu pour vérifier que les touches produisent les bons caractères.
+Choisissez la disposition correspondante à votre clavier. Un champ est prévu pour vérifier que les touches produisent les bons caractères.
 
 ![0_05](assets/fr/05.webp)
 
@@ -73,7 +74,7 @@ Choisissez la disposition correspondant à votre clavier. Un champ est prévu po
 
 ### Mode d’essai
 
-Elementary OS propose de tester le système avant de procéder à l’installation. Ce mode vous permet d’explorer l’interface sans rien modifier sur votre disque dur.
+Elementary OS vous propose de tester le système avant de procéder à l’installation. Ce mode vous permet d’explorer l’interface sans rien modifier sur votre disque dur.
 
 ### Lancement de l’installation
 
@@ -84,7 +85,7 @@ Elementary OS propose de tester le système avant de procéder à l’installati
 
 ### Choix du disque
 
-Sélectionnez le disque sur lequel Elementary OS doit être installé, puis cliquez sur Continuer.
+Sélectionnez le disque sur lequel Elementary OS doit être installé, puis cliquez sur le bouton continuer.
 
 ![0_08](assets/fr/08.webp)
 
@@ -109,8 +110,7 @@ Avant de lancer l'installation vous pouvez autoriser l’installation automatiqu
 
 ### Redémarrage 
 
-- Une fois terminé, cliquez sur le bouton **entré** pour redémarrer.
-- Retirez la clé USB au moment opportun, afin d’éviter de relancer l’installation.
+ Une fois terminé, cliquez sur le bouton **entré** pour redémarrer puis retirez la clé USB au moment opportun, afin d’éviter de relancer l’installation.
 
 ![0_13](assets/fr/13.webp)
 
@@ -134,10 +134,7 @@ Assurez-vous que la disposition du clavier est bien celle souhaitée.
 
 ### Création d’un compte utilisateur
 
-- Renseignez votre nom complet.
-- Choisissez un nom d’utilisateur.
-- Définissez un mot de passe fort, composé d’au moins 8 caractères incluant des lettres majuscules, des lettres minuscules, des chiffres et des symboles.
-- Validez pour créer votre compte et accéder au système.
+Associez un compte utilisateur à votre système d'exploitation en définissant un nom d'utilisateur puis en sécurisant l'accès à vos données avec un mot de passe alphanumérique d'au moins 20 caractères et symboles.
 
 ![0_17](assets/fr/17.webp)
 
@@ -152,12 +149,9 @@ Lors de votre première connexion, Elementary OS vous propose de personnaliser v
 ## Mise à jour du système
 
 Avant toute utilisation prolongée, il est important de mettre à jour le système pour bénéficier des derniers correctifs.
-### Option 1: Mise à jour via l’interface graphique
+### Option 1 : Mise à jour via l’interface graphique
 
-- Entrez dans l'**appCenter**
-- Cliquez sur l’icône de mise à jour en haut à droite.
-- Attendez que les mises à jour soient listées.
-- Cliquez sur **« Tout mettre à jour »** pour lancer l’installation.
+Entrez dans l'**AppCenter** et cliquez sur l’icône de mise à jour en haut à droite. Attendez que les mises à jour soient listées puis cliquez sur **« Tout mettre à jour »** pour lancer l’installation.
 
 ![0_20](assets/fr/20.webp)
 
@@ -165,25 +159,17 @@ Avant toute utilisation prolongée, il est important de mettre à jour le systè
 
 ### Option 2 : Mise à jour via le terminal
 
-Vous pouvez aussi effectuer la mise à jour en ligne de commande, ce qui est recommandé pour plus de précision.
-
-- Ouvrez le terminal.
-- Tapez la commande suivante, puis validez avec Entrée :  
+Vous pouvez aussi effectuer la mise à jour en ligne de commande via votre terminal : une option recommandée pour sa précision.
 
 ```shell
 sudo apt update
 ```
-    
-- Entrez votre mot de passe si demandé.
-- Ensuite, tapez :  
 
 ```shell
 sudo apt upgrade
 ```
 
-- Confirmez l’installation des mises à jour.
-
-Cette méthode permet de mettre à jour à la fois les applications et le noyau du système.
+Pour vos premières mises à jour, le système d'exploitation requiert votre mot de passe utilisateur puis une confirmation afin de mettre à jour les paquets des logiciels, ce même dans le noyau de Elementary. 
 
 ## Configuration de l’environnement de travail
 
@@ -197,4 +183,6 @@ sudo apt update && sudo apt install -y git python3 python3-pip build-essential w
 
 Cette commande permet d'installer **Git**, **Python 3**, **pip**, **outils de compilation**, **wget**, **curl**, **zsh**, **make**, **snapd** ainsi que **vscode** pour préparer un environnement basique pour le développement. 
 
-Elementary OS est maintenant opérationnel sur votre machine. Sa philosophie orientée vers la simplicité, la légèreté et l’élégance en fait un excellent choix, aussi bien pour une utilisation personnelle que professionnelle. Vous disposez d’un système stable, fluide et épuré, prêt à être personnalisé selon vos préférences. Que ce soit pour le développement, la bureautique ou la navigation quotidienne, tout est en place pour bâtir un environnement de travail efficace, intuitif et agréable.
+Elementary OS est maintenant opérationnel sur votre machine. Sa philosophie orientée vers la simplicité, la légèreté et l’élégance en fait un excellent choix, aussi bien pour une utilisation personnelle que professionnelle. Vous disposez d’un système stable, fluide et épuré, prêt à être personnalisé selon vos préférences. Que ce soit pour le développement, la bureautique ou la navigation quotidienne, tout est en place pour bâtir un environnement de travail efficace, intuitif et agréable. Découvrez également le tutoriel sur Fedora, une distribution Linux toute aussi simple, robuste, modulable.
+
+https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

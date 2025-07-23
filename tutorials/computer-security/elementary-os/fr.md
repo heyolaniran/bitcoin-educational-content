@@ -1,6 +1,6 @@
 ---
 name: Elementary OS
-description: Le remplaçant idéale pour Windows et MacOs
+description: Le remplaçant idéal pour Windows et MacOS
 ---
 
 ![cover](assets/cover.webp)

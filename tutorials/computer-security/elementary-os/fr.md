@@ -5,7 +5,7 @@ description: Le remplaçant idéale pour Windows et MacOs
 
 ![cover](assets/cover.webp)
 
-Elementary OS est un système d’exploitation basé sur Ubuntu, conçu pour être simple, rapide et stable dans de nombreux usages quotidiens. Il représente une alternative équilibrée entre MacOs. Son interface graphique fluide, intuitive et épurée rend la prise en main facile, même pour les débutants. Il met également l’accent sur l’ergonomie, la sécurité et la performance.
+Elementary OS est un système d’exploitation basé sur Ubuntu, conçu pour être simple, rapide et stable dans de nombreux usages quotidiens. Il représente une alternative Linux équilibrée à MacOS et Windows. Son interface graphique fluide, intuitive et épurée rend la prise en main facile, même pour les débutants. Il met également l’accent sur l’ergonomie, la sécurité et la performance.
 
 https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
@@ -43,6 +43,7 @@ Après avoir téléchargé l’image ISO, il est nécessaire de la rendre amorç
 
 Téléchargez un logiciel tel que [Balena Etcher](https://etcher.balena.io/) ou un outil similaire puis lancez le logiciel.
 Sélectionnez l’image ISO d’**Elementary OS** précédemment téléchargée et définissez votre clé USB comme cible.
+
 Cliquez sur le bouton **flash** pour lancer le processus et patientez jusqu’à la fin du processus avant de retirer la clé USB.
 
 ![0_02](assets/fr/02.webp)
@@ -166,7 +167,7 @@ sudo apt update
 ```
 
 ```shell
-sudo apt upgrade
+sudo apt full-upgrade
 ```
 
 Pour vos premières mises à jour, le système d'exploitation requiert votre mot de passe utilisateur puis une confirmation afin de mettre à jour les paquets des logiciels, ce même dans le noyau de Elementary. 

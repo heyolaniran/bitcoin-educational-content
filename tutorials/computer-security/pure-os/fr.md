@@ -1,16 +1,17 @@
 ---
-name: Pure OS
+name: PureOS
 description: La distibution Linux qui vous donne le contrôle sur votre vie numérique.
 ---
 
 ![cover](assets/cover.webp)
 
-Protéger ses informations personnelles à l'ère du numérique est l'une des priorités pour tout internaute. Les entreprises, les organisations et même les systèmes d'exploitations sont des sources utiles d'informations pour définir votre profil et votre mode de vie. Choisir un bon système d'exploitation est la première étape pour renforcer la protection de sa vie privée sur internet. Dans ce tutoriel, nous découvrirons, PureOS, une distribution Linux axée sur la protection de la vie privée.
+Protéger ses informations personnelles à l'ère du numérique est l'une des priorités pour tout internaute. Les entreprises, les organisations et même les systèmes d'exploitations sont des sources utiles d'informations pour définir votre profil et votre mode de vie. Choisir un bon système d'exploitation est la première étape pour renforcer la protection de sa vie privée sur internet. Dans ce tutoriel, nous découvrirons PureOS, une distribution Linux axée sur la protection de la vie privée.
 
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+
 ## Débuter avec PureOS
 
-PureOS est un système d'exploitation basé sur Debian développé par l'entreprise Purism. PureOS convient aussi bien aux professionnels de l’informatique qu’aux utilisateurs recherchant une distribution simple et facile à prendre en main. Sa particularité est qu'il met l'accent sur la protection des données personnelles de ses utilisateurs en mettant en place un cadre de travail axée sur la vie privée, la liberté, la sécurité et la stabilité offertes par Debian.
+PureOS est un système d'exploitation basé sur Debian développé par l'entreprise Purism. PureOS convient aussi bien aux professionnels de l’informatique qu’aux utilisateurs recherchant une distribution simple et facile à prendre en main. Sa particularité est qu'il est entièrement libre (*Free Software*), et met l'accent sur la protection des données personnelles de ses utilisateurs en mettant en place un cadre de travail axé sur la vie privée, la liberté, la sécurité et la stabilité offertes par Debian.
 
 ### Pourquoi choisir PureOS ?
 
@@ -32,7 +33,9 @@ Installer et configurer PureOS sur votre ordinateur vous nécessitera des caract
 Rendez-vous sur le [site officiel de PureOS](https://pureos.net/) puis téléchargez l'image ISO du système d'exploitation selon l'architecture de votre machine.
 
 Pour lancer l’installation de PureOS, il est nécessaire de créer une clé USB bootable à l’aide d’un logiciel de flash comme [Balena Etcher](https://www.balena.io/etcher).
+
 En trois étapes simples, vous obtenez une clé USB bootée avec le système d'exploitation PureOS.
+
 - Branchez la clé USB puis exécutez le logiciel Balena préalablement téléchargé.
 - Sélectionnez ensuite l'image ISO de PureOS
 - Choisissez la clé USB comme périphérie de sortie ensuite cliquez sur le bouton **Flash** puis attendez la fin du processus.
@@ -40,6 +43,7 @@ En trois étapes simples, vous obtenez une clé USB bootée avec le système d'e
 ![0_01](assets/fr/01.webp)
 
 Une fois la clé USB bootée, procédez à un redémarrage de l'ordinateur sur lequel vous souhaitez installer PureOS.
+
 Lors du démarrage, accédez au BIOS en cliquant sur la touche `ESC`, `F9` ou `F11` selon votre machine. Sélectionnez la clé USB comme périphérie d'amorçage puis validez avec la touche `ENTRER`.
 
 ### Ecran de démarrage
@@ -133,7 +137,7 @@ Ouvrez le terminal, puis entrez la commande suivante pour mettre à jour la list
 Entrez votre mot de passe et validez. Ensuite, installez les mises à jour avec :
 
 ```shell
-sudo apt upgrade -y
+sudo apt full-upgrade
 ```
 
 ## PureOS pour le développement
@@ -158,6 +162,7 @@ PureOS intègre également la suite bureautique **LibreOffice**, qui comprend :
 - **Writer** : un traitement de texte complet pour créer et éditer vos documents.
 - **Calc** : un tableur puissant pour gérer vos données et calculs.
 - **Impress** : un outil de création de présentations professionnelles.
+
 Cette suite libre vous permet de travailler efficacement sans dépendre de logiciels propriétaires.
 
 PureOS offre un environnement unifié, sécurisé et flexible, basé sur une distribution 100 % libre qui garantit un contrôle total et un respect strict de la vie privée. Sa convergence réelle facilite la création d’applications compatibles avec différents types d’appareils, comme les ordinateurs, les tablettes et les smartphones, sans nécessiter d’adaptation complexes.
@@ -166,6 +171,6 @@ Grâce à un accès natif aux outils essentiels, à des gestionnaires de paquets
 
 Découvrez notre cours sur le renforcement de sa sécurité et la protection de sa vie privée numérique.
 
-https://planb.network/courses/ameliorer-sa-securite-numerique-personnelle-4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 

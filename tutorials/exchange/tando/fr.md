@@ -5,9 +5,9 @@ description: Dépensez aisement du bitcoin partout au Kenya.
 
 ![cover](assets/cover.webp)
 
-La technologie Bitcoin représente une innovation sur laquelle se reposent de plus en plus de communautés africaines pour bâtir et consolider leur souveraineté et pour améliorer la qualité de leur échange en supprimant les barrières économiques et régionales qui se présentent à eux. 
+La technologie Bitcoin représente une innovation sur laquelle se reposent de plus en plus de communautés africaines pour bâtir et consolider leur souveraineté et pour améliorer la qualité de leurs échanges en supprimant les barrières économiques et régionales qui se présentent à eux. 
 
-L'aventure de Tando, la super App Kényane débute en 2023 lors de la **Africa Bitcoin Conference** sous l'impulsion de la présentation de **Femi Longe** : *Les africains ont besoin de créer des solutions Bitcoin pour les africains*. En 2024, Tando est déployé au Kenya et ne cesse de faciliter l'utilisation quotidienne de Bitcoin au travers du Lightning Network.
+L'aventure de Tando, la super-app kényane débute en 2023 lors de l'**Africa Bitcoin Conference** sous l'impulsion de la présentation de **Femi Longe** : *Les Africains ont besoin de créer des solutions Bitcoin pour les Africains*. En 2024, Tando est déployé au Kenya et ne cesse de faciliter l'utilisation quotidienne de Bitcoin au travers du Lightning Network.
 
 ## Débuter avec Tando
 
@@ -17,12 +17,12 @@ Tando est une application mobile disponible sur les plateformes Android et iOS e
 
 Tando est un moyen d'échange qui se base sur deux technologies :
 
-- Le Lightning Network : La couche de Bitcoin qui permet de faire des paiements instantanés et quasiment sans frais.
-- Le M-PESA : Le Mobile Money le plus populaire au Kenya.
+- Le Lightning Network : la couche de Bitcoin qui permet de faire des paiements instantanés et quasiment sans frais.
+- Le M-Pesa : Le Mobile Money le plus populaire au Kenya.
  
 Il ne requiert aucune information personnelle de la part de ses utilisateurs et ne nécessite pas une vérification d'identité. Avec Tando, vous protégez votre confidentialité tout en effectuant des transactions.
 
-Au Kenya, la plupart des marchands, supermarchés, fournisseurs de services et des opérations financières peuvent s'effectuer par M-PESA. En faisant le pont entre Lightning Network et le M-PESA, Tando vous permet d'utiliser des bitcoins partout où le M-PESA est accepté et le destinataire reçoit les Kenyan Shilling (KES). 
+Au Kenya, la plupart des marchands, supermarchés, fournisseurs de services et des opérations financières peuvent s'effectuer par M-Pesa. En faisant le pont entre Lightning Network et le M-Pesa, Tando vous permet d'utiliser des bitcoins partout où le M-Pesa est accepté et le destinataire reçoit les shillings kényans (KES). 
 
 Avec Tando, vous pouvez utiliser du bitcoin pour :
 - Payer des biens et services
@@ -31,11 +31,11 @@ Avec Tando, vous pouvez utiliser du bitcoin pour :
 
 ![menu](assets/fr/02.webp)
 
-Avec son interface intuitive et minimaliste, Tando vous permet d'utiliser n'importe quel portefeuille Lightning pour effectuer des paiements en Kenyan Shilling. Cela représente une opportunité pour les étrangers de venir au Kenya sans liquidités et de vivre normalement en utilisant leur portefeuille Lightning. Tando donne également au bitcoin, un cadre d'utilisation pertinent favorisant son adoption dans les communautés Kenyanes.
+Avec son interface intuitive et minimaliste, Tando vous permet d'utiliser n'importe quel portefeuille Lightning pour effectuer des paiements en shillings kényans (KES). Cela représente une opportunité pour les étrangers de venir au Kenya sans liquidités et de vivre normalement en utilisant leur portefeuille Lightning. Tando donne également au bitcoin, un cadre d'utilisation pertinent favorisant son adoption dans les communautés Kenyanes.
 
 ## Utiliser Tando
 
-Tando vous permet d'utiliser vos bitcoins pour acheter tout ce que le M-PESA peut acheter au Kenya. En plus, les frais de transactions sont quasi nuls comparativement aux transactions natives en M-PESA. Lorsque vous utilisez Tando, vous payez l'équivalent KES avec votre portefeuille Lightning et, à partir de leur infrastructure, Tando se chargera de convertir votre paiement Lightning en Kenyan Shilling puis se chargera d'envoyer la somme au numéro M-PESA que vous aurez spécifié.
+Tando vous permet d'utiliser vos bitcoins pour acheter tout ce que le M-Pesa peut acheter au Kenya. En plus, les frais de transaction sont quasi nuls comparativement aux transactions natives en M-Pesa. Lorsque vous utilisez Tando, vous payez l'équivalent KES avec votre portefeuille Lightning et, à partir de leur infrastructure, Tando se chargera de convertir votre paiement Lightning en shillings kényans (KES) puis se chargera d'envoyer la somme au numéro M-Pesa que vous aurez spécifié.
 
 https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
@@ -45,7 +45,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 - **Scanner pour Payer** :
 
-L'option scanner pour payer est l'une des options de paiement automatique de l'application. Scannez le code M-PESA disponible chez votre marchant puis renseignez le montant à payer et procédez au paiement de la facture Lightning qui vous sera générée.
+L'option scanner pour payer est l'une des options de paiement automatique de l'application. Scannez le code M-Pesa disponible chez votre marchand puis renseignez le montant à payer et procédez au paiement de la facture Lightning qui vous sera générée.
 
 ![scan](assets/fr/03.webp)
 
@@ -57,7 +57,7 @@ Sélectionnez l'option **Send Money** puis insérez le numéro du destinataire. 
 
 ![send-money](assets/fr/04.webp)
 
-Payez la facture à partir de votre portefeuille Lightning puis Tando se chargera de faire la conversion en Kenyan Shilling pour l'envoyer au destinataire indiqué.
+Payez la facture à partir de votre portefeuille Lightning puis Tando se chargera de faire la conversion en shillings kényans (KES) pour l'envoyer au destinataire indiqué.
 
 ![pay](assets/fr/05.webp)
 
@@ -69,11 +69,11 @@ Entrez le numéro de la facture que vous souhaitez payer puis procédez au paiem
 
 - **Acheter des biens** :
 
-Faites vos achats directement en utilisant Tando. Renseignez le numéro marchant de votre marchant puis le montant en Kenyan Shilling du total de vos achats puis générez la facture Lightning pour votre paiement.
+Faites vos achats directement en utilisant Tando. Renseignez le numéro marchand de votre commerçant puis le montant en shillings kényans (KES) du total de vos achats puis générez la facture Lightning pour votre paiement.
 
 ![buy](assets/fr/07.webp)
 
-Dans le menu de l'application,  retrouvez également toutes les informations relatives à Tando, pour une meilleure compréhension de leur vision, de leur tarifications.
+Dans le menu de l'application, retrouvez également toutes les informations relatives à Tando, pour une meilleure compréhension de leur vision, de leur tarification.
 
 ![about](assets/fr/08.webp)
 

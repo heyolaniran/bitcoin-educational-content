@@ -102,7 +102,7 @@ sudo apt update
 Lancez ensuite la commande suivante pour installer les mises à jour disponibles :
 
 ```shell
-sudo apt upgrade -y
+sudo apt full-upgrade
 ```
 
 ## Découvrez Whonix
@@ -117,6 +117,7 @@ sudo apt upgrade -y
 **Tor Browser** est le navigateur web par défaut de Whonix. Il repose sur le réseau **Tor**, qui redirige votre trafic à travers plusieurs relais à travers le monde, rendant pratiquement impossible l'identification de votre adresse IP réelle.
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
 ### Electrum Bitcoin Wallet
 
 **Electrum** est un portefeuille Bitcoin léger et rapide, préinstallé sur Whonix pour vous permettre de gérer des **transactions en cryptomonnaies** de manière anonyme. Il ne télécharge pas toute la blockchain mais utilise des serveurs distants pour obtenir les informations nécessaires, ce qui le rend beaucoup plus léger qu’un wallet complet.

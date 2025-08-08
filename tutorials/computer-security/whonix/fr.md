@@ -5,7 +5,7 @@ description: Préservez votre vie privée et votre confidentialité.
 
 ![cover](assets/cover.webp)
 
-**Whonix** est une distribution Linux basée sur **Debian**, conçue pour fournir un environnement alliant **sécurité**, **anonymat** et **confidentialité**. Facile à prendre en main et compatible avec différentes interfaces (machines virtuelles, Qubes OS, mode Live), elle intègre par défaut le routage du trafic réseau via **Tor**, un **double pare-feu**, une **protection complète contre les fuites IP/DNS** ainsi que des outils permettant de masquer efficacement votre activité vis-à-vis des observateurs réseau y compris votre fournisseur d’accès Internet. Plus qu’un simple système anonyme, **Whonix** constitue un environnement complet de développement sécurisé.
+**Whonix** est une distribution Linux basée sur **Debian**, conçue pour fournir un environnement alliant **sécurité**, **anonymat** et **confidentialité**. Facile à prendre en main et compatible avec différentes interfaces (machines virtuelles, Qubes OS, mode Live), elle intègre par défaut le routage du trafic réseau via **Tor**, un **double pare-feu** (un pare-feu sur la Gateway et un autre sur la Workstation), une **protection complète contre les fuites IP/DNS** ainsi que des outils permettant de masquer efficacement votre activité vis-à-vis des observateurs réseau y compris votre fournisseur d’accès Internet. Plus qu’un simple système anonyme, **Whonix** constitue un environnement complet de développement sécurisé.
 
 ## Pourquoi choisir Whonix ?
 
@@ -18,7 +18,7 @@ description: Préservez votre vie privée et votre confidentialité.
 
 ## Installation et configuration
 
-Avant de passer à l’installation de Whonix, il est essentiel de noter que cette distribution **n’est pas encore disponible** en tant que système principal installable directement sur le disque dur (en mode “bare metal”). En d'autres termes, vous **ne pouvez pas encore installer Whonix comme système d’exploitation hôte classique**, à la manière d’un Ubuntu ou d’un Debian standard.
+Avant de passer à l’installation de Whonix, il est essentiel de noter que cette distribution **n’est pas encore officiellement disponible** en tant que système principal installable directement sur le disque dur (en mode “bare metal”). En d'autres termes, vous **ne pouvez pas encore installer Whonix comme système d’exploitation hôte classique**, à la manière d’un Ubuntu ou d’un Debian standard.
 
 Cependant, plusieurs éditions sont disponibles et permettent d’utiliser Whonix de manière **volatile** (mode Live, sessions temporaires) ou **persistante** (via machines virtuelles ou intégration dans Qubes OS).
 

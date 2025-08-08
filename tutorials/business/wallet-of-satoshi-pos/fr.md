@@ -3,7 +3,7 @@ name: Wallet of Satoshi - Point de Vente
 description: Adoptez Bitcoin via Lightning Network dans votre commerce.
 ---
 
-![cover](assets/fr/cover.webp)
+![cover](assets/cover.webp)
 
 Combiner la puissance du Lightning Network avec une expérience utilisateur fluide pour accepter Bitcoin dans votre commerce : telle est la mission que **Wallet of Satoshi** s'est donné en mettant en place un point de vente dans son portefeuille. Dans ce tutoriel, nous découvrirons comment vous pouvez mettre en place un point de vente acceptant Bitcoin dans votre commerce.
 ## Le portefeuille
@@ -58,7 +58,7 @@ Avoir une expérience fluide avec le point de vente revient à également trouve
 Dans le menu du portefeuille Wallet of Satoshi, sélectionnez parmi les devises supportées, votre monnaie locale afin de configurer vos produits dans des unités monétaires que vous maitrisez.
 
 
-![currencies](assets/07.webp)
+![currencies](assets/fr/07.webp)
 
 Pour mieux suivre vos paiements, dans les paramètres de Wallet of Satoshi, vous pouvez télécharger votre historique dans un fichier CSV et faire des analyses que vous souhaitez sur la base de ces données.
 
@@ -71,3 +71,11 @@ Un mail sera envoyé sur l'adresse email de votre compte avec un lien temporaire
 Vous avez désormais un outil pour accepter le Bitcoin dans votre commerce et ceci en quelques minutes. Si vous êtes pour les solutions self-custody, nous sommes confiants que vous adorerez notre tutoriel sur le point de Vente du portefeuille Breez.
 
 https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+
+Et si vous recherchez un PoS complet adapté aux petites et moyenne entreprises, je vous conseille également Swiss Bitcoin Pay :
+
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+Enfin, retrouvez notre formation complète pour apprendre les bases du paiement et de la trésorerie en bitcoins pour les entreprises :
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

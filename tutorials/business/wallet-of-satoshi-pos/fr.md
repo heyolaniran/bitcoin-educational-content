@@ -68,7 +68,6 @@ Un mail sera envoyé sur l'adresse email de votre compte avec un lien temporaire
 
 ![download](assets/fr/09.webp)
 
-
 ## Plus loin avec le Point de Vente
 
 Wallet of Satoshi ne se limite pas qu'à fournir des solutions bitcoins aux petites entreprises. A partir de l'application Wallet of Satoshi POS, vous pouvez permettre à vos collaborateurs d'encaisser les paiements par bitcoin sur vos différents points de vente.

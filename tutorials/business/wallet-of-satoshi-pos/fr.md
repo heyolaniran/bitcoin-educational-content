@@ -82,9 +82,9 @@ Connectez votre adresse Lightning de votre portefeuille Wallet of Satoshi et con
 
 Vos collaborateurs sont alors éligibles pour recevoir des paiements bitcoins dans votre commerce. Le portefeuille standard Wallet of Satoshi demeure celui à partir duquel vous pouvez dépenser les bitcoins et reconfigurer l'inventaire de votre boutique.
 
-![items](assets/fr/12.web)
+![items](assets/fr/12.webp)
 
-Chaque utilisateur de l'application Wallet of Satoshi POS dispose d'un historique personnalisé des paiements des factures Lightning qu'il a généré dans l'application.
+Chaque utilisateur de l'application Wallet of Satoshi POS dispose d'un historique personnalisé des paiements des factures Lightning qu'il a générées dans l'application.
 
 ![pos-history](assets/fr/13.webp)
 

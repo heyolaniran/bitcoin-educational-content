@@ -28,7 +28,8 @@ Pour télécharger une version précise de Thunderbird, vous pouvez vous rendre 
 
 ### Installation 
 
-**Type d'installation**
+**Type d'installation :**
+
 Sur Windows, lancez l’exécutable téléchargé pour démarrer l’installation. Cliquez sur « Suivant » pour continuer. Deux options sont disponibles :  
 - **Standard** : permet de lancer directement l’installation sans configuration préalable.  
 - **Personnalisé** : offre la possibilité de choisir le dossier d’installation ainsi que de créer ou non des raccourcis sur le bureau.
@@ -37,7 +38,8 @@ Sur Windows, lancez l’exécutable téléchargé pour démarrer l’installatio
 
 ![0_03](assets/fr/03.webp)
 
-**Lancement de l'installation**
+**Lancement de l'installation :**
+
 Pour démarrer l’installation, cliquez sur le bouton « **Mettre à jour** » ou « **Installer** », puis patientez jusqu’à la fin du processus.
 
 ![0_04](assets/fr/04.webp)
@@ -48,7 +50,8 @@ Attendez la fin du processus d'installation puis lancez l'application
 
 ![0_06](assets/fr/06.webp)
 
-**Connexion à votre compte**
+**Connexion à votre compte :**
+
 Thunderbird prend en charge différents types de messagerie. Pour une première connexion, allez dans la section configurer un compte puis sélectionnez Email. 
 
 ![0_07](assets/fr/07.webp)
@@ -57,7 +60,8 @@ Une fenêtre s'ouvre pour vous permettre d'entrer vos informations. Entrez le no
 
 ![0_08](assets/fr/08.webp)
 
-**Choix du protocole et configuration de connexion**
+**Choix du protocole et configuration de connexion :**
+
 Vous serez invité à choisir le protocole de messagerie adapté à vos besoins. Le protocole IMAP suffit dans la plupart des cas. Pour des configurations spécifiques, vous pouvez modifier les paramètres ou cliquer simplement sur « Suivant ».
 
 ![0_09](assets/fr/09.webp)

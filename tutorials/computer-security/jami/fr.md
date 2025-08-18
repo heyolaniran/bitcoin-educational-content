@@ -1,5 +1,34 @@
+---
+name: Jami
+description: Partagez librement, gratuitement et en toute confidentialité.
+---
+
 ![cover](assets/cover.webp)
-Anciennement connu sous le nom de Ring, Jami est un logiciel libre et gratuit de messagerie paire à paire offrant de nombreuses fonctionnalités. Disponible sur de nombreux systèmes, i s'agit d'un logiciel réputé pour sa performance, sa fluidité et sa prise en main facile. Il offre la possibilité de communiquer via messagerie instantanée, appel audio ou encore appel vidéo tout en assurant la confidentialité de vos conversations via un chiffrement de bout en bout. Son installation simple et ses nombreuses fonctionnalités font de lui une application de communication complète, utilisable au quotidien de manière simple et pratique.
+
+Anciennement connu sous le nom de Ring, Jami est un logiciel libre et gratuit de messagerie pair à pair offrant de nombreuses fonctionnalités. Disponible sur de nombreux systèmes, il s'agit d'un logiciel réputé pour sa performance, sa fluidité et sa prise en main facile. Il offre la possibilité de communiquer via messagerie instantanée, appel audio ou encore appel vidéo tout en assurant la confidentialité de vos conversations via un chiffrement de bout en bout. Son installation simple et ses nombreuses fonctionnalités font de lui une application de communication complète, utilisable au quotidien de manière simple et pratique.
+
+| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
+| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
+| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+*E2EE = Chiffrement de bout en bout.*
+
 
 ## Quel est l’intérêt d’utiliser Jami ?
 
@@ -33,26 +62,25 @@ Une fois l’exécutable téléchargé, lancez le processus d’installation en 
 
 ![0_04](assets/fr/04.webp)
 
-
 ![0_05](assets/fr/05.webp)
 
 ### Pour les utilisateurs de linux
 
-Pour installer Jami sur linux il est préférable de le faire via la ligne de commande. Il faut aussi noter que Jami est disponible pour différentes distributions de linux. Avant de commencer l’installation de Jami, veiller à choisir la bonne distribution en fonction de votre système.
+Pour installer Jami sur linux il est préférable de le faire via la ligne de commande. Il est important de noter que Jami est disponible pour différentes distributions de linux. Avant de commencer l’installation de Jami, veillez à choisir la bonne distribution en fonction de votre système.
 
-Une fois la distribution sélectionnée, vous pouvez installer le système. Il nécessaire d’installer les dépendances utiles pour le fonctionnement de Jami sur votre OS linux. Les commandes sont directement disponible sur [cette page](https://jami.net/download-jami-linux/). 
+Une fois la distribution sélectionnée, vous pouvez installer le système. Il est nécessaire d’installer les dépendances utiles pour le fonctionnement de Jami sur votre OS linux. Les commandes sont directement disponible sur [cette page](https://jami.net/download-jami-linux/). 
 
 ![0_06](assets/fr/06.webp)
 
-Pour installer Jami sur **Ubuntu**, vous pouvez le faire de la manière suivante
-
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+Pour installer Jami sur **Ubuntu**, vous pouvez le faire de la manière suivante :
 
 ```shell
 sudo apt install gnupg dirmngr ca-certificates curl --no-install-recommends
 ```
 
-Cette commande installe les outils nécessaires pour gérer les clés GPG (gnupg et dirmngr), les certificats SSL (ca-certificates) et l’outil de téléchargement curl. 
+Cette commande installe les outils nécessaires pour gérer les clés GPG (gnupg et dirmngr), les certificats SSL (ca-certificates) et l’outil de téléchargement curl.
+
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -64,13 +92,14 @@ Ici, on télécharge la clé publique GPG de Jami avec curl. La redirection vers
 sudo sh -c "echo 'deb [signed-by=/usr/share/keyrings/jami-archive-keyring.gpg] https://dl.jami.net/stable/ubuntu_25.04/ jami main' > /etc/apt/sources.list.d/jami.list"
 ```
 
-Cette commande ajoute le dépôt officiel de Jami à la liste des sources d’APT. 
+Cette commande ajoute le dépôt officiel de Jami à la liste des sources d’APT.
 
 ```shell
 sudo apt-get update && sudo apt-get install jami
 ```
 
-Enfin, on met à jour la liste des paquets disponibles avec `apt-get update`, puis on installe directement Jami depuis le dépôt officiel avec `apt-get install jami`. 
+Enfin, on met à jour la liste des paquets disponibles avec `apt-get update`, puis on installe directement Jami depuis le dépôt officiel avec `apt-get install jami`.
+
 ## Configuration de base de Jami
 
 Après l’installation de Jami sur votre système, vous pouvez le lancer directement depuis le menu de votre système.
@@ -78,6 +107,7 @@ Après l’installation de Jami sur votre système, vous pouvez le lancer direct
 Une fois l’application démarrée, vous aurez la possibilité de créer un compte ou de continuer avec un compte déjà créé.
 
 ![0_07](assets/fr/07.webp)
+
 ### Création de compte
 
 La création de compte Jami est relativement simple. Vous n’avez pas besoin d’adresse mail ni de numéro de téléphone, Jami requiert le minimum d'informations sur ses utilisateurs. Il vous suffit simplement de définir un nom d’utilisateur unique puis de valider.
@@ -105,6 +135,7 @@ Allez dans les **Paramètres**, puis dans **Compte**, ensuite dans la section **
 C’est grâce à ce fichier de sauvegarde que vous pourrez vous reconnecter à votre compte.
 
 ![0_13](assets/fr/13.webp)
+
 ### Connexion via archive
 
 Pour cela, cliquez sur le bouton **Importer depuis une archive de sauvegarde**, sélectionnez le fichier de sauvegarde de votre compte Jami. 
@@ -116,6 +147,7 @@ Si vous avez défini un mot de passe lors de la création de votre compte, entre
 ![0_15](assets/fr/15.webp)
 
 Il est nécessaire de réaliser régulièrement une sauvegarde de votre compte afin de conserver des données à jour et de ne pas perdre vos derniers messages.
+
 ### Connexion via un appareil
 
 Si vous êtes déjà connecté sur un autre appareil avec votre compte Jami, allez dans **Compte** puis dans la section **Appareil connecté** et cliquez sur **Connecté un nouvel appareil**. Le lecteur de code QR apparaîtra, accompagné d’un champ prévu pour la saisie d’un code de connexion.
@@ -135,15 +167,17 @@ Confirmez la connexion sur l’appareil déjà connecté afin de poursuivre.
 ![0_19](assets/fr/19.webp)
 
 Une fois le mot de passe saisi, l’appareil se connectera automatiquement au compte et se synchronisera. Vous pourrez ainsi envoyer et recevoir vos messages depuis n’importe lequel de vos appareils.
+
 ## Ajouter une extension à Jami
 
-Une des fonctionnalités très intéressantes de Jami est sa capacité à intégrer de nouvelles options grâce à des **extensions**. Pour l’instant, Jami ne propose pas un vaste choix, mais pour des besoins spécifiques, vous avez la possibilité de **créer votre propre extension** en utilisant le langage **Python**, puis de l’importer directement dans l’application. Quelques plugins sont disponible directement [ici](https://jami.net/extensions/)
+Une des fonctionnalités très intéressantes de Jami est sa capacité à intégrer de nouvelles options grâce à des **extensions**. Pour l’instant, Jami ne propose pas un vaste choix, mais pour des besoins spécifiques, vous avez la possibilité de **créer votre propre extension** en utilisant le langage **Python**, puis de l’importer directement dans l’application. Quelques plugins sont disponibles directement [ici](https://jami.net/extensions/).
 
 Pour installer une extension, allez dans la **boutique d’extensions** de Jami et téléchargez-la en fonction de votre système (**Desktop** ou **Android**). Une fois téléchargée, rendez-vous dans les **paramètres généraux** de l’application, puis dans la section **Extensions** et cliquez sur **Installer**. Choisissez le plugin précédemment téléchargé et importez-le. L’importation est automatique et vous pourrez ensuite l’**activer** directement. Cliquez sur l’extension pour afficher ses paramètres et effectuer des configurations si nécessaire.
 
 ![0_20](assets/fr/20.webp)
 
 Pour développer vos propres plugins, vous pouvez consulter l’article de blog **[Découvrez le Jami Plugin SDK et créez vos propres plugins](https://jami.net/plugins-sdk/)**.
+
 ## Fonctionnalités avancées
 
 Jami propose également des **fonctionnalités avancées** pour les utilisateurs souhaitant aller plus loin dans la configuration et l’utilisation de l’application. Parmi ces options, vous trouverez :

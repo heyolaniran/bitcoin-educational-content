@@ -5,7 +5,11 @@ description: Partagez librement, gratuitement et en toute confidentialité.
 
 ![cover](assets/cover.webp)
 
-Anciennement connu sous le nom de Ring, Jami est un logiciel libre et gratuit de messagerie pair à pair offrant de nombreuses fonctionnalités. Disponible sur de nombreux systèmes, il s'agit d'un logiciel réputé pour sa performance, sa fluidité et sa prise en main facile. Il offre la possibilité de communiquer via messagerie instantanée, appel audio ou encore appel vidéo tout en assurant la confidentialité de vos conversations via un chiffrement de bout en bout. Son installation simple et ses nombreuses fonctionnalités font de lui une application de communication complète, utilisable au quotidien de manière simple et pratique.
+Jami est un logiciel historique, libre et gratuit, de messagerie pair à pair offrant de nombreuses fonctionnalités. Son histoire remonte à décembre 2004, lorsque la société montréalaise *Savoir-faire Linux* lança SFLPhone, un projet de téléphonie numérique destiné aux entreprises et intégralement fondé sur des technologies libres. Ce logiciel, conforme aux standards de télécommunications (SIP et IAX), se distinguait par sa capacité à gérer un grand nombre de lignes et d’appels.
+
+En 2015, SFLPhone fut renommé Ring, et a intégré une architecture distribuée ne nécessitant plus de serveur central. L’année suivante, Ring rejoint officiellement le projet GNU, ce qui a renforcé son ancrage dans l’écosystème du logiciel libre. Enfin, en décembre 2018, afin d’éviter toute confusion avec des produits commerciaux utilisant le terme anglais "*Ring*", le logiciel adopte son nom actuel : Jami. Depuis lors, il continue d’évoluer comme une plateforme de communication libre, décentralisée et respectueuse de la vie privée.
+
+Aujourd'hui, Jami est disponible sur de nombreux systèmes. Il s'agit d'un logiciel réputé pour sa performance, sa fluidité et sa prise en main facile. Il offre la possibilité de communiquer via messagerie instantanée, appel audio ou encore appel vidéo tout en assurant la confidentialité de vos conversations via un chiffrement de bout en bout. Son installation simple et ses nombreuses fonctionnalités font de lui une application de communication complète, utilisable au quotidien de manière simple et pratique.
 
 | Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
@@ -36,7 +40,7 @@ Anciennement connu sous le nom de Ring, Jami est un logiciel libre et gratuit de
 - **Complet avec des fonctionnalités utiles** : ce logiciel vous permet de profiter de nombreuses options grâce à la possibilité d’ajouter des plugins facilement depuis le magasin. Il est même possible de créer vos propres extensions pour des fonctionnalités plus adaptées à vos besoins. 
 - **Facile d’utilisation et interface intuitive** : malgré les nombreuses fonctionnalités que vous offre Jami, il reste très simple à prendre en main.
 - **Forte sécurité** : Jami intègre un algorithme de chiffrement avancé qui garantit la sécurité de vos communications dans le respect de votre vie privée.
--  **Grande accessibilité et rapidité** : il offre une aisance de communication même en cas de bande passante réduite, pour une meilleure convivialité.
+- **Grande accessibilité et rapidité** : il offre une aisance de communication même en cas de bande passante réduite, pour une meilleure convivialité.
 
 ## Comment installer Jami ?
 

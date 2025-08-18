@@ -114,11 +114,11 @@ Une fois l’application démarrée, vous aurez la possibilité de créer un com
 
 ### Création de compte
 
-La création de compte Jami est relativement simple. Vous n’avez pas besoin d’adresse mail ni de numéro de téléphone, Jami requiert le minimum d'informations sur ses utilisateurs. Il vous suffit simplement de définir un nom d’utilisateur unique puis de valider.
+La création de compte Jami est relativement simple. Vous n’avez pas besoin d’adresse mail ni de numéro de téléphone : Jami ne collecte que le minimum d’informations. Vous pouvez, si vous le souhaitez, enregistrer un nom d’utilisateur (alias) qui pointe vers votre *Jami ID* (empreinte cryptographique). L’association *alias ↔ Jami ID* est publiée sur un serveur de noms par défaut (remplaçable / auto-hébergeable) ; l’alias n’est donc pas forcément obligatoire.
 
 ![0_08](assets/fr/08.webp)
 
-Pour assurer une meilleure sécurité de vos données, il est nécessaire d’activer le chiffrement. Celui-ci permet de protéger la récupération de votre compte. Veillez donc à choisir un mot de passe suffisamment complexe. Validez puis continuez pour être directement redirigé vers votre compte. 
+Pour protéger localement vos données, vous pouvez définir un mot de passe qui chiffrera votre profil et vos sauvegardes sur l’appareil. Ce mot de passe est optionnel et n’a aucune incidence sur le chiffrement de bout en bout des communications, qui est actif par défaut. Si vous activez cette protection locale, choisissez un mot de passe long, aléatoire et unique, puis validez.
 
 ![0_09](assets/fr/09.webp)
 
@@ -174,9 +174,9 @@ Une fois le mot de passe saisi, l’appareil se connectera automatiquement au co
 
 ## Ajouter une extension à Jami
 
-Une des fonctionnalités très intéressantes de Jami est sa capacité à intégrer de nouvelles options grâce à des **extensions**. Pour l’instant, Jami ne propose pas un vaste choix, mais pour des besoins spécifiques, vous avez la possibilité de **créer votre propre extension** en utilisant le langage **Python**, puis de l’importer directement dans l’application. Quelques plugins sont disponibles directement [ici](https://jami.net/extensions/).
+Une des fonctionnalités intéressantes de Jami est sa capacité à intégrer de nouvelles options grâce à des extensions (plugins). Les plugins sont des modules natifs (C/C++) ; le SDK fournit des outils et scripts (notamment en Python) pour aider à les créer. Quelques plugins sont disponibles directement [ici](https://jami.net/extensions/).
 
-Pour installer une extension, allez dans la **boutique d’extensions** de Jami et téléchargez-la en fonction de votre système (**Desktop** ou **Android**). Une fois téléchargée, rendez-vous dans les **paramètres généraux** de l’application, puis dans la section **Extensions** et cliquez sur **Installer**. Choisissez le plugin précédemment téléchargé et importez-le. L’importation est automatique et vous pourrez ensuite l’**activer** directement. Cliquez sur l’extension pour afficher ses paramètres et effectuer des configurations si nécessaire.
+Pour installer une extension, sur Desktop ouvrez la boutique d’extensions intégrée, téléchargez le plugin adapté, puis allez dans **Paramètres → Extensions → Installer** et activez-le. Sur Android, la boutique n’est pas intégrée : téléchargez le fichier `.jpl`, puis importez-le manuellement depuis **Paramètres → Extensions → Installer** ; l’importation est automatique et vous pourrez ensuite l’activer et en régler les paramètres si nécessaire.
 
 ![0_20](assets/fr/20.webp)
 

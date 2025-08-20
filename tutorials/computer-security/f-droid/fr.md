@@ -1,5 +1,5 @@
 ---
-name: F-droid
+name: F-Droid
 description: Le catalogue d'applications libres et gratuites.
 ---
 
@@ -48,7 +48,7 @@ En cliquant sur l'application, vous trouverez notamment :
 
 ![permissions](assets/fr/06.webp)
 
-Découvrez plus en détails notre tutoriel sur Thunderbird.
+Découvrez plus en détails notre tutoriel sur Thunderbird :
 
 https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
@@ -91,7 +91,7 @@ Mettre une application en open source est souvent synonyme d'une sécurité gran
 
 F-Droid compile sur leur propres serveurs, les applications en se basant sur le code source officiel et des instructions de compilation. Chaque application publiée est donc reconstruite et vérifiée pour s'assurer qu'elle n'a pas été compromise. Cela permet de s'assurer que l'APK proposé est fidèle au code source publié par les développeurs. En outre, chaque application installée via F-Droid est signée numériquement puis l'empreinte de la signature est comparée avec celle annoncée par les développeurs de l'application sur le site officiel ou sur le dépôt Git.
 
-Si vous avez apprécié ce tutoriel, découvrez notre cursus sur la sécurité informatique et la gestion des données.
+Si vous avez apprécié ce tutoriel, découvrez notre cursus sur la sécurité informatique et la gestion des données :
 
-https://planb.network/courses/securite-informatique-gestion-des-donnees-99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 

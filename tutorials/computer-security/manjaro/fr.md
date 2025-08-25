@@ -1,8 +1,7 @@
 ---
 name: Manjaro
-description: Rendre plus accessible la puissance de Arch Linux.
+description: Rendre plus accessible la puissance d'Arch Linux
 ---
-
 ![cover](assets/cover.webp)
 
 Arch Linux est un système d’exploitation très apprécié dans de nombreux domaines pour sa robustesse et sa stabilité. Cependant, il peut se révéler difficile à aborder pour les utilisateurs débutants. C’est précisément pour répondre à ce problème que **Manjaro** a été créé : offrir la puissance d’Arch Linux, mais avec une expérience plus simple et accessible en se basant sur une interface intuitive et facile à prendre en main.
@@ -156,7 +155,7 @@ Cette commande installe Node.js et npm pour exécuter et gérer vos projets Java
 Pour gérer vos bitcoins sur Manjaro, vous pouvez installer **Electrum**, un portefeuille léger et sécurisé :
 
 ```shell
-sudo pacman -S electrum  # Installation d'Electrum
+sudo pacman -S electrum  # Install Electrum
 ```
 
 Electrum vous permet de **recevoir et envoyer des bitcoins** facilement, tout en offrant des fonctionnalités avancées comme la gestion de plusieurs portefeuilles et la protection par phrase de récupération. Pour un guide complet sur l’utilisation d’Electrum, consultez notre tutoriel dédié qui explique comment créer un portefeuille, sécuriser vos fonds et effectuer des transactions.
@@ -169,21 +168,21 @@ La sécurité est un aspect crucial de toute installation Linux. Il est importan
 
 ### Configuration du pare-feu
 
-Manjaro inclut UFW (Uncomplicated Firewall), un programme de gestion des par-feux de filtre réseau, mais il faut l'activer manuellement :
+Manjaro inclut UFW (*Uncomplicated Firewall*), un programme de gestion des par-feux de filtre réseau, mais il faut l'activer manuellement :
 
 ```bash
-# Installation si non présent
+# Installation if not present
 sudo pacman -S ufw
 
-# Activation du pare-feu
+# Firewall activation
 sudo systemctl enable ufw.enable
 
 sudo ufw enable
 
-# Permettre les connexions SSH (optionnel)
+# Allow SSH connections (optional)
 sudo ufw allow ssh
 
-# Vérifier le statut
+# Check the status
 sudo ufw status verbose
 ```
 
@@ -194,8 +193,8 @@ sudo ufw status verbose
 1. **Création d'un utilisateur non-privilégié**
 
 ```shell
-sudo useradd -m nomutilisateur
-sudo passwd nomutilisateur
+sudo useradd -m username
+sudo passwd username
 ```
 
 2. **Configuration du fichier sudoers**

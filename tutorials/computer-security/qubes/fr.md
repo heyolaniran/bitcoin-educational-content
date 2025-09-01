@@ -5,27 +5,32 @@ description: Un système d'exploitation raisonnablement sûr.
 
 ![cover](assets/cover.webp)
 
-Qubes OS est un système d’exploitation gratuit et open-source pensé pour les utilisateurs qui placent la sécurité au centre de leurs priorités. Sa particularité repose sur une idée simple mais radicale : au lieu de considérer l’ordinateur comme un tout, il découpe son utilisation en compartiments indépendants appelés **_qubes_**.
+Qubes OS est un système d’exploitation gratuit et open source pensé pour les utilisateurs qui placent la sécurité au centre de leurs priorités. Sa particularité repose sur une idée simple mais radicale : au lieu de considérer l’ordinateur comme un tout, il découpe son utilisation en compartiments indépendants appelés **_qubes_**.
+
 Chaque qube fonctionne comme un **environnement virtuel isolé**, avec un niveau de confiance et une fonction spécifique. Ainsi, même si une application est compromise, l’attaque reste confinée dans son qube sans affecter le reste du système.
 
-> Si vous êtes sérieux au sujet de la sécurité, Qubes OS le meilleur système d'exploitation disponible aujourd'hui. - **Edward Snowden**.
+> Si vous êtes sérieux au sujet de la sécurité, Qubes OS est le meilleur système d'exploitation disponible aujourd'hui. - **Edward Snowden**.
 
-L’installation de Qubes OS demande cependant plus de préparation que celle d’un système d’exploitation classique. Elle implique de vérifier certains prérequis matériels, de comprendre les bases de la virtualisation et d’accepter une expérience différente, où chaque tâche du quotidien est pensée dans une logique de séparation. Mais une fois en place, Qubes OS offre un cadre robuste qui redéfinit la manière d’interagir avec son ordinateur au quotidien. Dans ce tutoriel on vous explique comment fonctionne Qubes OS et comment l'installer facilement sur votre système.
+L’installation de Qubes OS demande cependant plus de préparation que celle d’un système d’exploitation classique. Elle implique de vérifier certains prérequis matériels, de comprendre les bases de la virtualisation et d’accepter une expérience différente, où chaque tâche du quotidien est pensée dans une logique de séparation. Mais une fois en place, Qubes OS offre un cadre robuste qui redéfinit la manière d’interagir avec son ordinateur au quotidien. Dans ce tutoriel, nous vous expliquons comment fonctionne Qubes OS et comment l'installer facilement sur votre système.
 
 ## Comment fonctionne Qubes OS ?
 
-Qubes OS repose sur le principe de la compartimentation. Plutôt que d'utiliser un système unique, il s'appuie sur l'hyperviseur **Xen** pour créer des machines virtuelles isolées, appelées qubes. Chaque qube est dédiée à une tâche spécifique ou à un niveau de confiance précis (travail, navigation personnelle, opérations bancaires, etc.). Cette séparation garantit qu'une éventuelle compromission dans un qube ne peut pas se propager aux autres, agissant comme plusieurs ordinateurs indépendants au sein d'une seule machine.
+Qubes OS repose sur le principe de la compartimentation. Plutôt que d'utiliser un système unique, il s'appuie sur l'hyperviseur **Xen** pour créer des machines virtuelles isolées, appelées qubes. Chaque qube est dédié à une tâche spécifique ou à un niveau de confiance précis (travail, navigation personnelle, opérations bancaires, etc.). Cette séparation garantit qu'une éventuelle compromission dans un qube ne peut pas se propager aux autres, agissant comme plusieurs ordinateurs indépendants au sein d'une seule machine.
 
 L'interface utilisateur est gérée par un domaine central et sécurisé nommé **dom0**. Ce domaine est totalement isolé d'Internet, ce qui en fait le cœur du système. Bien que les fenêtres et les menus soient affichés par dom0, l'exécution réelle des applications se fait dans leurs qubes respectifs.
 
 ## Les différents types de qubes
 
 Autour de dom0 gravitent différents types de qubes, qui assurent chacun un rôle bien précis.
-- Les **AppVM** sont utilisées pour exécuter les applications du quotidien: l’utilisateur peut ainsi séparer ses courriels professionnels de sa navigation web ou de ses activités bancaires, chaque environnement restant totalement indépendant des autres. 
+
+- Les **AppVM** sont utilisées pour exécuter les applications du quotidien: l’utilisateur peut ainsi séparer ses courriels professionnels de sa navigation web ou de ses activités bancaires, chaque environnement restant totalement indépendant des autres.
+
 - Ces AppVM reposent elles-mêmes sur des **TemplateVM**, qui servent de modèles centralisés pour installer et mettre à jour les logiciels, ce qui évite d’avoir à gérer chaque qube séparément.
 
 Qubes OS intègre également des machines virtuelles spécialisées dans les **services système**.
-- Les **NetVM** gèrent directement les **périphériques réseau** et assurent la connexion à Internet. Elles sont souvent associées à des **FirewallVM**, qui se placent en intermédiaire pour **filtrer le trafic** et limiter l’exposition des autres qubes
+
+- Les **NetVM** gèrent directement les **périphériques réseau** et assurent la connexion à Internet. Elles sont souvent associées à des **FirewallVM**, qui s’interposent pour **filtrer le trafic** et limiter l’exposition des autres qubes.
+
 - Les **ServiceVM** jouent un rôle similaire, par exemple pour la gestion des périphériques USB, toujours avec la même logique : isoler les composants les plus risqués afin de réduire la surface d’attaque.
 
 Enfin, pour les tâches ponctuelles ou risquées, Qubes OS propose des **DisposableVM**. Ces qubes éphémères sont créés à la volée pour **ouvrir un document suspect** ou **visiter un site douteux**, puis disparaissent complètement à leur fermeture, effaçant toutes les traces et empêchant toute attaque persistante.
@@ -42,7 +47,7 @@ Qubes OS utilise un système ingénieux pour la gestion du stockage. Les Templat
 
 Les avantages de Qubes OS reposent avant tout sur son modèle de sécurité unique. Au cœur de cette approche se trouve la compartimentation, qui protège l’utilisateur en isolant chaque tâche dans des machines virtuelles distinctes. Concrètement, un e-mail infecté ou un site web malveillant ne peut compromettre qu’un seul qube, laissant le reste du système et vos données personnelles totalement protégés. Cette architecture limite considérablement les attaques complexes qui, sur un système classique, pourraient se propager librement.
 
-Qubes OS offre également une transparence et un contrôle total sur votre environnement numérique. Vous savez exactement quelle logiciel a accès à quelle ressource, qu’il s’agisse du réseau, d’un périphérique USB ou d’autres composants sensibles. Le système intègre par défaut des fonctionnalités de sécurité avancées, telles que le chiffrement complet du disque, et facilite l’utilisation de services d’anonymat comme sur le système d'exploitation Whonix.
+Qubes OS offre également une transparence et un contrôle total sur votre environnement numérique. Vous savez exactement quel logiciel a accès à quelle ressource, qu’il s’agisse du réseau, d’un périphérique USB ou d’autres composants sensibles. Le système intègre par défaut des fonctionnalités de sécurité avancées, telles que le chiffrement complet du disque, et facilite l’utilisation de services d’anonymat comme sur le système d'exploitation Whonix.
 
 https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
@@ -52,22 +57,22 @@ Plutôt que de chercher à créer un système impénétrable, Qubes OS mise sur 
 
 Avant d’installer Qubes OS, il est essentiel de s’assurer que votre matériel répond aux exigences minimales, car le système repose sur la virtualisation pour isoler les qubes. Les composants principaux à vérifier sont :
 - Le **Processeur** : Un processeur 64 bits compatible avec la virtualisation matérielle (Intel VT-x ou AMD-V).
-- La **mémoire vive (RAM)** : un minimum de 8 Go est requis mais nous vous recommandons une RAM de 16 Go ou plus pour faire tourner simultanément plusieurs qubes.
+- La **mémoire vive (RAM)** : un minimum de 8 Go est requis, mais nous vous recommandons une RAM de 16 Go ou plus pour faire tourner simultanément plusieurs qubes.
 - L’**espace de stockage** : de 36 Go minimum et idéalement de 128 Go sur un disque SSD pour des performances optimales.
 
-Pour installer Qubes OS,  téléchargez l’image ISO officielle depuis le  [site officiel](https://www.qubes-os.org/downloads/) de Qubes OS. Il est essentiel de vérifier l’intégrité de l’ISO à l’aide des signatures GPG fournies, afin de s’assurer que le fichier n’a pas été altéré et que le téléchargement est sécurisé.
+Pour installer Qubes OS,  téléchargez l’image ISO officielle depuis le [site officiel](https://www.qubes-os.org/downloads/) de Qubes OS. Il est essentiel de vérifier l’intégrité de l’ISO à l’aide des signatures GPG fournies, afin de s’assurer que le fichier n’a pas été altéré et que le téléchargement est sécurisé.
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
-Une fois l’ISO vérifiée, vous devez créer un support d’installation bootable, généralement une clé USB. Pour cela, téléchargez et installez un logiciel comme **Rufus** sous Windows ou **Etcher** sur Windows, Linux ou MacOS. Ces outils permettent de copier correctement l’ISO sur la clé USB pour qu’elle soit amorçable.
+Une fois l’ISO vérifiée, vous devez créer un support d’installation bootable, généralement une clé USB. Pour cela, téléchargez et installez un logiciel comme **Rufus** sous Windows ou **Etcher** sur Windows, Linux ou macOS. Ces outils permettent de copier correctement l’ISO sur la clé USB pour qu’elle soit amorçable.
 
 Avant de lancer l’installation, il est nécessaire de configurer le **BIOS ou l’UEFI** de votre ordinateur pour **activer la virtualisation** et permettre le boot depuis USB. Selon le modèle de votre machine, il peut être nécessaire de **désactiver le Secure Boot**, car Qubes OS risque de ne pas démarrer avec cette option activée.
 
 ![0_02](assets/fr/02.webp)
 
-Une fois ces conditions remplies, redémarrez votre ordinateur et accédez au BIOS/UEFI en appuyant immédiatement sur la touche `F9`, `F11` ou `ESC` (selon votre appareil). Dans le menu de démarrage, sélectionnez la clé USB comme périphérique d’amorçage pour lancer l’installation de Qubes OS.
+Une fois ces conditions remplies, redémarrez votre ordinateur et accédez au BIOS/UEFI en appuyant immédiatement sur **Esc**, **Del**, **F9**, **F10**, **F11** ou **F12** (selon le fabricant). Dans le menu de démarrage, sélectionnez la clé USB comme périphérique de démarrage pour lancer l’installation de Qubes OS.
 
 **Écran de démarrage**  
 Au démarrage depuis la clé USB, vous arrivez directement sur le menu **GRUB**, qui vous permet de choisir l’action à effectuer. À l’aide des touches directionnelles de votre clavier, sélectionnez "Installer Qubes OS" et validez avec la touche "Entrée".
@@ -122,7 +127,7 @@ Patientez jusqu’à la **fin de l’installation**, puis cliquez sur **Redémar
 ![0_12](assets/fr/12.webp)
 
 **Configuration supplémentaire** :
-Après le redémarrage, Qubes OS vous propose de finaliser la **configuration des templates et des qubes par défaut**. Entrez le mot de passe entré pour chiffrer le disque. 
+Après le redémarrage, Qubes OS vous propose de finaliser la **configuration des templates et des qubes par défaut**. Entrez le mot de passe défini pour chiffrer le disque.
 
 ![0_13](assets/fr/13.webp)
 

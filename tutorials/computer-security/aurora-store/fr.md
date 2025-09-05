@@ -1,22 +1,22 @@
 ---
 name: Aurora Store
-description: Une alternative libre au Google Play Store pour télécharger des applications Android
+description: Une alternative libre au Play Store pour télécharger des applications Android
 ---
 
 ![cover](assets/cover.webp)
 
 Les magasins d'applications occupent une place centrale dans l'utilisation des ressources de votre appareil et sont régulièrement sujets à la centralisation et à la censure selon votre zone géographique. Sur les téléphones Android, le monopole détenu par Google Play Store est désormais révolu et nous assistons à une cohabitation de plusieurs magasins d'applications qui vous permettent de protéger vos données et votre vie numérique et tout ceci gratuitement.
-Dans ce tutoriel, nous partons à la découverte de Aurora Store, une alternative à Google Play Store, simple open-source et sécurisée.
+Dans ce tutoriel, nous partons à la découverte de Aurora Store, une alternative à Google Play Store, simple, open source et sécurisée.
 
 # Débuter avec Aurora Store
 
-Aurora Store est un produit de Aurora Open Source Software, un collectif de développeurs et d'enthousiastes de la confidentialité qui se focalise sur la construction d'outils libres et gratuits qui respectent votre vie numérique et votre liberté.
+Aurora Store est un produit d'*Aurora Open Source Software*, un collectif de développeurs et d'enthousiastes de la confidentialité qui se focalise sur la construction d'outils libres et gratuits qui respectent votre vie numérique et votre liberté.
 Aurora Store est l'un des magasins d'applications alternatifs de Google Play Store les plus populaires sur la plateforme Android pour les raisons suivantes :
 - **Une interface épurée** : Vous n'êtes absolument pas déphasé(e) par l'interface, retrouvez facilement vos repères.
 - **Un accès à des millions d'applications** : Aurora Store fonctionne comme un portail vers les différentes applications mobiles. Si l'application que vous recherchez est sur Google Play Store, vous la trouverez sur Aurora Store.
 - **Aucun service Google Play requis** : Grâce à la technologie MicroG, les applications Android peuvent fonctionner sur votre téléphone dépourvu de services Google Play.
 
-Vous pouvez télécharger Aurora Store sur le [site officiel](https://auroraoss.com/aurora-store) en cliquant sur le bouton "Release" dans les types de construction. Sélectionnez l'option Vanilla si vous utilisez une marque de téléphone autre que Huawei. Les modèles de téléphone Huawei récents possèdent leur propre version de Aurora Store en raison de leur restrictions aux services Google suite à des sanctions américaines.
+Vous pouvez télécharger Aurora Store sur le [site officiel](https://auroraoss.com/aurora-store) en cliquant sur le bouton "Release" dans les types de construction. Sélectionnez l'option Vanilla si vous utilisez une marque de téléphone autre que Huawei. Les modèles de téléphone Huawei récents possèdent leur propre version de Aurora Store en raison de leurs restrictions aux services Google suite à des sanctions américaines.
 
 ![download](assets/fr/01.webp)
 
@@ -24,7 +24,7 @@ Vous pouvez également télécharger Aurora Store depuis d'autres magasins d'app
 
 https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
-Il est cependant recommandé de télécharger le fichier APK directement sur le site Web officiel afin de s'assurer de l'authenticité et de l'intégrité de Aurora Store.
+Il est cependant recommandé de télécharger le fichier APK directement sur le site Web officiel afin de s'assurer de l'authenticité et de l'intégrité d'Aurora Store.
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
@@ -35,7 +35,7 @@ Une fois l'application téléchargée, procédez à une installation manuelle pu
 
 ![permissions](assets/fr/03.webp)
 
-Ne sollicitant pas les services Google Play, vous pouvez vous connecter anonymement à l'interface de Aurora Store et profiter de toutes les applications disponibles sur Google Play Store. Aurora Store est un portail reflétant les fonctionnalités de Google Play Store. Il ne possède pas, ne délivre pas de licence ou ne distribue aucune application.
+Ne sollicitant pas les services Google Play, vous pouvez vous connecter anonymement à l'interface d'Aurora Store et profiter de toutes les applications disponibles sur Google Play Store. Aurora Store est un portail reflétant les fonctionnalités de Google Play Store. Il ne possède pas, ne délivre pas de licence ou ne distribue aucune application.
 
 ![login](assets/fr/06.webp)
 
@@ -52,7 +52,7 @@ Aurora Store n'est pas qu'un reflet de Google Play Store, il intègre des foncti
 
 - **Indépendance vis-à-vis de Google :**
 
-Dans un contexte où vous décidez de désactiver les services Google Play pour protéger vos données ou vous utilisez un téléphone qui ne supporte plus les services Google, Aurora Store, grâce à MicroG, un projet open-source, vous permet d'installer et d'utiliser les applications mobiles disponibles sur Google Play Store. Cette fonctionnalité est particulièrement utile si vous êtes dans un pays qui subit des sanctions américaines.
+Dans un contexte où vous décidez de désactiver les services Google Play pour protéger vos données ou vous utilisez un téléphone qui ne supporte plus les services Google, Aurora Store, grâce à MicroG, un projet open source, vous permet d'installer et d'utiliser les applications mobiles disponibles sur Google Play Store. Cette fonctionnalité est particulièrement utile si vous êtes dans un pays qui subit des sanctions américaines.
 
 ![microG](assets/fr/07.webp)
 
@@ -68,7 +68,8 @@ Obtenez dans les descriptions de l'application que vous souhaitez installer, la 
 ![autorisations](assets/fr/05.webp)
 
 - **L'analyse de protection des données :**
-Aurora Store intègre Exodus, une solution qui analyse et détecte les traqueurs utilisés par vos applications android. Un traqueur est un petit logiciel qui est chargé de collecter des données sur vous ou sur ce que vous faites. En vous affichant les données des analyses Exodus, Aurora store vous permet de connaître réellement les types de données qui sont collectés par l'application que vous souhaitez installer.
+
+Aurora Store intègre Exodus, une solution qui analyse et détecte les traqueurs utilisés par vos applications Android. Un traqueur est un petit logiciel qui est chargé de collecter des données sur vous ou sur ce que vous faites. En vous affichant les données des analyses Exodus, Aurora Store vous permet de connaître réellement les types de données qui sont collectés par l'application que vous souhaitez installer.
 
 ![privacy](assets/fr/08.webp)
 

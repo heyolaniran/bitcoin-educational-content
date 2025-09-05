@@ -1,6 +1,6 @@
 ---
 name: Aurora Store
-description: Téléchargez et mettez à jour anonymement vos applications Android.
+description: Une alternative libre au Google Play Store pour télécharger des applications Android
 ---
 
 ![cover](assets/cover.webp)

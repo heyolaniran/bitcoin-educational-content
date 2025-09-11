@@ -2,6 +2,7 @@
 name: Flash (PayWithFlash POS)
 description: Le moyen le plus facile d'accepter des paiements en bitcoin.
 ---
+![cover](assets/cover.webp)
 
 L'adoption de Bitcoin est devenue massive tout autour du globe grâce aux possibilités offertes par le Lightning Network. Plusieurs solutions existent désormais pour vous permettre de faire partie de cette vague d'adoption, et intégrer bitcoin comme moyen de paiement afin de donner à votre service, votre commerce, une envergure globale afin de recevoir des paiements instantanés de partout dans le monde. Dans cette approche, Flash, une solution self-custody se démarque particulièrement par ses fonctionnalités et son expérience utilisateur.
 

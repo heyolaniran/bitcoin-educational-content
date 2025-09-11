@@ -132,6 +132,7 @@ Flash n'est seulement un écosystème fermé, grâce au menu **Intégrations**, 
 - Vimeo OTT (bientôt disponible)
 
 ![integrations](assets/fr/21.webp)
+
 ### Créer sa boutique
 
 Vous êtes un nouveau marchand ou vous n'avez pas de site web sur lequel intégrer Flash ? La plateforme vous propose une option de construction de site qui vous permet de créer des boutiques sur Flash et de vendre vos produits tout en acceptant les paiements en bitcoin.

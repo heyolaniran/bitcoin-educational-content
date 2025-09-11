@@ -1,10 +1,10 @@
 ---
-name: Flash (PayWithFlash POS)
-description: Le moyen le plus facile d'accepter des paiements en bitcoin.
+name: Flash - POS
+description: Acceptez les paiements en bitcoins dans votre boutique, directement depuis votre téléphone
 ---
 ![cover](assets/cover.webp)
 
-L'adoption de Bitcoin est devenue massive tout autour du globe grâce aux possibilités offertes par le Lightning Network. Plusieurs solutions existent désormais pour vous permettre de faire partie de cette vague d'adoption, et intégrer bitcoin comme moyen de paiement afin de donner à votre service, votre commerce, une envergure globale afin de recevoir des paiements instantanés de partout dans le monde. Dans cette approche, Flash, une solution self-custody se démarque particulièrement par ses fonctionnalités et son expérience utilisateur.
+L'adoption de Bitcoin est devenue massive tout autour du globe grâce aux possibilités offertes par le Lightning Network. Plusieurs solutions existent désormais pour vous permettre de faire partie de cette vague d'adoption, et intégrer le bitcoin comme moyen de paiement afin de donner à votre service, votre commerce, une envergure globale afin de recevoir des paiements instantanés de partout dans le monde. Dans cette approche, Flash, une solution self-custody se démarque particulièrement par ses fonctionnalités et son expérience utilisateur.
 
 ## Débuter avec Flash
 
@@ -14,7 +14,7 @@ Flash est une plateforme qui vous permet en tant que commerçant, entrepreneur d
 
 Profitez de la simplicité de Flash pour mettre en place votre organisation en trois étapes.
 - Renseignez les détails de votre organisation :
-La plateforme Flash accepte les commerces issues de tous les continents aussi bien en Afrique (Nigéria, Ghana), en passant par l'Europe et les Amériques et l'Asie (Vietnam, Chine).
+La plateforme Flash accepte les commerces issus de tous les continents aussi bien en Afrique (Nigéria, Ghana), en passant par l'Europe et les Amériques et l'Asie (Vietnam, Chine).
 
 ![organizations](assets/fr/01.webp)
 
@@ -22,7 +22,7 @@ La plateforme Flash accepte les commerces issues de tous les continents aussi bi
 
 ![infos](assets/fr/02.webp)
 
-- Un service self-custody : Flash bien qu'étant une plateforme d'encaissement, vous offre la liberté et le contrôle sur vos fonds. Vous avez la possibilité de connecter le portefeuille Lightning que vous utilisez le plus ou de connecter le portefeuille non-custodial (auto-dépositaire) dédiée développé par Flash.
+- Un service self-custody : Flash bien qu'étant une plateforme d'encaissement, vous offre la liberté et le contrôle sur vos fonds. Vous avez la possibilité de connecter le portefeuille Lightning que vous utilisez le plus ou de connecter le portefeuille non-custodial dédié, développé par Flash.
 
 ![connect_wallet](assets/fr/03.webp)
 
@@ -47,11 +47,11 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 ![connected](assets/fr/06.webp)
 
-Une fois votre portefeuille bitcoin connecté, spécifiez les fonctionnalités par lesquelles vous êtes intéressés et que vous aimeriez utiliser sur la plateforme. Vous y trouverez entre autres :
+Une fois votre portefeuille bitcoin connecté, spécifiez les fonctionnalités qui vous intéressent et que vous aimeriez utiliser sur la plateforme. Vous y trouverez entre autres :
 - La gestion des souscriptions : idéale pour gérer les souscriptions de vos abonnés en recevant un montant fixe sur une période donnée.
 - Les liens de paiements pour générer des pages sur lesquelles vos clients peuvent régler vos factures.
 - Les donations pour ouvrir des cagnottes et soutenir vos projets.
-- l'E-commerce qui vous permet de configurer et de vendre des produits physiques et digitaux en ligne.
+- l'e-commerce qui vous permet de configurer et de vendre des produits physiques et digitaux en ligne.
 - Les points de vente qui vous donnent des interfaces pour gérer les paiements dans vos magasins.
 
 ![about](assets/fr/07.webp)
@@ -72,7 +72,8 @@ Sur la page de votre tableau de bord, cliquez sur **Commencez** dans le cadran *
 ![pdv](assets/fr/09.webp)
 
 
-Avant d'aller sur cette interface pour commencer par encaisser des paiements en bitcoin, nous vous recommandons, pour une meilleure traçabilité, de créer des produits disponibles dans votre magasin afin d'avoir un inventaire sur Flash.
+Avant d'aller sur cette interface pour commencer à encaisser des paiements en bitcoin, nous vous recommandons, pour une meilleure traçabilité, de créer des produits disponibles dans votre magasin afin d'avoir un inventaire sur Flash.
+
 Sur le tableau de bord, cliquez sur l'icône **Plus**, puis cliquez sur **Nouveau produit**.
 
 ![products](assets/fr/10.webp)
@@ -103,7 +104,7 @@ Sur le tableau de bord Flash, cliquez sur **Lien de paiement** puis remplissez l
 
 ### Les donations
 
-Dans le menu **Checkouts**, vous pouvez créer des plugins de donation que vous pouvez mettre sur votre site internet ou vos réseaux sociaux afin de que les personnes désireuses puissent soutenir votre projet.
+Dans le menu **Checkouts**, vous pouvez créer des plugins de donation que vous pouvez mettre sur votre site internet ou vos réseaux sociaux afin que les personnes désireuses puissent soutenir votre projet.
 
 Cliquez sur l'option **Nouveau plugin de dons**, puis configurez les détails de votre 
 
@@ -118,7 +119,7 @@ Une fois votre plugin de donation créé, vous obtenez un code javascript que vo
 
 Les souscriptions représentent un service idéal lorsque vous avez des abonnés ou que vous souhaitez recevoir de façon récurrente, un certain montant.
 
-Dans le menu **Souscriptions**, cliquez sur l'option **Nouveau plan de souscription**. Définissez les différents plans que vous souhaitez mettre en place puis configurer les informations de votre souscription.
+Dans le menu **Souscriptions**, cliquez sur l'option **Nouveau plan de souscription**. Définissez les différents plans que vous souhaitez mettre en place puis configurez les paramètres de votre souscription.
 
 ![souscription](assets/fr/19.webp)
 
@@ -126,7 +127,7 @@ Dans le menu **Souscriptions**, cliquez sur l'option **Nouveau plan de souscript
 
 ### Les intégrations
 
-Flash n'est seulement un écosystème fermé, grâce au menu **Intégrations**, vous pouvez connecter votre commerce à des outils que vous utilisez déjà. En vous appuyant sur la documentation, vous pouvez intégrer votre organisation Flash sur :
+Flash n’est pas seulement un écosystème fermé, grâce au menu **Intégrations**, vous pouvez connecter votre commerce à des outils que vous utilisez déjà. En vous appuyant sur la documentation, vous pouvez intégrer votre organisation Flash sur :
 - WooCommerce
 - Shopify
 - Wix
@@ -139,10 +140,11 @@ Flash n'est seulement un écosystème fermé, grâce au menu **Intégrations**, 
 Vous êtes un nouveau marchand ou vous n'avez pas de site web sur lequel intégrer Flash ? La plateforme vous propose une option de construction de site qui vous permet de créer des boutiques sur Flash et de vendre vos produits tout en acceptant les paiements en bitcoin.
 
 Dans le menu, accédez à l'interface de l'option **Boutique** puis cliquez sur **Nouvelle boutique**.
-Configurez les détails de votre boutique en y renseignant un nom unique visible par vous, un nom public pour vos visiteurs, la description de votre boutique et les visuels d'identité de votre marque (logo, affiche de couverture). Sélectionnez la devise dans laquelle vous souhaitez configurer les produits sur votre site web. Les prix de ces produits seront convertis en bitcoin suivant le taux de conversion courant sur le marché et connectez le portefeuille bitcoin sur lequel vous souhaitez recevoir les paiements.
+
+Configurez les détails de votre boutique en y renseignant un nom unique visible uniquement par vous, un nom public pour vos visiteurs, la description de votre boutique et les visuels d'identité de votre marque (logo, affiche de couverture). Sélectionnez la devise dans laquelle vous souhaitez configurer les produits sur votre site web. Les prix de ces produits seront convertis en bitcoin suivant le taux de conversion courant sur le marché et connectez le portefeuille bitcoin sur lequel vous souhaitez recevoir les paiements.
 
 ![store](assets/fr/22.webp)
 
-Nous espérons que vous avez apprécié cette découverte et nous vous exhortons à approfondir vos connaissances sur l'impact et les bonnes pratiques de l'intégration du bitcoin dans votre commerce avec notre cursus : Bitcoin pour les entreprises.
+Nous espérons que vous avez apprécié cette découverte et nous vous encourageons à approfondir vos connaissances sur l'impact et les bonnes pratiques de l'intégration du bitcoin dans votre commerce avec notre cursus : Bitcoin pour les entreprises.
 
 https://planb.network/courses/bitcoin-pour-les-entreprises-a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

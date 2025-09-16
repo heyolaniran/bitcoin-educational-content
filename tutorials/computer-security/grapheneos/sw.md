@@ -10,6 +10,8 @@ description: Mfumo wa uendeshaji wa simu unaolenga usalama na faragha unaotegeme
 GrapheneOS, iliyoanzishwa mwaka wa 2014 kama 'CopperheadOS' inategemea Kanuni ya jadi ya Android (AOSP), lakini ikiwa na mabadiliko mengi na maboresho yanayolenga kuboresha faragha na usalama wa mtumiaji. GrapheneOS huweka mtumiaji udhibiti wa simu zao, si makampuni makubwa ya teknolojia.
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 
@@ -344,7 +346,7 @@ Kushoto: Threema, Kulia: Simplex
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -604,3 +606,4 @@ GrapheneOS ni shimo la sungura mtu yeyote anaweza kutumia kwa urahisi wiki kwend
 
 
 *Mafunzo haya ni urekebishaji wa yaliyomo asilia yaliyotolewa na [BitcoinQnA kwenye Bitcoiner.Guide chini ya leseni ya MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), ambaye anastahili sifa zote kwa kazi ya awali ya uandishi.*
+

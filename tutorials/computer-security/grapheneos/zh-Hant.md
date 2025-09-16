@@ -10,6 +10,8 @@ description: 一個基於安卓、專注於安全和隱私的行動作業系統
 GrapheneOS 創立於 2014 年，原名為「CopperheadOS」，以傳統的 Android Code (AOSP) 為基礎，但做了許多改變和改進，目的在於改善使用者隱私和安全性。GrapheneOS 讓使用者而非大型科技公司掌控手機。
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire：
 
 
@@ -344,7 +346,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -604,3 +606,4 @@ GrapheneOS 是一個任何人都可以輕鬆花上好幾個星期去探索的兔
 
 
 *本教程改編自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 授權發佈的原始內容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰寫工作應完全歸功於 BitcoinQnA。*
+

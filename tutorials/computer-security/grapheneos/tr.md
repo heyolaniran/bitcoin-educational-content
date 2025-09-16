@@ -10,6 +10,8 @@ description: Android tabanlı güvenlik ve gizliliğe odaklanan bir mobil işlet
 İlk olarak 2014 yılında 'CopperheadOS' olarak kurulan GrapheneOS, geleneksel Android Koduna (AOSP) dayanmaktadır, ancak kullanıcı gizliliğini ve güvenliğini artırmayı amaçlayan birçok değişiklik ve iyileştirme içermektedir. GrapheneOS, telefonlarının kontrolünü büyük teknoloji şirketlerine değil kullanıcıya verir.
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 
@@ -344,7 +346,7 @@ Sol: Threema, Sağ: Simpleks
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -604,3 +606,4 @@ GrapheneOS, herkesin kolayca haftalarını harcayabileceği bir tavşan deliğid
 
 
 *Bu eğitim, [BitcoinQnA tarafından Bitcoiner.Guide üzerinde MIT lisansı altında yayınlanan](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) orijinal içeriğin bir uyarlamasıdır ve ilk yazım çalışmasının tüm kredisi ona aittir.*
+

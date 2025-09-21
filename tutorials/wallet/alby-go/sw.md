@@ -17,7 +17,7 @@ description: Mwongozo wa programu ya simu ya Alby Go
 
 
 - [Alby Hub](https://albyhub.com/)** *(inapendekezwa)*
-- **Mwavuli**, **Start9**, **RaspiBlitz** (kupitia **Alby Hub**)
+- **Umbrel**, **Start9**, **RaspiBlitz** (kupitia **Alby Hub**)
 - **Sarafu** *(haijajaribiwa)*
 - **Ya kwanza** *(haijajaribiwa)*
 - **Minibits** *(haijajaribiwa)*

@@ -36,6 +36,7 @@ assignees:
 - [x] I have searched existing issues and confirmed this tutorial hasn't been requested before
 - [x] I understand this is a request and the tutorial will be created on the Plan ₿ Network platform
 - [x] I am willing to provide feedback during the review process if needed
+- [x] I’d like this tutorial to be assigned to me so that I can write it
 
 ---
 

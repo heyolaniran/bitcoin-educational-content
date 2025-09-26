@@ -12,9 +12,11 @@ original_language: fr
 # Proofreading metadata
 
 proofreading:
-- language: fr
-  last_contribution_date: 2025-09-23
-  urcency: 1
-  contributor_names:
-    - heyolaniran
-  reward: 0
+  - language: fr
+    last_contribution_date: 2025-09-23
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0
+
+

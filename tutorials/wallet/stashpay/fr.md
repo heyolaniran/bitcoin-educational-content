@@ -1,11 +1,12 @@
 ---
 name: StashPay
-description: Le portefeuille Bitcoin minimaliste pour tous.
+description: Le portefeuille Bitcoin minimaliste pour tous
 ---
 
 ![cover](assets/cover.webp)
 
-L'expérience utilisateur est un facteur déterminant dans l'adoption des solutions bitcoin tout autour du globe. Depuis lors, proposer une expérience fluide, simple et sans bagages techniques est la priorité de nombreux portefeuilles et de plateformes de point de vente Bitcoin. Dans ce sens, StashPay se démarque par son approche très minimaliste tout en montrant la puissance du Lightning Network.
+L'expérience utilisateur est un facteur déterminant dans l'adoption des solutions Bitcoin tout autour du globe. Proposer une expérience fluide, simple et sans contraintes techniques est la priorité de nombreux portefeuilles et plateformes d'échange. Dans ce sens, StashPay se démarque par son approche très minimaliste tout en montrant la puissance du Lightning Network.
+
 Dans ce tutoriel, nous partons à la découverte de ce portefeuille afin de découvrir comment il fonctionne et comment il est idéal pour les petits commerces ou les solopreneurs.
 
 ## Débuter avec StashPay
@@ -23,11 +24,11 @@ Une fois l'application installée, à votre première ouverture StashPay vous cr
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Accédez au paramètres de StashPay en cliquant sur l'icône "Paramètres" puis cliquez sur l'option **Créer une sauvegarde**. Autorisez ensuite l'affichage des phrases de récupération. Ne copiez pas vos phrases de récupération dans le presse-papier de votre téléphone car ils peuvent être accessibles à d'autres applications frauduleuses installées sur votre mobile.
+Accédez aux paramètres de StashPay en cliquant sur l'icône "Paramètres" puis cliquez sur l'option **Créer une sauvegarde**. Autorisez ensuite l'affichage des phrases de récupération. Ne copiez pas vos phrases de récupération dans le presse-papier de votre téléphone, car elles peuvent être accessibles à d'autres applications frauduleuses installées sur votre mobile.
 
 ![backup](assets/fr/02.webp)
 
-Vous avez également la possibilité de récupérer un portefeuille Bitcoin que vous utilisez déjà en cliquant sur la l'option **Récupérer un portefeuille** puis en insérant vos 12 ou 24 mots de récupération.
+Vous avez également la possibilité de récupérer un portefeuille Bitcoin que vous utilisez déjà en cliquant sur l'option **Récupérer un portefeuille** puis en insérant vos 12 ou 24 mots de récupération.
 
 ### Recevoir ses premiers satoshis sur StashPay
 
@@ -43,7 +44,7 @@ Vous pouvez consulter l'historique de vos transactions en cliquant sur l'icône 
 
 ![network_fee](assets/fr/05.webp)
 
-Vous aurez constaté que pour recevoir des satoshis vous aurez à payer des frais réseaux. Ces frais seront déduits des satoshis que vous êtes sur le point de recevoir. En effet StashPay est un portefeuille qui se base sur le Kit de Développement de Breez. Pour recevoir des satoshis avec l'implémentation sans nœud Lightning du Kit, Breez facturera au client (StashPay dans notre cas) `0,25% + 40 satoshis`. Découvrez-en plus avec notre tutoriel sur Misty Breez.
+Vous aurez constaté que pour recevoir des satoshis vous aurez à payer des frais de réseau. Ces frais seront déduits des satoshis que vous êtes sur le point de recevoir. En effet StashPay est un portefeuille qui se base sur le Kit de Développement de Breez. Pour recevoir des satoshis avec l'implémentation sans nœud Lightning du Kit, Breez facturera au client (StashPay dans notre cas) `0,25% + 40 satoshis`. Découvrez-en plus avec notre tutoriel sur Misty Breez.
 
 https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
@@ -68,7 +69,8 @@ Vous pouvez également envoyer des bitcoins en utilisant l'adresse Lightning de 
 ## Plus de configurations
 
 Dans les paramètres de StashPay, vous pouvez régler les configurations pour personnaliser votre utilisation du portefeuille.
-SatshPay vous permet d'échanger des satoshis en vous basant sur la devise locale de votre choix. Cliquez sur l'option **Monnaies** puis recherchez votre devise dans la liste de +113 devises que vous propose StashPay.
+
+StashPay vous permet d'échanger des satoshis en vous basant sur la devise locale de votre choix. Cliquez sur l'option **Monnaies** puis recherchez votre devise dans la liste de +113 devises que vous propose StashPay.
 
 ![currencies](assets/fr/09.webp)
 
@@ -76,7 +78,7 @@ Dans le menu **Options de réception**, vous retrouverez les configurations lié
 
 ![receive-onchain](assets/fr/10.webp)
 
-L'option **Scanner les adresses OnChain**, vous permet de rafraîchir la balance de votre portefeuille en vérifiant toutes les UTXO (bitcoin que vous n'avez pas encore dépensé) qui sont liés à vos différentes adresses.
+L'option **Scanner les adresses OnChain** vous permet de rafraîchir la balance de votre portefeuille en vérifiant tous les UTXO (bitcoins que vous n'avez pas encore dépensés) qui sont liés à vos différentes adresses.
 
 ![rescan](assets/fr/11.webp)
 

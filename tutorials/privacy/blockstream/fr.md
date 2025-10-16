@@ -1,6 +1,6 @@
 ---
 name: Blockstream
-description: 
+description: Explorez la couche principale et le Liquid Network
 ---
 
 ![cover](assets/cover.webp)

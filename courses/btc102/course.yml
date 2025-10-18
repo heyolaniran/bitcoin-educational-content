@@ -262,7 +262,7 @@ videos:
       - es: qevems8fRdB66ow51Lgu4r
       - it: rrYx4aNpLXbdxsVRPFpMm3
   - id: 58e578ef-bb3c-423d-8431-0c16db8e5f29
-    youtube: []
+    youtube:
     peertube:
       - es: aee8BTojUSaDFnEPnoUUzC
       - it: 2Gq2JdsnSJJLc5BtPGe1kJ

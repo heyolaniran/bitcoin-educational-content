@@ -1,6 +1,6 @@
 ---
-name: Blockstream
-description: Explorez la couche principale et le Liquid Network
+name: Blockstream Explorer
+description: Explorez la couche principale de Bitcoin et le Liquid Network
 ---
 
 ![cover](assets/cover.webp)
@@ -21,7 +21,7 @@ Lorsque vous vous rendez sur l'explorateur Blockstream.info, sur le **Tableau de
 
 ![blocks](assets/fr/01.webp)
 
-Cette section renseigne sur les récents blocs minés, l'horodatage, le nombre de transactions incluses dans chaque bloc, la taille en kilo-octets (kB) et la mesure de chaque bloc en unités de poids (**WU**). Cette dernière mesure est intéressante, car elle permet d'évaluer l'optimisation du bloc, sachant que chaque bloc de la chaîne principale est limité à `4_000_000 WU`, soit `4_000 kWU`.
+Cette section renseigne sur les récents blocs minés, l'horodatage, le nombre de transactions incluses dans chaque bloc, la taille en kilo-octets (kB) et la mesure de chaque bloc en unités de poids (**WU**). Cette dernière mesure est intéressante, car elle permet d'évaluer l'optimisation du bloc, sachant que chaque bloc de la chaîne principale est limité à `4 000 000 WU`, soit `4 000 kWU`.
 
 - Les récentes transactions effectuées.
 
@@ -55,7 +55,7 @@ Pour que des bitcoins soient utilisés comme entrées dans une nouvelle transact
 
 Vous pouvez retracer l'historique d'un UTXO bien spécifique en utilisant des heuristiques. Nous vous invitons à découvrir les différentes heuristiques Bitcoin et les moyens de renforcer la confidentialité de vos transactions sur le protocole Bitcoin.
 
-https://planb.network/courses/la-confidentialite-sur-bitcoin-65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ![trxs](assets/fr/07.webp)
 

@@ -13,7 +13,7 @@ objectives:
 
 In this course, we will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional educational material will be available throughout the journey, and we also invite you to check the "21 Posters" in the resources section after you finish this course.
 
-You don't need any specific knowledge to get started. In fact, the following content is accessible to students of all levels, and it should take approximately 15 hours to finish.
+No prior knowledge is required to begin this course. BTC 101 was designed to be accessible to everyone, regardless of your level of experience.
 
 +++
 
@@ -1163,6 +1163,10 @@ In addition, there are several [marketplaces](https://planb.network/tutorials/ex
 ![image](assets/en/076.webp)
 
 Finally, it is important to note that tax obligations may vary depending on the jurisdiction, so we strongly encourage you to consult the regulations in your country before taking any actions that could put you at risk.
+
+If you wish to deepen your knowledge of strategies for purchasing, using, and securing your bitcoins, I strongly recommend taking the **BTC 102** course after this one. There you will discover, among other things, tool recommendations suited to your profile, needs, and personal goals:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinization
 

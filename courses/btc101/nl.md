@@ -13,7 +13,7 @@ objectives:
 
 In deze cursus leggen we in 25 hoofdstukken de basis van Bitcoin uit, zodat je deze technologie op een eenvoudige en effectieve manier kunt begrijpen. De cursus verkent de basisprincipes van de industrie als geheel, waaronder onderwerpen als mining, wallets, koop-/verkoopplatformen en meer. Tijdens de hele cursus is er extra educatief materiaal beschikbaar, en we nodigen je ook uit om de "21 Posters" in de bronnensectie te bekijken nadat je deze cursus hebt afgerond.
 
-Je hebt geen specifieke kennis nodig om te beginnen. In feite is alle inhoud toegankelijk voor studenten van alle niveaus, en het duurt ongeveer 15 uur om het te voltooien.
+Er is geen voorkennis vereist om met deze cursus te beginnen. BTC 101 is ontworpen om voor iedereen toegankelijk te zijn, ongeacht je ervaringsniveau.
 
 +++
 
@@ -1160,6 +1160,10 @@ Daarnaast zijn er verschillende [marktplaatsen](https://planb.network/tutorials/
 ![image](assets/nl/076.webp)
 
 Tot slot is het belangrijk op te merken dat belastingverplichtingen kunnen variëren afhankelijk van de jurisdictie, dus we raden je ten zeerste aan de regelgeving in je land te raadplegen voordat je acties onderneemt die je in gevaar kunnen brengen.
+
+Als u uw kennis wilt verdiepen over strategieën voor het kopen, gebruiken en beveiligen van uw bitcoins, raad ik u ten zeerste aan om na deze cursus de cursus **BTC 102** te volgen. Daar ontdekt u onder andere aanbevelingen voor hulpmiddelen die zijn afgestemd op uw profiel, behoeften en persoonlijke doelen:
+
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinisatie
 

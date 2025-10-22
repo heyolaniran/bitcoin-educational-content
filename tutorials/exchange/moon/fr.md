@@ -1,6 +1,6 @@
 ---
 name: Moon
-description: Payez en bitcoin partout où des cartes Visa sont acceptées.
+description: Payez en bitcoins partout où les cartes bancaires Visa sont acceptées.
 ---
 
 ![cover](assets/cover.webp)

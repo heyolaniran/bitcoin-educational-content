@@ -1,6 +1,6 @@
 ---
 name: IbexPay
-description: Acceptez des paiements Bitcoin, économisez des frais et convertissez en devises locales.
+description: Acceptez des paiements en bitcoins et convertissez-les en devise locale.
 ---
 ![cover](assets/cover.webp)
 

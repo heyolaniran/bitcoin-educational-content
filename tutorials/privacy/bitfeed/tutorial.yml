@@ -14,6 +14,7 @@ licence: CC-BY-SA-V4
 
 original_language: fr
 proofreading:
+<<<<<<< HEAD
   - language: fr
     last_contribution_date: 2025-10-14
     urgency: 1
@@ -145,3 +146,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.49
+=======
+- language: fr
+  last_contribution_date: 2025-10-14
+  urgency: 1
+  contributor_names:
+    - heyolaniran
+  reward: 0
+>>>>>>> 50e7474987 (feat: ibexPay Tutorial)

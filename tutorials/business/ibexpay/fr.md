@@ -8,15 +8,7 @@ Rendre le Bitcoin utilisable par tous passe également par montrer son utilité 
 
 ## Débuter avec IbexPay
 
-<<<<<<< HEAD
 IbexPay est une plateforme développée par la société IBEX, pionnière dans les services d'infrastructures Lightning. Pour obtenir un compte, rendez-vous sur la [plateforme officielle](https://www.ibexpay.io/) de IbexPay puis cliquez sur le bouton "**Démarrer**".
-=======
-  
-
-IbexPay est une plateforme propulsée par la société IBEX, pionnière dans les services d'infrastructures Lightning. Pour obtenir un compte, rendez-vous sur la [plateforme officielle](https://www.ibexpay.io/) de IbexPay puis cliquez sur le bouton "**Démarrer**".
-
-  
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 
 ![start](assets/fr/01.webp)
 
@@ -24,48 +16,29 @@ Remplissez les différentes informations liées à votre commerce puis choisisse
 
 ![register](assets/fr/02.webp)
 
-<<<<<<< HEAD
 IbexPay n'est malheureusement pas disponible pour la plupart des pays d'Afrique mais vous disposez d'une multitude d'options en Europe, en Asie et en Amérique.
 
 Lorsque vous validerez votre inscription, un mail vous sera envoyé afin que vous puissiez définir un mot de passe pour votre compte. Veuillez définir un mot de passe fort qui protège les informations sensibles de votre commerce.
-=======
-  
-IbexPay n'est malheureusement pas disponible pour la plupart des pays d'Afrique mais vous disposez d'une multitude d'options en Europe, en Asie et en Amérique.
-
-Lorsque vous validerez votre inscription, un mail vous sera envoyé afin que vous puissiez définir un mot de passe pour votre compte. Veuillez définir un mot de passe fort qui protège les informations sensibles de votre commerce.
-
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 
 ![passe](assets/fr/03.webp)
 
 ## Configurer son compte
 
-<<<<<<< HEAD
 IbexPay est une plateforme minimaliste et fluide qui vous permet de configurer et de commencer à encaisser des paiements via Bitcoin (onchain et Lightning) très rapidement.
 
-=======
-IbexPay est une plateforme minimaliste et fluide qui vous permet de configurer et de commencer par encaisser des paiements via Bitcoin (onchain et Lightning) en un temps record.
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 Après votre connexion, le tableau de bord vous présente une vue d'ensemble personnalisable sur les données des encaissements de votre commerce.
 
 A partir de ce tableau de bord, vous pouvez :
 
-<<<<<<< HEAD
 - Consulter l'historique des transactions sur une période journalière, mensuelle, annuelle ou sur une période personnalisée ;
 - Exporter l'historique sous un format excel (CSV) pour la comptabilité ;
 - Consulter le montant total de satoshis qui vous sera envoyé sur votre adresse personnelle ;
-=======
-- Consulter l'historique des transactions sur une période journalière, mensuelle, annuelle ou sur une période bien définie.
-- Exporter l'historique sous un format excel (CSV).
-- Consulter le montant total de satoshis qui vous sera envoyé sur votre adresse personnelle.
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 - Consulter l'équivalent en devise locale qui est disponible sur votre compte.
 
 
 ![dashboard](assets/fr/04.webp)
 
 
-<<<<<<< HEAD
 Dans le menu **Paramètres**, configurez toutes les informations essentielles à votre commerce : vos adresses personnelles, les documents de votre entreprise, etc.
 
 Dans cette section, vous pouvez configurer votre adresse de réception bitcoin onchain et votre adresse Lightning. Ces deux informations sont utiles car toutes les 24 heures, IbexPay vous reversera directement le montant total de vos transactions de la journée sur votre adresse bitcoin onchain configurée.
@@ -73,17 +46,6 @@ Dans cette section, vous pouvez configurer votre adresse de réception bitcoin o
 ![addresses](assets/fr/05.webp)
 
 Ces informations seront vérifiées par l'équipe de IbexPay. Une fois cette vérification terminée, vous avez également la possibilité de définir le pourcentage de bitcoin que vous souhaitez encaisser par transaction. Par exemple pour un paiement de 20 euros payé via Lightning, si votre pourcentage Bitcoin est défini sur 30 %, IbexPay dispatchera ce montant en 6 euros équivalent en bitcoins, puis 14 euros disponible dans votre balance FIAT.
-=======
-Dans le menu **Paramètres**, configurez toutes les informations essentielles à votre commerce depuis vos adresses personnelles aux documents de votre entreprise.
-  
-Dans cette section, vous pouvez configurer votre adresse de réception bitcoin onchain et votre adresse Lightning. Ces deux informations sont utiles car toutes les 24 heures, IbexPay vous reversera directement le montant total de vos transactions des dernières 24 heures sur votre adresse bitcoin onchain configuré.
-
-![addresses](assets/fr/05.webp)
-
-Ces informations seront vérifiées par l'équipe de IbexPay dans les plus brefs délais.
-Une fois cette vérification terminée, vous avez également la possibilité de définir le pourcentage de bitcoin que vous souhaitez encaisser par transaction. Par exemple pour un paiement de 20 EUR payés via Lightning, si votre pourcentage Bitcoin est défini sur 30%, IbexPay dispatchera ce montant en 6 EURO équivalent en satoshis puis 14 EUR disponible dans votre balance FIAT.
-
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 
 ![percent](assets/fr/06.webp)
 
@@ -91,11 +53,7 @@ Pour vous reverser votre solde en devise locale, IbexPay aura également besoin 
 
 ![bank](assets/fr/07.webp)
 
-<<<<<<< HEAD
 Si vous êtes propriétaire de plusieurs boutiques, vous pouvez créer un compte pour chacun de vos magasins et suivre distinctement les transactions depuis la même interface IbexPay.
-=======
-Si vous êtes propriétaire de plusieurs boutiques, pas d'inquiétude, vous pouvez créer un compte pour chacun de vos magasins et suivre distinctement les transactions depuis la même interface IbexPay.
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 
 ![accounts](assets/fr/08.webp)
 
@@ -103,11 +61,7 @@ Vous pouvez aussi assigner un manager différent pour chacun de vos comptes (bou
 
 ![manager](assets/fr/09.webp)
 
-<<<<<<< HEAD
 Dans le menu **Comptes**, vous pouvez relier un superviseur à une boutique en cliquant sur le bouton **Assigner un superviseur**.
-=======
-Dans le menu **Comptes**, vous pouvez  relier un superviseur à une boutique en cliquant sur le bouton **Assigner un superviseur**.
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 
 ![assign](assets/fr/10.webp)
 
@@ -117,17 +71,10 @@ Sélectionnez ensuite la boutique (compte) et le superviseur désigné puis cliq
 
 ## Les terminaux de paiement Bitcoin
 
-<<<<<<< HEAD
 Dans l'onglet **BTPs** (*Bitcoin Payment Terminals*), vous pouvez créer une page de point de vente utilisable à la caisse de votre boutique. Cliquez sur le bouton **Ajouter BTP**, puis renseignez :
 - Le nom du terminal ;
 - la boutique associée à ce terminal ;
 - la devise locale à utiliser.
-=======
-Dans l'onglet **BTPs** (Terminaux de paiement Bitcoin), vous pouvez créer une page de point de vente utilisable à la caisse de votre boutique. Cliquez sur le bouton **Ajouter BTP**, puis renseignez :
-- Le nom du terminal,
-- la boutique associée à ce terminal 
-- la devise locale à utiliser
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 
 Une fois votre terminal de paiement créé, cliquez sur le lien pour vous rediriger sur l'interface d'encaissement.
 
@@ -137,18 +84,9 @@ Une fois votre terminal de paiement créé, cliquez sur le lien pour vous rediri
 
 ![interface](assets/fr/13.webp)
 
-<<<<<<< HEAD
 Vous pouvez désormais commencer à créer des factures Lightning que vos clients et partenaires peuvent régler. En cliquant sur le logo IbexPay sur l'interface, vous avez un QR code que vous pouvez scanner sur votre smartphone afin d'avoir le point de vente IbexPay sur n'importe quel appareil.
  
 ![smartphone](assets/fr/14.webp)
-=======
-
-Vous pouvez désormais commencer par créer des factures Lightning que vos clients et partenaires peuvent régler. En cliquant sur le logo IbexPay sur l'interface, vous avez un QR code que vous pouvez scanner sur votre smartphone afin d'avoir le point de vente IbexPay sur n'importe quel appareil.
-  
-
-![smartphone](assets/fr/14.webp)
-
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
   
 ![phone](assets/fr/15.webp)
 
@@ -161,7 +99,6 @@ Vous pouvez désormais commencer par créer des factures Lightning que vos clien
   
 ## Intégration dans les commerces en ligne
 
-<<<<<<< HEAD
 IbexPay ne se limite pas qu'aux emplacements physiques de vos magasins. Dans le menu **Intégrations**, retrouvez toutes les plateformes de e-commerce et solution de paiements associés à IbexPay. Vous pouvez notamment relier votre compte IbexPay via :
 
 - API pour votre site e-commerce personnalisé ;
@@ -169,20 +106,10 @@ IbexPay ne se limite pas qu'aux emplacements physiques de vos magasins. Dans le
 - Shopify ;
 - Zaprite ;
 - TiloPay ;
-=======
-IbexPay ne se limite pas qu'aux emplacements physiques de vos magasins.  Dans le menu **Intégrations**, retrouvez toutes les plateformes de e-commerce et solution de paiements associés à IbexPay. Vous pouvez notamment relier votre compte IbexPay via :
-
-- API pour votre site e-commerce personnalisé,
-- WooCommerce
-- Shopify
-- Zaprite
-- TiloPay
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)
 - et les pages de donations IbexPay.
 
 ![integrations](assets/fr/18.webp)
 
-<<<<<<< HEAD
 Vous disposez désormais d’un outil vous permettant d’accepter le Bitcoin dans votre commerce en seulement quelques minutes. Si vous privilégiez les solutions en self-custody, vous pouvez également découvrir nos tutoriels consacrés à des outils comme Breez POS :
 
 https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
@@ -190,12 +117,3 @@ https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-4
 Découvrez également notre cours complet BIZ 101 destiné aux entreprises, pour apprendre les bonnes pratiques liées aux paiements en bitcoins et comprendre comment gérer efficacement votre trésorerie lorsque vous intégrez Bitcoin dans votre activité :
 
 https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
-=======
-Vous avez désormais un outil pour accepter le Bitcoin dans votre commerce et ceci en quelques minutes. Si vous êtes pour les solutions self-custody, nous sommes confiants que vous adorerez notre tutoriels sur les outils tels que Breez POS.
-
-https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
-
-Découvrez également notre cursus Bitcoin pour les entreprises pour apprendre les bonnes pratiques des paiements bitcoin et les meilleurs astuces de trésorerie lorsque vous intégrez bitcoin dans votre commerce.
-
-https://planb.academy/courses/bitcoin-pour-les-entreprises-a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
->>>>>>> 50e7474987 (feat: ibexPay Tutorial)

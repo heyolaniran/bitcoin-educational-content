@@ -90,6 +90,7 @@ Vous pouvez désormais commencer à créer des factures Lightning que vos client
 
 ![invoices](assets/fr/16.webp)
 
+
 ![integrations](assets/fr/17.webp)
 
 ## Intégration dans les commerces en ligne

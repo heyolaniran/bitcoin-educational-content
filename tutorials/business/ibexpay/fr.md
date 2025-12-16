@@ -78,9 +78,7 @@ Dans l'onglet **BTPs** (*Bitcoin Payment Terminals*), vous pouvez créer une pag
 
 Une fois votre terminal de paiement créé, cliquez sur le lien pour vous rediriger sur l'interface d'encaissement.
 
-
 ![btps](assets/fr/12.webp)
-
 
 ![interface](assets/fr/13.webp)
 
@@ -89,7 +87,6 @@ Vous pouvez désormais commencer à créer des factures Lightning que vos client
 ![smartphone](assets/fr/14.webp)
   
 ![phone](assets/fr/15.webp)
-
 
 ![invoices](assets/fr/16.webp)
 

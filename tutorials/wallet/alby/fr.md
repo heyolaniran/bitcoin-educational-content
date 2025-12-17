@@ -9,7 +9,6 @@ description: Extension de navigateur pour Bitcoin et Lightning Network
 
 Rendre les paiements de plus en plus facile avec bitcoin est le challenge de nombreuses entreprises du secteur. Dans ce lot, la solution Alby se démarque particulièrement au travers de l'extension de son portefeuille Alby disponible pour les navigateurs. Cette extension vise à mettre en place un cadre fluide qui détecte automatiquement des adresses et qui vous permet de faire des paiements en bitcoins sans frictions. Dans ce tutoriel, nous partons à la découverte de l'extension Alby et tester comment elle facilite les paiements depuis le navigateur.
 
-## vidéo tutoriel
 
 ![video](https://youtu.be/nd5fX2vHuDw)
 
@@ -29,7 +28,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 Dans ce tutoriel, nous utiliserons l'extension Alby dans le navigateur Firefox sous un système d'exploitation Ubuntu. Toutefois, elle est disponible sous Windows et avec des navigateurs comme Chrome.
 
-Vous pouvez ajouter l'extension Alby à votre navigateur en vous rendant sur le magasin d'extensions de [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) ou celui de [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe)
+Vous pouvez ajouter l'extension Alby à votre navigateur en vous rendant sur le magasin d'extensions de [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) ou celui de [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
  
 ![firefox](assets/fr/01.webp)
 

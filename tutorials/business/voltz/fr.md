@@ -7,7 +7,7 @@ description: Le portefeuille Lightning tout en un pour votre commerce.
 
 L'idée de la plateforme Voltz est née d'un groupe de bitcoineurs qui souhaitait fournir leur propre service de portefeuille bitcoin. Il s'en est finalement résulté une infrastructure complète pour accepter le bitcoin dans les commerces. Dans ce tutoriel, nous vous emmenons à la découverte de Voltz et des possibilités d'intégration de bitcoin que la plateforme vous offre.
 
-# Débuter avec Voltz
+## Débuter avec Voltz
 
 Au-delà d'être un portefeuille custodial Lightning qui vous permet d'envoyer, de recevoir et de payer quotidiennement, Voltz est une plateforme complète qui fournit des nombreuses extensions pour intégrer bitcoin comme point de vente ou place de marché dans votre commerce.
 
@@ -19,7 +19,7 @@ Rendez-vous sur la plateforme [Voltz](https://www.voltz.com/en) puis créez en c
 
 ⚠️ Il est important de définir un mot de passe alphanumérique fort afin d'augmenter vos chances contre les attaques brute-force, vérifiez également que vous êtes bel et bien sur le site officiel de Voltz afin de renseigner vos informations de connexion pour vous prémunir de l'hameçonnage (phishing).
 
-L'interface de Voltz est très similaire à celle de la plateforme LnBits, pour ceux qui ont déjà une expérience avec LnBits, vous ne serez donc absolument pas déphasé.
+L'interface de Voltz est très similaire à celle de la plateforme LnBits.
 
 https://planb.academy/tutorials/business/others/lnbits-cdfe1e38-069a-4df9-a86b-ce01ef28f4c2
 
@@ -71,7 +71,7 @@ Parmi ces extensions, nous pouvons retrouver le TPoS, un terminal de point de ve
 
 ![tpos](assets/fr/10.webp)
 
-A partir du terminal de Point  de Vente, vous pouvez :
+A partir du terminal de Point de Vente, vous pouvez :
 - Obtenir une page web que vous pouvez partager à vos clients et partenaires;
 - Gérer un inventaire de produits;
 - Générer des factures Lightning;
@@ -121,7 +121,7 @@ Dans le groupe d'extensions disponible, vous retrouverez également des outils c
 
 Dans le menu **Paiements**, Voltz vous permet d'avoir une vue d'ensemble sur les paiements vers vos différents portefeuilles.
 Vous pouvez suivre vos paiements selon :
--  Le statut.
+- Le statut.
 - L'étiquette : par exemple **TPOS** pour les paiements via le point de vente et **lnhub** via la connexion portable dans les portefeuilles Zeus et Blue Wallet.
 - Le portefeuille d'encaissement.
 - Le total des paiements entrant et sortant.
@@ -143,4 +143,4 @@ Vous pouvez ainsi créer des factures Lightning depuis vos applications en utili
 
 Vous avez désormais une bonne prise en main de Voltz. Si vous avez apprécié ce tutoriel, nous sommes convaincues que vous apprendrez plus sur les meilleures méthodes et les meilleurs outils pour intégrer bitcoin dans votre commerce avec notre parcours : Bitcoin pour les entreprises.
 
-https://planb.academy/courses/bitcoin-pour-les-entreprises-a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

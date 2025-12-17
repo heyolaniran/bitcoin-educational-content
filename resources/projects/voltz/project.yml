@@ -3,7 +3,16 @@ name: Voltz
 links:
   website: https://voltz.xyz/
 
-category: point-of-sale
+category: infrastructure
+
+tags:
+  - software
+  - lightning
+  - wallets
+
+contributor_names:
+  - heyolaniran
+
 
 # proofreading metadata
 original_language: fr

@@ -78,9 +78,7 @@ Dans l'onglet **BTPs** (*Bitcoin Payment Terminals*), vous pouvez créer une pag
 
 Une fois votre terminal de paiement créé, cliquez sur le lien pour vous rediriger sur l'interface d'encaissement.
 
-
 ![btps](assets/fr/12.webp)
-
 
 ![interface](assets/fr/13.webp)
 
@@ -90,13 +88,11 @@ Vous pouvez désormais commencer à créer des factures Lightning que vos client
   
 ![phone](assets/fr/15.webp)
 
-
 ![invoices](assets/fr/16.webp)
 
 
 ![integrations](assets/fr/17.webp)
 
-  
 ## Intégration dans les commerces en ligne
 
 IbexPay ne se limite pas qu'aux emplacements physiques de vos magasins. Dans le menu **Intégrations**, retrouvez toutes les plateformes de e-commerce et solution de paiements associés à IbexPay. Vous pouvez notamment relier votre compte IbexPay via :

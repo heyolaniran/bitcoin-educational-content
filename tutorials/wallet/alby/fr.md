@@ -76,7 +76,27 @@ Une fois connecté, vous pouvez cliquer sur l'extension Alby dans la barre d'out
 
 ![buzzin](assets/fr/06.webp)
 
-![wallet](assets/fr/07.webp)
+Une fois votre compte Alby créé, vous devez connecter ce compte à un portefeuille afin de dépenser des satoshis. Pour lier le portefeuille bitcoin à votre compte Alby, nous vous suggérons d'utiliser un nœud Alby Hub que vous pouvez configurer soit sur votre ordinateur ou souscrire à un plan proposé par Alby.
+
+![hubplan](assets/fr/13.webp)
+
+
+Dans ce tutoriel, notre compte Alby est soutenu par une installation locale sur notre machine.
+Pour monter votre propre nœud Alby, nous vous recommandons notre tutoriel sur Alby Hub.
+
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+Ce nœud vous permet de créer des portefeuilles Lightning self-custodial et  de gérer efficacement vos canaux Lightning afin d'envoyer et de recevoir des satoshis.
+
+![channels](assets/fr/14.webp)
+
+Ouvrez des canaux de réception qui définissent le total de satoshis que vous êtes aptes à recevoir.
+
+![receivechanal](assets/fr/15.webp)
+
+Ouvrez des canaux d'envoi en bloquant des satoshis sur une adresse bitcoin onchain. Les satoshis que vous avez bloqué définissent le total de satoshis que vous êtes en mesure de dépenser.
+
+![spend](assets/fr/16.webp)
 
 Vous pouvez désormais recevoir et envoyer des satoshis via l'extension Alby.
 
